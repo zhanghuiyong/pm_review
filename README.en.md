@@ -1,10 +1,6 @@
-
-
 # Literature Research Toolkit
 
 A comprehensive Python toolkit for systematic literature research, featuring multi-database integration, cross-platform DOI imputation, and batch search capabilities.
-
-**paper**:Paradigm Evolution of Explainable Artificial Intelligence in Precision Medicine: A Systematic Review Mapping the Path from Feature Attribution to Causal Intervention
 
 ## Overview
 
