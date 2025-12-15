@@ -1,0 +1,870 @@
+TY  - CONF
+TI  - Label Dependent Attention Model for Disease Risk Prediction Using Multimodal Electronic Health Records
+T2  - 2021 IEEE International Conference on Data Mining (ICDM)
+SP  - 449
+EP  - 458
+AU  - S. Niu
+AU  - Q. Yin
+AU  - Y. Song
+AU  - Y. Guo
+AU  - X. Yang
+PY  - 2021
+KW  - Training
+KW  - Biological system modeling
+KW  - Semantics
+KW  - Predictive models
+KW  - Data models
+KW  - Task analysis
+KW  - Electronic medical records
+KW  - label dependent attention model
+KW  - disease risk prediction
+KW  - Clinical-BERT
+KW  - multimodal electronic health record analysis
+DO  - 10.1109/ICDM51629.2021.00056
+JO  - 2021 IEEE International Conference on Data Mining (ICDM)
+IS  - 
+SN  - 2374-8486
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Data Mining (ICDM)
+Y1  - 7-10 Dec. 2021
+AB  - Disease risk prediction has attracted increasing attention in the field of modern healthcare, especially with the latest advances in artificial intelligence (AI). Electronic health records (EHRs), which contain heterogeneous patient information, are widely used in disease risk prediction tasks. One challenge of applying AI models for risk prediction lies in generating interpretable evidence to support the prediction results while retaining the prediction ability. In order to address this problem, we propose the method of jointly embedding words and labels whereby attention modules learn the weights of words from medical notes according to their relevance to the names of risk prediction labels. This approach boosts interpretability by employing an attention mechanism and including the names of prediction tasks in the model. However, its application is only limited to the handling of textual inputs such as medical notes. In this paper, we propose a label dependent attention model LDAM to 1) improve the interpretability by exploiting Clinical-BERT (a biomedical language model pre-trained on a large clinical corpus) to encode biomedically meaningful features and labels jointly; 2) extend the idea of joint embedding to the processing of timeseries data, and develop a multi-modal learning framework for integrating heterogeneous information from medical notes and time-series health status indicators. To demonstrate our method, we apply LDAM to the MIMIC-III dataset to predict different disease risks. We evaluate our method both quantitatively and qualitatively. Specifically, the predictive power of LDAM will be shown, and case studies will be carried out to illustrate its interpretability.
+ER  - 
+
+TY  - JOUR
+TI  - Transductive Joint-Knowledge-Transfer TSK FS for Recognition of Epileptic EEG Signals
+T2  - IEEE Transactions on Neural Systems and Rehabilitation Engineering
+SP  - 1481
+EP  - 1494
+AU  - Z. Deng
+AU  - P. Xu
+AU  - L. Xie
+AU  - K. -S. Choi
+AU  - S. Wang
+PY  - 2018
+KW  - Electroencephalography
+KW  - Brain modeling
+KW  - Training
+KW  - Fuzzy systems
+KW  - Feature extraction
+KW  - Learning systems
+KW  - Epilepsy
+KW  - Joint-knowledge transfer
+KW  - EEG
+KW  - epilepsy detection
+KW  - feature extraction
+KW  - TSK fuzzy logic system (FLS)
+KW  - transfer learning
+DO  - 10.1109/TNSRE.2018.2850308
+JO  - IEEE Transactions on Neural Systems and Rehabilitation Engineering
+IS  - 8
+SN  - 1558-0210
+VO  - 26
+VL  - 26
+JA  - IEEE Transactions on Neural Systems and Rehabilitation Engineering
+Y1  - Aug. 2018
+AB  - Intelligent recognition of electroencephalogram (EEG) signals is an important means to detect seizure. Traditional methods for recognizing epileptic EEG signals are usually based on two assumptions: 1) adequate training examples are available for model training and 2) the training set and the test set are sampled from data sets with the same distribution. Since seizures occur sporadically, training examples of seizures could be limited. Besides, the training and test sets are usually not sampled from the same distribution for generic non-patient-specific recognition of EEG signals. Hence, the two assumptions in traditional recognition methods could hardly be satisfied in practice, which results in degradation of model performance. Transfer learning is a feasible approach to tackle this issue attributed to its ability to effectively learn the knowledge from the related scenes (source domains) for model training in the current scene (target domain). Among the existing transfer learning methods for epileptic EEG recognition, transductive transfer learning fuzzy systems (TTL-FSs) exhibit distinctive advantages-the interpretability that is important for medical diagnosis and the transfer learning ability that is absent from traditional fuzzy systems. Nevertheless, the transfer learning ability of TTL-FSs is restricted to a certain extent since only the discrepancy in marginal distribution between the training data and test data is considered. In this paper, the enhanced transductive transfer learning Takagi-Sugeno-Kang fuzzy system construction method is proposed to overcome the challenge by introducing two novel transfer learning mechanisms: 1) joint knowledge is adopted to reduce the discrepancy between the two domains and 2) an iterative transfer learning procedure is introduced to enhance transfer learning ability. Extensive experiments have been carried out to evaluate the effectiveness of the proposed method in recognizing epileptic EEG signals on the Bonn and CHB-MIT EEG data sets. The results show that the method is superior to or at least competitive with some of the existing state-of-art methods under the scenario of transfer learning.
+ER  - 
+
+TY  - CONF
+TI  - CATAN: Chart-aware temporal attention network for adverse outcome prediction
+T2  - 2021 IEEE 9th International Conference on Healthcare Informatics (ICHI)
+SP  - 83
+EP  - 92
+AU  - Z. Gero
+AU  - J. C. Ho
+PY  - 2021
+KW  - Hospitals
+KW  - Conferences
+KW  - Computational modeling
+KW  - MIMICs
+KW  - Predictive models
+KW  - Informatics
+KW  - Electronic medical records
+DO  - 10.1109/ICHI52183.2021.00024
+JO  - 2021 IEEE 9th International Conference on Healthcare Informatics (ICHI)
+IS  - 
+SN  - 2575-2634
+VO  - 
+VL  - 
+JA  - 2021 IEEE 9th International Conference on Healthcare Informatics (ICHI)
+Y1  - 9-12 Aug. 2021
+AB  - There is an increased adoption of electronic health record systems by a variety of hospitals and medical centers. This provides an opportunity to leverage automated computer systems in assisting healthcare workers. One of the least utilized but rich source of patient information is the unstructured clinical text. In this work, we develop CATAN, a chart-aware temporal attention network for learning patient representations from clinical notes. We introduce a novel representation where each note is considered a single unit, like a sentence, and composed of attention-weighted words. The notes in turn are aggregated into a patient representation using a second weighting unit, note attention. Unlike standard attention computations which focus only on the content of the note, we incorporate the chart-time for each note as a constraint for attention calculation. This allows our model to focus on notes closer to the prediction time. Using the MIMIC-III dataset, we empirically show that our patient representation and attention calculation achieves the best performance in comparison with various state-of-the-art baselines for one-year mortality prediction and 30-day hospital readmission. Moreover, the attention weights can be used to offer transparency into our model’s predictions.
+ER  - 
+
+TY  - CONF
+TI  - Synthetic PPG generation from haemodynamic model with baroreflex autoregulation: a Digital twin of cardiovascular system
+T2  - 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+SP  - 5024
+EP  - 5029
+AU  - O. Mazumder
+AU  - D. Roy
+AU  - S. Bhattacharya
+AU  - A. Sinha
+AU  - A. Pal
+PY  - 2019
+KW  - Mathematical model
+KW  - Solid modeling
+KW  - Heart
+KW  - Blood
+KW  - Blood pressure
+KW  - Feature extraction
+DO  - 10.1109/EMBC.2019.8856691
+JO  - 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+IS  - 
+SN  - 1558-4615
+VO  - 
+VL  - 
+JA  - 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+Y1  - 23-27 July 2019
+AB  - Synthetic data generation has recently emerged as a substitution technique for handling the problem of bulk data needed in training machine learning algorithms. Healthcare, primarily cardiovascular domain is a major area where synthetic physiological data like Photoplethysmogram (PPG), Electrocardiogram (ECG), Phonocardiogram (PCG), etc. are being used to improve accuracy of machine learning algorithm. Conventional synthetic data generation approach using mathematical formulations lack interpretability. Hence, aim of this paper is to generate synthetic PPG signal from a Digital twin platform replicating cardiovascular system. Such system can serve the dual purpose of replicating the physical system, so as to simulate specific `what if' scenarios as well as to generate large scale synthetic data with patho-physiological interpretability. Cardio-vascular Digital twin is modeled with a two chambered heart, haemodynamic equations and a baroreflex based pressure control mechanism to generate blood pressure and flow variations. Synthetic PPG signal is generated from the model for healthy and Atherosclerosis condition. Initial validation of the platform has been made on the basis of efficiency of the platform in clustering Coronary Artery Disease (CAD) and non CAD PPG data by extracting features from the synthetically generated PPG and comparing that with PPG obtained from Physionet data.
+ER  - 
+
+TY  - JOUR
+TI  - A Deep Invertible 3-D Facial Shape Model for Interpretable Genetic Syndrome Diagnosis
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 3229
+EP  - 3239
+AU  - J. J. Bannister
+AU  - M. Wilms
+AU  - J. D. Aponte
+AU  - D. C. Katz
+AU  - O. D. Klein
+AU  - F. P. J. Bernier
+AU  - R. A. Spritz
+AU  - B. Hallgrímsson
+AU  - N. D. Forkert
+PY  - 2022
+KW  - Three-dimensional displays
+KW  - Solid modeling
+KW  - Surface morphology
+KW  - Shape
+KW  - Genetics
+KW  - Data models
+KW  - Morphology
+KW  - Genetic syndrome
+KW  - normalizing flow
+KW  - interpretable machine learning
+KW  - 3D shape model
+DO  - 10.1109/JBHI.2022.3164848
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 7
+SN  - 2168-2208
+VO  - 26
+VL  - 26
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - July 2022
+AB  - One of the primary difficulties in treating patients with genetic syndromes is diagnosing their condition. Many syndromes are associated with characteristic facial features that can be imaged and utilized by computer-assisted diagnosis systems. In this work, we develop a novel 3D facial surface modeling approach with the objective of maximizing diagnostic model interpretability within a flexible deep learning framework. Therefore, an invertible normalizing flow architecture is introduced to enable both inferential and generative tasks in a unified and efficient manner. The proposed model can be used (1) to infer syndrome diagnosis and other demographic variables given a 3D facial surface scan and (2) to explain model inferences to non-technical users via multiple interpretability mechanisms. The model was trained and evaluated on more than 4700 facial surface scans from subjects with 47 different syndromes. For the challenging task of predicting syndrome diagnosis given a new 3D facial surface scan, age, and sex of a subject, the model achieves a competitive overall top-1 accuracy of 71%, and a mean sensitivity of 43% across all syndrome classes. We believe that invertible models such as the one presented in this work can achieve competitive inferential performance while greatly increasing model interpretability in the domain of medical diagnosis.
+ER  - 
+
+TY  - JOUR
+TI  - An Explainable and Statistically Validated Ensemble Clustering Model Applied to the Identification of Traumatic Brain Injury Subgroups
+T2  - IEEE Access
+SP  - 180690
+EP  - 180705
+AU  - D. Yeboah
+AU  - L. Steinmeister
+AU  - D. B. Hier
+AU  - B. Hadi
+AU  - D. C. Wunsch
+AU  - G. R. Olbricht
+AU  - T. Obafemi-Ajayi
+PY  - 2020
+KW  - Correlation
+KW  - Brain injuries
+KW  - Feature extraction
+KW  - Computed tomography
+KW  - Brain modeling
+KW  - Data models
+KW  - Clustering
+KW  - ensemble learning
+KW  - canonical discriminant analysis
+KW  - multicollinearity
+KW  - precision medicine
+KW  - mixed models
+KW  - explainable AI
+KW  - hybrid human-machine systems
+DO  - 10.1109/ACCESS.2020.3027453
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - We present a framework for an explainable and statistically validated ensemble clustering model applied to Traumatic Brain Injury (TBI). The objective of our analysis is to identify patient injury severity subgroups and key phenotypes that delineate these subgroups using varied clinical and computed tomography data. Explainable and statistically-validated models are essential because a data-driven identification of subgroups is an inherently multidisciplinary undertaking. In our case, this procedure yielded six distinct patient subgroups with respect to mechanism of injury, severity of presentation, anatomy, psychometric, and functional outcome. This framework for ensemble cluster analysis fully integrates statistical methods at several stages of analysis to enhance the quality and the explainability of results. This methodology is applicable to other clinical data sets that exhibit significant heterogeneity as well as other diverse data science applications in biomedicine and elsewhere.
+ER  - 
+
+TY  - CONF
+TI  - Improving Interpretable Prediction Models for Antimicrobial Resistance
+T2  - 2019 IEEE 32nd International Symposium on Computer-Based Medical Systems (CBMS)
+SP  - 543
+EP  - 546
+AU  - B. Cánovas-Segura
+AU  - A. Morales
+AU  - A. Lopez Martinez-Carrasco
+AU  - M. Campos
+AU  - J. M. Juarez
+AU  - L. López Rodríguez
+AU  - F. Palacios
+PY  - 2019
+KW  - Predictive models
+KW  - Immune system
+KW  - Microorganisms
+KW  - Logistics
+KW  - Computational modeling
+KW  - Decision trees
+KW  - Data models
+KW  - Interpretable models
+KW  - Antimicrobial resistance
+KW  - Concept drift
+KW  - High dimensionality
+KW  - Class imbalance
+DO  - 10.1109/CBMS.2019.00111
+JO  - 2019 IEEE 32nd International Symposium on Computer-Based Medical Systems (CBMS)
+IS  - 
+SN  - 2372-9198
+VO  - 
+VL  - 
+JA  - 2019 IEEE 32nd International Symposium on Computer-Based Medical Systems (CBMS)
+Y1  - 5-7 June 2019
+AB  - One of the major problems of healthcare institutions is the treatment of infections caused by bacteria that are resistant to antimicrobials. The early prediction of such infections can improve the patient's evolution as well as minimise the spread of antimicrobial resistance. The creation of effective prediction models is particularly limited due to the high dimensionality of data, the imbalanced datasets and the concept drift problem. In this paper, we face these challenges from a machine learning perspective, considering the interpretability of the resulting models as essential. In particular, we present a study of multiple techniques focused on the mitigation of these problems, that are used in combination with interpretable models. Our results indicate that the use of oversampling along with sliding windows can improve the resulting AUC of models (up to reaching a mean AUC of 0.80 in our dataset), and FCBF can be used to drastically reduce the number of predictors, obtaining simpler models with a slight AUC reduction (from a mean number of predictors of 69.78 to 16.28, achieving a mean AUC of 0.76). According to our results, we show that the combination of multiple techniques for dealing with the aforementioned data-mining problems can clearly improve the performance of prediction models for antimicrobial resistance.
+ER  - 
+
+TY  - CONF
+TI  - Understanding Automatic Diagnosis and Classification Processes with Data Visualization
+T2  - 2020 IEEE International Conference on Human-Machine Systems (ICHMS)
+SP  - 1
+EP  - 6
+AU  - P. Bruno
+AU  - F. Calimeri
+AU  - A. S. Kitanidis
+AU  - E. D. Momi
+PY  - 2020
+KW  - Data visualization
+KW  - Heating systems
+KW  - Gene expression
+KW  - Training
+KW  - Diseases
+KW  - Neural networks
+KW  - Visualization
+KW  - GradCAM
+KW  - Heatmap
+KW  - Hot-spot map
+KW  - Convolutional Neural Networks
+DO  - 10.1109/ICHMS49158.2020.9209499
+JO  - 2020 IEEE International Conference on Human-Machine Systems (ICHMS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 IEEE International Conference on Human-Machine Systems (ICHMS)
+Y1  - 7-9 Sept. 2020
+AB  - Providing accurate diagnosis of diseases generally requires complex analyses of many clinical, biological and pathological variables. In this context, solutions based on machine learning techniques achieved relevant results in specific disease detection and classification, and can hence provide significant clinical decision support. However, such approaches suffer from the lack of proper means for interpreting the choices made by the models, especially in case of deep-learning ones. In order to improve interpretability and explainability in the process of making qualified decisions, we designed a system that allows for a partial opening of this black box by means of proper investigations on the rationale behind the decisions; this can provide improved understandings into which pre-processing steps are crucial for better performance. We tested our approach over artificial neural networks trained for automatic medical diagnosis based on high-dimensional gene expression and clinical data. Our tool analyzed the internal processes performed by the networks during the classification tasks in order to identify the most important elements involved in the training process that influence the network's decisions.We report the results of an experimental analysis aimed at assessing the viability of the proposed approach.
+ER  - 
+
+TY  - CONF
+TI  - A survey of methods and tools used for interpreting Random Forest
+T2  - 2019 1st International Conference on Smart Systems and Data Science (ICSSD)
+SP  - 1
+EP  - 6
+AU  - M. HADDOUCHI
+AU  - A. BERRADO
+PY  - 2019
+KW  - Radio frequency
+KW  - Tools
+KW  - Vegetation
+KW  - Decision trees
+KW  - Data visualization
+KW  - Forestry
+KW  - Buildings
+KW  - Random Forest
+KW  - Interpretability
+KW  - Tree Ensemble
+KW  - review
+KW  - survey
+DO  - 10.1109/ICSSD47982.2019.9002770
+JO  - 2019 1st International Conference on Smart Systems and Data Science (ICSSD)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 1st International Conference on Smart Systems and Data Science (ICSSD)
+Y1  - 3-4 Oct. 2019
+AB  - Interpretability of highly performant Machine Learning [ML] methods, such as Random Forest [RF], is a key tool that attracts a great interest in datamining research. In the state of the art, RF is well-known as an efficient ensemble learning (in terms of predictive accuracy, flexibility and straightforwardness). Moreover, it is recognized as an intuitive and intelligible approach regarding to its building process. However it is also regarded as a Black Box model because of its hundreds of deep decision trees. This can be crucial for several fields of study, such as healthcare, biology and security, where the lack of interpretability could be a real disadvantage. Indeed, the interpretability of the RF models is, generally, necessary in such fields of applications because of different motivations. In fact, the more the ML users grasp what is going on inside a ML system (process and resulting model), the more they can trust it and take actions based on the knowledge extracted from it. Furthermore, ML models are increasingly constrained by new laws that require regulation and interpretation of the knowledge they provide.Several papers have tackled the interpretation of RF resulting models. It had been associated with different aspects depending on the specificity of the issue studied as well as the users concerned with explanations. Therefore, this paper aims to provide a survey of tools and methods used in literature in order to uncover insights in the RF resulting models. These tools are classified depending on different aspects characterizing the interpretability. This should guide, in practice, in the choice of the most useful tools for interpretation and deep analysis of the RF model depending on the interpretability aspect sought. This should also be valuable for researchers who aim to focus their work on the interpretability of RF, or ML in general.
+ER  - 
+
+TY  - JOUR
+TI  - HCET: Hierarchical Clinical Embedding With Topic Modeling on Electronic Health Records for Predicting Future Depression
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 1265
+EP  - 1272
+AU  - Y. Meng
+AU  - W. Speier
+AU  - M. Ong
+AU  - C. W. Arnold
+PY  - 2021
+KW  - Depression
+KW  - Data models
+KW  - Medical diagnostic imaging
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Diseases
+KW  - Semantics
+KW  - Clinical decision support
+KW  - deep learning
+KW  - electronic health record
+KW  - depression
+KW  - temporal representation and reasoning
+DO  - 10.1109/JBHI.2020.3004072
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 4
+SN  - 2168-2208
+VO  - 25
+VL  - 25
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - April 2021
+AB  - Recent developments in machine learning algorithms have enabled models to exhibit impressive performance in healthcare tasks using electronic health record (EHR) data. However, the heterogeneous nature and sparsity of EHR data remains challenging. In this work, we present a model that utilizes heterogeneous data and addresses sparsity by representing diagnoses, procedures, and medication codes with temporal Hierarchical Clinical Embeddings combined with Topic modeling (HCET) on clinical notes. HCET aggregates various categories of EHR data and learns inherent structure based on hospital visits for an individual patient. We demonstrate the potential of the approach in the task of predicting depression at various time points prior to a clinical diagnosis. We found that HCET outperformed all baseline methods with a highest improvement of 0.07 in precision-recall area under the curve (PRAUC). Furthermore, applying attention weights across EHR data modalities significantly improved the performance as well as the model's interpretability by revealing the relative weight for each data modality. Our results demonstrate the model's ability to utilize heterogeneous EHR information to predict depression, which may have future implications for screening and early detection.
+ER  - 
+
+TY  - CONF
+TI  - Self-explaining Hierarchical Model for Intraoperative Time Series
+T2  - 2022 IEEE International Conference on Data Mining (ICDM)
+SP  - 1041
+EP  - 1046
+AU  - D. Li
+AU  - B. Xue
+AU  - C. King
+AU  - B. Fritz
+AU  - M. Avidan
+AU  - J. Abraham
+AU  - C. Lu
+PY  - 2022
+KW  - Protocols
+KW  - Input variables
+KW  - Time series analysis
+KW  - Surgery
+KW  - Predictive models
+KW  - Data models
+KW  - Planning
+KW  - Healthcare
+KW  - Attention
+KW  - Interpretable Machine Learning
+KW  - Time Series
+DO  - 10.1109/ICDM54844.2022.00128
+JO  - 2022 IEEE International Conference on Data Mining (ICDM)
+IS  - 
+SN  - 2374-8486
+VO  - 
+VL  - 
+JA  - 2022 IEEE International Conference on Data Mining (ICDM)
+Y1  - 28 Nov.-1 Dec. 2022
+AB  - Major postoperative complications are devastating to surgical patients. Some of these complications are potentially preventable via early predictions based on intraoperative data. However, intraoperative data comprise long and fine-grained multivariate time series, prohibiting the effective learning of accurate models. The large gaps associated with clinical events and protocols are usually ignored. Moreover, deep models generally lack transparency. Nevertheless, the interpretability is crucial to assist clinicians in planning for and delivering postoperative care and timely interventions. Towards this end, we propose a hierarchical model combining the strength of both attention and recurrent models for intraoperative time series. We further develop an explanation module for the hierarchical model to interpret the predictions by providing contributions of intraoperative data in a fine-grained manner. Experiments on a large dataset of 111,888 surgeries with multiple outcomes and an external high-resolution ICU dataset show that our model can achieve strong predictive performance (i.e., high accuracy) and offer robust interpretations (i.e., high transparency) for predicted outcomes based on intraoperative time series.
+ER  - 
+
+TY  - CONF
+TI  - A Linear Primal-Dual Multi-Instance SVM for Big Data Classifications
+T2  - 2021 IEEE International Conference on Data Mining (ICDM)
+SP  - 21
+EP  - 30
+AU  - L. Brand
+AU  - L. Z. Baker
+AU  - C. Ellefsen
+AU  - J. Sargent
+AU  - H. Wang
+PY  - 2021
+KW  - Support vector machines
+KW  - Scalability
+KW  - Medical services
+KW  - Machine learning
+KW  - Prediction algorithms
+KW  - Convex functions
+KW  - Quadratic programming
+KW  - multi-instance learning
+KW  - support vector machine
+KW  - alternating direction method of multipliers
+KW  - scalability
+DO  - 10.1109/ICDM51629.2021.00012
+JO  - 2021 IEEE International Conference on Data Mining (ICDM)
+IS  - 
+SN  - 2374-8486
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Data Mining (ICDM)
+Y1  - 7-10 Dec. 2021
+AB  - Multi-instance learning (MIL) is an area of machine learning that handles data that is organized into sets of instances known as bags. Traditionally, MIL is used in the supervised-learning setting and is able to classify bags which can contain any number of instances. This property allows MIL to be naturally applied to solve the problems in a wide variety of real-world applications from computer vision to healthcare. However, many traditional MIL algorithms do not scale efficiently to large datasets. In this paper we present a novel Primal-Dual Multi-Instance Support Vector Machine (pdMISVM) derivation and implementation that can operate efficiently on large scale data. Our method relies on an algorithm derived using a multi-block variation of the alternating direction method of multipliers (ADMM). The approach presented in this work is able to scale to large-scale data since it avoids iteratively solving quadratic programming problems which are generally used to optimize MIL algorithms based on SVMs. In addition, we modify our derivation to include an additional optimization designed to avoid solving a least-squares problem during our algorithm; this optimization increases the utility of our approach to handle a large number of features as well as bags. Finally, we apply our approach to synthetic and real-world multi-instance datasets to illustrate the scalability, promising predictive performance, and interpretability of our proposed method. We end our discussion with an extension of our approach to handle non-linear decision boundaries. Code and data for our methods are available online at: https://github.com/minds-mines/pdMISVM.jl.
+ER  - 
+
+TY  - JOUR
+TI  - Synergic Adversarial Label Learning for Grading Retinal Diseases via Knowledge Distillation and Multi-Task Learning
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 3709
+EP  - 3720
+AU  - L. Ju
+AU  - X. Wang
+AU  - X. Zhao
+AU  - H. Lu
+AU  - D. Mahapatra
+AU  - P. Bonnington
+AU  - Z. Ge
+PY  - 2021
+KW  - Retina
+KW  - Task analysis
+KW  - Computational modeling
+KW  - Training
+KW  - Knowledge engineering
+KW  - Diabetes
+KW  - Retinopathy
+KW  - Deep convolutional neural networks
+KW  - knowledge distillation
+KW  - medical imaging classification
+KW  - multi-task learning
+DO  - 10.1109/JBHI.2021.3052916
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 10
+SN  - 2168-2208
+VO  - 25
+VL  - 25
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Oct. 2021
+AB  - The need for comprehensive and automated screening methods for retinal image classification has long been recognized. Well-qualified doctors annotated images are very expensive and only a limited amount of data is available for various retinal diseases such as diabetic retinopathy (DR) and age-related macular degeneration (AMD). Some studies show that some retinal diseases such as DR and AMD share some common features like haemorrhages and exudation but most classification algorithms only train those disease models independently when the only single label for one image is available. Inspired by multi-task learning where additional monitoring signals from various sources is beneficial to train a robust model. We propose a method called synergic adversarial label learning (SALL) which leverages relevant retinal disease labels in both semantic and feature space as additional signals and train the model in a collaborative manner using knowledge distillation. Our experiments on DR and AMD fundus image classification task demonstrate that the proposed method can significantly improve the accuracy of the model for grading diseases by 5.91% and 3.69% respectively. In addition, we conduct additional experiments to show the effectiveness of SALL from the aspects of reliability and interpretability in the context of medical imaging application.
+ER  - 
+
+TY  - CONF
+TI  - A systematic review of the use of blockchain in Internet of Medical Things
+T2  - 2022 IEEE 1st Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)
+SP  - 1
+EP  - 6
+AU  - M. B. P. Vega
+AU  - A. M. Saraiva
+AU  - M. A. Simplicio
+AU  - B. C. Albertini
+AU  - R. F. Silva
+PY  - 2022
+KW  - Systematics
+KW  - Costs
+KW  - Sociology
+KW  - Intrusion detection
+KW  - Authentication
+KW  - Internet of Medical Things
+KW  - Blockchains
+KW  - IoMT
+KW  - Internet of Medical Things Blockchain
+KW  - healthcare
+KW  - remote health monitoring
+DO  - 10.1109/iGETblockchain56591.2022.10087115
+JO  - 2022 IEEE 1st Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 IEEE 1st Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)
+Y1  - 7-11 Nov. 2022
+AB  - International health organizations advocate for health care with greater quality and safety, reflecting population needs. However, current health services are inefficient, facing problems of inadequate treatment, human resources, infrastructure, and high costs. Digital health technologies play an increasingly important role in healthcare services such as remote care and vital signs monitoring. The Internet of Medical Things (IoMT)., which is a customized version of the Internet of Things (IoT), is increasingly important as it interconnects different medical devices, sensors, patients, and doctors, among others. This brings several benefits in improving health services. Nevertheless, in the IoMT environment, there are several challenges to overcome. Blockchain technology, a distributed ledger, with its Immutability, transparency, and anonymity features, is being used in IoMT to help overcome these challenges. In this paper, a systematic review was carried out to identify the research topics of blockchain application in IoMT., the challenges in IoMT., how blockchain helps to overcome them, and the maturity stage of those works. The review results allowed us to identify five research topics in which the main ones are authentication and intrusion detection. This review shows an overview of current research on this subject, giving the possibility of directing other research works, or optimizing the existing ones.
+ER  - 
+
+TY  - CONF
+TI  - Multimodal Extension of the ML-CSC Framework for Medical Image Segmentation
+T2  - 2021 12th International Symposium on Image and Signal Processing and Analysis (ISPA)
+SP  - 91
+EP  - 96
+AU  - J. Janssens
+AU  - S. Lazendić
+AU  - S. Huang
+AU  - A. Pižurica
+PY  - 2021
+KW  - Convolutional codes
+KW  - Image segmentation
+KW  - Convolution
+KW  - Signal processing algorithms
+KW  - Computer architecture
+KW  - Nonhomogeneous media
+KW  - Encoding
+KW  - Multilayer convolutional sparse coding
+KW  - interpretable convolutional neural networks
+KW  - multimodal data
+KW  - medical image segmentation
+DO  - 10.1109/ISPA52656.2021.9552083
+JO  - 2021 12th International Symposium on Image and Signal Processing and Analysis (ISPA)
+IS  - 
+SN  - 1849-2266
+VO  - 
+VL  - 
+JA  - 2021 12th International Symposium on Image and Signal Processing and Analysis (ISPA)
+Y1  - 13-15 Sept. 2021
+AB  - In recent years, Convolutional Neural Networks (CNNs) have led to huge successes across various computer vision applications. However, the lack of interpretability poses a severe barrier for their wider adoption in healthcare. Recently introduced Multilayer Convolutional Sparse Coding (ML-CSC) data model provides a model-based explanation of CNNs. This article aims to extend the ML-CSC framework towards multimodal data processing, which to our knowledge has not been addressed so far. In particular, we focus on interpretable medical image segmentation architecture design for multimodal data. We derive a novel sparse coding algorithm and propose three different CNN architectures with increasing performance, without introducing any additional learnable parameters. Based on the sparse coding theory, our multimodal extension enables the systematic design of interpretable CNN segmentation architectures. Experimental analysis demonstrates that the achieved segmentation results are consistent with the obtained theoretical expectations.
+ER  - 
+
+TY  - CONF
+TI  - Analysis the performance Medical Pharma Information System Applications
+T2  - 2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)
+SP  - 1
+EP  - 4
+AU  - C. Kumar
+AU  - T. Muthumanickam
+PY  - 2022
+KW  - Wearable computers
+KW  - Personal digital devices
+KW  - Production
+KW  - Medical services
+KW  - Internet of Things
+KW  - Biomedical monitoring
+KW  - Intelligent sensors
+KW  - Healthcare
+KW  - Doctors
+KW  - Pharmaceutical
+KW  - Internet of things
+KW  - Digital device
+KW  - Sensor
+DO  - 10.1109/ICPECTS56089.2022.10047373
+JO  - 2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)
+Y1  - 8-9 Dec. 2022
+AB  - Over the years, the Indian pharmaceutical business has been the most awaited around the world. It is the world's largest supplier of medical facilities and a leader in pharmaceutical manufacture. The Internet of Things offers the pharmaceutical business a variety of new individualised market prospects, a more controlled environment for pharma manufacturing, the ability to avoid equipment maintenance, and a more varied supply chain management system. Pharmaceutical manufacturing may be unable to provide benign and safe medicinal production and circulation due to transparency issues. Adoption of the internet of things could give pharma companies using pharma IoT a new competitive advantage. This is a conceptual exploratory investigation that shows the future of Indian pharmaceuticals, which is on the point of being self-sufficient. Customers wearing internet-connected digital devices and sensors implanted in wearable's could be tracked using the internet of things, artificial intelligence, big data analytics, and tracking of customers carrying internet-connected digital devices and sensors implanted in wear ables. This would also serve as a warning to both clinical makers and consumers, allowing for the development of tailored products and a brighter future for the Indian pharmaceutical industry. Future Pharma would transform production by employing better, more reliable vast volumes of data to link paraphernalia throughout development and distribution.
+ER  - 
+
+TY  - JOUR
+TI  - Predictive Modeling of Hospital Readmission: Challenges and Solutions
+T2  - IEEE/ACM Transactions on Computational Biology and Bioinformatics
+SP  - 2975
+EP  - 2995
+AU  - S. Wang
+AU  - X. Zhu
+PY  - 2022
+KW  - Hospitals
+KW  - Predictive models
+KW  - Data models
+KW  - Computational modeling
+KW  - Diseases
+KW  - Taxonomy
+KW  - Biological system modeling
+KW  - Hospital readmission
+KW  - predictive modeling
+KW  - classification
+KW  - clustering
+KW  - electronic health records
+DO  - 10.1109/TCBB.2021.3089682
+JO  - IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IS  - 5
+SN  - 1557-9964
+VO  - 19
+VL  - 19
+JA  - IEEE/ACM Transactions on Computational Biology and Bioinformatics
+Y1  - 1 Sept.-Oct. 2022
+AB  - Hospital readmission prediction is a study to learn models from historical medical data to predict probability of a patient returning to hospital in a certain period, e.g. 30 or 90 days, after the discharge. The motivation is to help health providers deliver better treatment and post-discharge strategies, lower the hospital readmission rate, and eventually reduce the medical costs. Due to inherent complexity of diseases and healthcare ecosystems, modeling hospital readmission is facing many challenges. By now, a variety of methods have been developed, but existing literature fails to deliver a complete picture to answer some fundamental questions, such as what are the main challenges and solutions in modeling hospital readmission; what are typical features/models used for readmission prediction; how to achieve meaningful and transparent predictions for decision making; and what are possible conflicts when deploying predictive approaches for real-world usages. In this paper, we systematically review computational models for hospital readmission prediction, and propose a taxonomy of challenges featuring four main categories: (1) data variety and complexity; (2) data imbalance, locality and privacy; (3) model interpretability; and (4) model implementation. The review summarizes methods in each category, and highlights technical solutions proposed to address the challenges. In addition, a review of datasets and resources available for hospital readmission modeling also provides firsthand materials to support researchers and practitioners to design new approaches for effective and efficient hospital readmission prediction.
+ER  - 
+
+TY  - CONF
+TI  - Balance Graphs: An Aid for Studying Convolutional Neural Networks
+T2  - 2022 IEEE/ACIS 23rd International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)
+SP  - 132
+EP  - 139
+AU  - L. Embery
+AU  - E. Ignatious
+AU  - S. Azam
+AU  - M. Jonkman
+AU  - F. De Boer
+PY  - 2022
+KW  - Training
+KW  - Visualization
+KW  - Three-dimensional displays
+KW  - Convolution
+KW  - Data visualization
+KW  - Convolutional neural networks
+KW  - Kernel
+KW  - Data Visualization
+KW  - convolutional neural networks
+KW  - Graphs
+KW  - Image Processing
+DO  - 10.1109/SNPD54884.2022.10051785
+JO  - 2022 IEEE/ACIS 23rd International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)
+IS  - 
+SN  - 2693-8421
+VO  - 
+VL  - 
+JA  - 2022 IEEE/ACIS 23rd International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)
+Y1  - 7-9 Dec. 2022
+AB  - Deep Learning Neural Networks offer a powerful tool to process visual data and to make decisions, but a limitation is its black box nature which offers low transparency to human examiners. This hurdle presents a particular challenge in using Neural Networks in safety-critical systems, which require high performance and transparency such as medical diagnosis of life-threatening diseases. This paper seeks to build and test a neural network for grading gliomas of comparable function and complexity to others in the field, then to apply Data Visualisation techniques to render the internal workings of the NN more understandable to a human observer. The purpose is to develop a system that can classify brain tumors into low-grade gliomas (LGG) and high-grade gliomas (HGG), to aid with diagnosis and prognosis The Brain Tumor Segmentation Challenge 2020 (BraTS2020) data set was used, with data categorised based on a combination of grade assigned in BraTS2020, and the labels in the segmentation data. As some categories are over-represented, methods were employed to ensure a better balance between different categories. Data augmentation was used to expand the limited number of scans in the BraTS2020. A 3D convolution neural network (CNN) was constructed to grade gliomas. With the method developed in this paper, an accuracy of 94.1% was achieved. A newly devised method to visually represent the weights of a convolution is explored. These graphs, called ‘weight graphs’ allow convolutions to be condensed into a visual medium. The weight graph is designed for easy visual interpretation of the weights assigned within a particular convolution. To overcome the limitations of weight graphs, an alternate graph was devised, called a balance graph, because it shows the overall balance of weights in a kernel, allowing for a quick impression of what effect a single kernel has. It is demonstrated that Balance Graphs improve the accessibility and transparency of the of the weights in convolution layers.
+ER  - 
+
+TY  - CONF
+TI  - Methods and Techniques for Privacy Preserving in Blockchain
+T2  - 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS)
+SP  - 1346
+EP  - 1351
+AU  - S. B
+AU  - P. E
+PY  - 2020
+KW  - Blockchain
+KW  - Privacy
+KW  - Data privacy
+KW  - Cryptography
+KW  - Servers
+KW  - Differential privacy
+KW  - Smart contracts
+KW  - Blockchain
+KW  - Privacy
+KW  - Anonymization
+KW  - Smart -Contract
+DO  - 10.1109/ICISS49785.2020.9316115
+JO  - 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS)
+Y1  - 3-5 Dec. 2020
+AB  - The rapid developments in blockchain technology in various field mostly concerns about decentralization, transparency and security. The publishing nodes and subscribers nodes in the networks ensures the transaction is recorded in the ledger by giving some transaction fees to the miners. The security is achieved by the various consensus algorithms used in the network. The blockchain technique is widely used in various applications like healthcare, education, supply chain, auction system, E-voting, etc. All these application contains valuable information that can be inferred by attackers through various learning analytic methods while sharing in the public ledgers. So privacy is at risk for all these types of data that are outsourced. The paper presents a study on the various types of techniques that are carried out in the field of privacy preserving for blockchain technology.
+ER  - 
+
+TY  - CHAP
+TI  - Web-Based Knowledge Management Distributed Application for Medical Certificates Using Blockchain Technology
+T2  - Knowledge Management and Web 3.0: Next Generation Business Models
+SP  - 141
+EP  - 162
+AU  - Ch. Rupa
+AU  - Divya Midhun Chakkarvarthy
+PY  - 2022
+KW  - Blockchains
+KW  - Semantic Web
+KW  - Peer-to-peer computing
+KW  - Medical services
+KW  - Decentralized applications
+KW  - Distributed ledger
+KW  - Knowledge management
+KW  - Computer hacking
+KW  - Browsers
+KW  - Surveys
+DO  - 
+PB  - De Gruyter
+SN  - 9783110722932
+UR  - http://ieeexplore.ieee.org/document/10789433
+AB  - Globally, disruptive technologies play a vital role in ordinary people’s lives to technocrats, small-scale industry to multinational companies, and private sectors to government sectors. Providing security and privacy preservation of the sensitive data in various applications related to a bank, healthcare sectors, etc., are becoming significant issues with advanced technologies. Unauthorized persons and also attackers get benefits from the features. Permissionless and open access features will become advantages to the cyber attackers to crack the data. These issues will be resolved by adopting some knowledge management systems (KMSs) like blockchain technology, and Artificial Intelligence. Therefore, this chapter proposed a web-based knowledge management decentralized application using blockchain technology in healthcare sectors. Especially in the healthcare centers, people’s sensitive personal data such as name, address, financial details, and cause maintain as records. Cyber attackers treat the medical records as treasure. Advanced featured technology, blockchain incorporation with web-based applications can reduce the attacks like ransomware, phishing, Brute force, steals credentials, and Man in the middle attack. The technology’s main inherited features are distributed, immutable, transparency, security, and peer-to-peer network communication. This hybrid approach, a combination of Web 3.0 and blockchain technology, increases the privacy and preservation of official medical documents issued by healthcare centers. This chapter illustrated the process of a proposed decentralized application using Ethereum-based Blockchain with Metamask wallet. This work’s main strength is the proposed application deployed results over an ethereum blockchain platform on test RPC, which are laps in the maximum related literature survey works currently available. Furthermore, presented comprehensively about the deployment cost of the application operations in terms of smart contracts and execution time for uploading credential requests.
+ER  - 
+
+TY  - CONF
+TI  - SMP-Graph: Structure-Enhanced Unsupervised Semantic Graph Representation for Precise Medical Procedure Coding on EMRs
+T2  - 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 1303
+EP  - 1308
+AU  - Y. Gao
+AU  - X. Fu
+AU  - X. Liu
+AU  - K. Zhou
+AU  - J. Wu
+PY  - 2021
+KW  - Codes
+KW  - Conferences
+KW  - Semantics
+KW  - Medical services
+KW  - Encoding
+KW  - Regulation
+KW  - Task analysis
+KW  - automatic ICD coding
+KW  - graph neural network
+KW  - medical procedure codes
+KW  - clinical decision support
+DO  - 10.1109/BIBM52615.2021.9669522
+JO  - 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 9-12 Dec. 2021
+AB  - Automatic ICD coding, as a fundamental task in the field of healthcare management, has been paid much attention by researchers. However, the current deep learning-based ICD coding research mostly focus on the introduction of external diagnostic description text or the imposition of rules, while ignoring the structured features of the coding text itself. Especially for short texts of medical procedure codes, it is much more important to mine the information value in the texts. In this paper, we propose a structure-enhanced unsupervised semantic graph representation for precise medical procedure coding (SMP-Graph). The SMP-Graph representation method constructs each medical procedure text with an inductive heterogeneous graph and particularly enhances the kernel knowledge by extracting the axis words and chapter title and allocating them with distinct node representations. Both the nodes and edges are generated by the unsupervised pretrained model and then interact information in a bidirectionally weighted graph structure. Therefore, the SMP-Graph really realizes the intra-integration of unsupervised contextualized information and graph-based global information from the medical procedure code. Experiments conducted on the Chinese ICD-9-CM-3 procedure text dataset we collected from EMRs demonstrate that the SMP-Graph is a better representation method that outperforms other representative methods for medical procedure coding. Characteristic analysis is also conducted to prove the interpretability and adaptability of the SMP-Graph on the medical procedure coding task.
+ER  - 
+
+TY  - JOUR
+TI  - Disease Classification in Health Care Systems With Game Theory Approach
+T2  - IEEE Access
+SP  - 83298
+EP  - 83311
+AU  - B. S. Raja
+AU  - S. Asghar
+PY  - 2020
+KW  - Evolutionary computation
+KW  - Diseases
+KW  - Game theory
+KW  - Optimization
+KW  - Medical diagnostic imaging
+KW  - Cloud computing
+KW  - Multi-objective optimization
+KW  - evolutionary algorithms
+KW  - game theory
+KW  - Bayesian models
+KW  - Nash Equilibrium
+DO  - 10.1109/ACCESS.2020.2991016
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - There are numerous cases in real life when we come across problems involving the optimization of multiple objectives simultaneously. One of the complexities of solving such problems is that often one or more objectives are usually conflicting under given conditions. In this study, the benefits of relying on a deployed Clinical Decision Support System (CDSS) concerning the overall reputation of a health facility has been studied. The analysis is performed in terms of a co-operative Bayesian game-theoretic model. The game is played between two players of which the first player is a patient who needs quick and accurate medical attention and the second player is the hospital administration that relies on medical experts as well as integrated multi-objective clinical data classification systems for decision-making. The proposed model “MEAF” - Multi-objective Evolutionary Algorithm using Fuzzy Genetics attempts to address accuracy and interpretability simultaneously using Evolutionary Algorithms (EAs). This model enables a HCDSS to detect a disease accurately by using the available resources efficiently. The results of our simulation show that HCDSS produces better and accurate results in detecting disease with efficient resource utilization along with the reduced computational cost. This approach has also produced a better response for both players based on Bayesian Nash Equilibrium. Finally, the proposed model has been tested for accuracy, efficient resource utilization, and computationally cost-effective solution.
+ER  - 
+
+TY  - JOUR
+TI  - Toward the InterPlanetary Health Layer for the Internet of Medical Things With Distributed Ledgers and Storages
+T2  - IEEE Access
+SP  - 82883
+EP  - 82895
+AU  - G. Bigini
+AU  - E. Lattanzi
+PY  - 2022
+KW  - Distributed ledger
+KW  - Medical services
+KW  - Smart contracts
+KW  - Peer-to-peer computing
+KW  - Internet of Medical Things
+KW  - Codes
+KW  - Scalability
+KW  - Decentralized Internet of Medical Things
+KW  - distributed ledger technology
+KW  - InterPlanetary file system
+KW  - InterPlanetary health layer
+DO  - 10.1109/ACCESS.2022.3196933
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 10
+VL  - 10
+JA  - IEEE Access
+Y1  - 2022
+AB  - With the dramatic increase of the Internet of Medical Things devices, self and remote health data monitoring is consistently receiving more attention. However, medical devices are usually challenging to deploy due to privacy regulations, and they generally leverage a centralized third party. Enabling data sharing would enhance new medical studies, formulate new treatments, and deliver new digital health technologies. Solving the issue will have a triple impact: we will handle sensitive information easily, contribute to international medical advancements, and enable personalized care. A possible solution is to exploit decentralization distributing privacy concerns directly to users. Solutions enabling this vision are closely linked to Distributed Ledger Technologies. Through its characteristics of immutability and transparency, this technology would allow privacy-compliant solutions in contexts where privacy is the first need. This paper envisions the InterPlanetary Health Layer and related real-world implementations in the Internet of Medical Things domain. The main idea of the proposed solution is to handle sensitive data by preserving privacy and guaranteeing data availability. Specifically, users can build their private network, collaboratively authorize operations among their data and manage their privacy conditions without relying on a third party. The results of several stress tests conducted on a real case study confirmed the feasibility of the proposed solution, which shows good scalability and a modest impact on the application performance measured during the decentralized data access.
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial Explainable AI: Towards Fairness, Accountability, Transparency and Trust in Healthcare
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 2374
+EP  - 2375
+AU  - A. Shaban-Nejad
+AU  - M. Michalowski
+AU  - J. S. Brownstein
+AU  - D. L. Buckeridge
+PY  - 2021
+KW  - Special issues and sections
+KW  - Medical services
+KW  - Artificial intelligence
+KW  - Trust management
+KW  - Decision making
+KW  - Biological system modeling
+KW  - Radiomics
+KW  - Public healthcare
+KW  - Bioinformatics
+KW  - Surveillance
+DO  - 10.1109/JBHI.2021.3088832
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 7
+SN  - 2168-2208
+VO  - 25
+VL  - 25
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - July 2021
+AB  - The papers in this special section focus on explainable artificial intelligence (AI) in healthcare services. Recent advances in AI, precision health, and medicine have paved the way for the accelerated adaptation and use of intelligent tools and systems in decision-making processes across the healthcare spectrum. Insights and knowledge derived from complex analytics are used to implement diagnostic and therapeutic solutions and targeted interventions in individuals and communities across the globe. Given the complexity of the current multi-dimensional clinical and public health data landscape, providing explainability in the context of socio-environmental and technical systems is a key to revealing pathways from socio-economic disadvantages to health disparities and implementing equitable interventions. As the complexity of the underlying data sets and AI-based algorithms increases, the explainability and justifiability of the insights generated decrease. Humans need to understand the underlying mechanism behind these insights to know whether they are sound, correct, trustable, and justifiable to make informed decisions. Lack of understandability and explainability in the biomedical domain often leads to poor transparency and accountability and ultimately lower quality of care and suboptimal and unfair health policies. Explainability is considered one of the prerequisites for deep medicine, where AI is meant to provide composite, panoramic views of individuals’ medical data.
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial Data Science in Smart Healthcare: Challenges and Opportunities
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 3041
+EP  - 3043
+AU  - B. Di Camillo
+AU  - G. Nicosia
+AU  - F. Buffa
+AU  - B. Lo
+PY  - 2020
+KW  - Special issues and sections
+KW  - Data models
+KW  - Machine learning
+KW  - Data science
+KW  - Machine learning
+KW  - Medical services
+KW  - Bioinformatics
+DO  - 10.1109/JBHI.2020.3028398
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 11
+SN  - 2168-2208
+VO  - 24
+VL  - 24
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Nov. 2020
+AB  - The fifteen articles in this special section focus on data science used in smart healthcare applications. A shift toward a data-driven socio-economic health model is occurring. This is the result of the increased volume, velocity and variety of data collected from the public and private sector in healthcare, and biology in general. In the past five-years, there has been an impressive development of computational intelligence and informatics methods for application to health and biomedical science. However, the effective use of data to address the scale and scope of human health problems has yet to realize its full potential. The barriers limiting the impact of practical application of standard data mining and machine learning methods have been inherent to the characteristics of health data. Besides the volume of the data (‘big data’), these are challenging due to their heterogeneity, complexity, variability and dynamic nature. Finally, data management and interpretability of the results have been limited by practical challenges in implementing new and also existing standards across the different health providers and research institutions. The scope of this Special issue is to discuss some of these challenges and opportunities in health and biological data science, with particular focus on the infrastructure, software, methods and algorithms needed to analyze large datasets in biological and clinical research. 
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial: Reasoning With Inconsistent, Incomplete, and Uncertain Knowledge
+T2  - IEEE Intelligent Systems
+SP  - 13
+EP  - 17
+AU  - E. Malizia
+AU  - C. Molinaro
+AU  - F. Parisi
+PY  - 2022
+KW  - Special issues and sections
+KW  - Knowledge management
+KW  - Information analysis
+KW  - Uncertainty
+KW  - Artificial intelligence
+KW  - Intelligent systems
+KW  - Information integrity
+DO  - 10.1109/MIS.2022.3218913
+JO  - IEEE Intelligent Systems
+IS  - 6
+SN  - 1941-1294
+VO  - 37
+VL  - 37
+JA  - IEEE Intelligent Systems
+Y1  - 1 Nov.-Dec. 2022
+AB  - The five papers in this special section focus on the management and analysis of uncertain, incomplete, and inconsistent information. This has become a crucial issue in the development of intelligent systems. Nowadays, such systems have to efficiently manage large amounts of information of different kinds, often represented in different formats and coming from different sources, such as databases, knowledge bases, sensor networks, as well as various data-driven applications. In the presence of such complex and heterogeneous forms of information, incompleteness, inconsistency, and/or inherent uncertainty inevitably arise. These scenarios call for innovative and intelligent approaches that, by leveraging AI techniques, can explicitly represent inconsistency, incompleteness, and uncertainty, and adequately deal with them. Such approaches are crucial to model realworld scenarios, making systems more effective and successful. Moreover, in many domains, knowledge is subject to frequent changes, so handling evolving knowledge is a key feature that knowledge-based systems should provide. In domains having high-impact consequences (e.g., healthcare and cybersecurity), intelligent systems should support human-in-the-loop models that provide tools to help users to understand and interpret the decisions they suggest, while tackling the challenges of inconsistency, incompleteness, and uncertainty. The AI community has also lately been facing the rising demand of explainable AI systems, which have inevitably to deal with inconsistency, incompleteness, and uncertainty. 
+ER  - 
+
+TY  - JOUR
+TI  - Guest editorial: Blockchain technologies and applications
+T2  - China Communications
+SP  - iii
+EP  - v
+AU  - E. Liu
+AU  - A. S. Pentland
+AU  - G. Adamson
+AU  - R. Ramadoss
+AU  - Y. Yang
+AU  - W. -T. Tsai
+AU  - Y. Zhao
+AU  - M. Lei
+PY  - 2019
+DO  - 
+JO  - China Communications
+IS  - 6
+SN  - 1673-5447
+VO  - 16
+VL  - 16
+JA  - China Communications
+Y1  - June 2019
+AB  - Blockchain is a technology that uses community validation to synchronize the content of ledgers replicated by multiple users. Although Blockchain derives its origins from technologies introduced decades ago, recently it has received an astonishing amount of attention in both academic and industry due to its characteristics of decentralization, point-to-point transmission, transparency, traceability, non-tampering, and data security. Both researchers and practitioners have recognized that Blockchain can be used to solve complex technical or socio-economic problems. In recent times, a number of blockchain-based applications have been released in the literature and Blockchain's approaches are used to other cases. For example, as an emerging distributed architecture and computing paradigm, Blockchain technologies have accelerated the development/application of the Internet of Things, Artificial Intelligence, Cloud/Edge Computing, Social Networking, Finance, Insurance, Healthcare, and Supply Chain Management. The popularity and rapid development of Blockchain bring many technical and regulatory challenges for research communities. There is a pressing need to balance between technical and regulatory requirements.
+ER  - 
+
+TY  - JOUR
+TI  - Call for papers: Special issue on AI-enabled Internet of medical things for medical data analytics
+T2  - Big Data Mining and Analytics
+SP  - 162
+EP  - 162
+PY  - 2022
+DO  - 10.26599/BDMA.2022.9020001
+JO  - Big Data Mining and Analytics
+IS  - 2
+SN  - 2097-406X
+VO  - 5
+VL  - 5
+JA  - Big Data Mining and Analytics
+Y1  - June 2022
+AB  - In the modern era of Big Data, there is always an exponential growth in the amount of data generated and stored in various fields like education, energy, environment, healthcare, fraud, detection, and traffic. At the same time, there is a significant paradigm shift in business and society across the world due to huge growth in various fields like artificial intelligence, machine learning, deep learning and data analytics. This poses significant challenges for decision-making and creates a potential transformation in the economy, government, and industries. Artificial Intelligence tools, techniques, technologies and big data improve the predictive power of the systems created, which enables the government, public and private sectors to discover new patterns and trends. It improves public values like accountability, safety, security, and transparency for better decision-making, policies, and governance. They also have numerous capabilities to perform complex tasks that human skills cannot do. They could be used to collect, organize and analyze, large, varied data sets to discover patterns and trends. It addresses several problems related to the development of the economy by identifying new sources of revenue, expanding the customer base for business, product reviews and promotion. It helps to predict and prevent diseases, predict climatic variations, and provide energy solutions. This special issue aims to call for high-quality papers covering the latest data analytic concepts and technologies of big data and artificial intelligence. This special issue serves as a forum for researchers across the globe to discuss their works and recent advances in this field. The best papers from Artificial intelligence and Big Data Analytics in Product, Finance, Health and Environment are invited. The best high-quality papers will be selected based on the innovativeness and relevance of the theme.
+ER  - 
+
+

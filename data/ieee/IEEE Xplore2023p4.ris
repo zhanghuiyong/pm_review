@@ -1,0 +1,1907 @@
+TY  - JOUR
+TI  - Physiologically-Informed Gaussian Processes for Interpretable Modelling of Psycho-Physiological States
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 3721
+EP  - 3730
+AU  - S. Ghiasi
+AU  - A. Patane
+AU  - L. Laurenti
+AU  - C. Gentili
+AU  - E. P. Scilingo
+AU  - A. Greco
+AU  - M. Kwiatkowska
+PY  - 2023
+KW  - Physiology
+KW  - Brain modeling
+KW  - Data models
+KW  - Computational modeling
+KW  - Predictive models
+KW  - Biological system modeling
+KW  - Adaptation models
+KW  - Gaussian process
+KW  - interpretable machine learning
+KW  - electrodermal activity
+KW  - bayesian learning
+KW  - psycho-physiology
+DO  - 10.1109/JBHI.2022.3224775
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 8
+SN  - 2168-2208
+VO  - 27
+VL  - 27
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Aug. 2023
+AB  - The widespread popularity of Machine Learning (ML) models in healthcare solutions has increased the demand for their interpretability and accountability. In this paper, we propose the Physiologically-Informed Gaussian Process (PhGP) classification model, an interpretable machine learning model founded on the Bayesian nature of Gaussian Processes (GPs). Specifically, we inject problem-specific domain knowledge of inherent physiological mechanisms underlying the psycho-physiological states as a prior distribution over the GP latent space. Thus, to estimate the hyper-parameters in PhGP, we rely on the information from raw physiological signals as well as the designed prior function encoding the physiologically-inspired modelling assumptions. Alongside this new model, we present novel interpretability metrics that highlight the most informative input regions that contribute to the GP prediction. We evaluate the ability of PhGP to provide an accurate and interpretable classification on three different datasets, including electrodermal activity (EDA) signals collected during emotional, painful, and stressful tasks. Our results demonstrate that, for all three tasks, recognition performance is improved by using the PhGP model compared to competitive methods. Moreover, PhGP is able to provide physiological sound interpretations over its predictions.
+ER  - 
+
+TY  - CONF
+TI  - Finding Type 2 Diabetes Using Sparse Balanced Support Vector Machine in Electronic Health Records
+T2  - 2023 IEEE IAS Global Conference on Emerging Technologies (GlobConET)
+SP  - 1
+EP  - 6
+AU  - R. Kaur
+AU  - E. N. K. Sekhon
+PY  - 2023
+KW  - Support vector machines
+KW  - Pathology
+KW  - Computational modeling
+KW  - Medical treatment
+KW  - Predictive models
+KW  - Prediction algorithms
+KW  - Genetics
+KW  - Type 2 Diabetes
+KW  - Machine Learning
+KW  - Electronic Health Record
+KW  - Support Vector Machine
+KW  - Decision Support System
+DO  - 10.1109/GlobConET56651.2023.10149938
+JO  - 2023 IEEE IAS Global Conference on Emerging Technologies (GlobConET)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE IAS Global Conference on Emerging Technologies (GlobConET)
+Y1  - 19-21 May 2023
+AB  - Early Type 2 Diabetes (T2D) diagnosis is crucial for optimal integrated therapy and patient follow- up. There has been a huge growth in the quantity of accessible Electronic Health Record (EHR) data, and developments in Machine Learning (ML) methodologies have been as amazing. Maintaining and modelling a huge data set can cause over fitting, model interpretability, and computational expenditure. We used Sparse Balanced Support Vector Machine (SB-SVM) to detect type 2 diabetes in an original EHR dataset (named FIMMG dataset). In particular, we have chosen just those aspects of the EHR collected from a homogeneous group of participants before the diagnosis of T2D, including exemptions, examinations, and medicine prescriptions. The proposed solution is trustworthy compared to other ML and Deep Learning methods utilised by the state-of-the-art to handle this problem. The SB- SVM offers the best prediction performance- computation time tradeoff, according to the data. In addition, the induced sparsity makes the model more interpretable while automatically handling high-dimensional data and the normally uneven distribution of classes.
+ER  - 
+
+TY  - CONF
+TI  - Towards Better Trust in Human-Machine Teaming through Explainable Dependability
+T2  - 2023 IEEE 20th International Conference on Software Architecture Companion (ICSA-C)
+SP  - 86
+EP  - 90
+AU  - M. M. Bersani
+AU  - M. Camilli
+AU  - L. Lestingi
+AU  - R. Mirandola
+AU  - M. Rossi
+AU  - P. Scandurra
+PY  - 2023
+KW  - Analytical models
+KW  - Software architecture
+KW  - Autonomous systems
+KW  - Medical services
+KW  - Human in the loop
+KW  - Teamwork
+KW  - Behavioral sciences
+KW  - Human-machine teaming
+KW  - formal analysis
+KW  - statistical model checking
+KW  - explainable AI
+DO  - 10.1109/ICSA-C57050.2023.00029
+JO  - 2023 IEEE 20th International Conference on Software Architecture Companion (ICSA-C)
+IS  - 
+SN  - 2768-4288
+VO  - 
+VL  - 
+JA  - 2023 IEEE 20th International Conference on Software Architecture Companion (ICSA-C)
+Y1  - 13-17 March 2023
+AB  - The human-machine teaming paradigm is increasingly widespread in critical domains, such as healthcare and domestic assistance. The paradigm goes beyond human-on-the-loop and human-in-the-loop systems by promoting tight teamwork between humans and autonomous machines that collaborate in the same physical space. These systems are expected to build a certain level of trust by enforcing dependability and exhibiting interpretable behavior. We present emerging results in this direction, with a novel framework aiming at achieving better trust in human-machine teaming leveraging formal analysis, as well as eXplainable AI. We illustrate our approach and the emerging results with an example from the healthcare domain.
+ER  - 
+
+TY  - CONF
+TI  - Advances in MRI-Based Radiomics for Prostate Cancer
+T2  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+SP  - 1
+EP  - 5
+AU  - A. Chaddad
+AU  - Y. Katib
+AU  - C. Tanougast
+PY  - 2023
+KW  - Flowcharts
+KW  - Precision medicine
+KW  - Malignant tumors
+KW  - Market research
+KW  - Prostate cancer
+KW  - Artificial intelligence
+KW  - Prognostics and health management
+KW  - Radiomics
+KW  - Prostate Cancer
+KW  - mpMRI
+KW  - Gleason score
+DO  - 10.1109/ISBI53787.2023.10230328
+JO  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+IS  - 
+SN  - 1945-8452
+VO  - 
+VL  - 
+JA  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+Y1  - 18-21 April 2023
+AB  - Prostate cancer (PCa) is the most common malignant tumor of the male genitourinary system, the second most common cancer worldwide, and the fifth leading cause of cancer death in men. Radiomics is a noninvasive method for detecting PCa genotypes and will become a tool to assist in the diagnosis and treatment of PCa. However, one of the obstacles in transforming radiomics from research to clinical practice is its interpretability and the challenges of texture image variability. In this work, we review advances in MRI-based PCa radiomic analysis and discuss the steps and details of the radiomic flowchart. We also discuss the integration of AI with traditional medical imaging for radiomic applications, in line with the development trend of the significant data era.
+ER  - 
+
+TY  - CONF
+TI  - A novel Network Science Algorithm for Improving Triage of Patients
+T2  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 2803
+EP  - 2808
+AU  - P. H. Guzzi
+AU  - A. Defilippo
+AU  - P. Veltri
+PY  - 2023
+KW  - Measurement
+KW  - Technological innovation
+KW  - Machine learning algorithms
+KW  - Training data
+KW  - Medical services
+KW  - Machine learning
+KW  - Graph neural networks
+KW  - component
+KW  - formatting
+KW  - style
+KW  - styling
+KW  - insert
+DO  - 10.1109/BIBM58861.2023.10385396
+JO  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 2156-1133
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 5-8 Dec. 2023
+AB  - Patient triage plays a crucial role in healthcare, ensuring timely and appropriate care based on the urgency of patient conditions. Traditional triage methods heavily rely on human judgment, which can be subjective and prone to errors. Recently, a growing interest has been in leveraging artificial intelligence (AI) to develop algorithms for triaging patients. This paper presents the development of a novel algorithm for triaging patients. It is based on the analysis of patient data to produce decisions regarding their prioritization. The algorithm was trained on a comprehensive data set containing relevant patient information, such as vital signs, symptoms, and medical history. The algorithm was designed to accurately classify patients into triage categories through rigorous preprocessing and feature engineering. Experimental results demonstrate that our algorithm achieved high accuracy and performance, outperforming traditional triage methods. By incorporating computer science into the triage process, healthcare professionals can benefit from improved efficiency, accuracy, and consistency, prioritizing patients effectively and optimizing resource allocation. Although further research is needed to address challenges such as biases in training data and model interpretability, the development of AI-based algorithms for triaging patients shows great promise in enhancing healthcare delivery and patient outcomes.
+ER  - 
+
+TY  - CONF
+TI  - Population-Level Visual Analytics of Smartphone Sensed Health and Wellness Using Community Phenotypes
+T2  - 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+SP  - 420
+EP  - 429
+AU  - H. Mansoor
+AU  - W. Gerych
+AU  - A. Alajaji
+AU  - L. Buquicchio
+AU  - K. Chandrasekaran
+AU  - E. Agu
+AU  - E. Rundensteiner
+PY  - 2023
+KW  - Heating systems
+KW  - Dimensionality reduction
+KW  - Analytical models
+KW  - Visual analytics
+KW  - Sociology
+KW  - Data visualization
+KW  - Predictive models
+KW  - Visual Analytics
+KW  - Smartphone-sensed Data
+KW  - Smartphone Phenotyping
+DO  - 10.1109/ICHI57859.2023.00061
+JO  - 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+IS  - 
+SN  - 2575-2634
+VO  - 
+VL  - 
+JA  - 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+Y1  - 26-29 June 2023
+AB  - The development of mobile health (mHealth) assessment machine learning models requires data gathering studies in which smartphone sensor data is gathered continuously from users’ phones as they live their lives "In-the-wild". Periodically, participants annotate their sensor data with health, wellness and context labels, which serve as ground truth for machine learning models that can predict a user’s health from their smartphone data. However, as the scale of such studies increases, it becomes difficult to analyze such data and build machine learning models that can work across increasingly diverse, heterogeneous participants. Additionally, non-visual analytics approaches have limited interpretability. This paper innovatively takes a visual analytics approach instead. We propose Visualizing COMmunity Phenotypes (VICOMP), an interactive visual analytics framework for exploring complex population-level smartphone-sensed data. Our approach is based on the concept of Community Phenotypes, which effectively visualizes the groups (or phenotypes) that study participant profiles belong to based on how similar they are (communities). Visual representations of community phenotypes within a large population facilitates sensemaking of group patterns. Using VICOMP, analysts can construct multiple community phenotypes using configurable clustering algorithms of sensed and reported information, and explore and reason about them. VICOMP enables analysts to discover homogenous phenotypical sub-groups within a larger heterogeneous population, for whom group-specific machine learning models are more accurate than one-size-fits-all population-level models. VICOMP depicts community phenotypes using accessible visual metaphors such as superimposed bars to visualize community wellness reports, dimension reduction, projections and heatmaps to represent the distribution of smartphone-sensed features. Connected views facilitate contextualization of health and wellness measures across communities that manifest in smartphone data. The utility of VICOMP is demonstrated by visualizing a real, large scale, dataset collected in-the-wild, containing smartphone sensor data and participant-provided health and wellness ground truth labels. In addition, VICOMP is validated using evaluations with smartphone-sensed context recognition and health experts.
+ER  - 
+
+TY  - JOUR
+TI  - UR-CarA-Net: A Cascaded Framework With Uncertainty Regularization for Automated Segmentation of Carotid Arteries on Black Blood MR Images
+T2  - IEEE Access
+SP  - 26637
+EP  - 26651
+AU  - E. Lavrova
+AU  - Z. Salahuddin
+AU  - H. C. Woodruff
+AU  - M. Kassem
+AU  - R. Camarasa
+AU  - A. G. D. Van Kolk
+AU  - P. J. Nederkoorn
+AU  - D. Bos
+AU  - J. Hendrikse
+AU  - M. E. Kooi
+AU  - P. Lambin
+PY  - 2023
+KW  - Magnetic resonance imaging
+KW  - Blood flow
+KW  - Carotid arteries
+KW  - Biomedical imaging
+KW  - Three-dimensional displays
+KW  - Auto-segmentation
+KW  - carotid MRI
+KW  - vessel segmentation
+KW  - U-Net
+KW  - uncertainty regularization
+DO  - 10.1109/ACCESS.2023.3258408
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 11
+VL  - 11
+JA  - IEEE Access
+Y1  - 2023
+AB  - We present a fully automated method for carotid artery (CA) outer wall segmentation in black blood MRI using partially annotated data and compare it to the state-of-the-art reference model. Our model was trained and tested on multicentric data of patients (106 and 23 patients, respectively) with a carotid plaque and was validated on different MR sequences (24 patients) as well as data that were acquired with MRI systems of a different vendor (34 patients). A 3D nnU-Net was trained on pre-contrast T1w turbo spin echo (TSE) MR images. A CA centerline sliding window approach was chosen to refine the nnU-Net segmentation using an additionally trained 2D U-Net to increase agreement with manual annotations. To improve segmentation performance in areas with semantically and visually challenging voxels, Monte-Carlo dropout was used. To increase generalizability, data were augmented with intensity transformations. Our method achieves state-of-the-art results yielding a Dice similarity coefficient (DSC) of 91.7% (interquartile range (IQR) 3.3%) and volumetric intraclass correlation (ICC) with ground truth of 0.90 on the development domain data and a DSC of 91.1% (IQR 7.2%) and volumetric ICC with ground truth of 0.83 on the external domain data outperforming top-ranked methods for open-source CA segmentation. The uncertainty-based approach increases the interpretability of the proposed method by providing an uncertainty map together with the segmentation.
+ER  - 
+
+TY  - CONF
+TI  - Expert-defined Keywords Improve Interpretability of Retinal Image Captioning
+T2  - 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+SP  - 1859
+EP  - 1868
+AU  - T. -W. Wu
+AU  - J. -H. Huang
+AU  - J. Lin
+AU  - M. Worring
+PY  - 2023
+KW  - Heating systems
+KW  - Measurement
+KW  - Computer vision
+KW  - Medical services
+KW  - Predictive models
+KW  - Retina
+KW  - Biomedical imaging
+KW  - Applications: Biomedical/healthcare/medicine
+DO  - 10.1109/WACV56688.2023.00190
+JO  - 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+IS  - 
+SN  - 2642-9381
+VO  - 
+VL  - 
+JA  - 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+Y1  - 2-7 Jan. 2023
+AB  - Automatic machine learning-based (ML-based) medical report generation systems for retinal images suffer from a relative lack of interpretability. Hence, such ML-based systems are still not widely accepted. The main reason is that trust is one of the important motivating aspects of interpretability and humans do not trust blindly. Precise technical definitions of interpretability still lack consensus. Hence, it is difficult to make a human-comprehensible ML-based medical report generation system. Heat maps/saliency maps, i.e., post-hoc explanation approaches, are widely used to improve the interpretability of ML-based medical systems. However, they are well known to be problematic. From an ML-based medical model’s perspective, the highlighted areas of an image are considered important for making a prediction. However, from a doctor’s perspective, even the hottest regions of a heat map contain both useful and non-useful information. Simply localizing the region, therefore, does not reveal exactly what it was in that area that the model considered useful. Hence, the post-hoc explanation-based method relies on humans who probably have a biased nature to decide what a given heat map might mean. Interpretability boosters, in particular expert-defined keywords, are effective carriers of expert domain knowledge and they are human-comprehensible. In this work, we propose to exploit such keywords and a specialized attention-based strategy to build a more human-comprehensible medical report generation system for retinal images. Both keywords and the proposed strategy effectively improve the interpretability. The proposed method achieves state-of-the-art performance under commonly used text evaluation metrics BLEU, ROUGE, CIDEr, and METEOR. Project website: https://github.com/Jhhuangkay/Expert-defined-Keywords-Improve-Interpretability-of-Retinal-Image-Captioning.
+ER  - 
+
+TY  - CONF
+TI  - Integrating Automated Knowledge Extraction with Large Language Models for Explainable Medical Decision-Making
+T2  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 1710
+EP  - 1717
+AU  - H. Zhang
+AU  - J. Li
+AU  - Y. Wang
+AU  - Y. Song
+PY  - 2023
+KW  - Knowledge engineering
+KW  - Biological system modeling
+KW  - Markov processes
+KW  - Search engines
+KW  - Cognition
+KW  - Medical diagnosis
+KW  - Medical diagnostic imaging
+KW  - Explainable Automatic Diagnosis
+KW  - Large Language Models
+KW  - Knowledge Extraction
+KW  - Medical Reasoning
+DO  - 10.1109/BIBM58861.2023.10385557
+JO  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 2156-1133
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 5-8 Dec. 2023
+AB  - Large language models (LLMs) have demonstrated strong reasoning ability and inspired many previously unimaginable applications. In this paper, we aim to harness the strong reasoning capability of LLMs toward explainable medical diagnosis. As we know, deep learning has been widely adopted and shown improvement in medical diagnostics. However, it is often criticized for its lack of interpretability. To address this drawback, we propose the first method that innovatively combines Markov logic networks (MLNs) with external knowledge extracted using LLMs, aiming for improved both interpretability and accuracy. Specifically, our approach involves a new process, powered by LLMs and a search engine, to automatically collect and organize external medical knowledge. The outcome is a set of first-order logic (FOL) rules, which then become a key component for the following MLN-based diagnostic algorithm. The resulting MLN-based model can maintain the accuracy of deep networks while providing understandable reasoning for its decisions. By aiming to blend specific knowledge from the medical domain with LLM techniques, our work contributes towards the development of improved automatic diagnosis systems, with the potential for enhancing transparency and trust in medical diagnostics.
+ER  - 
+
+TY  - CONF
+TI  - Mining Sequential Patterns with Timelines from Digital Health Data
+T2  - 2023 IEEE International Conference on Digital Health (ICDH)
+SP  - 292
+EP  - 294
+AU  - C. C. J. Hryhoruk
+AU  - C. K. Leung
+PY  - 2023
+KW  - Correlation
+KW  - Itemsets
+KW  - Prediction algorithms
+KW  - Electronic healthcare
+KW  - Data mining
+KW  - Medical diagnostic imaging
+KW  - Diseases
+KW  - services
+KW  - digital health
+KW  - data science
+KW  - data mining
+KW  - sequences
+KW  - timelines
+KW  - patterns
+KW  - sequential patterns
+KW  - PrefixSpan
+KW  - focal point
+KW  - descriptive data mining
+KW  - medical data
+DO  - 10.1109/ICDH60066.2023.00049
+JO  - 2023 IEEE International Conference on Digital Health (ICDH)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Digital Health (ICDH)
+Y1  - 2-8 July 2023
+AB  - Descriptive pattern mining is a useful tool in expansion of knowledge. One such area of descriptive pattern mining is that of sequential pattern mining. In sequential mining, items maintain an order of occurrence. In this paper, we present a digital health solution for mining sequential patterns from real-life healthcare data. Specifically, it is a non-trivial extension to the sequential mining algorithm PrefixSpan. Through an association of time, we find improved relevance of a pattern overall significance relative to a focal point. This is particularly useful in the medical domain, where significance of information varies depending on the time of its occurrence. For example, consider a time of being diagnosed with a disease. A condition occurring 16 years prior to the time of diagnosis provides less information than the same condition occurring 2 years prior to diagnosis. In traditional sequential mining, both conditions would equally contribute to support, despite their unequal value in describing causes of diagnosis. To resolve such issue, we provide an inclusion of two additional user-defined parameters to incorporate time within itemsets—namely, a timeline interval (describing the length of an interval, of which itemsets of different intervals are treated separately by their difference in time to a focal point), as well as a maximal window (denoting the maximal interval that disallows for any greater time difference than such interval). With timelines associated to itemsets, relevance of itemsets have improved interpretability for domain experts.
+ER  - 
+
+TY  - CONF
+TI  - Intelligent Cognitive Clinician
+T2  - 2023 International Conference on the Cognitive Computing and Complex Data (ICCD)
+SP  - 185
+EP  - 190
+AU  - J. Uwimana
+PY  - 2023
+KW  - Drugs
+KW  - Decision making
+KW  - Surgery
+KW  - Medical tests
+KW  - Safety
+KW  - Recommender systems
+KW  - Medical diagnostic imaging
+KW  - drug recommender system machine learning
+KW  - natural language processing
+KW  - reinforcement learning
+KW  - speech-to-text translation
+KW  - surgery recommender system therapy recommender system
+DO  - 10.1109/ICCD59681.2023.10420555
+JO  - 2023 International Conference on the Cognitive Computing and Complex Data (ICCD)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on the Cognitive Computing and Complex Data (ICCD)
+Y1  - 21-22 Oct. 2023
+AB  - In healthcare delivery, patients are diagnosed, medical tests are taken to be analysed to provide better treatment and test results are based on providing treatment to patients. Drug recommendation systems are widely used by medical professionals as medico-assisted systems, but recommendations are mute to surgeries or therapies. This paper presents a novel approach to designing an intelligent cognitive clinician (IC2) that diagnoses the patient using NLP algorithms for a speech of the patient to text translation or textual data for symptoms extraction and predict the disease and possible medical tests to be taken. Once the test results are available, the system recommends the drugs, therapies, or surgeries and patient feedback improves the treatment recommendation. So, IC2 is a drug, surgery, or therapy recommendation system based on symptoms, test results, and patient feedback.
+ER  - 
+
+TY  - CONF
+TI  - Detecting anomalous suppliers in electronic procurement systems using GAAN
+T2  - 2023 IEEE International Conference on Big Data (BigData)
+SP  - 4147
+EP  - 4155
+AU  - E. Cruz
+AU  - N. Ramirez
+AU  - E. Parra
+AU  - D. Ochoa
+PY  - 2023
+KW  - Procurement
+KW  - Robust control
+KW  - Systematics
+KW  - Atmospheric measurements
+KW  - Pandemics
+KW  - Deep architecture
+KW  - Developing countries
+KW  - anomaly detection
+KW  - electronic procurement system
+KW  - GAAN
+KW  - attributed graph
+DO  - 10.1109/BigData59044.2023.10386755
+JO  - 2023 IEEE International Conference on Big Data (BigData)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Big Data (BigData)
+Y1  - 15-18 Dec. 2023
+AB  - Developing countries are notably more vulnerable to corruption in public procurement due to the lack of effective accountability mechanisms and the absence of robust control structures. Despite efforts to enhance transparency and efficiency, irregularities and inconsistencies persist in electronic procurement systems where suppliers have arranged the auction winner for a tender. We propose a systematic process that includes the creation of metrics that allow measuring the behavior of suppliers in auctions to create embedding suppliers, a graph to model the connections that suppliers have when they participate in a tender together, and a Generative Adversarial Attributed Network (GAAN) to detect anomalous suppliers using a public tenders dataset from the The Ecuadorian Public Procurement Service (SERCOP). The observation period is 2020 when corruption scandals occurred due to purchasing medicines and medical supplies in the health sector to face the COVID-19 pandemic. The study results detected anomalous suppliers in the attributed graph; 9.15% of the total suppliers in the health sector tender dataset were detected as anomalous. The anomalous suppliers have been corroborated with news and reports from the control authorities.
+ER  - 
+
+TY  - CONF
+TI  - MoTIF: a Method for Trustworthy Dynamic Multimodal Learning on Omics
+T2  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 2851
+EP  - 2858
+AU  - Y. Lu
+AU  - R. Peng
+AU  - B. Jiang
+AU  - J. Wang
+PY  - 2023
+KW  - Measurement
+KW  - Learning systems
+KW  - Uncertainty
+KW  - Codes
+KW  - Precision medicine
+KW  - Feature extraction
+KW  - Multisensory integration
+KW  - Multimodal Integration
+KW  - Dynamic Learning
+KW  - Trustworthy AI
+KW  - Multi-omics Learning
+DO  - 10.1109/BIBM58861.2023.10386044
+JO  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 2156-1133
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 5-8 Dec. 2023
+AB  - Omics data are inherently multimodal. The existing multimodal learning methods mainly focus on exploiting complementary information across multiple modalities and integrating them via unified representations. However, few studies have focused on the interpretability of features and modalities and the reliability of results, which are crucial in specific domains such as precision medicine and the life sciences. We propose a Multi-omics Trustworthy Integration Framework (MoTIF) to improve the reliability of multimodal learning models by adding dynamic feature selection and modality selection modules and introducing uncertainty score metrics in the classification process to indicate the reliability of model results, which adhere to our Trustworthy Multimodal Integration (TMI) rule. We conduct exhaustive experiments on five multi-omics datasets derived from TCGA. Results demonstrate that MoTIF can improve the performance of multi-omics classification tasks and provide a more detailed explanation of the model’s internal mechanism and the trustworthiness of the classification results. Code for MoTIF is available at https://github.com/YuxingLu613/MoTIF.
+ER  - 
+
+TY  - JOUR
+TI  - Deep Unfolding of the DBFB Algorithm With Application to ROI CT Imaging With Limited Angular Density
+T2  - IEEE Transactions on Computational Imaging
+SP  - 502
+EP  - 516
+AU  - M. Savanier
+AU  - E. Chouzenoux
+AU  - J. -C. Pesquet
+AU  - C. Riddell
+PY  - 2023
+KW  - Image reconstruction
+KW  - Computed tomography
+KW  - Imaging
+KW  - TV
+KW  - Neural networks
+KW  - Iterative algorithms
+KW  - Cost function
+KW  - Region-of-interest
+KW  - computed tomography
+KW  - angular sub-sampling
+KW  - deep unfolding
+KW  - forward-backward
+KW  - iterative reweighted scheme
+DO  - 10.1109/TCI.2023.3279053
+JO  - IEEE Transactions on Computational Imaging
+IS  - 
+SN  - 2333-9403
+VO  - 9
+VL  - 9
+JA  - IEEE Transactions on Computational Imaging
+Y1  - 2023
+AB  - This article presents a new method for reconstructing regions of interest (ROI) from a limited number of computed tomography (CT) measurements. Classical model-based iterative reconstruction methods lead to images with predictable features. Still, they often suffer from tedious parameterization and slow convergence. On the contrary, deep learning methods are fast, and they can reach high reconstruction quality by leveraging information from large datasets, but they lack interpretability. At the crossroads of both methods, deep unfolding networks have been recently proposed. Their design includes the physics of the imaging system and the steps of an iterative optimization algorithm. Motivated by the success of these networks for various applications, we introduce an unfolding neural network called U-RDBFB designed for ROI CT reconstruction from limited data. Few-view truncated data are effectively handled thanks to a robust non-convex data fidelity term combined with a sparsity-inducing regularization function. We unfold the Dual Block coordinate Forward-Backward (DBFB) algorithm, embedded in an iterative reweighted scheme, allowing the learning of key parameters in a supervised manner. Our experiments show an improvement over several state-of-the-art methods, including a model-based iterative scheme, a multi-scale deep learning architecture, and other deep unfolding methods.
+ER  - 
+
+TY  - CONF
+TI  - Interactive web application for Explainable DNN-based AI models in oncology
+T2  - 2023 IEEE Nuclear Science Symposium, Medical Imaging Conference and International Symposium on Room-Temperature Semiconductor Detectors (NSS MIC RTSD)
+SP  - 1
+EP  - 1
+AU  - V. Paneta
+AU  - L. Brocki
+AU  - V. Eleftheriadis
+AU  - P. Papadimitroulas
+AU  - N. C. Chung
+PY  - 2023
+KW  - Visualization
+KW  - Semiconductor detectors
+KW  - Computational modeling
+KW  - Biological system modeling
+KW  - Artificial neural networks
+KW  - Predictive models
+KW  - Oncology
+DO  - 10.1109/NSSMICRTSD49126.2023.10338566
+JO  - 2023 IEEE Nuclear Science Symposium, Medical Imaging Conference and International Symposium on Room-Temperature Semiconductor Detectors (NSS MIC RTSD)
+IS  - 
+SN  - 2577-0829
+VO  - 
+VL  - 
+JA  - 2023 IEEE Nuclear Science Symposium, Medical Imaging Conference and International Symposium on Room-Temperature Semiconductor Detectors (NSS MIC RTSD)
+Y1  - 4-11 Nov. 2023
+AB  - The lack of interpretability of Deep Neural Network-based Artificial Intelligence (AI) models prevents their utilization in healthcare, despite the exhibited huge success of Deep Neural Networks (DNNs) in Computer Vision and Bioinformatics. The development of such high performing DNN models that are explainable and visualized on a web application is presented in this study, to contribute to the acceptance and implementation of DNN-based AI models in the field of medical imaging and oncology in clinical practice. Clinicians can interact with the developed model altering its features, that are meaningful to them, and gradually understand, verify/evaluate the model behavior and the underlying prediction mechanism, and eventually trust it. More specifically, the model in our proof-of-concept app uses segmented thoracic computed tomography images as input and demonstrates excellent performance for lung nodule malignancy classification with inherent interpretability and interactivity. It integrates DNN-predicted tumor biomarkers from a concept bottleneck model and clinically validated expert-derived radiomics features. Feedback from clinicians on model evaluation using our app will highly contribute to further improving of both the algorithms and the interactive environment.
+ER  - 
+
+TY  - CONF
+TI  - Discovery of Disease Evolution by Graph Curvature
+T2  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+SP  - 143
+EP  - 152
+AU  - C. Fei
+AU  - C. Wang
+AU  - X. Huang
+AU  - Y. Li
+PY  - 2023
+KW  - Representation learning
+KW  - Image edge detection
+KW  - Feature extraction
+KW  - Medical diagnosis
+KW  - Task analysis
+KW  - Medical diagnostic imaging
+KW  - Diseases
+KW  - Geometric representation learning
+KW  - graph curvature
+KW  - manifold learning
+KW  - spectral cluster
+KW  - medical images
+DO  - 10.1109/MedAI59581.2023.00027
+JO  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+Y1  - 18-19 Nov. 2023
+AB  - Geometric representation learning has played a positive role in disease diagnosis by effectively extracting feature in-formation from medical datasets to improve diagnostic accuracy. Current geometric learning methods can only utilize Euclidean metrics to explore the local or global geometric structures of the dataset. However, they have limitations in exploring the nonlinear complex structures of the dataset distribution, leading to poor interpretability of the algorithms. Therefore, this paper proposes a novel interpretable geometric representation learning methods. We utilize adjacency graphs to represent the topological structure of the dataset while introducing edge curvature on the graph to explore the nonlinear geometric structure of the dataset distribution. In terms of interpretability, we discover that edge curvature can serve as a quantitative index for multi-clusters recognition and has explanatory power for the evolution patterns of diseases. In the experiment, we select several medical imaging datasets. The relevant experiments demonstrate that our method outperforms traditional manifold learning methods.
+ER  - 
+
+TY  - CONF
+TI  - Bayesian-Based Symptom Screening for Medical Dialogue Diagnosis
+T2  - 2023 IEEE Symposium on Computers and Communications (ISCC)
+SP  - 1
+EP  - 6
+AU  - Z. Cao
+AU  - Y. Guo
+AU  - Y. Chen
+AU  - D. Lin
+PY  - 2023
+KW  - Computers
+KW  - Heuristic algorithms
+KW  - Computational modeling
+KW  - Reinforcement learning
+KW  - Inference algorithms
+KW  - Bayes methods
+KW  - Medical diagnosis
+KW  - Medical dialogue diagnosis system
+KW  - symptom screening
+KW  - Bayesian inference
+KW  - e-health
+DO  - 10.1109/ISCC58397.2023.10218219
+JO  - 2023 IEEE Symposium on Computers and Communications (ISCC)
+IS  - 
+SN  - 2642-7389
+VO  - 
+VL  - 
+JA  - 2023 IEEE Symposium on Computers and Communications (ISCC)
+Y1  - 9-12 July 2023
+AB  - In a medical dialogue diagnosis system, the selection of symptoms for inquiry has a significant impact on diagnostic accuracy and dialogue efficiency. In a typical diagnosis process, the symptoms initially reported by users are often insufficient to support an accurate diagnosis, making it necessary to ask users about other symptoms through dialogue to form a conclusive diagnosis. In this paper, we propose a disease diagnosis algorithm based on Bayesian, which simulates the process of doctor's inquiry and diagnosis by dynamically updating the list of diseases to increase the interpretability of diagnosis results. For the symptom interrogation, we propose a symptom screening algorithm based on the difference of symptom sets to exclude diseases with low probability. Through the intersection and union of disease symptom sets, we can screen out the symptoms that can distinguish diseases in fewer inquiring rounds. The experimental results demonstrate the proposed method performs more efficiently than existing state-of-the-art algorithms.
+ER  - 
+
+TY  - JOUR
+TI  - D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias
+T2  - IEEE Transactions on Visualization and Computer Graphics
+SP  - 473
+EP  - 482
+AU  - B. Ghai
+AU  - K. Mueller
+PY  - 2023
+KW  - Measurement
+KW  - Visualization
+KW  - Mathematical models
+KW  - Human in the loop
+KW  - Distortion
+KW  - Data models
+KW  - Machine learning algorithms
+KW  - Algorithmic Fairness
+KW  - Causality
+KW  - Debiasing
+KW  - Human-in-the-loop
+KW  - Visual Analytics
+DO  - 10.1109/TVCG.2022.3209484
+JO  - IEEE Transactions on Visualization and Computer Graphics
+IS  - 1
+SN  - 1941-0506
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Visualization and Computer Graphics
+Y1  - Jan. 2023
+AB  - With the rise of AI, algorithms have become better at learning underlying patterns from the training data including ingrained social biases based on gender, race, etc. Deployment of such algorithms to domains such as hiring, healthcare, law enforcement, etc. has raised serious concerns about fairness, accountability, trust and interpretability in machine learning algorithms. To alleviate this problem, we propose D-BIAS, a visual interactive tool that embodies human-in-the-loop AI approach for auditing and mitigating social biases from tabular datasets. It uses a graphical causal model to represent causal relationships among different features in the dataset and as a medium to inject domain knowledge. A user can detect the presence of bias against a group, say females, or a subgroup, say black females, by identifying unfair causal relationships in the causal network and using an array of fairness metrics. Thereafter, the user can mitigate bias by refining the causal model and acting on the unfair causal edges. For each interaction, say weakening/deleting a biased causal edge, the system uses a novel method to simulate a new (debiased) dataset based on the current causal model while ensuring a minimal change from the original dataset. Users can visually assess the impact of their interactions on different fairness metrics, utility metrics, data distortion, and the underlying data distribution. Once satisfied, they can download the debiased dataset and use it for any downstream application for fairer predictions. We evaluate D-BIAS by conducting experiments on 3 datasets and also a formal user study. We found that D-BIAS helps reduce bias significantly compared to the baseline debiasing approach across different fairness metrics while incurring little data distortion and a small loss in utility. Moreover, our human-in-the-loop based approach significantly outperforms an automated approach on trust, interpretability and accountability.
+ER  - 
+
+TY  - CONF
+TI  - A Comprehensive Survey on Naive Bayes Algorithm: Advantages, Limitations and Applications
+T2  - 2023 4th International Conference on Smart Electronics and Communication (ICOSEC)
+SP  - 1228
+EP  - 1234
+AU  - P. J. B. Pajila
+AU  - B. G. Sheena
+AU  - A. Gayathri
+AU  - J. Aswini
+AU  - M. Nalini
+AU  - S. S. R
+PY  - 2023
+KW  - Surveys
+KW  - Training
+KW  - Sentiment analysis
+KW  - Sensitivity
+KW  - Filtering
+KW  - Text categorization
+KW  - Robustness
+KW  - Naive Bayes
+KW  - Machine Learning
+KW  - Probability Theory
+KW  - Feature Independence
+KW  - Applications
+KW  - Survey
+DO  - 10.1109/ICOSEC58147.2023.10276274
+JO  - 2023 4th International Conference on Smart Electronics and Communication (ICOSEC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 4th International Conference on Smart Electronics and Communication (ICOSEC)
+Y1  - 20-22 Sept. 2023
+AB  - A well-known and frequently used machine learning method, the Naive Bayes algorithm has attracted a lot of interest in a number of fields. The Naive Bayes algorithm, along with its benefits, drawbacks, and practical applications, will be covering in this survey study. The Naive Bayes algorithm's fundamentals are first studied in the survey, with special attention paid to how heavily it relies on probability theory and the notion of feature independence. The Naive Bayes method is further examined, as well as its applicability to both continuous and discrete data. The study then looks into the benefits of the Naive Bayes method, emphasizing its tolerance to irrelevant characteristics, great computing efficiency, and capacity for handling high- dimensional data. The algorithm's interpretability and ability to work with different application domains are also highlighted. The survey article looks at various restrictions, such as the feature independence assumption and algorithm's sensitivity to missing data and its incapacity to recognize intricate correlations between variables. The survey article offers a variety of real-world situations where the Naive Bayes algorithm has been effectively used in order to give a thorough viewpoint. Text categorization, spam filtering, sentiment analysis, recommender systems, medical diagnosis, and financial fraud detection are some of these uses. This survey article provides academics, practitioners, and enthusiasts with an invaluable resource for comprehending the Naive Bayes algorithm's capabilities and concerns by compiling the algorithm's benefits, drawbacks, and applications. It serves as a starting point for further investigation and the creation of enhanced versions and modifications of the Naive Bayes algorithm.
+ER  - 
+
+TY  - CONF
+TI  - Double-Rule Causal Feature Selection in Risk Factor Mining for Disease Diagnosis
+T2  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+SP  - 37
+EP  - 42
+AU  - Z. Zhu
+AU  - Z. Su
+AU  - F. Hu
+AU  - Y. Yang
+PY  - 2023
+KW  - Markov processes
+KW  - Feature extraction
+KW  - Robustness
+KW  - Computational efficiency
+KW  - Medical diagnosis
+KW  - Medical diagnostic imaging
+KW  - Diseases
+KW  - Markov blanket
+KW  - feature selection
+KW  - risk factor mining
+KW  - disease diagnosis
+KW  - medical observation data
+DO  - 10.1109/MedAI59581.2023.00012
+JO  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+Y1  - 18-19 Nov. 2023
+AB  - In healthcare, high-dimensional medical observation data brings challenges to disease diagnosis. In order to reduce the data dimension, feature selection becomes a key step in processing medical observation data. Causal feature selection, i.e., Markov Blanket (MB) discovering, discovers local causal relationships that exist around the target feature, and studies have shown that causal feature selection improves the interpretability and robustness of disease diagnosis models. However, in practical applications, the causal feature selection algorithm based on conditional independence (CI) tests always suffers from two types of errors. These errors include false positives where some incorrect MB features are selected, and false negatives where some true MB features are discarded. Existing algorithms cannot efficiently handle both types of errors at the same time. To address this issue, this paper presented a simultaneous-fusion-of-double-rules MB learning (SF-DRMB) algorithm for risk factor mining of disease. The algorithm is structured into three phases: in the first phase, SF-DRMB identifies both parent-child and spouse sets of the target feature; in the second phase, OR rule is used to solve false negatives error; in the third phase, an improved AND rule is used to solve false positives error. Through the three phases of SF-DRMB, the MB of the target feature is discovered. Finally, SF-DRMB was compared with existing causal feature selection algorithms with benchmark BN datasets and medical datasets, and the experimental results demonstrated that SF-DRMB is competitive with the fastest MB discovery algorithm in terms of computational efficiency and achieves good accuracy among the compared algorithms.
+ER  - 
+
+TY  - CONF
+TI  - Interpretable Disease Prediction from Clinical Text by Leveraging Pattern Disentanglement
+T2  - 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+SP  - 1
+EP  - 7
+AU  - M. Ehghaghi
+AU  - P. -Y. Zhou
+AU  - W. Y. Cheng
+AU  - S. Rajabi
+AU  - C. -H. Kuo
+AU  - E. -S. A. Lee
+PY  - 2023
+KW  - Knowledge based systems
+KW  - Clustering algorithms
+KW  - Predictive models
+KW  - Prediction algorithms
+KW  - Feature extraction
+KW  - Throughput
+KW  - Natural language processing
+KW  - Interpretability
+KW  - Electronic Health Records
+KW  - Pattern Discovery
+KW  - Pattern Disentanglement
+KW  - Clinical Notes
+DO  - 10.1109/BHI58575.2023.10313408
+JO  - 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+IS  - 
+SN  - 2641-3604
+VO  - 
+VL  - 
+JA  - 2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+Y1  - 15-18 Oct. 2023
+AB  - For artificial intelligence (AI) systems to be adopted in high stake human-oriented applications, they must be able to make complex decisions in an understandable and interpretable manner. While AI systems today have grown leaps and bounds in predictive power using larger datasets with more complex architectures, existing models remain ineffective at generating interpretable insights in the clinical setting. In this paper, we address the challenge of discovering interpretable insights from the clinical text for disease prediction. For this purpose, we apply the clinical notes from the electronic health records (EHR) available in the Medical Information Mart of Intensive Care III (MIMIC-III) dataset, which are labeled with the international classification of diseases (ICD9) codes. Our proposed algorithm combines interpretable text-based features with a novel pattern discovery and disentanglement algorithm. Specifically, our approach encompasses the following: (1) uncovering strong association patterns between clinical notes and diseases, (2) surpassing baseline clustering algorithms in effectively distinguishing between disease clusters, and (3) demonstrating comparable performance to baseline supervised methods in predicting diseases. Our results validate the model’s capability to strike a balance between interpretability and outcome prediction accuracy. By unveiling insightful patterns between clinical notes and diseases, our approach upholds a reasonable level of diagnostic accuracy.Clinical relevance—This paper proposes a novel all-in-one clinical Natural Language Processing (NLP) knowledge base, which can be applied in healthcare systems to discover interpretable insights from the clinical text for predicting medical conditions.
+ER  - 
+
+TY  - CONF
+TI  - Coarse-to-fine Knowledge Graph Domain Adaptation based on Distantly-supervised Iterative Training
+T2  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 1294
+EP  - 1299
+AU  - W. Liao
+AU  - Z. Liu
+AU  - Y. Zhang
+AU  - X. Huang
+AU  - F. Qi
+AU  - S. Ding
+AU  - H. Ren
+AU  - Z. Wu
+AU  - H. Dai
+AU  - S. Li
+AU  - L. Wu
+AU  - N. Liu
+AU  - Q. Li
+AU  - T. Liu
+AU  - X. Li
+AU  - H. Cai
+PY  - 2023
+KW  - Training
+KW  - Annotations
+KW  - Supervised learning
+KW  - Knowledge graphs
+KW  - Manuals
+KW  - Medical services
+KW  - Oncology
+KW  - Knowledge Graph Domain Adaptation
+KW  - Knowledge Graph Construction
+KW  - Named Entity Recognition
+KW  - Relation Extraction
+DO  - 10.1109/BIBM58861.2023.10385649
+JO  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 2156-1133
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 5-8 Dec. 2023
+AB  - The knowledge graph (KG) is a highly needed basis to support the high-fidelity and high-interpretability modeling of various tasks in healthcare artificial intelligence. In this work, we focus on constructing an oncology knowledge graph that will be used in downstream cancer research and solution development. Modern supervised learning for knowledge graph construction requires a large amount of manually labeled data, which makes the process time-consuming and labor-intensive. Although there exists multiple research on named entity recognition and relation extraction based on distantly supervised learning, constructing a domain-specific knowledge graph from large collections of textual data without manual annotations is still an urgent problem to be solved. In response, we propose an integrated framework for adapting and re-learning knowledge graphs from a general domain (biomedical in our case) to a fine-defined domain (oncology). In this framework, we apply distant-supervision on cross-domain knowledge graph adaptation. Consequently, no manual data annotation is required to train the model. We introduce a novel iterative training strategy to facilitate the discovery of domain-specific named entities and triplets. Experimental results indicate that the proposed framework can perform domain adaptation and construction of knowledge graphs efficiently.
+ER  - 
+
+TY  - JOUR
+TI  - Cyclic Learning: Bridging Image-Level Labels and Nuclei Instance Segmentation
+T2  - IEEE Transactions on Medical Imaging
+SP  - 3104
+EP  - 3116
+AU  - Y. Zhou
+AU  - Y. Wu
+AU  - Z. Wang
+AU  - B. Wei
+AU  - M. Lai
+AU  - J. Shou
+AU  - Y. Fan
+AU  - Y. Xu
+PY  - 2023
+KW  - Image segmentation
+KW  - Task analysis
+KW  - Annotations
+KW  - Histopathology
+KW  - Multitasking
+KW  - Convolutional neural networks
+KW  - Cancer
+KW  - Nuclei segmentation
+KW  - weakly supervised learning
+KW  - image-level annotation
+KW  - multi-task learning
+KW  - CNN interpretability
+KW  - semi-supervised learning
+DO  - 10.1109/TMI.2023.3275609
+JO  - IEEE Transactions on Medical Imaging
+IS  - 10
+SN  - 1558-254X
+VO  - 42
+VL  - 42
+JA  - IEEE Transactions on Medical Imaging
+Y1  - Oct. 2023
+AB  - Nuclei instance segmentation on histopathology images is of great clinical value for disease analysis. Generally, fully-supervised algorithms for this task require pixel-wise manual annotations, which is especially time-consuming and laborious for the high nuclei density. To alleviate the annotation burden, we seek to solve the problem through image-level weakly supervised learning, which is underexplored for nuclei instance segmentation. Compared with most existing methods using other weak annotations (scribble, point, etc.) for nuclei instance segmentation, our method is more labor-saving. The obstacle to using image-level annotations in nuclei instance segmentation is the lack of adequate location information, leading to severe nuclei omission or overlaps. In this paper, we propose a novel image-level weakly supervised method, called cyclic learning, to solve this problem. Cyclic learning comprises a front-end classification task and a back-end semi-supervised instance segmentation task to benefit from multi-task learning (MTL). We utilize a deep learning classifier with interpretability as the front-end to convert image-level labels to sets of high-confidence pseudo masks and establish a semi-supervised architecture as the back-end to conduct nuclei instance segmentation under the supervision of these pseudo masks. Most importantly, cyclic learning is designed to circularly share knowledge between the front-end classifier and the back-end semi-supervised part, which allows the whole system to fully extract the underlying information from image-level labels and converge to a better optimum. Experiments on three datasets demonstrate the good generality of our method, which outperforms other image-level weakly supervised methods for nuclei instance segmentation, and achieves comparable performance to fully-supervised methods.
+ER  - 
+
+TY  - CONF
+TI  - COW: A Proof-of-Concept DLT Platform For The Agri-Food Supply Chain
+T2  - 2023 IEEE International Conference on Artificial Intelligence, Blockchain, and Internet of Things (AIBThings)
+SP  - 1
+EP  - 5
+AU  - B. Figueiredo
+AU  - C. I. Reis
+PY  - 2023
+KW  - Energy consumption
+KW  - Distributed ledger
+KW  - Supply chains
+KW  - Cows
+KW  - Agriculture
+KW  - Trustless services
+KW  - Blockchains
+KW  - agri-food
+KW  - Blockchain
+KW  - Distributed Ledger Technology (DLT)
+KW  - Food Supply Chain (FSC)
+KW  - Traceability
+KW  - Hedera Hashgraph
+DO  - 10.1109/AIBThings58340.2023.10291025
+JO  - 2023 IEEE International Conference on Artificial Intelligence, Blockchain, and Internet of Things (AIBThings)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Artificial Intelligence, Blockchain, and Internet of Things (AIBThings)
+Y1  - 16-17 Sept. 2023
+AB  - Distributed Ledger Technology is increasingly employed to address real-world challenges, such as those encountered in agri-food supply chains. Characteristics such as immutability, accuracy, and resilience, facilitate transparency in trustless environments. We present a blockchain-based "farm-to-fork" solution that enables end-to-end traceability of goods throughout the supply chain. A brief overview of the current landscape and state-of-the-art developments enhances comprehension of the existing advancements and limitations. It reveals that many projects lack detailed information on the technologies and technical implementation. Moreover, energy consumption remains an acknowledged obstacle to the widespread adoption of blockchain technology. The COW platform, an open-source proof-of-concept, is introduced for tracing the lifecycle of livestock. The architecture and technical details of COW, which leverages the high-performance, low-cost, and carbon-negative capabilities of Hedera Hashgraph, are meticulously described. COW enables geotracking of pastures, veterinary interventions, as well as livestock acquisitions and transfers in markets.
+ER  - 
+
+TY  - CONF
+TI  - Interpretable Pulmonary Disease Diagnosis with Graph Neural Network and Counterfactual Explanations
+T2  - 2023 2nd International Conference on Sensing, Measurement, Communication and Internet of Things Technologies (SMC-IoT)
+SP  - 146
+EP  - 154
+AU  - J. Li
+AU  - Y. Chen
+AU  - Y. Wang
+AU  - Y. Ye
+AU  - M. Sun
+AU  - H. Ren
+AU  - W. Cheng
+AU  - H. Zhang
+PY  - 2023
+KW  - Pulmonary diseases
+KW  - Computational modeling
+KW  - Decision making
+KW  - Prototypes
+KW  - Graph neural networks
+KW  - Cognition
+KW  - Sensors
+KW  - Explainable Diagnosis
+KW  - Prototype Learning
+KW  - Counterfactual Reasoning
+DO  - 10.1109/SMC-IoT62253.2023.00034
+JO  - 2023 2nd International Conference on Sensing, Measurement, Communication and Internet of Things Technologies (SMC-IoT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 2nd International Conference on Sensing, Measurement, Communication and Internet of Things Technologies (SMC-IoT)
+Y1  - 29-31 Dec. 2023
+AB  - With recent fast development of artificial intelligence and related techniques, computer-aided diagnosis is increasingly emerging. During the process of automated diagnosis, the importance of explainable decision making has grown significantly. Traditional black-box models have often hindered the practical implementation of automated diagnosis algorithms. To address these challenges, we propose a novel framework that seamlessly integrates prototype learning with Graph Neural Networks (GNN) while also providing post-hoc explanations. On one hand, our model achieves intrinsic interpretability by reasoning based on the similarity calculations with prototypes for each disease. On the other hand, it employs counterfactual reasoning on graphs to pinpoint the most significant features for post-hoc explanations, supporting the diagnosis process. Building on these strengths, we integrate vision-language models to effectively harness multimodal patient information, thereby capturing a more detailed understanding of their medical condition. Our experiments on real Chinese EMRs of Pulmonary diseases demonstrate that our method not only delivers precise diagnoses but also accurately identifies medical findings substantiating the diagnoses.
+ER  - 
+
+TY  - CONF
+TI  - SegCrop: Segmentation-based Dynamic Cropping of Endoscopic Videos to Address Label Leakage in Surgical Tool Detection
+T2  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+SP  - 1
+EP  - 4
+AU  - A. Qayyum
+AU  - M. Bilal
+AU  - J. Qadir
+AU  - M. Caputo
+AU  - H. Vohra
+AU  - T. Akinosho
+AU  - I. Berrou
+AU  - F. Niyi-Odumosu
+AU  - M. Loizou
+AU  - A. Ajayi
+AU  - S. Abioye
+PY  - 2023
+KW  - Training
+KW  - Systematics
+KW  - Computational modeling
+KW  - Surgery
+KW  - Production
+KW  - Predictive models
+KW  - Data models
+KW  - Surgical Data Science
+KW  - Surgical Tool Detection
+KW  - Image Segmentation
+KW  - Robust ML
+KW  - Explainable AI
+DO  - 10.1109/ISBI53787.2023.10230822
+JO  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+IS  - 
+SN  - 1945-8452
+VO  - 
+VL  - 
+JA  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+Y1  - 18-21 April 2023
+AB  - In recent times, surgical data science has emerged as an important research discipline in interventional healthcare. There are many potential applications for analysing endoscopic surgical videos using machine learning (ML) techniques such as surgical tool classification, action recognition, and tissue segmentation. However, the efficacy of ML algorithms to learn robust features drastically deteriorates when models are trained on noise-affected data [1]. Appropriate data preprocessing for endoscopic videos is thus crucial to ensure robust ML training. To this end, we demonstrate the presence of label leakage when surgical tool classification is performed naively and present SegCrop, a dynamic U-Net model with an integrated attention mechanism to dynamically crop the arbitrary field of view (FoV) in endoscopic surgical videos to remove spurious label-related information from the data. In addition, we leverage explainability techniques to demonstrate how the presence of spurious correlations influences the model’s learning capability.
+ER  - 
+
+TY  - CONF
+TI  - A Simple and Explainable Method for Uncertainty Estimation using Attribute Prototype Networks
+T2  - 2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+SP  - 4572
+EP  - 4581
+AU  - C. Zelenka
+AU  - A. Göhring
+AU  - D. Kazempour
+AU  - M. Hünemörder
+AU  - L. Schmarje
+AU  - P. Kröger
+PY  - 2023
+KW  - Deep learning
+KW  - Uncertainty
+KW  - Scalability
+KW  - Measurement uncertainty
+KW  - Prototypes
+KW  - Estimation
+KW  - Stochastic processes
+DO  - 10.1109/ICCVW60793.2023.00491
+JO  - 2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+IS  - 
+SN  - 2473-9944
+VO  - 
+VL  - 
+JA  - 2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+Y1  - 2-6 Oct. 2023
+AB  - Deep learning’s utility in applications like medical diagnosis, autonomous driving, and natural language processing often hinges on the accurate estimation of uncertainty. Yet, conventional methods for uncertainty estimation face challenges, including high computational cost, difficulties with scalability, or poor interpretability. This paper presents a novel approach to uncertainty estimation using Attribute Prototype Networks (APNs), a method designed for learning robust and interpretable data representations. By leveraging prototype similarity scores, we propose a straightforward way to quantify the uncertainty of predictions, providing explainability and introducing a new technique for detecting out-of-distribution samples based on the distance to the nearest prototype. Our experiments demonstrate that this method offers valuable uncertainty information across several datasets. Our research opens up a new avenue for uncertainty estimation in deep learning, providing a simpler and more explainable solution.
+ER  - 
+
+TY  - CONF
+TI  - Crop Vigil: Automated Wheat Bunt Disease Multi-Classification with a CNN-RNN Hybrid Model and Attention Block
+T2  - 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)
+SP  - 1
+EP  - 6
+AU  - V. Kukreja
+AU  - R. Sharma
+AU  - V. Sharma
+AU  - A. Verma
+PY  - 2023
+KW  - Productivity
+KW  - Recurrent neural networks
+KW  - Computational modeling
+KW  - Crops
+KW  - Feature extraction
+KW  - Convolutional neural networks
+KW  - Medical diagnosis
+KW  - Wheat bunt disease
+KW  - Hybrid model
+KW  - Disease intensity levels
+KW  - Agricultural disease detection
+KW  - Plant pathology
+KW  - Plant disease diagnosis
+DO  - 10.1109/ICCCNT56998.2023.10306498
+JO  - 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)
+IS  - 
+SN  - 2473-7674
+VO  - 
+VL  - 
+JA  - 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)
+Y1  - 6-8 July 2023
+AB  - Wheat harvests are seriously threatened by wheat bunt disease, which lowers productivity and grain quality. For efficient illness management, disease intensity levels must be accurately and promptly classified. In this study, the proposed study presents a novel method for categorizing the intensity of wheat bunt disease into six stages by combining recurrent neural networks (RNN) and convolutional neural networks (CNN), together with an attention block. The goal is to create a dependable and understandable model that supports disease management choices and increases crop output. To capture spatial and temporal relationships in illness development, the proposed hybrid model makes use of the strengths of CNNs and RNNs. While the RNN component detects sequential patterns, the CNN component extracts picture features. Furthermore, an attention block method is included to draw attention to instructive areas of the pictures, improving interpretability and classification precision. Several criteria, such as accuracy, precision, recall, and F1 score, were used to evaluate the model. The model's overall accuracy on the testing set was determined to be 0.9225, meaning that it was successful in accurately categorizing 92.25% of the photos of wheat bunt disease across all intensities. A comparative study with cutting-edge methods showed the poposed hybrid model to be superior. Its results outperformed current models, demonstrating its potential for useful application in the categorization of wheat bunt disease. The attention block's inclusion improved interpretability and allowed for the focus on important illness symptoms.
+ER  - 
+
+TY  - CONF
+TI  - Navigating Heart Health with an Elephantine Approach in Clinical Decision Support Systems
+T2  - 2023 2nd International Conference on Automation, Computing and Renewable Systems (ICACRS)
+SP  - 1416
+EP  - 1423
+AU  - D. Elavarasi
+AU  - R. Kavitha
+AU  - S. Aanjankumar
+PY  - 2023
+KW  - Support vector machines
+KW  - Heart
+KW  - Adaptation models
+KW  - Computational modeling
+KW  - Feature extraction
+KW  - Kernel
+KW  - Diseases
+KW  - Clinical Decision Support System
+KW  - Elephant Search Algorithm
+KW  - Support Vector Machine
+DO  - 10.1109/ICACRS58579.2023.10405043
+JO  - 2023 2nd International Conference on Automation, Computing and Renewable Systems (ICACRS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 2nd International Conference on Automation, Computing and Renewable Systems (ICACRS)
+Y1  - 11-13 Dec. 2023
+AB  - The abstract aims to provide a concise overview of recent challenges and techniques in predicting heart disease, leading to the proposed objectives of the study. Recent advancements in heart disease prediction have seen the emergence of various techniques, each facing distinct challenges. Notably, traditional systems grapple with the increasing volume and complexity of healthcare data. Recent techniques, such as deep learning and ensemble methods, showcase promising results but encounter challenges related to interpretability and resource-intensive training. This study addresses these challenges and presents a novel objective. Firstly, it navigates the interpretability hurdle in complex models by employing feature selection methods, including the Elephant Search Algorithm (ESA). ESA draws inspiration from natural behaviors but faces challenges in handling large datasets and computational complexity. Secondly, the study integrates ESA with the proven Support Vector Machine (SVM) for efficient heart disease prediction. The primary objective is to optimize feature selection, enhancing both accuracy and interpretability, while overcoming the challenges posed by the intricate nature of cardiovascular datasets. By delineating these challenges and objectives, this research contributes to the ongoing discourse on improving clinical decision support systems for heart disease prediction.
+ER  - 
+
+TY  - CONF
+TI  - Mining Fmri Dynamics with Parcellation Prior for Brain Disease Diagnosis
+T2  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+SP  - 1
+EP  - 5
+AU  - X. Liu
+AU  - M. Liu
+AU  - L. Mei
+AU  - Y. Zhang
+AU  - F. Shi
+AU  - H. Zhang
+AU  - D. Shen
+PY  - 2023
+KW  - Functional magnetic resonance imaging
+KW  - Transformers
+KW  - Feature extraction
+KW  - Limbic system
+KW  - Medical diagnosis
+KW  - Convolutional neural networks
+KW  - Biological neural networks
+KW  - Graph neural network
+KW  - Brain disease
+KW  - mild cognitive impairment
+KW  - Transformer
+KW  - Multiple instance learning
+DO  - 10.1109/ISBI53787.2023.10230391
+JO  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+IS  - 
+SN  - 1945-8452
+VO  - 
+VL  - 
+JA  - 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)
+Y1  - 18-21 April 2023
+AB  - To characterize atypical brain dynamics under diseases, prevalent studies investigate functional magnetic resonance imaging (fMRI). However, most of the existing analyses compress rich spatial-temporal information as the brain functional networks (BFNs) and directly investigate the whole-brain network without neurological priors about functional subnetworks. We thus propose a novel graph learning framework to mine fMRI signals with topological priors from brain parcellation for disease diagnosis. Specifically, we 1) detect diagnosis-related temporal features using a "Transformer" for a higher-level BFN construction, and process it with a following graph convolutional network, and 2) apply an attention-based multiple instance learning strategy to emphasize the disease-affected subnetworks to further enhance the diagnosis performance and interpretability. Experiments demonstrate higher effectiveness of our method than compared methods in the diagnosis of early mild cognitive impairment. More importantly, our method is capable of localizing crucial brain subnetworks during the diagnosis, providing insights into the pathogenic source of mild cognitive impairment.
+ER  - 
+
+TY  - CONF
+TI  - A Bayesian Graph Neural Network for EEG Classification — A Win-Win on Performance and Interpretability
+T2  - 2023 IEEE 39th International Conference on Data Engineering (ICDE)
+SP  - 2126
+EP  - 2139
+AU  - J. Wang
+AU  - X. Ning
+AU  - W. Shi
+AU  - Y. Lin
+PY  - 2023
+KW  - Analytical models
+KW  - Neuroscience
+KW  - Time series analysis
+KW  - Brain modeling
+KW  - Electroencephalography
+KW  - Physiology
+KW  - Graph neural networks
+KW  - Physiological time series mining
+KW  - bayesian deep learning
+KW  - EEG classification
+KW  - sleep stage classification
+KW  - emotion recognition
+DO  - 10.1109/ICDE55515.2023.00165
+JO  - 2023 IEEE 39th International Conference on Data Engineering (ICDE)
+IS  - 
+SN  - 2375-026X
+VO  - 
+VL  - 
+JA  - 2023 IEEE 39th International Conference on Data Engineering (ICDE)
+Y1  - 3-7 April 2023
+AB  - With the deepening of neuroscience research, data mining of brain signals is becoming an emerging topic. Among various brain signals, electroencephalography (EEG) has attracted more and more attention due to its advantages of non-invasiveness, portability, and low cost. EEG modeling and analysis play a vital role in human healthcare. Although many machine learning algorithms have been successfully applied to data mining of EEG signals, few of them achieve a win-win in classification performance and interpretability. In this paper, we propose a Bayesian graph neural network named BayesEEGNet. Considering an electrical impulse between two nodes in the brain as a Poisson process, the countless electrical impulses generated by the brain in a period are represented as an infinite number of connection probability graphs. After coupling and transforming these probability graphs, we interpret the brain’s electrical activity state as the brain’s perceptual state. Benefiting from the joint optimization of Bayesian modules and deep neural networks, our model shows superior classification performance in sleep stage classification and emotion recognition tasks. Meanwhile, our model is able to learn interpretable functional connectivity relationships between EEG channels without any prior knowledge.
+ER  - 
+
+TY  - CONF
+TI  - Data Recording for Responsible Robotics
+T2  - 2023 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)
+SP  - 103
+EP  - 109
+AU  - J. Skerlj
+AU  - M. Braun
+AU  - S. Witz
+AU  - S. Breuer
+AU  - M. Bak
+AU  - S. Scholz
+AU  - A. Naceri
+AU  - R. Müller
+AU  - S. Haddadin
+AU  - I. Eisenberger
+PY  - 2023
+KW  - Ethics
+KW  - Law
+KW  - Data visualization
+KW  - Humanoid robots
+KW  - Human-robot interaction
+KW  - Medical services
+KW  - Stakeholders
+KW  - Legal and ethical regulations
+KW  - HRI and social robotics
+KW  - medical and healthcare robotics
+DO  - 10.1109/ARSO56563.2023.10187414
+JO  - 2023 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)
+IS  - 
+SN  - 2162-7576
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)
+Y1  - 5-7 June 2023
+AB  - The last decades have seen continuous attempts to advance the application of robotics and artificial intelligence (AI) research in several areas such as healthcare environments. However, using (semi)autonomous robots in healthcare also poses risks that need to be addressed throughout the systems' lifecycle. In this work, we present our version of a data recorder, as the output of an interdisciplinary research collaboration that addresses relevant social, ethical, legal, and technical aspects of advanced robotics in healthcare. We use social science insights from interviews and ethnographic fieldwork with relevant stakeholders as well as ethical and legal analyses to derive and implement four technical requirements for a data recorder to enhance accountability and transparency of a service humanoid robot, GARMI, assisting in healthcare. We present a tool to log and visualize data from human-robot interactions as a means of including non-expert users and other relevant stakeholders in accountability relationships, which also helps us to enhance the transparency of advanced robotics in general and to fulfill the examined requirements of the Medical Device Regulation (MDR) and the General Data Protection Regulation (GDPR).
+ER  - 
+
+TY  - CONF
+TI  - Advancements in Cancer Disease Prediction Using Modified Multi Model Deep Neural Networks
+T2  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+SP  - 1
+EP  - 6
+AU  - D. Balakrishnan
+AU  - U. Mariappan
+AU  - S. S. Reddy
+AU  - V. Nikitha
+AU  - S. Likitha
+AU  - S. Sirisha
+PY  - 2023
+KW  - Training
+KW  - Artificial neural networks
+KW  - Medical services
+KW  - Transforms
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Mathematical models
+KW  - Cancer prediction
+KW  - deep neural network
+KW  - multi model
+KW  - integrated features
+KW  - applied environment
+DO  - 10.1109/ASIANCON58793.2023.10270257
+JO  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+Y1  - 25-27 Aug. 2023
+AB  - Cancer disease prediction is a critical task in healthcare that can significantly impact patient outcomes. This abstract presents a multimodal deep neural network (DNN) approach for cancer disease prediction, implemented in MATLAB. The proposed model leverages the power of DNNs to handle diverse types of data, such as medical images, genomic profiles, clinical records, and patient demographics. By integrating these multimodal data sources, the model aims to capture a comprehensive view of the disease, incorporating both genetic and phenotypic information. The MATLAB implementation allows for efficient data processing, model training, and evaluation. The performance of the proposed multimodal DNN model is assessed using benchmark datasets, and the results demonstrate its potential in accurate cancer disease prediction. Further research is needed to explore the interpretability of the model's predictions and expand its application to real-world clinical settings. Overall, this work contributes to advancing the field of cancer diagnostics by utilizing a multimodal DNN approach implemented in MATLAB for improved disease prediction.
+ER  - 
+
+TY  - JOUR
+TI  - Multi-Aspect Deep Active Attention Network for Healthcare Explainable Adoption
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 1709
+EP  - 1717
+AU  - U. Ahmed
+AU  - J. C. -W. Lin
+AU  - G. Srivastava
+PY  - 2023
+KW  - Depression
+KW  - Social networking (online)
+KW  - Neural networks
+KW  - Training
+KW  - Media
+KW  - Medical diagnostic imaging
+KW  - Deep learning
+KW  - Internet-delivered interventions
+KW  - explain- ability
+KW  - natural language processing
+KW  - adaptive treatments
+KW  - word sense identification
+DO  - 10.1109/JBHI.2022.3204633
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 4
+SN  - 2168-2208
+VO  - 27
+VL  - 27
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - April 2023
+AB  - Depression is a serious illness that significantly affects the lives of those affected. Recent studies have looked at the possibility of detecting and diagnosing this mental disorder using user-generated data from various forms of online media. Therefore, we address the issue of detecting sadness in social media by focusing on terms in personal remarks. To overcome the limitations in classifying depression texts, this study aims to develop attention networks that use covert levels of self-attention. Since nodes/words can express properties/emotions of their neighbors, this paper naturally assigns each node in a neighborhood a weight without performing costly matrix operations such as similarity or network architecture knowledge. This paper extends the emotion lexicon by using hypernyms. For this reason, our method is superior to the performance of other designs. According to the results of our experiments, the emotion lexicon combined with an attention network achieves an ROC of 0.87 while maintaining its interpretability and transparency level. Subsequently, the learned embedding is used to display the contribution of each symptom to the activated word, and the psychiatrist is polled to obtain his qualitative agreement with this representation. By using unlabeled forum language, the method increases the rate at which depression symptoms can be identified from information in Internet forums.
+ER  - 
+
+TY  - JOUR
+TI  - A Multilayer Framework for Online Metric Learning
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+SP  - 6701
+EP  - 6713
+AU  - W. Li
+AU  - Y. Liu
+AU  - J. Huo
+AU  - Y. Shi
+AU  - Y. Gao
+AU  - L. Wang
+AU  - J. Luo
+PY  - 2023
+KW  - Measurement
+KW  - Extraterrestrial measurements
+KW  - Nonhomogeneous media
+KW  - Software algorithms
+KW  - Software
+KW  - Data models
+KW  - Training
+KW  - Interpretability
+KW  - metric layer
+KW  - nonlinearity
+KW  - online metric learning (OML)
+KW  - passive-aggressive (PA) strategy
+DO  - 10.1109/TNNLS.2022.3213511
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+IS  - 10
+SN  - 2162-2388
+VO  - 34
+VL  - 34
+JA  - IEEE Transactions on Neural Networks and Learning Systems
+Y1  - Oct. 2023
+AB  - Online metric learning (OML) has been widely applied in classification and retrieval. It can automatically learn a suitable metric from data by restricting similar instances to be separated from dissimilar instances with a given margin. However, the existing OML algorithms have limited performance in real-world classifications, especially, when data distributions are complex. To this end, this article proposes a multilayer framework for OML to capture the nonlinear similarities among instances. Different from the traditional OML, which can only learn one metric space, the proposed multilayer OML (MLOML) takes an OML algorithm as a metric layer and learns multiple hierarchical metric spaces, where each metric layer follows a nonlinear layer for the complicated data distribution. Moreover, the forward propagation (FP) strategy and backward propagation (BP) strategy are employed to train the hierarchical metric layers. To build a metric layer of the proposed MLOML, a new Mahalanobis-based OML (MOML) algorithm is presented based on the passive-aggressive strategy and one-pass triplet construction strategy. Furthermore, in a progressively and nonlinearly learning way, MLOML has a stronger learning ability than traditional OML in the case of limited available training data. To make the learning process more explainable and theoretically guaranteed, theoretical analysis is provided. The proposed MLOML enjoys several nice properties, indeed learns a metric progressively, and performs better on the benchmark datasets. Extensive experiments with different settings have been conducted to verify these properties of the proposed MLOML.
+ER  - 
+
+TY  - CONF
+TI  - A Web DApp for Efficient Organ Donation Management System: Leveraging Centralized Wallet Architecture as Backend
+T2  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+SP  - 666
+EP  - 672
+AU  - G. Ajay
+AU  - A. Lokesh
+AU  - D. Sravanasandhya
+AU  - G. Kousalya
+AU  - D. D. Teja
+AU  - T. Daniya
+PY  - 2023
+KW  - Privacy
+KW  - Costs
+KW  - Smart contracts
+KW  - Decentralized applications
+KW  - Organ transplantation
+KW  - Blockchains
+KW  - Service-oriented architecture
+KW  - Organ
+KW  - Interplanetary File System
+KW  - Blockchain
+KW  - traceability
+KW  - transparency
+KW  - Decentralization
+DO  - 10.1109/ICAAIC56838.2023.10141438
+JO  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+Y1  - 4-6 May 2023
+AB  - It's hard to understand the level of urgency and desperation someone feels when their loved one needs an organ transplant but they can't find a suitable donor. Organ donation is a critical procedure that can potentially save lives, but there are several obstacles that make it challenging, such as a shortage of donors and complicated systems of third-party intermediaries. Blockchain technology offers many features, including decentralization, transparency, and privacy that make it an important tool for digital automation. The proposed system is a decentralized web-based application that offers an effective platform for hospitals, organ recipients and donors to connect. The architecture allows users to interact with a smart contract on the blockchain without having to manage their own keys, while still maintaining the security and transparency advantages of using a decentralised system. As a result, it can offer a good balance between decentralisation and convenience. The use of and off-chain databases will improve data security, accessibility, and overall efficiency. Using all of these features can solve several Interplanetary File System healthcare sector problems such as eliminating the complicated network of intermediaries and improving transaction traceability. Moreover, this solution is cost-effective and can help patients avoid the expensive cost of transplantation.
+ER  - 
+
+TY  - CONF
+TI  - Automated Detection of Atrial Fibrillation from ECG Signals with CNNs
+T2  - 2023 International Conference on Artificial Intelligence for Innovations in Healthcare Industries (ICAIIHI)
+SP  - 1
+EP  - 6
+AU  - P. Behera
+AU  - W. Lukose
+AU  - S. Jain
+AU  - J. Maiti
+AU  - M. Nayak
+AU  - A. K. Sharma
+PY  - 2023
+KW  - Industries
+KW  - Technological innovation
+KW  - Sensitivity
+KW  - Atrial fibrillation
+KW  - Medical services
+KW  - Electrocardiography
+KW  - Data models
+KW  - Atrial Fibrillation
+KW  - ECG
+KW  - Convolutional Neural Networks
+KW  - Early Diagnosis
+KW  - Wearable Devices
+KW  - Data Diversity
+DO  - 10.1109/ICAIIHI57871.2023.10489193
+JO  - 2023 International Conference on Artificial Intelligence for Innovations in Healthcare Industries (ICAIIHI)
+IS  - 
+SN  - 
+VO  - 1
+VL  - 1
+JA  - 2023 International Conference on Artificial Intelligence for Innovations in Healthcare Industries (ICAIIHI)
+Y1  - 29-30 Dec. 2023
+AB  - This study investigates the automated identification of atrial fibrillation (AF) making use of electrocardiogram (ECG) data and convolutional neural networks (CNNs). The work achieves extraordinary sensitivity as well as specificity, which are crucial for differentiating AF from regular sinus beats, through thorough data preparation, curation, and CNN architecture optimization. These results offer great hope for early AF identification, which is essential for avoiding cardiovascular consequences. The requirement for extensive, diverse datasets and real-world clinical validation is highlighted by ongoing issues with data variety as well as model generalization. In order to ensure widespread use, the future path calls for the integration of wearable technology, interpretability in CNN models, along with regulatory compliance. In conclusion, this study represents a significant improvement in cardiovascular healthcare technology.
+ER  - 
+
+TY  - JOUR
+TI  - Improving Alzheimer's Disease Diagnosis With Multi-Modal PET Embedding Features by a 3D Multi-Task MLP-Mixer Neural Network
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 4040
+EP  - 4051
+AU  - Z. -C. Zhang
+AU  - X. Zhao
+AU  - G. Dong
+AU  - X. -M. Zhao
+PY  - 2023
+KW  - Mixers
+KW  - Alzheimer's disease
+KW  - Imaging
+KW  - Positron emission tomography
+KW  - Databases
+KW  - Predictive models
+KW  - Convolutional neural networks
+KW  - Alzheimer's disease
+KW  - positron emission tomography
+KW  - magnetic resonance imaging
+KW  - incomplete multi-modal data
+KW  - multi-layer perceptron mixer
+DO  - 10.1109/JBHI.2023.3280823
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 8
+SN  - 2168-2208
+VO  - 27
+VL  - 27
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Aug. 2023
+AB  - Positron emission tomography (PET) with fluorodeoxyglucose (FDG) or florbetapir (AV45) has been proved effective in the diagnosis of Alzheimer's disease. However, the expensive and radioactive nature of PET has limited its application. Here, employing multi-layer perceptron mixer architecture, we present a deep learning model, namely 3-dimensional multi-task multi-layer perceptron mixer, for simultaneously predicting the standardized uptake value ratios (SUVRs) for FDG-PET and AV45-PET from the cheap and widely used structural magnetic resonance imaging data, and the model can be further used for Alzheimer's disease diagnosis based on embedding features derived from SUVR prediction. Experiment results demonstrate the high prediction accuracy of the proposed method for FDG/AV45-PET SUVRs, where we achieved Pearson's correlation coefficients of 0.66 and 0.61 respectively between the estimated and actual SUVR and the estimated SUVRs also show high sensitivity and distinct longitudinal patterns for different disease status. By taking into account PET embedding features, the proposed method outperforms other competing methods on five independent datasets in the diagnosis of Alzheimer's disease and discriminating between stable and progressive mild cognitive impairments, achieving the area under receiver operating characteristic curves of 0.968 and 0.776 respectively on ADNI dataset, and generalizes better to other external datasets. Moreover, the top-weighted patches extracted from the trained model involve important brain regions related to Alzheimer's disease, suggesting good biological interpretability of our proposed method.”
+ER  - 
+
+TY  - CONF
+TI  - Interpretable and robust hospital readmission predictions from Electronic Health Records
+T2  - 2023 IEEE International Conference on Big Data (BigData)
+SP  - 3679
+EP  - 3687
+AU  - H. Calero-Díaz
+AU  - R. A. Hamad
+AU  - C. Atallah
+AU  - J. Casement
+AU  - D. Canoy
+AU  - N. J. Reynolds
+AU  - M. Barnes
+AU  - P. Missier
+PY  - 2023
+KW  - Economics
+KW  - Hospitals
+KW  - Biological system modeling
+KW  - Soft sensors
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Classification algorithms
+KW  - Hospital readmission
+KW  - Feature Selection
+KW  - Imbalance correction
+KW  - Classification
+KW  - Interpretability
+DO  - 10.1109/BigData59044.2023.10386820
+JO  - 2023 IEEE International Conference on Big Data (BigData)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Big Data (BigData)
+Y1  - 15-18 Dec. 2023
+AB  - Rates of Hospital Readmission (HR), defined as unplanned readmission within 30 days of discharge, have been increasing over the years, and impose an economic burden on healthcare services worldwide. Despite recent research into predicting HR, few models provide sufficient discriminative ability. Three main drawbacks can be identified in the published literature: (i) imbalance in the target classes (readmitted or not), (ii) not including demographic and lifestyle predictors, and (iii) lack of interpretability of the models. In this work, we address these three points by evaluating class balancing techniques, performing a feature selection process including demographic and lifestyle features, and adding interpretability through a combination of SHapley Additive exPlanations (SHAP) and Accumulated Local Effects (ALE) post hoc methods. Our best classifier for this binary outcome achieves a UAC of 0.849 using a selection of 1296 features, extracted from patients’ Electronic Health Records (EHRs) and from their sociodemographics profiles. Using SHAP and ALE, we have established the importance of age, the number of long-term conditions, and the duration of the first admission as top predictors. In addition, we show through an ablation study that demographic and lifestyle features provide even better predictive capabilities than other features, suggesting their relevance toward HR.
+ER  - 
+
+TY  - CONF
+TI  - Ethical AI Conundrum: Accountability and Liability of AI decision making
+T2  - 2023 IEEE Technology & Engineering Management Conference - Asia Pacific (TEMSCON-ASPAC)
+SP  - 1
+EP  - 6
+AU  - K. Manoj Kumar
+AU  - M. Madhu
+AU  - B. Pratyaksha
+AU  - S. Sushmita
+AU  - G. S. Javed
+PY  - 2023
+KW  - Industries
+KW  - Ethics
+KW  - Technological innovation
+KW  - Navigation
+KW  - Heuristic algorithms
+KW  - Medical services
+KW  - Stakeholders
+KW  - Ethics
+KW  - AI
+KW  - ethical AI
+KW  - decisions making
+KW  - accountability
+KW  - liability
+KW  - regulation
+DO  - 10.1109/TEMSCON-ASPAC59527.2023.10531445
+JO  - 2023 IEEE Technology & Engineering Management Conference - Asia Pacific (TEMSCON-ASPAC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE Technology & Engineering Management Conference - Asia Pacific (TEMSCON-ASPAC)
+Y1  - 14-16 Dec. 2023
+AB  - The convergence of AI and various sectors in India’s dynamic technological landscape presents both opportunities and challenges. The journey towards AI accountability and liability requires tailored approaches for diverse domains, such as AI-assisted healthcare, autonomous vehicle trials, e-commerce recommendations, data privacy concerns, and algorithmic banking decisions. Transparency, fairness, and human oversight are essential considerations across all domains.Pioneering solutions include the development of comprehensive guidelines, explainable AI models, user education, appeals mechanisms, and ethical safeguards. As India navigates this transformative era, it aspires to strike a harmonious balance between innovation and responsibility. By fostering collaboration between stakeholders, including government, industry, and citizens, India seeks to ensure that AI innovations align with ethical standards, empower individuals, and contribute to a sustainable and accountable technological future.
+ER  - 
+
+TY  - JOUR
+TI  - Interpretable by Design: Learning Predictors by Composing Interpretable Queries
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+SP  - 7430
+EP  - 7443
+AU  - A. Chattopadhyay
+AU  - S. Slocum
+AU  - B. D. Haeffele
+AU  - R. Vidal
+AU  - D. Geman
+PY  - 2023
+KW  - Birds
+KW  - Task analysis
+KW  - Predictive models
+KW  - Image color analysis
+KW  - Computational modeling
+KW  - Vegetation
+KW  - Shape
+KW  - Explainable AI
+KW  - interpretable ML
+KW  - computer vision
+KW  - generative models
+KW  - information theory
+DO  - 10.1109/TPAMI.2022.3225162
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+IS  - 6
+SN  - 1939-3539
+VO  - 45
+VL  - 45
+JA  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+Y1  - 1 June 2023
+AB  - There is a growing concern about typically opaque decision-making with high-performance machine learning algorithms. Providing an explanation of the reasoning process in domain-specific terms can be crucial for adoption in risk-sensitive domains such as healthcare. We argue that machine learning algorithms should be interpretable by design and that the language in which these interpretations are expressed should be domain- and task-dependent. Consequently, we base our model's prediction on a family of user-defined and task-specific binary functions of the data, each having a clear interpretation to the end-user. We then minimize the expected number of queries needed for accurate prediction on any given input. As the solution is generally intractable, following prior work, we choose the queries sequentially based on information gain. However, in contrast to previous work, we need not assume the queries are conditionally independent. Instead, we leverage a stochastic generative model (VAE) and an MCMC algorithm (Unadjusted Langevin) to select the most informative query about the input based on previous query-answers. This enables the online determination of a query chain of whatever depth is required to resolve prediction ambiguities. Finally, experiments on vision and NLP tasks demonstrate the efficacy of our approach and its superiority over post-hoc explanations.
+ER  - 
+
+TY  - JOUR
+TI  - fMRI-Based Brain Disease Diagnosis: A Graph Network Approach
+T2  - IEEE Transactions on Medical Robotics and Bionics
+SP  - 312
+EP  - 322
+AU  - W. Tong
+AU  - Y. -X. Li
+AU  - X. -Y. Zhao
+AU  - Q. -Q. Chen
+AU  - Y. -B. Gao
+AU  - P. Li
+AU  - E. Q. Wu
+PY  - 2023
+KW  - Brain modeling
+KW  - Functional magnetic resonance imaging
+KW  - Medical diagnosis
+KW  - Convolution
+KW  - Task analysis
+KW  - Sparse matrices
+KW  - Correlation coefficient
+KW  - Brain functional network
+KW  - functional magnetic resonance imaging
+KW  - brain disease diagnosis
+KW  - graph-based model
+DO  - 10.1109/TMRB.2023.3270481
+JO  - IEEE Transactions on Medical Robotics and Bionics
+IS  - 2
+SN  - 2576-3202
+VO  - 5
+VL  - 5
+JA  - IEEE Transactions on Medical Robotics and Bionics
+Y1  - May 2023
+AB  - As a non-invasive brain imaging technology, functional magnetic resonance imaging (fMRI) provides a basic tool for brain functional network modeling and brain disease diagnosis. Problems, such as large number of parameters, low training efficiency, and poor interpretability, are encountered in mainstream models because of the high complexity of fMRI and brain networks. To solve these problems, a novel structure feature combined graph neural network (SFC-GNN) with a low number of parameters is proposed. In particular, SFC-GNN is composed of 1) the graph convolution layer of the brain region perception and 2) the node pooling layer of the graph structure feature (GSF). It also receives the sparse brain graph modeled by each subject’s fMRI as input. Especially, the GSF layer can select brain regions that are important for classification, thereby localizing all active regions related to brain disease. Moreover, a group network is constructed according to the correlation among subjects, and SFC-GNN can be extended further to a node classification model to achieve better diagnosis performance. The proposed method has been validated on the ABIDE and ADNI datasets, thereby showing the effectiveness of our proposed method in various experiments.
+ER  - 
+
+TY  - CONF
+TI  - An Analysis of Blockchain and NFT Technologies and their Drawbacks
+T2  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+SP  - 1251
+EP  - 1259
+AU  - V. Tanwar
+AU  - K. R. Ramkumar
+PY  - 2023
+KW  - Privacy
+KW  - Banking
+KW  - Medical services
+KW  - Companies
+KW  - Agriculture
+KW  - Nonfungible tokens
+KW  - Security
+KW  - Blockchain
+KW  - Non-Fungible Token
+KW  - disadvantage
+KW  - Internet of thing
+KW  - healthcare banking
+KW  - music
+KW  - food
+KW  - supply
+DO  - 10.1109/ICAAIC56838.2023.10140828
+JO  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+Y1  - 4-6 May 2023
+AB  - Due to its qualities that offer unbreakable security and global accessibility, blockchain has grown to become one of the most widely used technologies today. Blockchain technology is revolutionizing the financial and banking sectors, but it isn't only the financial sector; the majority of companies that used online payment systems, faced an issue with transparency or wished to do away with the middleman and also wish to incorporate it. NFT is a further emerging technology that is seen as a subset of the blockchain (NFT stands for the non-fungible token). NFT is merely a digital token that is awarded to any original creation, such as a painting or a song and or a tweet. This study examines the drawbacks of blockchain and NFT as they are faced by several industries, including IoT, banking, music, agriculture, food and supplies, and healthcare.
+ER  - 
+
+TY  - CONF
+TI  - A Secure BlockChain Based Application For Health Records
+T2  - 2023 2nd International Conference on Emerging Trends in Electrical, Control, and Telecommunication Engineering (ETECTE)
+SP  - 1
+EP  - 6
+AU  - S. Fatima
+AU  - S. Hussain
+AU  - N. Shahzadi
+AU  - B. U. Din
+AU  - W. Sajjad
+AU  - R. Ali
+PY  - 2023
+KW  - Industries
+KW  - Privacy
+KW  - Supply chain management
+KW  - Phishing
+KW  - Smart contracts
+KW  - Medical services
+KW  - Software
+KW  - blockchain
+KW  - decentralized
+KW  - medical certificates
+KW  - medical records
+KW  - Ethereum
+DO  - 10.1109/ETECTE59617.2023.10396794
+JO  - 2023 2nd International Conference on Emerging Trends in Electrical, Control, and Telecommunication Engineering (ETECTE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 2nd International Conference on Emerging Trends in Electrical, Control, and Telecommunication Engineering (ETECTE)
+Y1  - 27-29 Nov. 2023
+AB  - In today’s world, blockchain technology has become a cutting-edge solution for safeguarding users’ sensitive and private information. This technology serves a crucial role in various fields, including artificial intelligence, supply chain management, cloud computing, and notably, the healthcare sector. In healthcare, blockchain offers several advantages, such as confidentiality, decentralization, security, and privacy. It has a significant impact on the industry, especially with the increasing use of Internet of Things (IoT) devices that connect with healthcare systems. These devices communicate with healthcare software, bridging the gap between healthcare and information technology. The introduction of blockchain-based IoT systems has notably improved security, privacy, transparency, and overall efficiency in healthcare. This, in turn, has created better business opportunities in the industry. Traditional healthcare systems have long grappled with security and privacy issues, including challenges like phishing, identity theft, and other security breaches. To address these concerns, a secure blockchain-based application has been developed. This application acts as a bridge between the core blockchain network and application entities, including hospitals, patients, doctors, and IoT devices. Its objective is to create and verify medical certificates. In addition to this, this application ensures various security features, including maintaining confidentiality, authenticating users, and implementing access controls. It achieves this through the use of smart contracts, which are self-executing contracts with predefined rules. Through comparative and performance analysis, it becomes evident that this proposed solution offers a more effective approach compared to existing methods.
+ER  - 
+
+TY  - CONF
+TI  - Digital Transformation: AI-Powered Bot Solutions and Automation for Customer Services
+T2  - 2023 International Conference on Digital Applications, Transformation & Economy (ICDATE)
+SP  - 1
+EP  - 7
+AU  - M. Al-Mekhlal
+AU  - M. Al-Buraik
+AU  - M. Al-Lubli
+PY  - 2023
+KW  - Industries
+KW  - Automation
+KW  - Customer services
+KW  - Digital transformation
+KW  - Virtual assistants
+KW  - Organizations
+KW  - Chatbots
+KW  - Digital Transformation
+KW  - AI-Powered Bot
+KW  - EmailBot
+KW  - Cloud
+KW  - Customer Service Automation
+DO  - 10.1109/ICDATE58146.2023.10248458
+JO  - 2023 International Conference on Digital Applications, Transformation & Economy (ICDATE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Digital Applications, Transformation & Economy (ICDATE)
+Y1  - 14-16 July 2023
+AB  - Recent years have witnessed a growth in the adoption of AI-Powered bot solutions in many industries, including healthcare, education, manufacturing, and energy. The drive behind this adoption is to increase productivity and improve customer engagement by enhancing the communication between customers and customer service support. These solutions are at the heart of Digital Transformation, which is focused on introducing new ways for value creation, automation, interaction, transparency, and control. Furthermore, delivers customer benefits: convenience, relevance, experience, empowerment, and savings. This drive has led the IT industry to deliver digital systems for providing customer services aimed at increased customer satisfaction. Virtual Assistant agents are used by organizations to fulfill different tasks related to customer services for solving problems and providing recommendations. Among AI-Powered bot solutions, an EmailBot is an NLP-based tool used to automate routine Email conversations and enhance positive interaction with customers. This paper explores the ability to implement an EmailBot solution on a private cloud environment to automate frequently performed tasks such as application installation and upgrades, how-to, obtaining application links, permission requests, and inquiries related to request statuses. An evaluation conducted compared the automated solution capabilities of infrastructure high-availability and with traditional customer service support that relied wholly on humans for defined tasks. According to resulting measures, the automated model outperformed the traditional model in terms of response time and accuracy, with drastic improvement in the former and slight improvement in the latter.
+ER  - 
+
+TY  - CONF
+TI  - Supply Chain Management Using Blockchain and IoT in Pharmaceutical Industries
+T2  - 2023 Innovations in Power and Advanced Computing Technologies (i-PACT)
+SP  - 1
+EP  - 8
+AU  - M. Zayd
+AU  - A. Johari
+AU  - M. Manimozhi
+PY  - 2023
+KW  - Industries
+KW  - Temperature sensors
+KW  - Supply chains
+KW  - Blockchains
+KW  - Internet of Things
+KW  - Security
+KW  - Pharmaceuticals
+KW  - blockchain
+KW  - Internet of Things
+KW  - Supply Chain
+KW  - Pharmaceutical Industry
+DO  - 10.1109/i-PACT58649.2023.10434779
+JO  - 2023 Innovations in Power and Advanced Computing Technologies (i-PACT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 Innovations in Power and Advanced Computing Technologies (i-PACT)
+Y1  - 8-10 Dec. 2023
+AB  - The pharmaceutical industry is very important for the functioning of modern society with its huge impact on the economy. The pharmaceutical industry has contributed to increasing life expectancy, improving patient conditions, and providing the necessary medicines and treatments to millions of people around the world. The blockchain and IoT based pharmaceutical supply chain project is an initiative that aims to improve the existing pharmaceutical supply chain models by using cutting-edge technologies such as IoT and blockchain. The system developed will collect and monitor real-time data on pharmaceutical products such as temperature and humidity to ensure the condition of products. To enhance the transparency and security of the pharmaceutical supply chain blockchain which is an immutable and decentralized ledger-based system in combination with IoT to ensure the integrity of the data gathered using IoT devices such as sensors are used. Smart contracts are used to automate supply chain processes. The project faces constraints such as cost, integration with current systems, trade-offs between security and performance, decentralization, and scalability. By taking constraints and other factors into account, we aim to deliver a project that will improve supply chain outcomes.
+ER  - 
+
+TY  - CONF
+TI  - Traceability of Pharmaceutical Products using Blockchain
+T2  - 2023 International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+SP  - 1
+EP  - 6
+AU  - M. M. Rani
+AU  - A. Jawahar
+PY  - 2023
+KW  - Industries
+KW  - Smart contracts
+KW  - Production
+KW  - Non-repudiation
+KW  - Decentralized applications
+KW  - Real-time systems
+KW  - Blockchains
+KW  - Blockchain
+KW  - Dapp
+KW  - EVM
+KW  - Traceability
+DO  - 10.1109/RMKMATE59243.2023.10369971
+JO  - 2023 International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+Y1  - 1-2 Nov. 2023
+AB  - Traceability has emerged as a prime requirement. It builds an authentic relation between customers and manufacturers in terms of quality and standards of the product by tracing the origin. The traceability is the journey from the production unit to the end user. To achieve this kind of traceability and transparency for pharmaceutical products in healthcare industry implementing Block chain technology would be a good addition. It protects the information without any unauthorized changes. Blockchain ensures cryptographically each block is protected, which makes it difficult or impossible to change, hack or cheat by altering it. This paper proposes a decentralized application (Dapp) over Ethereum blockchain. The Ethereum blockchain runs the decentralized application without any third-party interference. The Dapp for a pharmaceutical industry provides a peer-to-peer relationship between the manufacture and the customer to purchase the pharmaceutical products and trace its origin and its journey to the customer which helps to avoid counterfeit products.
+ER  - 
+
+TY  - JOUR
+TI  - Congestive Heart Failure Detection From ECG Signals Using Deep Residual Neural Network
+T2  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+SP  - 3008
+EP  - 3018
+AU  - E. Prabhakararao
+AU  - S. Dandapat
+PY  - 2023
+KW  - Electrocardiography
+KW  - Feature extraction
+KW  - Recurrent neural networks
+KW  - Heart beat
+KW  - Computer architecture
+KW  - Logic gates
+KW  - Training
+KW  - Congestive heart failure (CHF)
+KW  - deep neural networks
+KW  - electrocardiogram (ECG)
+KW  - transparent diagnostic system
+DO  - 10.1109/TSMC.2022.3221843
+JO  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+IS  - 5
+SN  - 2168-2232
+VO  - 53
+VL  - 53
+JA  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+Y1  - May 2023
+AB  - The early and accurate detection of congestive heart failure (CHF) using an electrocardiogram (ECG) is of great significance for improving the survival rate of patients. Existing approaches show limited detection accuracy as they fail to capture the temporal ECG dynamics. Also, these methods lack model transparency and are often difficult to interpret. This article proposes a novel end-to-end diagnostic attention-based deep residual recurrent neural network (DA-DRRNet) that effectively captures the temporal dynamics and extracts high-level attentive representations for accurate CHF detection. Specifically, we first employ a recurrent neural network (RNN) layer to encode the temporal dynamics from the raw ECG beats. Then, multilayered RNNs with residual connections are incorporated to extract high-level feature representations hierarchically. The residual connections allow gradients in deep RNN to propagate effectively, thereby improving the network’s representation ability. Finally, an attention module identifies the hidden vectors corresponding to the diagnostically prominent ECG characteristics to form an attentive representation for improved CHF detection. Using ECG signals from the three publicly available datasets (BIDMC-CHF, PTBDB, and MIT-BIH NSRDB), the proposed method achieves an impressive accuracy of 98.57% and nearly 100% for beat-level and 24-h record-level diagnosis, respectively. Notably, the analysis of learned attention weights demonstrates that the proposed model focuses on the clinically relevant ECG features that characterize CHF. This model transparency and improved detection results advance research in this field and provide a reliable and transparent diagnostic system for CHF analysis.
+ER  - 
+
+TY  - CONF
+TI  - Evaluation of CNN Models for Accurate Classification of COVID-19, Pneumonia, Tuberculosis in Chest X-ray Images
+T2  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+SP  - 1
+EP  - 6
+AU  - Shivanshu
+AU  - R. Bisht
+AU  - K. Mittal
+AU  - G. P. M. S
+PY  - 2023
+KW  - COVID-19
+KW  - Training
+KW  - Adaptation models
+KW  - Tuberculosis
+KW  - Pulmonary diseases
+KW  - Computational modeling
+KW  - Convolutional neural networks
+KW  - pCNN
+KW  - chest X-ray
+KW  - COVID-19
+KW  - pneumonia
+KW  - tuberculosis
+KW  - DenseNet121
+KW  - ResNet50
+KW  - VGG16
+DO  - 10.1109/ASIANCON58793.2023.10270526
+JO  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 3rd Asian Conference on Innovation in Technology (ASIANCON)
+Y1  - 25-27 Aug. 2023
+AB  - This study presents a study on the application of convolutional neural networks (CNNs) for the classification of pulmonary diseases in chest X-ray images. The study utilized DenseNet121, ResNet50, VGG16, and a custom CNN architecture to accurately predict the presence of COVID-19, pneumonia and tuberculosis. Datasets sourced from publicly available repositories were used, encompassing diverse variations in patient demographics, imaging techniques, and manifestations of pulmonary diseases. The CNN models were trained on high-performance computing systems using GPUs, with adaptive learning rate strategies for optimization. Data augmentation techniques, specifically rotation, were employed during training to enhance model performance and mitigate overfitting. The trained CNN models achieved promising results, demonstrating high accuracy in classifying pulmonary diseases in chest X-ray images. Evaluation and validation using F1-score, recall, and recall metrics for each disease category confirmed the models accuracy and reliability. These models serve as valuable tools for assisting radiologists and healthcare professionals in diagnosing pulmonary diseases. Although this study did not include visualizations of learned features, future work could explore interpretability techniques such as gradient-based class activation maps. In conclusion, this study showcases the effectiveness of CNN models in automating the classification of pulmonary diseases in chest X-ray images, offering potential for more efficient and accurate patient care. Keywords: pCNN, chest X-ray, COVID-19, pneumonia, tuberculosis, DenseNet121, ResNet50, VGG16
+ER  - 
+
+TY  - CONF
+TI  - A Case on Decentralised Use of Blockchains
+T2  - 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)
+SP  - 1864
+EP  - 1868
+AU  - A. Sharma
+AU  - M. R
+PY  - 2023
+KW  - Protocols
+KW  - Government
+KW  - Education
+KW  - Finance
+KW  - Transforms
+KW  - Medical services
+KW  - Blockchains
+KW  - Cryptocurrency
+KW  - Machine Learning
+KW  - Decentralized Utilization
+KW  - blockchain
+KW  - etherium
+DO  - 10.1109/ICACITE57410.2023.10182485
+JO  - 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE)
+Y1  - 12-13 May 2023
+AB  - In recent decades, the technological landscape has experienced a significant transformation, necessitating the development of more robust and effective digital security measures. This scenario is a prevalent application of blockchain technology. The technology facilitates peer-to-peer resource exchanges without the need for an organised authority to oversee and manage the process, utilising a mesh topology. The system operates through the integration of multiple techniques such as encryption, validation protocols, and user verification. The aforementioned solutions facilitate the establishment of a system that enables facile documentation of role in decision-making, thereby affording an additional stratum of protection. The topic at hand pertains to the protective or disclosing attribute. Cryptocurrencies have significantly altered the perception of corporate operations with respect to candour and decentralised management. Blockchain technology has not only laid the groundwork for the cryptocurrency sector, but also holds the potential to transform various sectors such as healthcare, finance, government aid, and education. Its impact on global economics has been significant. The aim of this study is to investigate the topology of the bitcoin protocol, including its properties such as anonymity, concealment, and transparency. Additionally, this research will examine the various fields in which blockchain technology can be applied to address contemporary issues.
+ER  - 
+
+TY  - JOUR
+TI  - Data Privacy Threat Modelling for Autonomous Systems: A Survey From the GDPR's Perspective
+T2  - IEEE Transactions on Big Data
+SP  - 388
+EP  - 414
+AU  - N. Azam
+AU  - L. Michala
+AU  - S. Ansari
+AU  - N. B. Truong
+PY  - 2023
+KW  - Data privacy
+KW  - Data models
+KW  - Threat modeling
+KW  - Security
+KW  - Analytical models
+KW  - Autonomous systems
+KW  - General Data Protection Regulation
+KW  - Autonomous systems
+KW  - data privacy
+KW  - general data protection regulation
+KW  - GDPR
+KW  - threat modelling technique
+DO  - 10.1109/TBDATA.2022.3227336
+JO  - IEEE Transactions on Big Data
+IS  - 2
+SN  - 2332-7790
+VO  - 9
+VL  - 9
+JA  - IEEE Transactions on Big Data
+Y1  - 1 April 2023
+AB  - Artificial Intelligence-based applications have been increasingly deployed in every field of life including smart homes, smart cities, healthcare services, and autonomous systems where personal data is collected across heterogeneous sources and processed using ”black-box” algorithms in opaque centralised servers. As a consequence, preserving the data privacy and security of these applications is of utmost importance. In this respect, a modelling technique for identifying potential data privacy threats and specifying countermeasures to mitigate the related vulnerabilities in such AI-based systems plays a significant role in preserving and securing personal data. Various threat modelling techniques have been proposed such as STRIDE, LINDDUN, and PASTA but none of them is sufficient to model the data privacy threats in autonomous systems. Furthermore, they are not designed to model compliance with data protection legislation like the EU/UK General Data Protection Regulation (GDPR), which is fundamental to protecting data owners’ privacy as well as to preventing personal data from potential privacy-related attacks. In this article, we survey the existing threat modelling techniques for data privacy threats in autonomous systems and then analyse such techniques from the viewpoint of GDPR compliance. Following the analysis, We employ STRIDE and LINDDUN in autonomous cars, a specific use-case of autonomous systems, to scrutinise the challenges and gaps of the existing techniques when modelling data privacy threats. Prospective research directions for refining data privacy threats & GDPR-compliance modelling techniques for autonomous systems are also presented.
+ER  - 
+
+TY  - CONF
+TI  - Blockchain-Based Personalized Federated Learning Leveraging the SMPC protocol
+T2  - 2023 IEEE International Carnahan Conference on Security Technology (ICCST)
+SP  - 1
+EP  - 6
+AU  - S. Dhumale
+AU  - D. Ameria
+AU  - S. Shukla
+PY  - 2023
+KW  - Data privacy
+KW  - Federated learning
+KW  - Computational modeling
+KW  - Smart contracts
+KW  - Computer architecture
+KW  - Multi-party computation
+KW  - Data models
+KW  - Consensus protocol
+KW  - InterPlanetary File System
+KW  - Testing
+KW  - Federated Learning
+KW  - Blockchain Technology
+KW  - Secure Multi-Party Communication(SMPC)
+DO  - 10.1109/ICCST59048.2023.10726855
+JO  - 2023 IEEE International Carnahan Conference on Security Technology (ICCST)
+IS  - 
+SN  - 2153-0742
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Carnahan Conference on Security Technology (ICCST)
+Y1  - 11-15 Oct. 2023
+AB  - Federated Learning (FL) has emerged as a ground-breaking strategy to address data privacy in various domains. This paper investigates the potential of integrating Blockchain with FL. Federated Learning, known for its data privacy benefits, faces hurdles such as communication overhead and data security. Blockchain, leveraging decentralization, immutability, and consensus mechanisms, fortifies Federated Learning. To address the need for personalized insights while upholding data privacy, we introduce a novel approach-Personalized Federated Learning leveraging Secure Multi-Party Computation (SMPC) Encryption. This approach enables the development of individu-alized healthcare models while preserving the confidentiality of sensitive data. To bolster trust, transparency, and security, we propose a Committee Consensus Mechanism. This mechanism enhances consensus decisions by incorporating a committee of trusted participants, and public validation ensures transparency and external verification. To further enhance security and prevent model poisoning, we employ smart contract to verify the integrity of local models, thus ensuring the overall integrity and reliability of the FL process. In the context of data storage, we advocate for the use of the InterPlanetary File System (IPFS) for tamper-proof storage, ensuring data integrity and protection against unauthorized access. These contributions collectively establish a robust foundation for secure, transparent, and personalized systems.
+ER  - 
+
+TY  - CONF
+TI  - Estimation of Fuzzy Models from Mixed Data Sets with pyFUME
+T2  - 2023 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)
+SP  - 1
+EP  - 8
+AU  - D. M. Papetti
+AU  - C. Fuchs
+AU  - V. Coelho
+AU  - U. Kaymak
+AU  - M. S. Nobile
+PY  - 2023
+KW  - Measurement
+KW  - Fuzzy sets
+KW  - Analytical models
+KW  - Fitting
+KW  - Estimation
+KW  - Medical services
+KW  - Data models
+KW  - pyFUME
+KW  - interpretable AI
+KW  - fuzzy C-prototype clustering
+KW  - fuzzy inference systems
+KW  - mixed data sets
+DO  - 10.1109/CIBCB56990.2023.10264912
+JO  - 2023 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)
+Y1  - 29-31 Aug. 2023
+AB  - pyFUME is a python package for the automatic estimation of fuzzy inference systems. Fuzzy models are considered among the most interpretable, understandable, and transparent methods that are currently available, making them ideal for the development of Interpretable AI systems. Such models are suitable for the creation of decision support systems in extremely sensitive domains where the right to an explanation is particularly important, like medicine and healthcare. pyFUME can automatically estimate the antecedent sets and the consequent parameters of a Takagi-Sugeno fuzzy model directly from data, and deliver an executable fuzzy model implemented with the Simpful python library. The main limitation of pyFUME was that it was not well-equipped to deal with purely categorical, non-ordinal variables since it used distance metrics suitable for continuous variables to cluster the data for determining the fuzzy model’s structure. In this paper, we introduce a new version of pyFUME that supports mixed (i.e., continuous and categorical) data sets, relying on a novel version of fuzzy Cprototypes clustering. Our results show that our new approach is effective, leading to better fitting with respect to models based only on continuous features. We also present alternative plotting methods tailored for categorical variables, which improves the overall interpretability of the estimated discrete fuzzy sets.
+ER  - 
+
+TY  - CONF
+TI  - Blockchain Oriented Hybrid Architecture for Crowdsource Model
+T2  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+SP  - 1454
+EP  - 1459
+AU  - M. Pachhaiammal Alias Priya
+AU  - N. S. Rajulu
+AU  - S. Jayanthi
+AU  - G. Kavitha
+PY  - 2023
+KW  - Crowdsourcing
+KW  - Privacy
+KW  - Data privacy
+KW  - Technological innovation
+KW  - Medical services
+KW  - Consensus algorithm
+KW  - Blockchains
+KW  - Hybrid framework
+KW  - Crowdsourcing
+KW  - Privacy
+KW  - Blockchain
+KW  - Big data
+DO  - 10.1109/ICSCSS57650.2023.10169151
+JO  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+Y1  - 14-16 June 2023
+AB  - Blockchain has been preserved as one of the strongest innovations to facilitate crowdsourcing as it offers new functionality, such as decentralization and transparency. Alas, certain intrinsic drawbacks of Blockchain, which become the efficiency bottleneck of crowdsourcing schemes, have hardly been tackled by the most current initiatives when implementing Blockchain to clustering. The followings are the few challenges faced by Blockchain: Scalability, the blockchain sector still face difficulties in managing a large number of users at once, Hackers and shadow dealing, Complex to understanding and adopting. In this article, to achieve decentralization and privacy protection, a modern hybrid blockchain crowd sourcing facility is proposed. With its hybrid Blockchain, doubleheaders, and double consensus algorithms, this network integrates stable connectivity between the requestors and the employees. In order to ensure the automated execution of the activities and the security of users’ privacy, smart contracts and zero awareness evidence are both used. Finally, tests are performed to validate the effectiveness of the platform’s consensus algorithm by matching it with the new one. The proposed hybrid framework proved that it is highly confidential and gives an extraordinary performance in regard to privacy. With the development of big data and medical information control systems, there is a growing interest in the sharing of electronic medical records between businesses for better medical care and advancement. On the other hand, the proliferation of large amounts of data, privacy issues, inherent business confidence issues, and complex legal requirements impede the quick development of healthcare intelligence.
+ER  - 
+
+TY  - CONF
+TI  - Automated Myocardial Infarction Screening Using Morphology-Based Electrocardiogram Biomarkers
+T2  - 2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+SP  - 1
+EP  - 4
+AU  - D. Jahnavi
+AU  - A. Dash
+AU  - N. Ghosh
+AU  - A. Patra
+PY  - 2023
+KW  - Training
+KW  - Visualization
+KW  - Wearable computers
+KW  - Electrocardiography
+KW  - Myocardium
+KW  - Feature extraction
+KW  - Recording
+DO  - 10.1109/EMBC40787.2023.10340935
+JO  - 2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+IS  - 
+SN  - 2694-0604
+VO  - 
+VL  - 
+JA  - 2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+Y1  - 24-27 July 2023
+AB  - Ischemic heart disease (IHD), a critical and dreadful cardiovascular disease, is a leading cause of death globally. The steady progress of IHD leads to an irreversible condition called myocardial infarction (MI). The detection of MI can be done by observing the altered electrocardiogram (ECG) characteristics. Often, automated ECG analysis is preferred in place of visual inspection to reduce time and ensure reliable detection even when the recording quality is not very good. This paper presents an automated approach to classify recent MI, past MI, and normal sinus rhythm (NSR) classes based on the morphological features of the ECG. In clinical practice, a standard 12-lead ECG setup is typically employed to identify MI. However, acquiring a 12-lead ECG is not always convenient. Hence, in this study, we have explored the possibility of using a minimal number of ECG leads by deriving the augmented limb leads using leads I and II. A well-known and widely used ensemble machine learning tool, the random forest (RF) classifier is trained using features extracted from the derived augmented limb leads and their combinations. An RF classifier built using features extracted from all limb leads has outperformed classifiers built on combinations of them with five-fold cross-validation training accuracy of 97.9 (±0.008) % and testing accuracy of 98 %.Clinical relevance— As high sensitivity is reported in identifying recent MI and past MI classes, the proposed approach is suitable for preventative healthcare applications since it is less likely that subjects with recent or past MI will be misclassified. Due to its low computational complexity, better interpretability, and comparable performance to the state-of-the-art results, the proposed approach can be employed in clinical and cardiac health screening applications. It also has the potential to be employed in remote monitoring with mobile and wearable devices because it is built on features extracted from only lead I and II ECG recordings.
+ER  - 
+
+TY  - CONF
+TI  - Deep Imputation-Prediction Networks for Health Risk Prediction using Electronic Health Records
+T2  - 2023 International Joint Conference on Neural Networks (IJCNN)
+SP  - 1
+EP  - 9
+AU  - Y. Liu
+AU  - Z. Zhang
+AU  - S. Qin
+PY  - 2023
+KW  - Representation learning
+KW  - Input variables
+KW  - MIMICs
+KW  - Medical services
+KW  - Predictive models
+KW  - Data models
+KW  - Reliability
+KW  - Imputation of missing values
+KW  - electronic health records
+KW  - health risk prediction
+KW  - temporal representation learning
+DO  - 10.1109/IJCNN54540.2023.10191793
+JO  - 2023 International Joint Conference on Neural Networks (IJCNN)
+IS  - 
+SN  - 2161-4407
+VO  - 
+VL  - 
+JA  - 2023 International Joint Conference on Neural Networks (IJCNN)
+Y1  - 18-23 June 2023
+AB  - Electronic health records (EHRs) have an inherently high degree of irregularity, including many missing values and varying time intervals, due to variations in patient conditions and treatment needs. This makes successful health risk prediction challenging. EHRs contain longitudinal patient data that records meaningful information associated with a chronological set of clinical observations for each patient. Existing methods focus on modeling variable correlations in patient data with deep neural networks to impute missing values and feed complete data matrices into machine learning models to perform downstream healthcare prediction tasks. However, not enough attention was given to the reliability of the imputed values by these methods. Further, it is likely that the pattern of missing data in EHR contains important information affecting relationships among variables, including time intervals. We propose a novel deep imputation-prediction network to simultaneously perform imputation and prediction tasks with EHR. Our method has the advantages of being able to: 1) learn from the longitudinal patient data in both forward and backward directions, 2) generate both the predicted and imputed values and enhance the reliability of imputed values, and 3) incorporate three common decay functions to capture the variation pattern of input variables in time and adaptively enhances the temporal representation of each pattern with adjustable weights. As well, our method is able to examine the association between input variables to identify critical indicative variables regardless of how long ago the associated event happened. Experimental results on MIMIC-III and eICU datasets demonstrate the effectiveness and superiority of our method for both imputation and prediction, as well as transparency and interpretability, compared to existing state-of-the-art methods.
+ER  - 
+
+TY  - CONF
+TI  - Foreword MedAI 2023
+T2  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+SP  - xvi
+EP  - xvii
+AU  - Y. Xu
+AU  - W. Liu
+AU  - G. Wang
+AU  - S. Zhang
+AU  - H. Yu
+AU  - P. Miller
+AU  - T. Akutsu
+PY  - 2023
+DO  - 10.1109/MedAI59581.2023.00005
+JO  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)
+Y1  - 18-19 Nov. 2023
+AB  - Artificial Intelligence (AI) in medicine and healthcare has a long history. With the rapid development in AI, especially deep learning and most recently generative models, the huge transformative potential of AI to medicine, healthcare, and the society, has again gained a renewed interest. At the same time, risks and damages caused by inadequate application of AI technologies, such as bias, data and information security, transparency and trust, are high on the agenda too.
+ER  - 
+
+

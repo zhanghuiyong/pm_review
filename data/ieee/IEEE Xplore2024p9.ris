@@ -1,0 +1,1669 @@
+TY  - CHAP
+TI  - Challenges in Building Predictive Models
+T2  - Intelligent Techniques for Predictive Data Analytics
+SP  - 25
+EP  - 46
+AU  - Rakesh Nayak
+AU  - Ch. Rajaramesh
+AU  - Umashankar Ghugar
+PY  - 2024
+KW  - Predictive models
+KW  - Data models
+KW  - Data acquisition
+KW  - Data integrity
+KW  - Accuracy
+KW  - Buildings
+KW  - Prediction algorithms
+DO  - 10.1002/9781394227990.ch2
+PB  - IEEE
+SN  - 9781394227983
+UR  - http://ieeexplore.ieee.org/document/10571805
+AB  - Summary <p>Predictive models have had a positive impact on many fields, from healthcare to finance. However, building these models can be challenging, as it is required to address several issues including data acquisition, cleaning and preparation, feature engineering, model selection, training and evaluation, deployment and maintenance, parameter tuning, interpretability, explainability, and scalability. Apart from these technical challenges, there are also ethical and regulatory issues that need to be taken into consideration while building a predictive model. These issues include fairness, privacy, and transparency. In this chapter, we will explore these challenges and discuss potential solutions, and build predictive models that are more accurate, more powerful, and more beneficial to society by addressing these challenges.</p>
+ER  - 
+
+TY  - CONF
+TI  - Early fusion techniques for enhanced pneumonia detection in chest X-ray analysis
+T2  - International Conference on Green Energy, Computing and Intelligent Technology 2024 (GEn-CITy 2024)
+SP  - 552
+EP  - 557
+AU  - M. D. Shidqi
+AU  - M. B. Basit
+AU  - S. Y. Prasetyo
+AU  - E. S. Purwanto
+PY  - 2024
+DO  - 10.1049/icp.2025.0308
+JO  - International Conference on Green Energy, Computing and Intelligent Technology 2024 (GEn-CITy 2024)
+IS  - 
+SN  - 
+VO  - 2024
+VL  - 2024
+JA  - International Conference on Green Energy, Computing and Intelligent Technology 2024 (GEn-CITy 2024)
+Y1  - 11-13 Dec. 2024
+AB  - Pneumonia, a significant global health concern, necessitates accurate diagnostic tools to enable timely and effective intervention. This study applies Early Fusion techniques to enhance pneumonia detection in chest X-ray analysis by integrating feature extraction methods—Principal Component Analysis (PCA), Histogram of Oriented Gradients (HOG), Scale-Invariant Feature Transform (SIFT), and Local Binary Pattern (LBP). The fused features were used to train multiple machine learning models, including K-Nearest Neighbors (KNN), Logistic Regression, Random Forest, Neural Networks, and Support Vector Machines (SVM). Utilizing a dataset of 5,937 chest X-ray images, the SVM model achieved the highest accuracy (94.00%) and area under the curve (AUC) score (93.95%), demonstrating superior diagnostic performance compared to other models. The Early Fusion approach effectively captured complementary patterns in X-ray images, addressing challenges such as noise and subtle variability. These findings highlight the potential of fusion-based frameworks to improve diagnostic accuracy and reliability, supporting radiologists with automated tools for clinical decision-making. Future research will focus on validating the approach on larger, diverse datasets and improving the interpretability of fusion models while optimizing resource requirements to enable scalable deployment in real-world healthcare environments.
+ER  - 
+
+TY  - CONF
+TI  - Knowledge Base Question Answering based on Machine Reading Comprehension
+T2  - 2024 IEEE 6th Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+SP  - 1616
+EP  - 1620
+AU  - Y. Li
+PY  - 2024
+KW  - Knowledge based systems
+KW  - Semantics
+KW  - Knowledge graphs
+KW  - Transforms
+KW  - Medical services
+KW  - Search engines
+KW  - Cognition
+KW  - KG2Text model
+KW  - Knowledge Based Question Answering
+KW  - Machine Reading Comprehension
+KW  - contrastive learning
+DO  - 10.1109/IMCEC59810.2024.10575550
+JO  - 2024 IEEE 6th Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+IS  - 
+SN  - 2693-2776
+VO  - 6
+VL  - 6
+JA  - 2024 IEEE 6th Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+Y1  - 24-26 May 2024
+AB  - Currently, society has entered the era of "Internet +," where technology brings more convenience to people. Knowledge Graph (KG) is a structured information system of world knowledge and serves as the cornerstone for artificial intelligence reasoning and memory. In recent years, with the improvement of deep models and computing power, Knowledge Graph technology has rapidly developed, providing foundational support for applications such as question answering, recommendation systems, and search engines. Knowledge Based Question Answering (KBQA) utilizes knowledge bases (KB) to answer questions and finds wide application in fields like search, finance, and healthcare. Due to the gap in representation between unstructured natural language questions and structured Knowledge Graphs (KGs), answering questions on knowledge graphs presents certain challenges. Existing methods based on semantic parsing struggle to construct structured queries that can be executed on knowledge bases, thereby failing to cover various complex questions. Conversely, methods based on information retrieval exhibit poor interpretability. This paper proposes a novel approach driven by machine reading comprehension. To transform KG subgraphs centered around subject entities into text, this paper employs schema trees to depict the subgraphs, which facilitates retrieving multiple semantically equivalent answer entities. The KG2Text method is utilized to generate corresponding text from the constructed schema trees. In contrast to seeking answers from all automatically generated paragraphs, this paper employs a contrastive learning approach to filter out paragraphs that may contain answers. Finally, answers are obtained based on answer fragments detected by the machine reading comprehension module. Experimental results demonstrate that this approach significantly outperforms existing methods.
+ER  - 
+
+TY  - CONF
+TI  - Blockchain-Powered Federated Learning: A Secure and Decentralized Approach to Distributed AI
+T2  - 2024 IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT)
+SP  - 1
+EP  - 5
+AU  - S. Mehta
+AU  - A. Singh
+PY  - 2024
+KW  - Privacy
+KW  - Accuracy
+KW  - Federated learning
+KW  - Medical services
+KW  - Writing
+KW  - Signal processing
+KW  - Blockchains
+KW  - Security
+KW  - Standards
+KW  - Convergence
+KW  - Federated Learning (FL)
+KW  - Blockchain Technology Secure Distributed Learning
+KW  - Data Integrity
+KW  - Model Poisoning
+DO  - 10.1109/INSPECT63485.2024.10896016
+JO  - 2024 IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT)
+Y1  - 7-8 Dec. 2024
+AB  - Integrating both federated learning and blockchain technology proposed a writing solution to the inescapable challenges of data privacy, security, and trust in FL-based decentralized machine learning environments. This paper proposes a BEFL framework with a blockchain network to ensure the trustworthiness and accountability of federated learning. The results presented in the experimental evaluation, conducted on MNIST, CIFAR-10, and a healthcare dataset, demonstrate the superiority of BEFL over FL. The BEFL framework achieved 98.5% on MNIST, CIFAR-10 82.3%, and the healthcare dataset 87.6% while surpassing standard FL by 3% on average. Regarding the convergence speed, the proposed BEFL reached the target accuracy level in 40 communication cycles for MNIST and 100 rounds for CIFAR-10, while the standard FL was 60 and 140 rounds, respectively, which is approximately 30% faster. While BEFL has a higher communication cost (180 MB for MNIST and 300 MB for CIFAR- 10) than the standard FL (150 MB and 250 MB, respectively), the authors consider it a worthy tradeoff with benefits in terms of security and transparency. The above results under adversary scenarios showed that, as with FL, the proposed BEFL framework was more robust to data poisoning, with the accuracy drop to a mere 1.5% as opposed to 5.2% of FL and a model inversion attack reconstruction accuracy of only 20% as compared to 60% of FL. The above outcomes show that through BEFL, it is possible to support distributed learning while maintaining the security of the fields of study, such as health and finance, as illustrated above.
+ER  - 
+
+TY  - CONF
+TI  - X-Pand: explainable random forest with feature selection for COVID-19 like pandemics in smart cities
+T2  - 8th IET Smart Cities Symposium (SCS 2024)
+SP  - 274
+EP  - 280
+AU  - P. Bhattacharya
+AU  - A. Verma
+AU  - A. Kumar
+AU  - T. Mukherjee
+AU  - B. Bhushan
+AU  - P. K. Dutta
+PY  - 2024
+DO  - 10.1049/icp.2025.0922
+JO  - 8th IET Smart Cities Symposium (SCS 2024)
+IS  - 
+SN  - 
+VO  - 2024
+VL  - 2024
+JA  - 8th IET Smart Cities Symposium (SCS 2024)
+Y1  - 1-3 Dec. 2024
+AB  - The criticality of COVID-19 has burdened our healthcare resources. Thus, there is a growing need to advance our healthcare frameworks. Recently, with the rise of Explainable Artificial Intelligence (XAI) models in healthcare that leverage interpretability and solve the black-box nature of AI, healthcare frameworks and designs in smart cities have improved many folds. To address the crisis in light of future COVID-19-like pandemics in smart cities, we propose a case-study,X-Pand, that utilizes an XAI framework over Random Forest (RF) algorithm for feature selection in COVID-19 detection. Unlike recent schemes that are mostly non-interpretable,X-Pandemphasizes transparency and interpretability, crucial for gaining actionable insights and trust in automated health diagnostics. We present a feature ranking mechanism, which integrates Shapley Additive Explanations (SHAP) for enhanced decision tree interpretability, optimizing feature selection and improving diagnostic accuracy. We evaluateX-Pandon a comprehensive COVID-19 clinical spectrum dataset, demonstrating superior performance in terms of accuracy, sensitivity, and specificity compared to traditional models like XGBoost, Support Vector Machine (SVM), and Multi-Layer Perceptron (MLP). Our findings reveal thatX-Pandnot only achieves higher prediction accuracy but also offers clearer justifications for its decisions, thus enabling more informed and confident clinical decisions.
+ER  - 
+
+TY  - CONF
+TI  - CardioGraph: GCN-Inspired Short-Term Mortality Predictor in First-Time STEMI Patients
+T2  - 2024 IEEE 21st India Council International Conference (INDICON)
+SP  - 1
+EP  - 6
+AU  - A. Gupta
+AU  - A. Gupta
+AU  - M. Shetty
+AU  - D. Goyal
+AU  - G. M. P.
+AU  - M. Gupta
+PY  - 2024
+KW  - Accuracy
+KW  - Protocols
+KW  - Graph convolutional networks
+KW  - Mortality
+KW  - Predictive models
+KW  - Risk management
+KW  - Resource management
+KW  - Reliability
+KW  - Cardiography
+KW  - Random forests
+KW  - Cardiovascular Risk
+KW  - Mortality Prediction
+KW  - Graph Convolutional Network
+KW  - 30-day Mortality
+KW  - Risk Prediction
+KW  - STEMI
+DO  - 10.1109/INDICON63790.2024.10958354
+JO  - 2024 IEEE 21st India Council International Conference (INDICON)
+IS  - 
+SN  - 2325-9418
+VO  - 
+VL  - 
+JA  - 2024 IEEE 21st India Council International Conference (INDICON)
+Y1  - 19-21 Dec. 2024
+AB  - Cardiovascular diseases (CVDs) are a leading cause of death globally, with ST Elevation Myocardial Infarction (STEMI) being a major contributor to both death and cardiac complications. The 30-day post-STEMI period is critical to patient outcomes and necessitates accurate risk prediction to enable timely interventions and personalized treatment plans. Traditional statistical risk assessment tools, while widely used, are predominantly based on Caucasian population and do not address the specific risk profiles of other demographics, such as the Indian population. We propose CardioGraph, a Graph Convolutional Network (GCN) based cardiovascular risk predictor, designed specifically for Indian patients, to predict the 30-day mortality risk following STEMI. Results show that our proposed system outperforms in comparison to traditional Machine Learning based classifiers, such as Random Forest, Multi-Layer Perceptron, and Extreme Gradient Boosting, achieving a Macro F1 score of 93.5%. SHAP interpretability analysis of the proposed model identified some key predictors of 30-day mortality, such as mitral regurgitation, tobacco use, low ejection fraction, diabetes, and hypertension. Our proposed model effectively predicts 30-day mortality post-STEMI with high accuracy, which suggests a significant advancement in cardiovascular risk prediction.
+ER  - 
+
+TY  - CONF
+TI  - Blockchain-Based Secure Data Sharing Algorithms for Cognitive Decision Management
+T2  - 2024 International Conference on Electrical, Computer and Energy Technologies (ICECET
+SP  - 1
+EP  - 6
+AU  - F. A. Alijoyo
+AU  - B. Prabha
+AU  - M. Aarif
+AU  - G. Fatma
+AU  - V. S. Rao
+AU  - P. Valavan M
+PY  - 2024
+KW  - Access control
+KW  - Scalability
+KW  - Smart contracts
+KW  - Collaboration
+KW  - Medical services
+KW  - Throughput
+KW  - Blockchains
+KW  - Virtual private networks
+KW  - Encryption
+KW  - Stakeholders
+KW  - Healthcare Data Management
+KW  - Decision-Making
+KW  - Secure Data
+KW  - Ethereum Blockchain 2.0
+KW  - Elliptic Curve Cryptography
+DO  - 10.1109/ICECET61485.2024.10698611
+JO  - 2024 International Conference on Electrical, Computer and Energy Technologies (ICECET
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 International Conference on Electrical, Computer and Energy Technologies (ICECET
+Y1  - 25-27 July 2024
+AB  - Cognitive Decision Management in healthcare data management refers to the integration of artificial intelligence, machine learning, and cognitive computing to enhance decision-making processes. Secure data sharing is crucial in Cognitive Decision Management for healthcare as it enables seamless collaboration among stakeholders while ensuring the confidentiality, integrity, and availability of sensitive health data. This practice is essential for delivering timely and accurate insights, facilitating collaborative care, and maintaining patient privacy. Traditional approaches for secure data sharing in Cognitive Decision Management include role-based access control, encryption, and Virtual Private Networks (VPNs). Traditional approaches often face limitations such as complex key management, potential vulnerabilities in encryption algorithms, and scalability challenges in managing access controls. To overcome these limitations, this study introduces a novel approach leveraging blockchain technology. The proposed system incorporates Ethereum blockchain 2.0 for scalable and efficient healthcare data management, along with Elliptic Curve Cryptography for secure transaction verification. Blockchain ensures transparency, immutability, and decentralized control, addressing the drawbacks of traditional methods and providing a robust foundation for secure data sharing in Cognitive Decision Management within healthcare settings. Results of this study was implemented in Python tool. The throughput ranged from 450 to 520 transactions per second, showcasing system stability.
+ER  - 
+
+TY  - CONF
+TI  - Enhanced Gesture Recognition via Interpretable Temporal Convolutional Networks Utilizing Spatio-Temporal sEMG Features
+T2  - 2024 IEEE Conference on Pervasive and Intelligent Computing (PICom)
+SP  - 61
+EP  - 66
+AU  - X. Ao
+AU  - J. She
+AU  - F. Wang
+AU  - S. Kawata
+AU  - E. F. Fukushima
+AU  - J. Woo
+PY  - 2024
+KW  - Accuracy
+KW  - Intent recognition
+KW  - Computational modeling
+KW  - Gesture recognition
+KW  - Predictive models
+KW  - Stability analysis
+KW  - Real-time systems
+KW  - Spatiotemporal phenomena
+KW  - Convolutional neural networks
+KW  - Time complexity
+KW  - TCN
+KW  - Explainable Deep Learning
+KW  - sEMG
+DO  - 10.1109/PICom64201.2024.00015
+JO  - 2024 IEEE Conference on Pervasive and Intelligent Computing (PICom)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE Conference on Pervasive and Intelligent Computing (PICom)
+Y1  - 5-8 Nov. 2024
+AB  - Rehabilitation robots and human-robot interaction systems are receiving increasing attention in modern healthcare and engineering. Motion intent recognition techniques based on surface electromyography (sEMG) signals provide important support for these systems. However, motion intent recognition models rarely focus on the spatiotemporal properties of sEMG signals simultaneously. There is a lack of interpretable analysis of these spatiotemporal properties. The purpose of this study is to perform gesture recognition of sEMG signals from the Ninapro database using a temporal convolutional network (TCN). The sEMG signals are converted into sEMG images, which are used as input to the TCN model. The TCN model is utilized to perform gesture recognition on these images. The results show that after fusing the spatial and temporal features of the sEMG signal, the recognition accuracy of the TCN model is significantly higher than that of models using only spatial features or only temporal features. To understand the decision-making process of the model, we used an interpretable method based on Shapley values to perform a detailed interpretive analysis of the recognition results. The experimental results show that the TCN model has significant accuracy and stability in the sEMG signal gesture recognition task, while the Shapley value-based interpretable method can effectively reveal the contribution of different features to the prediction results, thus improving the transparency and user trust in the model. This study not only provides a new technical tool for sEMG signal gesture recognition but also demonstrates the value of interpretable methods in deep learning models.
+ER  - 
+
+TY  - JOUR
+TI  - DAI-Net: Dual Adaptive Interaction Network for Coordinated Medication Recommendation
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 6201
+EP  - 6211
+AU  - X. Zou
+AU  - X. He
+AU  - X. Zheng
+AU  - W. Zhang
+AU  - J. Chen
+AU  - C. Tang
+PY  - 2024
+KW  - Medical diagnostic imaging
+KW  - Bioinformatics
+KW  - Adaptive systems
+KW  - MIMICs
+KW  - History
+KW  - Vectors
+KW  - Electronic medical records
+KW  - Medication recommendation
+KW  - healthcare
+KW  - longitudinal EHR
+KW  - deep learning
+DO  - 10.1109/JBHI.2024.3425833
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 10
+SN  - 2168-2208
+VO  - 28
+VL  - 28
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Oct. 2024
+AB  - Medication recommendation is a productive task for AI-driven healthcare systems, which can assist clinicians in prescribing judicious and effective treatments. However, existing medication recommendation methods omit two key pieces of information: Coarse-grained interaction information between distinct types of symptoms in a patient's medical history and corresponding medication representations can serve as attention for predicting the current medication combinations of the patient. Fine-grained interaction information between medication substructure representations and different types of symptoms can facilitate the construction of molecular-level disentangled medication representations. To address this dilemma, we propose a novel Dual Adaptive Interaction Network (DAI-Net), which encodes comprehensive interaction knowledge between patients' multifaceted health records and medication molecules to improve the performance of medication recommendation and heighten interpretability of the model. Specifically, we design a symptom-aware medication matching module to extract coordinated associations between patient symptoms and medication molecules, coarse-grained interaction learning. The medication embeddings are utilized to transform patient-medication matching properties into a symptom-substructure matching matrix for fine-grained interaction. The patient's Longitudinal representation is employed as a query to decode both symptom-medication and symptom-substructure matching information for coordinated medication representation. DAI-Net is an end-to-end recommendation model. Extensive experiments on the real-world EHR datasets, i.e., the public benchmark MIMIC-III, MIMIC-IV, and eICU, demonstrate that the proposed DAI-Net achieves competitive performance compared to other state-of-the-art ones, with an average improvement of 1.8%, 2.1% in Jaccard on MIMIC-III and -IV dataset.
+ER  - 
+
+TY  - JOUR
+TI  - An Interpretable Framework Utilizing Radiomics for Laryngeal Cancer Classification Through Narrow Band Imaging
+T2  - IEEE Access
+SP  - 129804
+EP  - 129812
+AU  - H. Wang
+AU  - K. Zhang
+AU  - L. Mainardi
+PY  - 2024
+KW  - Lesions
+KW  - Cancer
+KW  - Radiomics
+KW  - Feature extraction
+KW  - Support vector machines
+KW  - Training
+KW  - Histopathology
+KW  - Medical diagnosis
+KW  - Larynx
+KW  - Diagnosis
+KW  - feature selection
+KW  - laryngeal selection
+KW  - radiomics
+DO  - 10.1109/ACCESS.2024.3408752
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Effectively preventing and diagnosing laryngeal cancer is imperative for improving prognosis, particularly in high-risk populations. Early diagnosis in these individuals is crucial, offering timely interventions and higher survival rates. There is a growing demand for computer-assisted early prognosis with transparent and accountable interpretations. Methods and procedures: We present an interpretable classification framework based on radiomics for narrow-band imaging in contact endoscopy for laryngeal cancer. The framework aims to address the challenge of early prognosis with transparency and accountability by offering evidence-supported interpretation. Results: Performance metrics, including accuracy, precision, recall, F1 score, area under the curve (AUC), negative predict value (NPV), balanced accuracy(BA) and diagnostic odds ratio (DOR) were employed to analyze the results. The radiomics-based model demonstrated high recall rate (>94% in 3 out the 5 classifiers employed) and balanced accuracy (>89% in 3 classifiers) in distinguishing between benign and malignant cases. The interpretability analysis shed light on the framework’s behavior evidencing three features as main contributors for classification. Conclusion: Our interpretable classifying framework shows promise as a preliminary clinical diagnostic assistant for laryngeal cancer. Its commitment to transparency and accountability renders it an invaluable resource for conveying insightful information and assessing the framework’s effectiveness. Clinical impact: Our framework addresses the challenge of early diagnosis among high-risk populations, providing a transparent and accountable tool for clinicians and researchers.
+ER  - 
+
+TY  - CONF
+TI  - RetinaGuard: An Optimal CNN Solution for Diabetic Retinopathy
+T2  - 2024 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+SP  - 1
+EP  - 7
+AU  - N. Jagadisha
+AU  - A. P. Prabhu
+AU  - S. K. Abhay
+AU  - C. Nayak
+AU  - C. S. Honavarker
+PY  - 2024
+KW  - Training
+KW  - Diabetic retinopathy
+KW  - Visualization
+KW  - Accuracy
+KW  - Visual impairment
+KW  - Medical services
+KW  - Streaming media
+KW  - Diabetic Retinopathy
+KW  - CNN
+KW  - Fundus images
+KW  - NPDR
+KW  - PDR
+DO  - 10.1109/ICKECS61492.2024.10616843
+JO  - 2024 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+IS  - 
+SN  - 
+VO  - 1
+VL  - 1
+JA  - 2024 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+Y1  - 18-19 April 2024
+AB  - Diabetic Retinopathy (DR), a condition affecting the retina due to Diabetes Mellitus, a condition that may result in vision impairment if not promptly diagnosed and treated. Traditional manual detection methods by ophthalmologists are labor-intensive and require specialized expertise. To overcome in response to these constraints, we introduce a fresh methodology employing Convolutional Neural Networks (CNNs) based architecture for automated DR detection and severity classification from fundus pictures. We aim to optimize the detection procedure and improve accuracy, particularly in identifying subtle features indicative of retinal damage associated with DR. Our research emphasizes the urgency of identification and categorization at an early stage of DR severity levels, ranging from Normal to Proliferative, to facilitate timely intervention and prevent irreversible vision loss. We advocate for further research to refine accuracy in classification and explore additional indicators of retinal diseases, underscoring the importance of leveraging advanced technologies to address complex healthcare challenges. The system comprises pre-processing, model development, training, and classification components, each optimized to enhance performance and reliability. Moreover, RetinaGuard incorporates advanced interpretability techniques, allowing clinicians to visualize and understand the decision-making process of the model, thereby fostering trust and acceptance in clinical settings. By providing a detailed exploration of its components and functionalities, this paper contributes to the progress of medical image analysis. RetinaGuard presents a promising resolution for streamline and improve DR screening and management practices. With its capability to automate DR diagnosis accurately, RetinaGuard has the potential to significantly impact patient care by facilitating early intervention and treatment, ultimately reducing the burden of vision loss associated with DR.
+ER  - 
+
+TY  - CONF
+TI  - Transfer Learning in Natural Language Processing
+T2  - 2024 7th International Conference on Information and Communications Technology (ICOIACT)
+SP  - 30
+EP  - 36
+AU  - S. Joseph
+AU  - A. G. Parthi
+AU  - D. Maruthavanan
+AU  - V. Jayaram
+AU  - P. K. Veerapaneni
+AU  - V. Parlapalli
+PY  - 2024
+KW  - Analytical models
+KW  - Adaptation models
+KW  - Sentiment analysis
+KW  - Accuracy
+KW  - Transfer learning
+KW  - Text categorization
+KW  - Transformers
+KW  - Natural language processing
+KW  - Data models
+KW  - Question answering (information retrieval)
+KW  - Transfer Learning
+KW  - Natural Language Processing (NLP)
+KW  - Pre-training
+KW  - Fine-tuning
+KW  - Domain Adaptation
+KW  - Language Models
+KW  - BERT (Bidirectional Encoder Representations from Transformers)
+KW  - GPT-3 (Generative Pre-trained Transformer 3)
+KW  - Model Architecture
+KW  - Evaluation Metrics
+KW  - Ablation Studies
+KW  - Cross-lingual Transfer
+KW  - Text Classification
+KW  - Sentiment Analysis
+KW  - Named Entity Recognition (NER)
+KW  - Question Answering
+KW  - Language Modeling
+KW  - Machine Learning
+KW  - Artificial Intelligence (AI)
+DO  - 10.1109/ICOIACT64819.2024.10912895
+JO  - 2024 7th International Conference on Information and Communications Technology (ICOIACT)
+IS  - 
+SN  - 2770-4661
+VO  - 
+VL  - 
+JA  - 2024 7th International Conference on Information and Communications Technology (ICOIACT)
+Y1  - 20-21 Nov. 2024
+AB  - Transfer learning has been a game-changer for natural language processing (NLP), and this technique has massively accelerated progress in the field of NLP, specifically by substantially benefiting from advancements being made elsewhere. We evaluated their performance economic model on a set of tasks and found they outperformed generic transformer models in accuracy as well as generalization. This is also a reminder of the importance of large-scale pretraining, which requires less task-specific data and consequently facilitates faster model development. To achieve a better understanding of the impact on model performance from fine-tuning, combined with datasets characteristics and architecture details. They demonstrated that transfer learning models not only increase classification accuracy in various fields, ranging from healthcare to legal document analysis but also vastly improve the efficiency. These results have important implications, they extend transfer learning from being merely a trend in NLP to something truly necessary for making progress on several fundamental task of NLP. However, work is not done on model interpretability and extending these improvements to low resource languages. This suggests future research in operationalizing these powerful tools transparently and fairly across a wide range of linguistic and cultural contexts. We hope that it can help, at least in some way, to grow the community interested on learning more about how these models work so effectively and guide them toward using transfer learning wherever valuable.
+ER  - 
+
+TY  - CONF
+TI  - Enhancing Cardiovascular Health Assessment with ANN-Enabled Hypertension Classification
+T2  - 2024 2nd World Conference on Communication & Computing (WCONF)
+SP  - 1
+EP  - 6
+AU  - A. Kumar
+AU  - L. Nelson
+AU  - D. Arumugam
+PY  - 2024
+KW  - Hypertension
+KW  - Training
+KW  - Accuracy
+KW  - Decision making
+KW  - Artificial neural networks
+KW  - Medical services
+KW  - Sensitivity and specificity
+KW  - Cardiovascular diseases
+KW  - Reliability
+KW  - Sorting
+KW  - Hypertension
+KW  - ANN
+KW  - blood pressure
+KW  - Cardiovascular disease
+KW  - Artificial Neural Network
+KW  - cardiovascular health assessment
+DO  - 10.1109/WCONF61366.2024.10692220
+JO  - 2024 2nd World Conference on Communication & Computing (WCONF)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 2nd World Conference on Communication & Computing (WCONF)
+Y1  - 12-14 July 2024
+AB  - Hypertension, a major risk factor for cardiovascular disease, affects millions worldwide. This work utilises an innovative approach for hypertension category classification using Artificial Neural Networks (ANNs). This method utilises a comprehensive dataset comprising various demographic, clinical, and lifestyle factors. The proposed ANN model utilises the diverse features within the dataset to accurately classify hypertension into distinct categories, including Normal, Elevated, Hypertension Stage 1, and Hypertension Stage 2. The ANN learns complex patterns and relationships inherent in the data through an optimised training process, enabling improved classification performance. Comparative analyses with traditional classification methods show the ANN-based approach's superiority in classification in terms of accuracy, sensitivity, and specificity. The evaluation of the ANN model demonstrates its effectiveness in accurately categorising hypertension levels, achieving an impressive accuracy of 99.60%. Moreover, the interpretability of the ANN model is explored to gain insights into the influential factors contributing to hypertension category classification. The findings of this work contribute to the advancement of automated hypertension classification systems, offering a reliable and efficient tool for healthcare professionals in hypertension diagnosis and management. This work aims to enhance the accuracy and efficacy of clinical decision-making in cardiovascular health assessment.
+ER  - 
+
+TY  - CONF
+TI  - A Method Noise Based-Multi-Modal Medical Image Fusion Technique Using Non-Subsampled Shearlet Transform and Convolutional Neural Network
+T2  - 2024 4th International Conference on Innovative Sustainable Computational Technologies (CISCT)
+SP  - 1
+EP  - 5
+AU  - S. Bhosekar
+AU  - P. Singh
+AU  - D. Garg
+PY  - 2024
+KW  - Visualization
+KW  - Accuracy
+KW  - Magnetic resonance imaging
+KW  - Computed tomography
+KW  - Image edge detection
+KW  - Noise
+KW  - Transforms
+KW  - Convolutional neural networks
+KW  - Image fusion
+KW  - Medical diagnostic imaging
+KW  - image fusion
+KW  - multi-modal medical image fusion
+KW  - NSST
+KW  - CNN
+KW  - CC
+KW  - UIQI
+DO  - 10.1109/CISCT62494.2024.11134208
+JO  - 2024 4th International Conference on Innovative Sustainable Computational Technologies (CISCT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 4th International Conference on Innovative Sustainable Computational Technologies (CISCT)
+Y1  - 27-28 Dec. 2024
+AB  - This paper presents a novel multimodal medical image fusion framework (M3IF-NSST-CNN) combining the Non-Subsampled Shearlet Transform (NSST) and deep convolutional neural network (CNN) methods to enhance diagnostic accuracy by effectively integrating Computed Tomography (CT) and Magnetic Resonance Imaging (MRI). Initially, both CT and MRI images undergo decomposition via NSST, producing distinct low-pass (LPSB) and high-pass subbands (HPSB). The LPSB fusion leverages a correlation-based approach, ensuring preservation of structural integrity and maximization of complementary information. Concurrently, the HPSB are merged through a Universal Image Quality Index (UIQI)-based fusion rule, prioritizing edge and detail retention critical for precise medical diagnosis. Subsequently, an inverse NSST transforms these fused sub-bands, generating a preliminary fused image. This image is then further refined through a CNN-based noise reduction module comprising convolutional layers, batch normalization, and Rectified Linear Unit (ReLU) activation functions. The deep CNN architecture progressively refines the fused output, significantly reducing artifacts and noise, thus improving the overall clarity and interpretability of the resultant image. This approach addresses common limitations in image fusion, such as loss of edge details, distortion, and the inability to preserve critical information. The hybrid M3IF-NSST-CNN method improves both the visual quality and parametric accuracy of the fusion, outperforming comparable techniques. By preserving more detail and edge information, this method offers significant advancements in multi-modal medical image fusion for enhanced diagnostic insights.
+ER  - 
+
+TY  - CONF
+TI  - A Doctor Recommendation Method in Telemedicine Based on Multi-granularity Features Extraction
+T2  - 2024 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)
+SP  - 1
+EP  - 6
+AU  - Y. Wu
+AU  - Y. Zhai
+AU  - L. Ran
+AU  - Y. Qiao
+PY  - 2024
+KW  - Accuracy
+KW  - Telemedicine
+KW  - Computational modeling
+KW  - Neural networks
+KW  - Medical services
+KW  - Feature extraction
+KW  - Data mining
+KW  - Sustainable development
+KW  - Recommender systems
+KW  - Diseases
+KW  - telemedicine
+KW  - recommendations system
+KW  - multi-granularity
+KW  - deep learning
+DO  - 10.1109/SOLI63266.2024.10956036
+JO  - 2024 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)
+IS  - 
+SN  - 2768-1890
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)
+Y1  - 22-24 June 2024
+AB  - Developing doctor recommendation techniques has the potential to enhance the efficiency of telemedicine service with the increasing demand for telemedicine. We propose a novel recommendation method tailored for more sparser and more professional telemedicine contexts than online healthcare. Firstly, we construct a knowledge graph based on the expertise of physicians to extract the feature of disease relevance, so as to make up for the sparsity of data. Subsequently, coarse and fine granularity semantic feature is extracted from historical diagnostic data to calculate text similarity between doctors and patients. Then, the features of gender, age, title and scheduling activity are considered to improve model performance doctor modeling. Finally, we input the extracted features into a neural network to generate recommendation results that are both effective and interpretable. Experimental results demonstrate that, compared to traditional methods, our approach significantly improves the accuracy and robustness of telemedicine doctor recommendations. Additionally, interpretability analysis shows text similarity and disease relevance (obtained from doctors' professional expertise and consultation text) contribute mostly to the recommendation system, which reconfirms our efforts are meaningful.
+ER  - 
+
+TY  - CONF
+TI  - Provoke and Approach for Developing PET DApp Using Blockchain Based Technology
+T2  - 2024 International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)
+SP  - 245
+EP  - 250
+AU  - M. Shakila
+PY  - 2024
+KW  - Industries
+KW  - Schedules
+KW  - Scalability
+KW  - Tutorials
+KW  - Medical services
+KW  - Decentralized applications
+KW  - Market research
+KW  - Encoding
+KW  - Blockchains
+KW  - Security
+KW  - Blockchain
+KW  - decentralized applications
+KW  - dApps
+KW  - Solidity
+KW  - Ethereum
+KW  - Scalable
+DO  - 10.1109/ICICNIS64247.2024.10823251
+JO  - 2024 International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)
+Y1  - 17-18 Dec. 2024
+AB  - The use of blockchain technology has disrupted many industries, including finance, healthcare, and logistics. However, the use cases for blockchain technology are not limited to these industries. This paper presents a pet tutorial dApp built using Solidity coding language on the Ethereum blockchain. The dApp aims to provide a solution for pet owners to track their pets' medical records, schedule appointments with veterinarians, and even find nearby pet-friendly locations. The growing development and widespread adoption of blockchain technology have increased interest in blockchain-based decentralized apps (dApp). Numerous resources are used to crowdfund different kinds of dApp. dApps' definitions and typical architectures are presented first. Finally, we give a summary of the recent research issues with DApps from several angles. In recent trends dApp has become very popular. Decentralized applications (dApps) built on blockchain offer several benefits over traditional centralized systems, including improved security, transparency, and reduced transaction costs. This paper presents a pet tutorial dApp built using Solidity coding language on the Ethereum blockchain. There is an possibility of tracking the medical records in this dApp schedule appointments with veterinarians, and even find nearby pet-friendly locations. This research paper aims to provide a step-by-step guide to building a simple dApp using Solidity, and demonstrates how blockchain technology can be used to build useful and practical applications.
+ER  - 
+
+TY  - CONF
+TI  - Constructing a Medical Domain Functional Knowledge Graph with Large Language Models
+T2  - 2024 IEEE 6th International Conference on Power, Intelligent Computing and Systems (ICPICS)
+SP  - 491
+EP  - 496
+AU  - L. Ji
+AU  - S. Du
+AU  - Y. Qiu
+AU  - H. Xu
+AU  - X. Guo
+PY  - 2024
+KW  - Text mining
+KW  - Annotations
+KW  - Large language models
+KW  - Pipelines
+KW  - Knowledge graphs
+KW  - Prediction algorithms
+KW  - Natural language processing
+KW  - Object recognition
+KW  - Medical diagnostic imaging
+KW  - Diseases
+KW  - Medical engineering
+KW  - NLP
+KW  - Large language model
+KW  - Knowledge graph
+KW  - Database
+DO  - 10.1109/ICPICS62053.2024.10796042
+JO  - 2024 IEEE 6th International Conference on Power, Intelligent Computing and Systems (ICPICS)
+IS  - 
+SN  - 2834-8567
+VO  - 
+VL  - 
+JA  - 2024 IEEE 6th International Conference on Power, Intelligent Computing and Systems (ICPICS)
+Y1  - 26-28 July 2024
+AB  - The integration of medicine and artificial intelligence is creating novel opportunities to gather, analyze, and generate groundbreaking medical insights from the vast expanse of medical literature. Although these advancements hold great promise, difficulties including manual annotation and precise data retrieval, and transparency persist. Advanced natural language processing (NLP) techniques and large language models (LLMs) have shown potential in addressing these issues. This paper introduces the Medical Knowledge Graph (MedKG), a comprehensive and multidisciplinary medical knowledge graph. By utilizing advanced NLP algorithms, MedKG extracts millions of entities and converts them into triples from a corpus of superior medical research papers published over the last decade. It categorizes unstructured medical information into nine distinct tags, including disease names, treatments, diagnoses, symptoms, genetics, cellular structures of diseases, patient data, medical procedures, and treatment applications, while seamlessly integrating the digital object identifier (DOI) of each paper. As the latest structured database of medical knowledge, MedKG serves as a powerful tool for accelerating medical research and lays the groundwork for constructing a more extensive medical knowledge graph using full-text medical articles. Moreover, our research establishes a foundation for practical knowledge management systems based on text mining, applicable not only to complex medical systems but also to other professional domains.
+ER  - 
+
+TY  - CONF
+TI  - Learning Dynamic Brain Network Representation Based on Graph Mamba Architecture
+T2  - 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 5143
+EP  - 5150
+AU  - J. Wang
+AU  - J. Lang
+AU  - L. -Z. Yang
+AU  - H. Li
+PY  - 2024
+KW  - Representation learning
+KW  - Neuroimaging
+KW  - Technological innovation
+KW  - Neuroscience
+KW  - Predictive models
+KW  - Brain modeling
+KW  - Graph neural networks
+KW  - Decoding
+KW  - Medical diagnosis
+KW  - Diseases
+KW  - Dynamic Brain Network
+KW  - Graph Neural Network
+KW  - Similarity Network Fusion
+KW  - Psychiatric Diagnosis
+DO  - 10.1109/BIBM62325.2024.10822717
+JO  - 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+IS  - 
+SN  - 2156-1133
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+Y1  - 3-6 Dec. 2024
+AB  - Learning graph representations of brain networks aims to facilitate a deeper understanding of the brain’s functional organizational patterns by developing data-driven algorithms on graph structures, thereby advancing neuroscience. Recently, deep learning models for brain networks based on graph neural networks (GNN) have emerged and become predominant in several tasks of brain functional analysis. Despite the significant successes of graph representation learning in brain networks, there remains a gap in dynamically modeling brain networks as they change over time. Inspired by state space modeling (SSM) in large language models, particularly Mamba, we introduce brain graph Mamba (Brain-GM) for dynamic brain graph representation learning. Specifically, we first validated the brain decoding performance of the Brain-GM model on the HCP dataset. Subsequently, we achieved leading disease diagnostic outcomes on unimodal brain disease datasets (ABIDE and ADHD), and for multi-modal neuroimaging data, we further optimized classification performance through similarity network fusion (SNF). Brain-GM marks the first integration of the state space model into dynamic brain graph representation learning, where the model’s graph learning readout layer and state-space features also support interpretability, enhancing our understanding of brain mechanisms related to different task states or diseases. The experimental code has been open-sourced at https://github.com/tokamak-wang/brain-gm.
+ER  - 
+
+TY  - CONF
+TI  - SCM and CPM Enhancement with AI
+T2  - 2024 International Conference of Adisutjipto on Aerospace Electrical Engineering and Informatics (ICAAEEI)
+SP  - 1
+EP  - 7
+AU  - R. Basu
+PY  - 2024
+KW  - Supply chain management
+KW  - Scalability
+KW  - Supply chains
+KW  - Smart contracts
+KW  - Government
+KW  - Medical services
+KW  - Inventory management
+KW  - Regulation
+KW  - Artificial intelligence
+KW  - Informatics
+KW  - blockchain
+KW  - bullwhip
+KW  - network
+KW  - supply chain
+DO  - 10.1109/ICAAEEI63658.2024.10899168
+JO  - 2024 International Conference of Adisutjipto on Aerospace Electrical Engineering and Informatics (ICAAEEI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 International Conference of Adisutjipto on Aerospace Electrical Engineering and Informatics (ICAAEEI)
+Y1  - 11-12 Dec. 2024
+AB  - Technology has transformed the supply chain industry by improving transaction authentication, transparency, efficiency, and trust. This study explores advancements in supply chain management, focusing on traceability, smart contracts, inventory management, and regulatory compliance in sectors like food, agriculture, healthcare, retail, and automotive. Emphasis is placed on mitigating the bullwhip effect and integrating tools such as the PERT network to reduce delays and critical path times. Despite challenges such as scalability, regulatory compliance, and industry acceptance, AI has the potential to revolutionize supply chain processes, enhancing decentralization, transparency, and tracking from source to delivery. Widespread adoption is hindered by the expertise needed for implementation and varying government regulations. Over time, transparency-based technology is likely to replace traditional processes.
+ER  - 
+
+TY  - CONF
+TI  - Advancing Heart Disease Detection by using Ensemble Meta-Features Integration
+T2  - 2024 IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT)
+SP  - 888
+EP  - 892
+AU  - K. Hymavathi
+AU  - S. H. Mehanoor
+AU  - G. Srinivas
+AU  - A. Lakshmanarao
+AU  - J. Jalla
+PY  - 2024
+KW  - Heart
+KW  - Radio frequency
+KW  - Adaptation models
+KW  - Correlation
+KW  - Computational modeling
+KW  - Boosting
+KW  - Ensemble learning
+KW  - Heart Disease
+KW  - Machine Learning
+KW  - Ensemble learning
+KW  - Meta Features
+DO  - 10.1109/IC2PCT60090.2024.10486612
+JO  - 2024 IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT)
+IS  - 
+SN  - 
+VO  - 5
+VL  - 5
+JA  - 2024 IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT)
+Y1  - 9-10 Feb. 2024
+AB  - heart disease continues to be a prominent contributor to both illness and death on a worldwide scale, presenting a substantial obstacle to public health. Heart disease can manifest in various forms, each impacting the cardiovascular system differently. This paper presents a novel and efficient approach for heart disease detection using a ML-based ensemble model with integrated meta-features. The proposed model combines five distinct techniques: Weighted Average Ensemble, Adaptive Boosting, Random Forest with Feature Bagging, Negative Correlation Learning, and Ensemble of Small Models. Each technique contributes to the overall predictive power of the model, leveraging diverse strategies to enhance accuracy and robustness. To compare the proposed model, traditional ML algorithms are also applied and compared the results with proposed model. The experiments conducted demonstrate the efficiency of the proposed ensemble learning approach, showcasing its superiority in accurately predicting heart disease. The integration of meta-features enhances the model’s interpretability and adaptability, making it a promising solution for real-world applications in healthcare.
+ER  - 
+
+TY  - CONF
+TI  - Representing Outcome-Driven Higher-Order Dependencies in Graphs of Disease Trajectories
+T2  - 2024 IEEE 12th International Conference on Healthcare Informatics (ICHI)
+SP  - 11
+EP  - 20
+AU  - S. J. Krieg
+AU  - N. V. Chawla
+AU  - K. Feldman
+PY  - 2024
+KW  - Noise
+KW  - Supervised learning
+KW  - Medical services
+KW  - Predictive models
+KW  - Transformers
+KW  - Data models
+KW  - Trajectory
+KW  - disease trajectories
+KW  - sequence modeling
+KW  - higher-order networks
+DO  - 10.1109/ICHI61247.2024.00010
+JO  - 2024 IEEE 12th International Conference on Healthcare Informatics (ICHI)
+IS  - 
+SN  - 2575-2634
+VO  - 
+VL  - 
+JA  - 2024 IEEE 12th International Conference on Healthcare Informatics (ICHI)
+Y1  - 3-6 June 2024
+AB  - The widespread application of machine learning techniques to biomedical data has produced many new insights into disease progression and improving clinical care. Inspired by the flexibility and interpretability of graphs (networks), as well as the potency of sequence models like transformers and higher-order networks (HONs), we propose a method that identifies combinations of risk factors for a given outcome and accurately encodes these higher-order relationships in a graph. Using historical data from 913,475 type 2 diabetes (T2D) patients, we found that, compared to other approaches, the proposed networks encode significantly more information about the progression of T2D toward a variety of outcomes. We additionally demonstrate how structural information from the proposed graph can be used to augment the performance of transformer-based models on predictive tasks, especially when the data are noisy. By increasing the order, or memory, of the graph, we show how the proposed method illuminates key risk factors while successfully ignoring noisy elements, which facilitates analysis that is simultaneously accurate and interpretable.
+ER  - 
+
+TY  - CONF
+TI  - Multi-MedChain: Multi-Party Multi-Blockchain Medical Supply Chain Management System
+T2  - 2024 IEEE Annual Congress on Artificial Intelligence of Things (AIoT)
+SP  - 153
+EP  - 159
+AU  - A. Saini
+AU  - A. Shaghaghi
+AU  - Z. Huang
+AU  - S. S. Kanhere
+PY  - 2024
+KW  - Supply chain management
+KW  - Pandemics
+KW  - Supply chains
+KW  - Smart contracts
+KW  - Collaboration
+KW  - Medical services
+KW  - Internet of Things
+KW  - Medical Supply Chain
+KW  - Multi-Party Multi-Blockchain
+KW  - End-to-End Traceability
+KW  - Access Control
+DO  - 10.1109/AIoT63253.2024.00038
+JO  - 2024 IEEE Annual Congress on Artificial Intelligence of Things (AIoT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE Annual Congress on Artificial Intelligence of Things (AIoT)
+Y1  - 24-26 July 2024
+AB  - The challenges of healthcare supply chain management systems during the COVID-19 pandemic highlighted the need for an innovative and robust medical supply chain. The healthcare supply chain involves various stakeholders who must share information securely and actively. Regulatory and compliance reporting is also another crucial requirement for perishable products (e.g., pharmaceuticals) within a medical supply chain management system. Here, we propose Multi-MedChain as a three-layer multi-party, multi-blockchain (MPMB) framework utilizing smart contracts as a practical solution to address challenges in existing medical supply chain management systems. Multi-MedChain is a scalable supply chain management system for the healthcare domain that addresses end-to-end traceability, transparency, and collaborative access control to restrict access to private data. We have implemented our proposed system and report on our evaluation to highlight the practicality of the solution. The proposed solution is made publicly available.
+ER  - 
+
+TY  - CONF
+TI  - Mobile-based Vaccine Tracking System using Ethereum Blockchain and QR Code
+T2  - 2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)
+SP  - 1
+EP  - 6
+AU  - I. Wahyudi
+AU  - P. Sukarno
+AU  - A. A. Wardana
+PY  - 2024
+KW  - Supply chain management
+KW  - Smart contracts
+KW  - QR codes
+KW  - Vaccines
+KW  - Blockchains
+KW  - Safety
+KW  - Mobile applications
+KW  - blockchain
+KW  - smart contract
+KW  - mobile application
+KW  - QR code
+KW  - supply chain
+DO  - 10.1109/ACDSA59508.2024.10467308
+JO  - 2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)
+Y1  - 1-2 Feb. 2024
+AB  - In the current landscape of vaccine distribution, the pervasive threat of illicit distributors exploiting transaction data vulnerabilities raises serious concerns about vaccine safety and authenticity. To address this challenge, this research introduces an innovative blockchain-based system aimed at countering vaccine counterfeiting and enhancing the transparency of distribution processes. Leveraging Supply Chain Management principles, the system orchestrates the complexities of vaccine distribution, offering comprehensive visibility from central government initiation to healthcare professional administration via an intuitive mobile application. Blockchain technology strengthens data security, guarding against fraudulent activities, while the integration of QR codes expedites data processing and furnishes patients with detailed vaccine information. All transactions are executed through smart contracts, ensuring trust and transparency, with completed contracts securely recorded on the Ethereum blockchain. This research presents a groundbreaking solution to combat vaccine counterfeiting, establishing a resilient and transparent framework for distribution, providing real-time monitoring, and empowering patients and stakeholders with essential vaccine details. In summary, the amalgamation of Ethereum blockchain technology and QR codes in this mobile-based vaccine tracking system offers a transformative approach to fortify the safety and integrity of vaccine distribution, ultimately benefiting society as a whole.
+ER  - 
+
+TY  - CHAP
+TI  - Blockchain for Improving Security and Privacy in the Smart Sensor Network
+T2  - Artificial Intelligence-Enabled Blockchain Technology and Digital Twin for Smart Hospitals
+SP  - 347
+EP  - 368
+AU  - Amit Kumar Tyagi
+AU  - Tanuj Surve
+PY  - 2024
+KW  - Intelligent sensors
+KW  - Robot sensing systems
+KW  - Blockchains
+KW  - Security
+KW  - Privacy
+KW  - Temperature measurement
+KW  - Temperature sensors
+KW  - Monitoring
+KW  - Data privacy
+KW  - Safety
+DO  - 10.1002/9781394287420.ch18
+PB  - Wiley
+SN  - 9781394287413
+UR  - http://ieeexplore.ieee.org/document/10951494
+AB  - Summary <p>Smart sensor devices have turned out to be an essential chunk of our interconnected region, enabling data collection and automation in various domains, from industrial applications to healthcare and environmental monitoring. However, the widespread deployment of these sensors raises major issues about data security and privacy. This chapter deliberates on blockchain technology which can enhance the security and privacy of smart sensor networks. Traditional centralized data storage and processing in smart sensor domains are susceptible to innumerable intimidations, including data tampering, illegal entr&#xe9;e, and single points of failure. Blockchain, known for its decentralized, tamper&#x2010;resistant, and transparent ledger, provides a promising alternative for securing data in such networks. This chapter discusses how blockchain technology can be integrated into smart sensor networks to improve security and privacy. It also explains the key concepts of blockchain, such as distributed ledger, cryptographic hashing, and consensus algorithms, and how these elements contribute to enhancing security. Furthermore, it examines the potential of smart contracts for automating security policies within the sensor network. Privacy in smart sensor networks is also a paramount concern, particularly when dealing with sensitive data. The chapter discusses techniques like zero&#x2010;knowledge proofs and private transactions in blockchain to address privacy issues. It discusses the balance between data transparency and privacy, providing information about achieving the desired level of anonymity while maintaining data integrity. This chapter highlights real&#x2010;world use cases and applications of blockchain in smart sensor networks, such as logistics, healthcare data sharing, and environmental monitoring. It also discusses the issues and confines accompanying blockchain integration, including growth challenges and energy consumption issues.</p>
+ER  - 
+
+TY  - BOOK
+TI  - Interactive and Explainable Robot Learning: A Comprehensive Review
+SP  - 1
+EP  - 
+AU  - Esmaeil Seraj
+AU  - Kin Man Lee
+AU  - Zulfiqar Zaidi
+AU  - Qingyu Xiao
+AU  - Zhaoxin Li
+AU  - Arthur Nascimento
+AU  - Sanne van Waveren
+AU  - Pradyumna Tambwekar
+AU  - Rohan Paleja
+AU  - Devleena Das
+AU  - Matthew Gombolay
+PY  - 2024
+DO  - 
+PB  - now
+SN  - 9781638283775
+UR  - http://ieeexplore.ieee.org/document/10551737
+AB  - This monograph embarks on a comprehensive exploration of approaches, evaluation methods, and ethical considerations in explainable and interactive systems for robotic applications, distinctly focusing on intelligent systems that are specifically designed for learning automated agents. Given the increasing integration of robots in daily life, it is crucial to focus on intelligent systems that not only can learn and adapt, but also can offer clarity and comprehension for their actions. The interactive component of these systems is thoroughly examined, evaluating the algorithms, the modalities used in interaction, and the significance of mixed-initiative and shared autonomy. Adaptive and adaptable methods, emphasizing the centrality of user-inspired research and personalized approaches in interactive robotics are highlighted. Also included is a rigorous examination of safety and ethical considerations of these intelligent systems, including aspects of transparency, privacy, accountability, biases, and psychological well-being. The monograph evaluates existing metrics and benchmarking standards for such systems and explores their practical applications across domains such as healthcare, domestic tasks, and industrial automation. The monograph concludes with key insights and directions for future research, and design guidelines and points of consensus for each subject are included in order to equip readers with a nuanced understanding of current trends and tools in explainable and interactive robotic systems, paving the way for informed research and application in this dynamic field.
+ER  - 
+
+TY  - JOUR
+TI  - Multivariate Data Explanation by Jumping Emerging Patterns Visualization
+T2  - IEEE Transactions on Visualization and Computer Graphics
+SP  - 1549
+EP  - 1563
+AU  - M. Popolin Neto
+AU  - F. V. Paulovich
+PY  - 2024
+KW  - Data visualization
+KW  - Data models
+KW  - Analytical models
+KW  - Layout
+KW  - Data mining
+KW  - Predictive models
+KW  - Histograms
+KW  - Data explanation
+KW  - jumping emerging patterns
+KW  - random decision trees
+KW  - exploratory analysis
+DO  - 10.1109/TVCG.2022.3223529
+JO  - IEEE Transactions on Visualization and Computer Graphics
+IS  - 2
+SN  - 1941-0506
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Visualization and Computer Graphics
+Y1  - Feb. 2024
+AB  - Multivariate or multidimensional visualization plays an essential role in exploratory data analysis by allowing users to derive insights and formulate hypotheses. Despite their popularity, it is usually users’ responsibility to (visually) discover the data patterns, which can be cumbersome and time-consuming. Visual Analytics (VA) and machine learning techniques can be instrumental in mitigating this problem by automatically discovering and representing such patterns. One example is the integration of classification models with (visual) interpretability strategies, where models are used as surrogates for data patterns so that understanding a model enables understanding the phenomenon represented by the data. Although useful and inspiring, the few proposed solutions are based on visual representations of so-called black-box models, so the interpretation of the patterns captured by the models is not straightforward, requiring mechanisms to transform them into human-understandable pieces of information. This paper presents multiVariate dAta eXplanation (VAX), a new VA method to support identifying and visual interpreting patterns in multivariate datasets. Unlike the existing similar approaches, VAX uses the concept of Jumping Emerging Patterns, inherent interpretable logic statements representing class-variable relationships (patterns) derived from random Decision Trees. The potential of VAX is shown through use cases employing two real-world datasets covering different scenarios where intricate patterns are discovered and represented, something challenging to be done using usual exploratory approaches.
+ER  - 
+
+TY  - CONF
+TI  - Smart Contract-Enabled Blockchain Framework for Electronic Medical Health Records
+T2  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+SP  - 124
+EP  - 129
+AU  - A. K. Mishra
+AU  - R. Sharma
+AU  - J. Singh
+AU  - P. Singh
+AU  - M. Diwakar
+AU  - M. Tiwari
+PY  - 2024
+KW  - Performance evaluation
+KW  - Smart contracts
+KW  - Medical services
+KW  - User interfaces
+KW  - Blockchains
+KW  - Cryptocurrency
+KW  - Security
+KW  - Medical diagnostic imaging
+KW  - Open source software
+KW  - Standards
+KW  - IoT
+KW  - machine learning
+KW  - Smart contract
+KW  - security
+KW  - health care
+DO  - 10.1109/Confluence60223.2024.10463285
+JO  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+IS  - 
+SN  - 2766-421X
+VO  - 
+VL  - 
+JA  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+Y1  - 18-19 Jan. 2024
+AB  - This article presents a distinctive framework that utilises blockchain technology to enable smart contracts, revolutionising the administration of electronic medical health records (EMHRs). The framework utilises the Ethereum blockchain and contemporary user interfaces to tackle significant concerns in healthcare data management, ensuring enhanced security, transparency, and user engagement. The device employs smart contracts to automate data access and permission management, reducing administrative complexities and enhancing data integrity. Utilising MetaMask and IPFS, user-friendly interfaces provide medical physicians and patients with quick access to EMHRs, promoting enhanced patient care and medical decision-making. The performance benefits of the framework are evaluated by performance evaluation, which utilises many metrics like transaction processing times, data retrieval times, system uptime, data storage efficiency, and user adoption rates. The results pertain to the device's level of responsiveness and durability, highlighting its capacity to facilitate the interchange of healthcare data management. This study establishes the basis for a future in which medical information is effectively exchanged and controlled, resulting in more accurate diagnoses, more efficient patient care, and adherence to regulatory standards. This technology plays an important part in advancing the development of safe and personalised EMHR control, as the healthcare industry continues to progress.
+ER  - 
+
+TY  - CHAP
+TI  - Blockchain&#x2010;Empowered Internet of Things (IoTs) Platforms for Automation in Various Sectors
+T2  - Artificial Intelligence-Enabled Digital Twin for Smart Manufacturing
+SP  - 443
+EP  - 477
+AU  - Santosh Reddy Addula
+AU  - Amit Kumar Tyagi
+AU  - Kanchan Naithani
+AU  - Shabnam Kumari
+PY  - 2024
+KW  - Internet of Things
+KW  - Blockchains
+KW  - Security
+KW  - Automation
+KW  - Data privacy
+KW  - Market research
+KW  - Smart contracts
+KW  - Reliability
+KW  - Scalability
+KW  - Medical services
+DO  - 10.1002/9781394303601.ch20
+PB  - Wiley
+SN  - 9781394303595
+UR  - http://ieeexplore.ieee.org/document/10955624
+AB  - Summary <p>In the recent decade, Internet of Things (IoTs) and Blockchain has changes the life of human being via provide convenient services and fulfilling the demand by smart production. This chapter discusses the transformative potential of integrating Blockchain technology into IoT platforms, creating a paradigm shift in automation across diverse sectors. As industries increasingly embrace IoT for real&#x2010;time data monitoring and control, the incorporation of Blockchain empowers these platforms with enhanced security, transparency, and efficiency. Blockchain's decentralized and tamper&#x2010;resistant ledger provides a robust foundation for securing IoT data transactions. By employing smart contracts, it establishes trust and verifiability in automated processes, mitigating concerns related to data manipulation and unauthorized access. This paper investigates the implications of this synergy on sectors such as manufacturing, logistics, healthcare, and energy, highlighting the benefits of transparent and secure data exchange in automated systems. Moreover, the decentralized nature of Blockchain ensures a resilient and scalable infrastructure for large&#x2010;scale IoT deployments. This work moves towards the challenges and opportunities associated with deploying Blockchain&#x2010;empowered IoT platforms, addressing issues of scalability, interoperability, and integration with existing systems. Through a comprehensive analysis of case studies and theoretical frameworks, this chapter contributes to the evolving discourse on Blockchain and IoT convergence, shedding light on its potential to revolutionize automation in various sectors.</p>
+ER  - 
+
+TY  - CONF
+TI  - Implicit Neural Representations for Breathing-compensated Volume Reconstruction in Robotic Ultrasound
+T2  - 2024 IEEE International Conference on Robotics and Automation (ICRA)
+SP  - 1316
+EP  - 1322
+AU  - Y. Velikova
+AU  - M. F. Azampour
+AU  - W. Simson
+AU  - M. Esposito
+AU  - N. Navab
+PY  - 2024
+KW  - Ultrasonic imaging
+KW  - Three-dimensional displays
+KW  - Protocols
+KW  - Ultrasonic variables measurement
+KW  - Tracking
+KW  - Pipelines
+KW  - Robots
+DO  - 10.1109/ICRA57147.2024.10611443
+JO  - 2024 IEEE International Conference on Robotics and Automation (ICRA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Robotics and Automation (ICRA)
+Y1  - 13-17 May 2024
+AB  - Ultrasound (US) imaging is widely used in diagnosing and staging abdominal diseases due to its lack of non-ionizing radiation and prevalent availability. However, significant inter-operator variability and inconsistent image acquisition hinder the widespread adoption of extensive screening programs. Robotic ultrasound systems have emerged as a promising solution, offering standardized acquisition protocols and the possibility of automated acquisition. Additionally, these systems enable access to 3D data via robotic tracking, enhancing volumetric reconstruction for improved ultrasound interpretation and precise disease diagnosis.However, the interpretability of 3D US reconstruction of abdominal images can be affected by the patient’s breathing motion. This study introduces a method to compensate for breathing motion in 3D US compounding by leveraging implicit neural representations. Our approach employs a robotic ultrasound system for automated screenings. To demonstrate the method’s effectiveness, we evaluate our proposed method for the diagnosis and monitoring of abdominal aorta aneurysms as a representative use case.Our experiments demonstrate that our proposed pipeline facilitates robust automated robotic acquisition, mitigating artifacts from breathing motion, and yields smoother 3D reconstructions for enhanced screening and medical diagnosis.
+ER  - 
+
+TY  - JOUR
+TI  - A Hybrid Learning-Architecture for Mental Disorder Detection Using Emotion Recognition
+T2  - IEEE Access
+SP  - 91410
+EP  - 91425
+AU  - J. Aina
+AU  - O. Akinniyi
+AU  - M. M. Rahman
+AU  - V. Odero-Marah
+AU  - F. Khalifa
+PY  - 2024
+KW  - Mental disorders
+KW  - Depression
+KW  - Accuracy
+KW  - Feature extraction
+KW  - Predictive models
+KW  - Visualization
+KW  - Mental health
+KW  - Object detection
+KW  - YOLO
+KW  - Saliency detection
+KW  - Emotion recognition
+KW  - Object detection
+KW  - YOLOv8
+KW  - feature fusion
+KW  - saliency maps
+DO  - 10.1109/ACCESS.2024.3421376
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Mental illness has grown to become a prevalent and global health concern that affects individuals across various demographics. Timely detection and accurate diagnosis of mental disorders are crucial for effective treatment and support as late diagnosis could result in suicidal, harmful behaviors and ultimately death. To this end, the present study introduces a novel pipeline for the analysis of facial expressions, leveraging both the AffectNet and 2013 Facial Emotion Recognition (FER) datasets. Consequently, this research goes beyond traditional diagnostic methods by contributing a system capable of generating a comprehensive mental disorder dataset and concurrently predicting mental disorders based on facial emotional cues. Particularly, we introduce a hybrid architecture for mental disorder detection leveraging the state-of-the-art object detection algorithm, YOLOv8 to detect and classify visual cues associated with specific mental disorders. To achieve accurate predictions, an integrated learning architecture based on the fusion of Convolution Neural Networks (CNNs) and Visual Transformer (ViT) models is developed to form an ensemble classifier that predicts the presence of mental illness (e.g., depression, anxiety, and other mental disorder). The overall accuracy is improved to about 81% using the proposed ensemble technique. To ensure transparency and interpretability, we integrate techniques such as Gradient-weighted Class Activation Mapping (Grad-CAM) and saliency maps to highlight the regions in the input image that significantly contribute to the model’s predictions thus providing healthcare professionals with a clear understanding of the features influencing the system’s decisions thereby enhancing trust and more informed diagnostic process.
+ER  - 
+
+TY  - CONF
+TI  - Improving Time Series Forecasting Accuracy with Transformers: A Comprehensive Analysis with Explainability
+T2  - 2024 Third International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT)
+SP  - 1
+EP  - 7
+AU  - S. Joseph
+AU  - A. A. Jo
+AU  - E. Deni Raj
+PY  - 2024
+KW  - Analytical models
+KW  - Accuracy
+KW  - Perturbation methods
+KW  - Time series analysis
+KW  - Refining
+KW  - Predictive models
+KW  - Transformers
+KW  - Stability analysis
+KW  - Thin film transistors
+KW  - Forecasting
+KW  - Transformers
+KW  - Time series forecasting
+KW  - Explainable Artificial intelligence
+KW  - Feature Importance
+KW  - Attention visualization
+DO  - 10.1109/ICEEICT61591.2024.10718609
+JO  - 2024 Third International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 Third International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT)
+Y1  - 24-26 July 2024
+AB  - Time series forecasting is crucial in numerous sectors, including healthcare, energy, and finance. Transformer models, initially designed for natural language processing applications, demonstrate potential in capturing temporal dependencies within sequential data. In this paper, the application of transformer models in time-series forecasting is explored, and their performance and interpretability are investigated. Transparent models build trust and facilitate decision-making, especially in industries with ethical guidelines. While inherently interpretable time-series Transformers exist, there is a gap in research regarding post hoc methods, which is an area ripe for exploration. Understanding and comparing complex Transformer models for time series forecasting can benefit from advancements in explainability, ensuring accurate and comprehensible predictions. In comparison to five other transformer-based models and classical models, the Temporal Fusion Transformer (TFT) model outperformed them in short-term forecasting. Further enhancement of the model performance was achieved through a meticulous analysis of the Encoder-Decoder’s importance, which contributed significantly to refining the forecasting accuracy. The vanilla transformer was explained using permutation feature importance. The model stability was analyzed using perturbation methods.
+ER  - 
+
+TY  - JOUR
+TI  - Attention-Like Multimodality Fusion With Data Augmentation for Diagnosis of Mental Disorders Using MRI
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+SP  - 7627
+EP  - 7641
+AU  - R. Liu
+AU  - Z. -A. Huang
+AU  - Y. Hu
+AU  - Z. Zhu
+AU  - K. -C. Wong
+AU  - K. C. Tan
+PY  - 2024
+KW  - Functional magnetic resonance imaging
+KW  - Neuroimaging
+KW  - Solid modeling
+KW  - Mental disorders
+KW  - Data models
+KW  - Urban areas
+KW  - Support vector machines
+KW  - Attention deficit/hyperactivity disorder
+KW  - autism spectrum disorder (ASD)
+KW  - computer-aided diagnosis
+KW  - magnetic resonance imaging
+KW  - multimodality data generation
+KW  - multimodality fusion
+KW  - schizophrenia
+DO  - 10.1109/TNNLS.2022.3219551
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+IS  - 6
+SN  - 2162-2388
+VO  - 35
+VL  - 35
+JA  - IEEE Transactions on Neural Networks and Learning Systems
+Y1  - June 2024
+AB  - The globally rising prevalence of mental disorders leads to shortfalls in timely diagnosis and therapy to reduce patients’ suffering. Facing such an urgent public health problem, professional efforts based on symptom criteria are seriously overstretched. Recently, the successful applications of computer-aided diagnosis approaches have provided timely opportunities to relieve the tension in healthcare services. Particularly, multimodal representation learning gains increasing attention thanks to the high temporal and spatial resolution information extracted from neuroimaging fusion. In this work, we propose an efficient multimodality fusion framework to identify multiple mental disorders based on the combination of functional and structural magnetic resonance imaging. A multioutput conditional generative adversarial network (GAN) is developed to address the scarcity of multimodal data for augmentation. Based on the augmented training data, the multiheaded gating fusion model is proposed for classification by extracting the complementary features across different modalities. The experiments demonstrate that the proposed model can achieve robust accuracies of  $75.1~\pm ~1.5$ %,  $72.9~\pm ~1.1$ %, and  $87.2~\pm ~1.5$ % for autism spectrum disorder (ASD), attention deficit/hyperactivity disorder, and schizophrenia, respectively. In addition, the interpretability of our model is expected to enable the identification of remarkable neuropathology diagnostic biomarkers, leading to well-informed therapeutic decisions.
+ER  - 
+
+TY  - CONF
+TI  - Mitigating IoT Security Risks: Enhanced Ransomware Attack Classification
+T2  - 2024 IEEE 5th India Council International Subsections Conference (INDISCON)
+SP  - 1
+EP  - 6
+AU  - V. Kumar
+AU  - K. S. Jadon
+AU  - N. Gupta
+PY  - 2024
+KW  - Accuracy
+KW  - Uncertainty
+KW  - Stacking
+KW  - Urban areas
+KW  - Predictive models
+KW  - Ransomware
+KW  - Internet of Things
+KW  - Security
+KW  - Smart devices
+KW  - Random forests
+KW  - IoT
+KW  - ML
+KW  - GPC
+KW  - SCM
+KW  - Security
+KW  - Ransomware
+DO  - 10.1109/INDISCON62179.2024.10744284
+JO  - 2024 IEEE 5th India Council International Subsections Conference (INDISCON)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE 5th India Council International Subsections Conference (INDISCON)
+Y1  - 22-24 Aug. 2024
+AB  - The Internet of Things (IoT) has enhanced people’s lives by providing high-quality services in cognitive cities, healthcare, and smart devices. However, smart devices often utilize a variety of networks to enable communication and functionality. The large number of networked IoT devices increases the likelihood of IoT attacks, emphasizing the need for secure and privacy-preserving solutions. Security is a critical aspect of smart devices, given the increasing connectivity and potential vulnerabilities associated with their use. Among others, ransomware attacks on IoT devices pose increasing security risks. These assaults can result in severe disruptions and financial losses. The ML classification model techniques are used for the classification of ransomware attacks. However, the ML model techniques are still challenging in accuracy, performance, privacy, and security. Therefore, the Ensemble Learning (EL) model is proposed to address the challenges faced by standalone ML model classification. In the proposed model, ML models are integrated with a Gaussian Process Classifier (GPC) using Stacking Classification Model (SCM) techniques which enhance the performance on various metrics compared with the existing solutions.GPCs offer uncertainty estimates and interpretability, making them advantageous for understanding model confidence and predictions, especially for smaller datasets. The results show that the proposed system can classify ransomware attacks efficiently.
+ER  - 
+
+TY  - JOUR
+TI  - Parallel and Distributed Bayesian Network Structure Learning
+T2  - IEEE Transactions on Parallel and Distributed Systems
+SP  - 517
+EP  - 530
+AU  - J. Yang
+AU  - J. Jiang
+AU  - Z. Wen
+AU  - A. Mian
+PY  - 2024
+KW  - Parallel processing
+KW  - Dynamic scheduling
+KW  - Clouds
+KW  - Bayes methods
+KW  - Memory management
+KW  - Heuristic algorithms
+KW  - Task analysis
+KW  - Bayesian networks
+KW  - distributed machine learning systems
+KW  - parallelism
+DO  - 10.1109/TPDS.2023.3326832
+JO  - IEEE Transactions on Parallel and Distributed Systems
+IS  - 4
+SN  - 1558-2183
+VO  - 35
+VL  - 35
+JA  - IEEE Transactions on Parallel and Distributed Systems
+Y1  - April 2024
+AB  - Bayesian networks (BNs) are graphical models representing uncertainty in causal discovery, and have been widely used in medical diagnosis and gene analysis due to their effectiveness and good interpretability. However, mainstream BN structure learning methods are computationally expensive, as they must perform numerous conditional independence (CI) tests to decide the existence of edges. Some researchers attempt to accelerate the learning process by parallelism, but face issues including load unbalancing, costly dominant parallelism overhead. We propose a multi-thread method, namely Fast-BNS version 1 (Fast-BNS-v1 for short), on multi-core CPUs to enhance the efficiency of the BN structure learning. Fast-BNS-v1 incorporates a series of efficiency optimizations, including a dynamic work pool for better scheduling, grouping CI tests to avoid unnecessary operations, a cache-friendly data storage to improve memory efficiency, and on-the-fly conditioning sets generation to avoid extra memory consumption. To further boost learning performance, we develop a two-level parallel method Fast-BNS-v2 by integrating edge-level parallelism with multi-processes and CI-level parallelism with multi-threads. Fast-BNS-v2 is equipped with careful optimizations including dynamic work stealing for load balancing, SIMD edge list deletion for list updating, and effective communication policies for synchronization. Comprehensive experiments show that our Fast-BNS achieves 9 to 235 times speedup over the state-of-the-art multi-threaded method on a single machine. When running on multi-machines, it further reduces the execution time of the single-machine implementation by 80%.
+ER  - 
+
+TY  - CONF
+TI  - Unsupervised Learning of Wearable Sensor Data for Assessing Upper Limb Function
+T2  - 2024 International Conference on Communication, Computing and Energy Efficient Technologies (I3CEET)
+SP  - 1603
+EP  - 1608
+AU  - S. S
+AU  - J. S
+AU  - S. G. H. Rose
+PY  - 2024
+KW  - Limbs
+KW  - Measurement units
+KW  - Reviews
+KW  - Inertial navigation
+KW  - Motors
+KW  - Electromyography
+KW  - Wrapping
+KW  - Unsupervised learning
+KW  - Wearable sensors
+KW  - Monitoring
+KW  - Wearable sensors
+KW  - IMU (Inertial Measurement Unit) sensors
+KW  - Upper limb function
+KW  - Unsupervised learning
+KW  - Rehabilitation
+DO  - 10.1109/I3CEET61722.2024.10994002
+JO  - 2024 International Conference on Communication, Computing and Energy Efficient Technologies (I3CEET)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 International Conference on Communication, Computing and Energy Efficient Technologies (I3CEET)
+Y1  - 20-21 Sept. 2024
+AB  - Assessment of upper limb function is integral to both rehabilitation and clinical care, guiding tailored treatment plans and monitoring patient progress. Recent advances in wearable sensor technology and unsupervised learning offer promising avenues for objective and continuous evaluation of upper limb function. This review paper offers an in-depth exploration of the application of unsupervised learning techniques to wearable sensor data for this purpose.Beginning with an examination of the limitations inherent in traditional assessment methods, the review highlights the growing demand for more sophisticated approaches capable of capturing the nuanced movements of the upper limb. Wearable sensor technologies, including inertial measurement units (IMUs), electromyography (EMG), and force sensors, are introduced for their potential to provide real-world movement data. Furthermore, the review elucidates the principles of unsupervised learning, focusing on clustering algorithms and dimensionality reduction techniques as key tools for analysing sensor data without the need for labelled training samples.A thorough review of existing literature showcases the diverse applications of unsupervised learning approaches in upper limb function assessment, ranging from motion pattern recognition to gesture classification and motor performance evaluation. Case studies and research findings demonstrate the effectiveness of these methods in identifying abnormal movement patterns, monitoring rehabilitation progress, and offering objective feedback to patients and clinicians.Addressing challenges such as data variability, model interpretability, and integration into clinical practice, the review underscores the need for further research and development in this field. It concludes by emphasizing the transformative potential of unsupervised learning and wearable sensor technology in advancing upper limb rehabilitation and clinical assessment.In summary, this review paper serves as a comprehensive resource for researchers, clinicians, and healthcare professionals interested in utilizing unsupervised learning techniques and wearable sensor data for objective upper limb function assessment, with implications for personalized rehabilitation strategies and improved patient outcomes.
+ER  - 
+
+TY  - JOUR
+TI  - Securing Personally Identifiable Information: A Survey of SOTA Techniques, and a Way Forward
+T2  - IEEE Access
+SP  - 116740
+EP  - 116770
+AU  - I. Makhdoom
+AU  - M. Abolhasan
+AU  - J. Lipman
+AU  - N. Shariati
+AU  - D. Franklin
+AU  - M. Piccardi
+PY  - 2024
+KW  - Identification of persons
+KW  - Security
+KW  - Privacy
+KW  - Regulation
+KW  - Internet of Things
+KW  - General Data Protection Regulation
+KW  - Data privacy
+KW  - Internet of Things
+KW  - security and privacy
+KW  - data sharing
+KW  - regulations and policies
+KW  - privacy-preserving computation
+KW  - personally identifiable information
+DO  - 10.1109/ACCESS.2024.3447017
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - The current age is witnessing an unprecedented dependence on data originating from humans through the devices that comprise the Internet of Things. The data collected by these devices are used for many purposes, including predictive maintenance, smart analytics, preventive healthcare, disaster protection, and increased operational efficiency and performance. However, most applications and systems that rely on user data to achieve their business objectives fail to comply with privacy regulations and expose users to numerous privacy threats. Such privacy breaches raise concerns about the legitimacy of the data being processed. Hence, this paper reviews some notable techniques for transparently, securely, and privately separating and sharing personally identifiable and non-personally identifiable information in various domains. One of the key findings of this study is that, despite various advantages, none of the existing techniques or data sharing applications preserve data/user privacy throughout the data life cycle. Another significant issue is the lack of transparency for data subjects during the collection, storage, and processing of private data. In addition, as privacy is unique to every user, there cannot be a single autonomous solution to identify and secure personally identifiable information for users of a particular application, system, or people living in different states/countries. Therefore, this research suggests a way forward to prevent the leakage of personally identifiable information at various stages of the data life cycle in compliance with some of the common privacy regulations around the world. The proposed approach aims to empower data owners to select, share, monitor, and control access to their data. In addition, the data owner is a stakeholder and a party to all data sharing contracts related to his personal data. The proposed solution has broad security and privacy controls that can be tailored to the privacy needs of specific applications.
+ER  - 
+
+TY  - CONF
+TI  - FASALKA: Offloaded Privacy Classification for Blockchain Smart Contracts
+T2  - 2024 6th International Conference on Blockchain Computing and Applications (BCCA)
+SP  - 204
+EP  - 210
+AU  - T. Devgun
+AU  - G. Kumar
+AU  - M. Conti
+PY  - 2024
+KW  - Privacy
+KW  - Accuracy
+KW  - Federated learning
+KW  - Publishing
+KW  - Smart contracts
+KW  - Reinforcement learning
+KW  - Medical services
+KW  - Throughput
+KW  - Blockchains
+KW  - Hybrid learning
+KW  - Blockchain
+KW  - Security
+KW  - Attack
+KW  - Privacy
+KW  - Anonymity
+DO  - 10.1109/BCCA62388.2024.10844467
+JO  - 2024 6th International Conference on Blockchain Computing and Applications (BCCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 6th International Conference on Blockchain Computing and Applications (BCCA)
+Y1  - 26-29 Nov. 2024
+AB  - Privacy problems in blockchain smart contracts arise from the inherent transparency of the technology. While blockchain ensures data integrity, it also exposes sensitive information to all participants. This lack of privacy can be a concern in industries requiring confidentiality, like finance or healthcare, prompting the need for privacy solutions in smart contracts. The existing smart contracts face the problems of over-utilization or under-utilization of privacy parameters due to the unavailability of online or offline privacy classification; smart contracts fall behind in solving privacy issues.In this paper, we introduce the first privacy classification framework for smart contracts. We call our framework oFfloaded privAcy-classified Smart contrAct for bLocKchAins (FASALKA). To be specific, FASALKA runs a novel privacy-ensured smart contract that includes a novel hybrid learning mechanism. This hybrid learning mechanism combines the potential of federated learning and reinforcement learning. We deploy Ethereum on Azure and run a set of experiments to measure the performance of our proposed FASALKA. We compare a general Ethereum framework with an Ethereum framework using our proposed FASALKA. We observe that the Ethereum framework shows 1.1% more latency than the general Ethereum; however, our proposed framework has a similar throughput of 21 TPS. Besides, FASALKA has the 100% accuracy of privacy classification, which is not present in general Ethereum. Thus, our proposed FASALKA is efficient and beneficial for the privacy-ensured blockchains.
+ER  - 
+
+TY  - CONF
+TI  - Comparative Analysis of ML Techniques for Predicting Diabetes
+T2  - 2024 IEEE International Conference on Computing, Applications and Systems (COMPAS)
+SP  - 1
+EP  - 6
+AU  - J. Hassan
+AU  - M. O. Khan
+AU  - S. Udoy Ahmed
+AU  - N. H. Anik
+AU  - M. Shamim Reza
+AU  - N. E. Sagor
+PY  - 2024
+KW  - Support vector machines
+KW  - Training
+KW  - Radio frequency
+KW  - Analytical models
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Predictive models
+KW  - Nearest neighbor methods
+KW  - Diabetes
+KW  - Forecasting
+KW  - Comparative Analysis
+KW  - Diabetes Prediction
+KW  - Machine Learning
+KW  - Performance Metrics
+KW  - PIDD
+DO  - 10.1109/COMPAS60761.2024.10796026
+JO  - 2024 IEEE International Conference on Computing, Applications and Systems (COMPAS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Computing, Applications and Systems (COMPAS)
+Y1  - 25-26 Sept. 2024
+AB  - Diabetes is a chronic illness that is common around the world, impacting millions of people and creating serious problems for public health. To avoid complications and enhance patient outcomes, diabetes must be identified early and managed well. We report a thorough investigation of the use of ML methods for forecasting diabetes in this publication. We utilize the Diabetes Dataset for Pima Indians (PIDD), a reputable industry benchmark dataset, for our analysis. Our study begins with data preprocessing steps, including addressing missing values, encoding categorical variables, and scaling features. Subsequently, we partition the dataset into sets for testing as well as training to ensure the robustness of our models. We evaluate a range of techniques for ML, such as LR, RF, GB, KNN, SVM, ANN, DT, LSVM, and NB, for their effectiveness in predicting diabetes. A variety of metrics for performance, such as F1-scoring, accuracy, recall, and precision are used to assess every framework once it has been assessed on the testing set after being trained on the training set. Furthermore, we conduct a comparative analysis of the models, considering factors such as interpretability, complexity, and generalization ability. Our results show promising performance across several ML models, with NB and LR exhibiting particularly high accuracy and precision in predicting diabetes. These findings underscore the potential of ML techniques in facilitating early detection and personalized management of diabetes, thereby contributing to improved patient outcomes and healthcare delivery.
+ER  - 
+
+TY  - CONF
+TI  - LTC-AE: Liquid Time Constant Autoencoders for Time Series Anomaly Detection
+T2  - 2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)
+SP  - 1
+EP  - 6
+AU  - R. S. Sailesh
+AU  - M. S. K
+AU  - P. J
+AU  - S. S
+PY  - 2024
+KW  - Wiring
+KW  - Liquids
+KW  - Scalability
+KW  - Heuristic algorithms
+KW  - Time series analysis
+KW  - Computer architecture
+KW  - Real-time systems
+KW  - Time Series
+KW  - Anomaly Detection
+KW  - Liquid Time-Constant
+KW  - Autoencoder
+KW  - Deep Learning
+DO  - 10.1109/ICITEICS61368.2024.10624814
+JO  - 2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)
+Y1  - 28-29 June 2024
+AB  - This research introduces a novel class of autoencoders, termed Liquid Time-Constant Autoencoder (LTC-AEs), for anomaly detection in time series data. Anomaly detection in real-time data streams is an extremely crucial task for various domains like healthcare, finance, and cyber security but it comes with a few challenges including missing values, class imbalances and noise. Recent research has proved optimal in addressing these challenges using sequential Autoencoders. Our proposed algorithm having the ability to capture temporal dynamics, learn from irregular sequences, improve interpretability and facilitate scalability, propose to help resolve some problems that delimits the potential of existing Autoencoder models. The experiments conducted in the study are utilized to emphasize the potential of our proposed model in handling multifaceted anomalies. The workflow follows semi-supervised learning to leverage the strengths of both supervised and unsupervised approaches. The utility of LTC-AEs are evaluated on various datasets and performance comparison is done with respect to architectures like Long Short-Term Memory (LSTM-AE), Gated Recurrent Unit (GRU-AE) and Temporal Convolutional Network (TCN-AE) Autoencoders.
+ER  - 
+
+TY  - CONF
+TI  - Interpretable Pruned Graph Neural Network for Text Classification
+T2  - 2024 4th International Conference on Computer Science and Blockchain (CCSB)
+SP  - 154
+EP  - 158
+AU  - Y. Deng
+AU  - J. Hu
+AU  - J. Dai
+PY  - 2024
+KW  - Analytical models
+KW  - Attention mechanisms
+KW  - Law
+KW  - Text categorization
+KW  - Decision making
+KW  - Semantics
+KW  - Stacking
+KW  - Medical services
+KW  - Graph neural networks
+KW  - Text processing
+KW  - Text Classification
+KW  - Graph Neural Networks
+KW  - Explainability Method
+KW  - Multi-Task Learning
+DO  - 10.1109/CCSB63463.2024.10735697
+JO  - 2024 4th International Conference on Computer Science and Blockchain (CCSB)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 4th International Conference on Computer Science and Blockchain (CCSB)
+Y1  - 6-8 Sept. 2024
+AB  - This research introduces ExPruneGraphNet., an Explainable Prunable Graph Network., alongside the Multi-Dimensional Intelligent Graph Network (MIGN), revolutionizing text classification within deep learning. Traditional models often struggle with complex semantics, risking significant inaccuracies in vital areas like healthcare and legal analytics. ExPruneGraphNet addresses these by resolving over-smoothing and limited feature expression in graph neural networks, preventing potential data misinterpretations. Its innovative node pruning technique significantly improves interpretability, crucial for high-stakes decision-making. MIGN complements this with dynamic layer adjustments and heterogeneous graph structures for enhanced text processing. Its architecture, combining multilayer graph stacking, residual connections, and attention mechanisms, enables in-depth classification. Demonstrated through outstanding performance on datasets like LegalQA., ExPruneGraphNet excels in multitask learning and complex data interpretation., making it ideal for applications in healthcare., legal, and financial analytics.
+ER  - 
+
+TY  - JOUR
+TI  - DYNAMITE: Integrating Archetypal Analysis and Process Mining for Interpretable Disease Progression Modelling
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 7553
+EP  - 7564
+AU  - I. Trescato
+AU  - E. Tavazzi
+AU  - M. Vettoretti
+AU  - R. Gatta
+AU  - R. Vasta
+AU  - A. Chiò
+AU  - B. D. Camillo
+PY  - 2024
+KW  - Diseases
+KW  - Trajectory
+KW  - Medical services
+KW  - Process mining
+KW  - Bioinformatics
+KW  - Analytical models
+KW  - Clinical diagnosis
+KW  - DYNAMITE
+KW  - archetypal analysis
+KW  - clinical data
+KW  - disease progression
+KW  - disesase states
+KW  - longitudinal dataset
+KW  - process mining
+DO  - 10.1109/JBHI.2024.3453602
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 12
+SN  - 2168-2208
+VO  - 28
+VL  - 28
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Dec. 2024
+AB  - DYNAMITE, an acronym for DYNamic Archetypal analysis for MIning disease TrajEctories, is a new methodology developed specifically to model disease progression by exploiting information available in longitudinal clinical datasets. First, archetypal analysis is applied to data organised in matrix form, with the aim of finding extreme and representative disease states (archetypes) linked to the original data through convex coefficients. Then, each original observation is associated with a single archetype based on their similarity; finally, an event log is created encoding the progression of disease states for each patient in terms of archetype states. In the last stage of the procedure, archetypal analysis is coupled with process mining, which allows the event log archetypes to be visualised graphically as sequences of disease states, allowing the clinical trajectories of patients to be extracted and examined. As a proof of concept, we applied the proposed method to data from a cohort of amyotrophic lateral sclerosis patients whose progression was monitored using the 12-item ALSFRS-R questionnaire. Without any a priori knowledge, DYNAMITE identified six archetypes clearly describing different types and severity of impairment and provided reliable clinical trajectories consistent with the prognosis of amyotrophic lateral sclerosis patients. DYNAMITE offers high interpretability at every stage of the analysis, which makes it particularly suitable for use in healthcare where explainability is paramount, and enables analysis of clinical trajectories at both individual and population levels.
+ER  - 
+
+TY  - CONF
+TI  - Breast Cancer Image Classification Using External Attention Multilayer Perceptron-Based Transformer
+T2  - 2024 3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE)
+SP  - 1
+EP  - 6
+AU  - S. Barua
+AU  - M. S. Islam
+PY  - 2024
+KW  - Accuracy
+KW  - Sensitivity
+KW  - Histopathology
+KW  - Noise reduction
+KW  - Transformers
+KW  - Feature extraction
+KW  - Nonhomogeneous media
+KW  - Breast Cancer
+KW  - Self-attention
+KW  - External-attention
+DO  - 10.1109/ICAEEE62219.2024.10561857
+JO  - 2024 3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE)
+Y1  - 25-27 April 2024
+AB  - The prevalence of breast cancer has led to increased interest in its classification among healthcare scholars. Deep learning techniques and self-attention-based transformers have gained popularity in breast image analysis. However, self-attention’s quadratic complexity limits its capacity and interpretability, disregarding sample-to-sample association. To address this issue, a study introduces a novel attention mechanism called External Attention Multi-Layer Perceptron (EAMLP). EAMLP utilizes two external, tiny, learnable, shared retention units implemented with linear and normalization layers. By leveraging the linear complexity of external attention, this approach reduces operational complexity while considering all data point connections. The study evaluates the proposed model’s effectiveness using two publicly available datasets: Breast Histopathology Images and the BreakHis dataset. The model’s performance is assessed using different image sizes and numbers of dense layers. Additionally, a self-attention-based transformer is experimentally tested for comparison. The results demonstrate that the proposed model achieves a maximum accuracy of 95.73%.
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Emotional Detection & Classification Capabilities of GPT-2 & GPT-Neo Using Textual Data
+T2  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+SP  - 12
+EP  - 18
+AU  - B. Jain
+AU  - G. Goyal
+AU  - M. Sharma
+PY  - 2024
+KW  - Emotion recognition
+KW  - Mental health
+KW  - Pressing
+KW  - Medical services
+KW  - Transformers
+KW  - Depression
+KW  - Data models
+KW  - Mental Health
+KW  - Emotion Recognition
+KW  - Large Language Model
+KW  - GPT-2
+KW  - GPT-Neo
+DO  - 10.1109/Confluence60223.2024.10463396
+JO  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+IS  - 
+SN  - 2766-421X
+VO  - 
+VL  - 
+JA  - 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)
+Y1  - 18-19 Jan. 2024
+AB  - Mental health has emerged as a pressing global health public concern due to the rising prevalence of mental illnesses and the notable gap in the detection and diagnosis of these conditions. With the widespread use of text as a means of communication, analysing mental health conditions from text has become essential. Artificial intelligence (AI) for healthcare has seen rapid growth and substantial research. In recent decades, the field of emotion recognition through AI has witnessed a notable shift from statistically shallow models to deep neural networks-based models, but they often grapple with challenges related to data scarcity, interpretability, and context-awareness, which has prompted the use of Large Language Models (LLMs) as a viable alternative. However, the introduction of LLMs like Generative Pretrained Transformer (GPT)-2 & GPT-Neo has astounded the research community with its unprecedented capabilities, which were previously unseen in traditional deep models. This work evaluates the effectiveness of LLMs-based GPT-Neo-125M and GPT-2 in 3 binary textbased mental health 2-class classification tasks: stress, depression, and suicidality which is, to our knowledge, the first attempt of the kind. This paper demonstrated that GPT-2 delivered higher overall accuracy, notably achieving an accuracy score of over 0.98 across all datasets.
+ER  - 
+
+TY  - CONF
+TI  - Advancements in Natural Language Processing: BERT and Transformer-Based Models for Text Understanding
+T2  - 2024 Second International Conference on Advanced Computing & Communication Technologies (ICACCTech)
+SP  - 372
+EP  - 379
+AU  - S. Singla
+AU  - Priyanshu
+AU  - A. Thakur
+AU  - A. Swami
+AU  - U. Sawarn
+AU  - P. Singla
+PY  - 2024
+KW  - Training
+KW  - Analytical models
+KW  - Sentiment analysis
+KW  - Technological innovation
+KW  - Computational modeling
+KW  - Bidirectional control
+KW  - Transformers
+KW  - Encoding
+KW  - Question answering (information retrieval)
+KW  - Context modeling
+KW  - Natural Language Processing (NLP)
+KW  - Transformer Models
+KW  - BERT
+KW  - Text Understanding
+KW  - Classification
+KW  - Sentiment Analysis
+KW  - Model Efficiency
+DO  - 10.1109/ICACCTech65084.2024.00068
+JO  - 2024 Second International Conference on Advanced Computing & Communication Technologies (ICACCTech)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 Second International Conference on Advanced Computing & Communication Technologies (ICACCTech)
+Y1  - 16-17 Nov. 2024
+AB  - It looks at the improvements made in NLP achieved by transformer-based models, with special focus on BERT (i.e. Bidirectional Encoder Representations from Transformers), which have already changed the game of text understanding by effectively utilizing initial training on extensive datasets and then customizing for specific tasks while also being capable of deep contextual comprehension of language. The paper will further discuss how transformers and BERT work by providing an insight into their underlying mechanisms and how they have managed to establish new state-of-the-art classification, sentiment analysis, and question answering. Furthermore, this paper takes into consideration how these models can be applied in industries such as healthcare and finance or customer service and the problems that are entailed like the high computational costs data bias difficulties in interpretability. The report ends with a discussion on future directions of NLP related to improving model efficiency for more general applications, better cross-lingual and multimodal support and developing methods to deal with long text sequences. Advances in these areas are a test bed not only for breaking achievements in NLP but also toward more sophisticated human-computer interaction. The findings of this study would highlight the transformative potential these models have toward driving innovation across various domains. In the end, this work is but an instance of ever-evolving nature Artificial intelligence in text understanding and implications for future research and industry applications.
+ER  - 
+
+TY  - CONF
+TI  - Surveillance and Intruder Detection using Pyramid Vision Transformer You Only Look Once Enhanced with Gradient Weighted Class Activation Mapping
+T2  - 2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)
+SP  - 1
+EP  - 5
+AU  - S. Arunachalam
+AU  - M. Almusawi
+AU  - S. Rafikiran
+AU  - S. Sivagami
+AU  - H. D. Praveena
+PY  - 2024
+KW  - Image segmentation
+KW  - Accuracy
+KW  - Noise reduction
+KW  - Noise
+KW  - Memory management
+KW  - Transformers
+KW  - Feature extraction
+KW  - Robustness
+KW  - Sensor systems
+KW  - Videos
+KW  - gradient-weighted class activation mapping
+KW  - intruder detection
+KW  - image segmentation
+KW  - pyramid vision transformer-you only look once enhanced
+KW  - real-time video surveillance
+DO  - 10.1109/ICMNWC63764.2024.10871972
+JO  - 2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)
+Y1  - 4-5 Dec. 2024
+AB  - In this era, wireless networks are economically feasible and flexible to establish in healthcare, defense, surveillance, and traffic monitoring, fire detection. Effective intruder detection systems utilize advanced technologies like Artificial Intelligence (AI), sensors, and cameras. Traditional approaches for surveillance and intruder detection had faced several challenges which include false alarms, high costs, privacy concerns, and vulnerabilities. To overcome these challenges, a Gradient-weighted Class Activation Mapping (Grad CAM) with Pyramid Vision Transformer-You Only Look Once Enhanced (PViT-YOLOE) namely GRADCAM-PViT-YOLOE is proposed to detect intruders in public places using images and videos. For preprocessing, noise reduction, image resizing, and image segmentation are considered to reduce false positives, enhance memory efficiency, and to reduce complexity. Then, PViT-YOLOE is considered for feature extraction to enhance detection of small objects, enhance robustness to variations. At last, Grad CAM is employed as classifier to detect intruders in public places with improved interpretability, robustness to noise, and flexibility. The results demonstrate the efficacy of the proposed GRADCAM-PViT-YOLOE in terms of accuracy (99.25%), precision (96.75%) recall (89.82%) and F1-Score (87.92%) when compared to the existing method like Faster Regions Convolutional Neural Networks (FR-CNN).
+ER  - 
+
+TY  - CONF
+TI  - Enabling Privacy-Preserving Collaborative Learning: Secure Cryptographic Neural Networks Meet Blockchain for GDPR-Compliant Data Sharing
+T2  - 2024 5th International Conference for Emerging Technology (INCET)
+SP  - 1
+EP  - 11
+AU  - R. Krishnamoorthy
+AU  - K. P. Kaliyamurthie
+PY  - 2024
+KW  - Training
+KW  - Accuracy
+KW  - Federated learning
+KW  - File systems
+KW  - Computational modeling
+KW  - Scalability
+KW  - Neural networks
+KW  - Blockchain
+KW  - GDPR
+KW  - Electronic Medical Record (EMR)
+KW  - Federated Learning
+DO  - 10.1109/INCET61516.2024.10593365
+JO  - 2024 5th International Conference for Emerging Technology (INCET)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 5th International Conference for Emerging Technology (INCET)
+Y1  - 24-26 May 2024
+AB  - The GDPR file system with SFCnnBC (Secure Federated Cryptographic Neural Network with Blockchain-based Encryption) is a novel approach proposed in this paper to address the challenges of data protection and compliance with the General Data Protection Regulation (GDPR). A unique file system dubbed GDPR-FS with SFCnnBC is suggested to fulfill the stringent data protection requirements of GDPR. For the safe and legal processing and storage of personal data, it combines strong cryptographic methods, blockchain-based encryption, and privacy-preserving federated learning. This method makes collaborative machine learning possible without jeopardizing data privacy, uses blockchain technology to guarantee data integrity and transparency, and makes GDPR compliance easier. Its efficacy in preserving privacy and attaining competitive model accuracy is demonstrated by experimental findings, which bode well for data-intensive industries including e-commerce, healthcare, and finance.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Logistics With the Internet of Things: A Secured and Efficient Distribution and Storage Model Utilizing Blockchain Innovations and Interplanetary File System
+T2  - IEEE Access
+SP  - 4139
+EP  - 4152
+AU  - N. A. Ugochukwu
+AU  - S. B. Goyal
+AU  - A. S. Rajawat
+AU  - C. Verma
+AU  - Z. Illés
+PY  - 2024
+KW  - Logistics
+KW  - Internet of Things
+KW  - Blockchains
+KW  - Sensors
+KW  - Security
+KW  - Temperature sensors
+KW  - Real-time systems
+KW  - Hash functions
+KW  - Smart contracts
+KW  - Blockchain
+KW  - efficiency
+KW  - hashing algorithm
+KW  - IoT
+KW  - IPFS
+KW  - logistics system
+KW  - smart contract and security
+DO  - 10.1109/ACCESS.2023.3339754
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 12
+VL  - 12
+JA  - IEEE Access
+Y1  - 2024
+AB  - Logistics transports, stores, and delivers goods from the producer to the final user. Logistics have become increasingly complex in today’s globalized world, making it imperative to address data integrity, transparency, and secure storage challenges. IoT devices in logistics allow for real-time monitoring of goods, vehicles, and environmental conditions. However, this generates vast amounts of data, necessitating a reliable and secure data storage and management system. These issues above can be addressed by deploying a blockchain-based solution. Blockchain is an innovative technology that operates on a decentralized database system, and it has different applications, which include finance, healthcare, and so on. This research proposed a blockchain- IoT-based Model for enhancing the logistics process. The proposed model utilized the Interplanetary file system to secure and efficiently store logistics data on a distributed and decentralized network and the SHA-256 hashing algorithm to ensure users’ private information anonymity. The model also establishes rules by using smart contracts, which increases efficiency. The performance evaluation of the proposed model was done based on the security transactions, latency, cost, and throughput. The experimental results and performance evaluation show that the proposed model is more efficient and secure than the existing blockchain-based systems. Additionally, the proposed model offers the real-time monitoring of goods while in transit. The proposed model solves the IoT logistics system’s Security, storage, and interoperability challenges. It also provides recommendations for logistics stakeholders to adopt blockchain technology. Despite the implications, the limitation of this study is that it was tested in a controlled environment.
+ER  - 
+
+TY  - JOUR
+TI  - Editorial Introduction for the Special Series (Part I) on AI in Signal & Data Science - Toward Explainable, Reliable, and Sustainable Machine Learning
+T2  - IEEE Journal of Selected Topics in Signal Processing
+SP  - 139
+EP  - 141
+AU  - X. -P. Zhang
+PY  - 2024
+KW  - Special issues and sections
+KW  - Signal processing
+KW  - Artificial intelligence
+KW  - Data science
+KW  - Explainable AI
+KW  - Reliability engineering
+KW  - Machine learning
+DO  - 10.1109/JSTSP.2024.3417111
+JO  - IEEE Journal of Selected Topics in Signal Processing
+IS  - 2
+SN  - 1941-0484
+VO  - 18
+VL  - 18
+JA  - IEEE Journal of Selected Topics in Signal Processing
+Y1  - March 2024
+AB  - Machine learning methods are the backbone of AI and data science. As we embrace the era of deep learning and foundation models, marked by improving performance due to enhanced computing hardware and data scaling, numerous challenges remain. In areas such as healthcare, government decision making and scientific fields, there is a pressing need to develop transparent models that generate interpretable results. Equally important is the reliability of these models, which ensures their robustness and their ability to generalize to new datasets. This is particularly crucial in sectors like healthcare and autonomous driving, where the stakes are high. The recent trend of increasing model sizes also raises concerns about the environmental and societal impacts of training and deploying large models. Therefore, it is essential to mitigate these impacts as much as possible.
+ER  - 
+
+TY  - JOUR
+TI  - Algorithms That Can Deny Care, and a Call for AI Explainability
+T2  - Computer
+SP  - 109
+EP  - 112
+AU  - D. Talia
+PY  - 2024
+KW  - Explainable AI
+KW  - Big Data
+KW  - Machine learning
+KW  - Medical services
+KW  - Medical diagnosis
+DO  - 10.1109/MC.2024.3387012
+JO  - Computer
+IS  - 7
+SN  - 1558-0814
+VO  - 57
+VL  - 57
+JA  - Computer
+Y1  - July 2024
+AB  - Recent examples of negative use of big data and machine learning come from their use in health care decisions involving a large number of patients. These cases highlight the need for algorithm explainability to help us better understand how artificial intelligence works in solving problems so we can then evaluate its accuracy and effectiveness.
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial XAI Based Biomedical Big Data Privacy and Security
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 3203
+EP  - 3205
+AU  - J. Yang
+AU  - H. Song
+AU  - M. Khurram Khan
+PY  - 2024
+KW  - Special issues and sections
+KW  - Artificial intelligence
+KW  - Medical services
+KW  - Internet of Things
+KW  - Privacy
+KW  - Security
+KW  - Big Data
+KW  - Smart healthcare
+KW  - Wearable computers
+DO  - 10.1109/JBHI.2024.3399288
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 6
+SN  - 2168-2208
+VO  - 28
+VL  - 28
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - June 2024
+AB  - As artificial intelligence, the Internet of Things, and information and communication technologies continue to advance, smart healthcare systems are increasingly becoming a cornerstone of modern society. However, this progress brings with it significant concerns regarding the privacy and security of biomedical Big Data. Within smart healthcare systems, biomedical data forms an expansive and intricate web, encompassing a wide array of information from imaging to audio recordings, and various biological signals [1]. Moreover, the widespread adoption of wearable devices, coupled with a heightened public awareness of health, has precipitated a surge in data volume to a Big Data scale. This escalation presents unprecedented challenges to ensuring the confidentiality and integrity of data, demanding robust protection measures for privacy and security [2].
+ER  - 
+
+TY  - CONF
+TI  - Plenary Panel at IEEE CISOSE 2024; Ethical, Societal, and Policy Implications of AI
+T2  - 2024 IEEE International Conference on Artificial Intelligence Testing (AITest)
+SP  - xxx
+EP  - xxx
+AU  - M. Bhuyan
+AU  - L. Hong
+AU  - F. Meng
+AU  - J. Ding
+PY  - 2024
+DO  - 10.1109/AITest62860.2024.00031
+JO  - 2024 IEEE International Conference on Artificial Intelligence Testing (AITest)
+IS  - 
+SN  - 2835-3560
+VO  - 
+VL  - 
+JA  - 2024 IEEE International Conference on Artificial Intelligence Testing (AITest)
+Y1  - 15-18 July 2024
+AB  - Artificial Intelligence (AI) has rapidly evolved, offering transformative potential across various sectors, including healthcare, finance, education, and transportation. However, its deployment raises significant ethical, societal, and policy concerns that have necessitated careful consideration and action since its inception. This panel will discuss the multifaceted implications of AI, focusing on ethical dilemmas such as privacy, bias, transparency, and accountability, as well as the broader societal impacts on employment, social equity, and human interaction. Additionally, it examines the current state of AI policy and governance, highlighting the need for comprehensive frameworks that balance innovation with responsible AI or Machine Learning (ML) use. This panel will discuss these critical issues and aims to contribute to the current and future development of AI systems that are not only technologically advanced but also ethically sound and socially beneficial.
+ER  - 
+
+

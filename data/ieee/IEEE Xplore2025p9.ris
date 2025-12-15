@@ -1,0 +1,2317 @@
+TY  - JOUR
+TI  - A Digital Public Health Framework for Understanding Causal Cognitive Drivers of Adolescent Violence
+T2  - IEEE Access
+SP  - 99563
+EP  - 99582
+AU  - W. Zhang
+AU  - L. Zhang
+PY  - 2025
+KW  - Public healthcare
+KW  - Brain modeling
+KW  - Transformers
+KW  - Predictive models
+KW  - Socioeconomics
+KW  - Analytical models
+KW  - Mental health
+KW  - Adaptation models
+KW  - Soft sensors
+KW  - Scalability
+KW  - Digital public health
+KW  - EEG
+KW  - adolescent violence
+KW  - causal cognition
+KW  - causal inference
+DO  - 10.1109/ACCESS.2025.3576363
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Adolescent violence is a complex public health issue with significant societal and individual consequences. Traditional research methods often fail to capture the dynamic, multifaceted nature of the cognitive and behavioral drivers of such violence. This study introduces EEG-CauseNet, an innovative Cross-Attention Transformer framework, designed to address this gap by identifying and analyzing the causal cognitive mechanisms underlying adolescent violence. The primary objective of EEG-CauseNet is to integrate and analyze diverse, high-dimensional datasets—such as socio-economic, mental health, and behavioral data—while leveraging advanced causal inference techniques to uncover complex interdependencies between factors influencing violence. Through empirical validation on real-world adolescent datasets, we demonstrate that EEG-CauseNet outperforms traditional models in both predictive accuracy and interpretability. The novel integration of cross-attention mechanisms allows the model to capture dynamic temporal-spatial relationships, offering deeper insights into the underlying drivers of adolescent violence. The outcomes of this research provide actionable insights for public health stakeholders, enabling the development of targeted, technology-driven interventions. This framework has the potential to transform digital public health strategies, offering scalable and impactful solutions to reduce adolescent violence globally.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Sentiment-Driven Recommender Systems With LLM-Based Feature Engineering: A Case Study in Drug Review Analysis
+T2  - IEEE Access
+SP  - 130304
+EP  - 130322
+AU  - S. Matia Kangoni
+AU  - O. Tshimanga Tshipata
+AU  - P. Sedi Nzakuna
+AU  - V. Paciello
+AU  - J. -G. Mbula Mboma
+AU  - J. -R. Makulo
+AU  - K. Kyamakya
+PY  - 2025
+KW  - Reviews
+KW  - Drugs
+KW  - Sentiment analysis
+KW  - Recommender systems
+KW  - Feature extraction
+KW  - Analytical models
+KW  - Accuracy
+KW  - Measurement
+KW  - Training
+KW  - Standards
+KW  - Cosine similarity ranking
+KW  - drug recommendation systems
+KW  - large language models
+KW  - real-world feedback in healthcare
+KW  - sentiment analysis
+DO  - 10.1109/ACCESS.2025.3590326
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Sentiment analysis is vital for evaluating user feedback in drug reviews because understanding patient experiences leads to more personalized treatment recommendations by providing insights into the real-world effectiveness and tolerability of medications, which are often overlooked in clinical trials. This study evaluates the effectiveness of word-level and sentence-level embeddings for feature extraction in sentiment analysis. These embeddings are used in sequential models (Bi-LSTM, CNN) and non-sequential models (Random Forest, DNN, ExtraTreesClassifier). The Random Forest model with LLM2Vec achieves the best performance, with 0.93 accuracy, F1-scores of 0.95 (positive) and 0.88 (negative), and precision scores of 0.93 (positive) and 0.94 (negative). This approach detects subtle negative feedback often missed by standard models. To capture social consensus in patient feedback, we introduce Adaptive Confidence-Weighted Scoring. This method leverages social validation as an implicit confidence signal, enabling sentiment scores to reflect both individual experiences and community agreement. It enhances trust and interpretability while standardizing sentiment polarity on a  $[-5, +5]$  scale. Clinically validated drug-related information, scraped from trusted sources, is encoded using the Llama-3.2-3B-Instruct model to extract context-aware representations. Features derived from this external medical knowledge improve semantic understanding, ensure grounding and safety, and enhance robustness even when reviews are sparse or noisy. The final vectors are employed within a cosine similarity framework to recommend relevant drugs, aligning recommendations with user satisfaction. This work demonstrates how LLM-based feature engineering can advance clinically valid, patient-aligned healthcare recommender systems informed by real-world feedback.
+ER  - 
+
+TY  - CONF
+TI  - Enhancing Medical Knowledge Access: Development and Assessment of an Open-Domain Medical Question Answering System with Deep Learning
+T2  - 2025 4th International Conference on Computing and Information Technology (ICCIT)
+SP  - 231
+EP  - 237
+AU  - Y. Alkhurayyif
+PY  - 2025
+KW  - Performance evaluation
+KW  - Deep learning
+KW  - Graph convolutional networks
+KW  - Generative Pre-trainer transformer
+KW  - Education
+KW  - Transformers
+KW  - Question answering (information retrieval)
+KW  - Tokenization
+KW  - Reliability
+KW  - Bioinformatics
+KW  - Health Informatics
+KW  - Question Answering System
+KW  - Graph convolutional networks
+KW  - Transformers
+KW  - Deep Learning
+KW  - Medical Data Processing
+DO  - 10.1109/ICCIT63348.2025.10989407
+JO  - 2025 4th International Conference on Computing and Information Technology (ICCIT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 4th International Conference on Computing and Information Technology (ICCIT)
+Y1  - 13-14 April 2025
+AB  - Arabic open question answering system (OQAS) in health informatics (HI) can promote health education and support individuals in making informed decisions. It may contribute to health education and awareness initiatives by offering precise and reliable information. It enables individuals to comprehend health-related topics, preventative actions, and treatment alternatives in their preferred language. In addition, it facilitates the accessibility of pertinent health information to a broader audience, consequently addressing language barriers. There is a limited number of Arabic OQAS in HI. Thus, this study built an OQAS using graph convolutional network (GCN) and Transformers. The author conducted data preparation and extracted named entity-relationship (NER) from raw data. A graph generator was developed to represent the NER relationship for improving the efficiency of GCN in generating a required outcome. Similarly, Generative Pre-trained Transformer (GPT 2.0) was fine-tuned using the Hyperband optimization. Finally, the author integrated GCN and GPT 2.0 to improve the performance of the proposed model. The performance evaluation was conducted using the MAQA dataset. The experimental outcome highlighted the importance of the proposed OQAS in healthcare informatics. The extended fine-tuning of the proposed model could improve its interpretability.
+ER  - 
+
+TY  - CONF
+TI  - Decentralized Federated Learning Framework with Blockchain for Verifiable and Trusted Collaboration
+T2  - 2025 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+SP  - 1
+EP  - 6
+AU  - K. Sutaria
+AU  - M. S
+AU  - M. Paliwal
+AU  - P. Dange
+PY  - 2025
+KW  - Privacy
+KW  - Accuracy
+KW  - Federated learning
+KW  - Scalability
+KW  - Smart contracts
+KW  - Collaboration
+KW  - Solids
+KW  - Blockchains
+KW  - Security
+KW  - Servers
+KW  - Decentralized Federated Learning
+KW  - Blockchain Integration
+KW  - Privacy Preservation
+KW  - Smart Contracts
+KW  - Distributed Machine Learning
+DO  - 10.1109/ICKECS65700.2025.11035710
+JO  - 2025 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Knowledge Engineering and Communication Systems (ICKECS)
+Y1  - 28-29 April 2025
+AB  - Federated Learning (FL) is an innovative distributed machine learning approach that allows multiple participants to collaboratively train a global model without sharing their private data. While effective, traditional FL frameworks often rely on centralized servers for model aggregation, making them susceptible to single points of failure, security breaches, and trust concerns. To address these challenges, this paper introduces a Decentralized Federated Learning Framework (DFLF) integrated with blockchain technology. The proposed framework eliminates the need for a central coordinator by utilizing blockchain’s immutable ledger and decentralized architecture. This integration ensures secure model sharing, verifiable updates, and incentivized collaboration among participants. Smart contracts automate key operations, including model aggregation, contribution validation, and reward distribution, thereby enhancing efficiency and transparency. The framework was implemented using a permissioned blockchain and tested on a healthcare dataset for patient diagnosis prediction. Experimental results demonstrate improved model accuracy, reduced latency, and enhanced trust compared to conventional FL approaches. The inclusion of blockchain ensures robust privacy preservation and builds trust in collaborative machine learning. This paper provides a comprehensive analysis of the framework, including its design, algorithms, mathematical formulations, and performance metrics. The results highlight the potential of combining blockchain with FL to establish a scalable, secure, and trustworthy ecosystem for decentralized machine learning applications.
+ER  - 
+
+TY  - CONF
+TI  - Automated Brain Tumor Detection and Comparative Analysis Using CNN Model and YOLOv8
+T2  - 2025 6th International Conference for Emerging Technology (INCET)
+SP  - 1
+EP  - 6
+AU  - S. Byali
+AU  - K. K. G
+AU  - V. P. Baligar
+PY  - 2025
+KW  - Deep learning
+KW  - Solid modeling
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Magnetic resonance imaging
+KW  - Brain tumors
+KW  - Brain modeling
+KW  - Feature extraction
+KW  - Real-time systems
+KW  - Convolutional neural networks
+KW  - Brain Tumor Detection
+KW  - Deep Learning
+KW  - Convolutional Neural Network (CNN)
+KW  - YOLOv8
+KW  - MRI
+KW  - Medical Imaging
+DO  - 10.1109/INCET64471.2025.11140439
+JO  - 2025 6th International Conference for Emerging Technology (INCET)
+IS  - 
+SN  - 2996-4490
+VO  - 
+VL  - 
+JA  - 2025 6th International Conference for Emerging Technology (INCET)
+Y1  - 23-25 May 2025
+AB  - The correct classification of brain tumors is an important factor in the early detection and treatment of neurological diseases. This paper suggests an automated deep learning-based system for brain tumor detection and classification based on CNN and YOLOv8. The data are MRI scans classified into four classes: Glioma, Meningioma, Pituitary Tumor, and No Tumor. Preprocessing methods, such as normalization and data augmentation, are utilized to improve generalization of the model. Hierarchical features from MRI images are extracted by the CNN model for accurate classification, and YOLOv8 is utilized for real-time detection of tumors. Accuracy, precision, recall, F1-score, and comparison with state-of-the-art approaches are used to evaluate performance. Interpretability methods such as Grad-Cam are also utilized to identify important regions affecting model predictions. Experimental results show that the CNN model has high classification accuracy, with YOLOv8 providing the best real-time detection. This work is an advancement toward enhancing automated tumor diagnosis and offers a robust tool for supporting clinical decision-making by radiologists. This work adds to the field of AI-based medical diagnosis by presenting a scalable and automatic computer-aided diagnosis (CAD) system for brain tumor classification. The designed system is of huge potential value in the field of reducing diagnostic time, enhancing accuracy, and enabling early detection, thus leading to improved patient care.
+ER  - 
+
+TY  - JOUR
+TI  - Task Augmentation-Based Meta-Learning Segmentation Method for Retinopathy
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+SP  - 8583
+EP  - 8597
+AU  - J. Wang
+AU  - M. Mateen
+AU  - D. Xiang
+AU  - W. Zhu
+AU  - F. Shi
+AU  - J. Huang
+AU  - K. Sun
+AU  - J. Dai
+AU  - J. Xu
+AU  - S. Zhang
+AU  - X. Chen
+PY  - 2025
+KW  - Retina
+KW  - Image segmentation
+KW  - Lesions
+KW  - Metalearning
+KW  - Training
+KW  - Diseases
+KW  - Data models
+KW  - Adaptation models
+KW  - Multitasking
+KW  - Biomedical imaging
+KW  - Lesion simulation
+KW  - meta-learning
+KW  - retinal image segmentation
+KW  - task augmentation
+DO  - 10.1109/TPAMI.2025.3579271
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+IS  - 10
+SN  - 1939-3539
+VO  - 47
+VL  - 47
+JA  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+Y1  - Oct. 2025
+AB  - Deep learning (DL) requires large amounts of labeled data, which is extremely time-consuming and labor-intensive to obtain for medical image segmentation tasks. Meta-learning focuses on developing learning strategies that enable quick adaptation to new tasks with limited labeled data. However, rich-class medical image segmentation datasets for constructing meta-learning multi-tasks are currently unavailable. In addition, data collected from various healthcare sites and devices may present significant distribution differences, potentially degrading model’s performance. In this paper, we propose a task augmentation-based meta-learning method for retinal image segmentation (TAMS) to meet labor-intensive annotation demand. A retinal Lesion Simulation Algorithm (LSA) is proposed to automatically generate multi-class retinal disease datasets with pixel-level segmentation labels, such that meta-learning tasks can be augmented without collecting data from various sources. In addition, a novel simulation function library is designed to control generation process and ensure interpretability. Moreover, a generative simulation network (GSNet) with an improved adversarial training strategy is introduced to maintain high-quality representations of complex retinal diseases. TAMS is evaluated on three different OCT and CFP image datasets, and comprehensive experiments have demonstrated that TAMS achieves superior segmentation performance than state-of-the-art models.
+ER  - 
+
+TY  - JOUR
+TI  - TRALSem: A Robust Model for Textual Sentiment Analysis
+T2  - IEEE Transactions on Computational Social Systems
+SP  - 1
+EP  - 17
+AU  - B. Yang
+AU  - J. Dang
+AU  - H. Liu
+AU  - Z. Jin
+PY  - 2025
+KW  - Sentiment analysis
+KW  - Analytical models
+KW  - Training
+KW  - Robustness
+KW  - Computational modeling
+KW  - Data models
+KW  - Biological system modeling
+KW  - Social networking (online)
+KW  - Noise
+KW  - Natural language processing
+KW  - Deep learning (DL)
+KW  - pretrained model
+KW  - robust
+KW  - sentiment analysis
+DO  - 10.1109/TCSS.2025.3558622
+JO  - IEEE Transactions on Computational Social Systems
+IS  - 
+SN  - 2329-924X
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Computational Social Systems
+Y1  - 
+AB  - Sentiment analysis has gained widespread applications across various domains due to its versatility and practicality. With the increasing availability of data and advancements in machine learning technologies, its utilization is expected to continue expanding. Deep learning (DL)-based sentiment analysis has demonstrated high accuracy and efficiency in numerous application areas, such as marketing, customer service, politics, healthcare, and finance, thereby highlighting its high potential. Despite recent progress, DL-based sentiment analysis methods still face significant challenges, particularly concerning the robustness of sentiment classification and scoring. To address these issues, our study introduces TRALSem, a novel text-centered sentiment analysis framework designed to tackle the unique challenges of sentiment classification and scoring, with a particular focus on enhancing the overall robustness of the model. We conducted extensive experiments on multilingual script datasets, including Chinese and English scripts, as well as the IMDB and SST datasets. The experimental results show that TRALSem significantly outperforms existing state-of-the-art sentiment analysis methods. In terms of sentiment classification, it achieves remarkable improvements, far surpassing the previous benchmarks. More importantly, TRALSem substantially enhances the model’s robustness, enabling it to maintain stable performance even in the face of complex and noisy data. It also significantly reduces the model’s sensitivity to noise data, effectively filtering out interference and providing more reliable and accurate sentiment analysis results. Moreover, it offers better interpretability to users, making the sentiment analysis process and outcomes more understandable and actionable.
+ER  - 
+
+TY  - CONF
+TI  - Securing Cloud AI Workloads: Protecting Generative AI Models from Adversarial Attacks
+T2  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+SP  - 1
+EP  - 7
+AU  - A. Patel
+AU  - P. Pandey
+AU  - H. Ragothaman
+AU  - R. Molleti
+AU  - A. Tanikonda
+PY  - 2025
+KW  - Training
+KW  - Ethics
+KW  - Generative AI
+KW  - Data integrity
+KW  - Finance
+KW  - Authentication
+KW  - Transportation
+KW  - Medical services
+KW  - Security
+KW  - Cryptography
+KW  - AI explainability
+KW  - adversarial attacks
+KW  - cloud security
+KW  - defensive techniques
+KW  - generative AI
+DO  - 10.1109/ICAIC63015.2025.10848877
+JO  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+Y1  - 5-7 Feb. 2025
+AB  - Generative artificial intelligence models have brought about advancements in fields like healthcare and finance, as well as in autonomous systems; however, they also encounter notable security vulnerabilities, primarily when operating in cloud environments. These AI models can be targeted by attacks that involve altering input data to deceive the system into generating harmful or incorrect results. This study delves into the security issues that AI systems face in cloud setups, explicitly focusing on the dangers posed by adversarial manipulation of data integrity and the challenges of utilizing shared resources within multi-user environments. The text covers methods for defending AI models, like training and defensive distillation, to make them more robust against attacks. It also delves into security measures for the cloud, such as encrypted communications and robust authentication systems to safeguard data integrity. Furthermore, the importance of AI explainability and transparency in uncovering vulnerabilities and building trust is highlighted. The outcomes of security breaches emphasize the importance of having AI systems to avoid impacts on decision-making and broader ethical and societal concerns. The document also discusses research areas such as quantum algorithms and decentralized security structures to tackle evolving risks and safeguard the future of secure AI applications that generate content.
+ER  - 
+
+TY  - CONF
+TI  - A Bibliometric Analysis of Denoising Diffusion Probabilistic Models: Evolution, Applications and Future Directions
+T2  - 2025 International Conference on Engineering, Technology & Management (ICETM)
+SP  - 1
+EP  - 7
+AU  - A. Ghildiyal
+AU  - A. Singh
+AU  - Suvidha
+AU  - R. Nagpal
+PY  - 2025
+KW  - Analytical models
+KW  - Computer vision
+KW  - Image synthesis
+KW  - Evolution (biology)
+KW  - Computational modeling
+KW  - Bibliometrics
+KW  - Noise reduction
+KW  - Text to image
+KW  - Diffusion models
+KW  - Optimization
+KW  - Denoising Diffusion Probabilistic Models (DDPMs)
+KW  - Generative Models
+KW  - Text-To-Image
+KW  - Image Synthesis
+DO  - 10.1109/ICETM63734.2025.11051834
+JO  - 2025 International Conference on Engineering, Technology & Management (ICETM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Engineering, Technology & Management (ICETM)
+Y1  - 13-14 May 2025
+AB  - Denoising Diffusion Probabilistic Models (DDPMs) have emerged as powerful generative models demonstrating remarkable capabilities across diverse applications. This paper employs bibliometric methods and data from Dimensions database to analyze the evolution and current state of DDPM research literature. The analysis reveals that DDPM research has experienced significant growth and diversification since its introduction, with particular acceleration in medical imaging, computer vision, and biological applications. Three main technical domains emerge from the analysis: image generation and enhancement, domain-specific applications (particularly in healthcare), and architectural improvements for computational efficiency. Research hotspots include medical image synthesis, 3D generation, text-to-image conversion, and model optimization techniques. Drawing from the bibliometric analysis, this paper proposes five key research directions: improving computational efficiency and sampling speed, developing specialized architectures for domain-specific applications, establishing robust evaluation metrics, enhancing model controllability and interpretability, and advancing multi-modal generation capabilities. This comprehensive review offers valuable insights for researchers and practitioners working with DDPMs and provides a structured framework for future developments in this rapidly evolving field.
+ER  - 
+
+TY  - JOUR
+TI  - Interpretable Learning Method Based on Causal Interactive Attention
+T2  - IEEE Access
+SP  - 114117
+EP  - 114127
+AU  - W. Song
+AU  - S. Ren
+AU  - B. Hu
+PY  - 2025
+KW  - Visualization
+KW  - Reliability
+KW  - Computational modeling
+KW  - Decision making
+KW  - Adaptation models
+KW  - Logic
+KW  - Accuracy
+KW  - Feature extraction
+KW  - Backpropagation
+KW  - Attention mechanisms
+KW  - Causal interaction attention
+KW  - decision interpretability
+KW  - decision reliability
+DO  - 10.1109/ACCESS.2025.3583583
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - The “opaque system” phenomenon inherent in deep neural networks poses significant challenges to the reliability and trustworthiness of their decision-making processes, particularly in high-stakes applications such as medical diagnosis and financial security. Current deep neural network models primarily use gradients or intermediate features to improve decision reliability, but most of the explanatory methods rooted in these features are post-hoc, with little direct influence on the classifiers’ decision outcomes. In contrast to human object recognition, where decisions and the underlying visual logic are clarified by both positive and negative causal evidence, deep neural networks often fail to achieve this level of nuanced understanding. To mitigate these limitations, we introduce a novel deep model based on Causal Interaction Attention (CIA), which aims to improve the reliability and interpretability of visual classification. Specifically, we first propose an interactive attention-driven decision mechanism that dynamically integrates visual features into the decision process, ensuring that each classifier output is accompanied by corresponding positive or negative visual interpretations. This mechanism not only explains “why this image belongs to a certain category”, but also rationalizes “why this image does not belong to other categories”, providing a comprehensive view of the model’s decision. In addition, to dynamically adapt to changes in the learning scenarios, we designed a loss function to adaptively control the strength of attention. It enhances the model to dynamically identify the most relevant visual cues, tailored to the granularity of the visual cues. The final experimental results show that the CIA can provide better visual interpretation while maintaining accuracy and reliability on small and medium-sized datasets.
+ER  - 
+
+TY  - CONF
+TI  - Brain Tumour Diagnostics and Analysis (TDA): Segmentation, Classification and Interactive Interface
+T2  - 2025 IEEE Conference on Artificial Intelligence (CAI)
+SP  - 549
+EP  - 554
+AU  - A. S. Farhan
+AU  - U. Manzoor
+AU  - M. Khalid
+PY  - 2025
+KW  - Image segmentation
+KW  - Analytical models
+KW  - Shape
+KW  - Magnetic resonance imaging
+KW  - Brain tumors
+KW  - Predictive models
+KW  - Brain modeling
+KW  - Natural language processing
+KW  - Planning
+KW  - Strain
+KW  - Brain tumor diagnosis tool
+KW  - Brain tumor classification
+KW  - Brain tumor segmentation
+KW  - Deep learning
+KW  - MRI
+KW  - Ensemble Dual-modality
+DO  - 10.1109/CAI64502.2025.00100
+JO  - 2025 IEEE Conference on Artificial Intelligence (CAI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE Conference on Artificial Intelligence (CAI)
+Y1  - 5-7 May 2025
+AB  - Brain tumours are a critical global health challenge, accounting for 85–90% of all primary central nervous system tumours, with an estimated 308,102 new cases globally in 2020. These tumours often lead to severe physical and cognitive impacts on patients, but early and accurate diagnosis is essential for improving survival rates through better treatment planning. Current diagnostic methods rely heavily on radiologist expertise, making the process time-consuming, expensive, and resource-intensive, placing strain on healthcare systems. In this work, we aim to address this diagnostic bottleneck by developing an AI-driven solution that integrates various aspects of brain tumour diagnosis (location, type, size, shape, and severity) into one comprehensive platform. Our solution, TDA, builds on the PRCnet model (tumor type and grade classification) and XAI-MRI model (brain tumor segmentation), and offer a comprehensive system capable of predicting all tumour vital characteristics together while providing interactive interface for correction, feedback and validated learning. Experimental evaluations on different scenarios shows that our proposed framework outperforms existing models.
+ER  - 
+
+TY  - CONF
+TI  - Hybrid LSTM-Attention Framework for Enhanced Classification of Cardiac Abnormalities from ECG Signals
+T2  - 2025 International Conference on Emerging Technologies in Electronics, Computing, and Communication (ICETECC)
+SP  - 1
+EP  - 6
+AU  - A. Mukhtar
+AU  - S. A. Malik
+AU  - H. Asjad
+AU  - S. Mufty
+AU  - M. Tahir
+AU  - J. Sheikh
+PY  - 2025
+KW  - Accuracy
+KW  - Attention mechanisms
+KW  - Sensitivity
+KW  - Arrhythmia
+KW  - Electrocardiography
+KW  - Feature extraction
+KW  - Real-time systems
+KW  - Convolutional neural networks
+KW  - Reliability
+KW  - Long short term memory
+KW  - ECG Classification
+KW  - Deep Learning Hybrid
+KW  - CNN-LSTM Model
+KW  - Attention Mechanism
+KW  - Arrhythmia Detection
+DO  - 10.1109/ICETECC65365.2025.11070260
+JO  - 2025 International Conference on Emerging Technologies in Electronics, Computing, and Communication (ICETECC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Emerging Technologies in Electronics, Computing, and Communication (ICETECC)
+Y1  - 23-25 April 2025
+AB  - Early detection of arrhythmias is crucial for preventing severe cardiac events and improving patient outcomes. Traditional ECG classification methods struggle to capture complex temporal and spatial patterns in the data. While deep learning models like Convolutional Neural Networks (CNNs) and Long Short-Term Memory (LSTM) networks show promise, they often face trade-offs between accuracy and interpretability. CNNs excel in feature extraction, and LSTMs are effective for modeling temporal sequences, but many existing models fail to capture long- range dependencies or provide clinical transparency. Exploring hybrid approaches that combine these techniques with attention mechanisms to focus on critical ECG segments remains an untapped opportunity. This paper proposes an innovative CNN-LSTM-Attention framework, which integrates the use of CNNs to extract features from ECGs automatically, LSTMs to model the sequence pattern, and self-attention on top to increase focus around critical segments of ECG signals. Besides its improvement over classification performance, the added interpretability into the working of the model opens up novel avenues for analysis. Our proposed model gives state-of-the-art performance with accuracy at 91.4%, AUC-ROC of 0.95, and other competitive metrics for precision, recall, and sensitivity on publicly available ECG datasets. Detection of a broad range of arrhythmias while at the same time providing necessary transparency makes this model perfect for real-world clinical practice. The paper gives an important idea toward developing real-time automation in arrhythmia detection with enhanced accuracy and interpretability. The proposed CNN-LSTM-Attention model breaks new ground in ECG classification, achieving high performance as well as clinical reliability and paving the way for further improvements in intelligent healthcare systems.
+ER  - 
+
+TY  - CONF
+TI  - Deep Hybrid Models in Medical Imaging: CNN-SVM-Based Lung Cancer Detection with Statistical Insights
+T2  - 2025 6th International Conference for Emerging Technology (INCET)
+SP  - 1
+EP  - 5
+AU  - V. Ahuja
+AU  - T. S. Kehal
+AU  - C. Rajesh
+AU  - A. Dhiman
+AU  - L. Singla
+PY  - 2025
+KW  - Support vector machines
+KW  - Visualization
+KW  - Analytical models
+KW  - Accuracy
+KW  - Computed tomography
+KW  - Lung cancer
+KW  - Feature extraction
+KW  - Convolutional neural networks
+KW  - Tumors
+KW  - Biomedical imaging
+KW  - Hybrid learning
+KW  - CNN-SVM
+KW  - medical imaging
+KW  - lung cancer
+KW  - Machine Learning in Healthcare
+KW  - CT Image Analysis
+KW  - Feature Extraction
+DO  - 10.1109/INCET64471.2025.11140823
+JO  - 2025 6th International Conference for Emerging Technology (INCET)
+IS  - 
+SN  - 2996-4490
+VO  - 
+VL  - 
+JA  - 2025 6th International Conference for Emerging Technology (INCET)
+Y1  - 23-25 May 2025
+AB  - Lung cancer stands as one of the leading deadly malignancies across the globe which demonstrates why early identification through accurate diagnosis procedures is so important. The authors developed a learning model which combines Convolutional Neural Networks (CNN) and Support Vector Machines (SVM) to detect lung cancer in CT scan images more effectively. The CNN-SVM model performs better than individual models because it leverages SVM classification capabilities with CNN feature extraction abilities. The devised system received evaluation on an existing database of 8000 CT scan images which contained four distinct groups: benign, malignant, metastatic, and normal. The combination performance of CNN-SVM overstands individual models to yield a 92.3% accuracy rate with precision at 91.5% and recall at 91.7% and F1-score reaching 91.6%. The standalone CNN model reached 85.4% accuracy but the SVM model produced 78.6% accuracy. The hybrid CNN-SVM model demonstrated superior performance at all thresholds. Paired t-tests showing improvements revealed that the differences between CNN and CNN-SVM resulted in a t-statistic of -2.916 (p-value = 0.0036) and the SVM and CNN-SVM differences yielded -5.559 (p-value =3.46×10−8). oord-CAM visualization tools demonstrate how the model effectively detects essential tumor zones which enhances its clinical significance as well as its interpretability potential. The combination model of CNN-SVM demonstrates a strong and efficient approach for lung cancer detection which can find practical use in clinical diagnosis.
+ER  - 
+
+TY  - CONF
+TI  - ARTPredict: An Interpretable Dual-Branch LSTM Model with Attention Mechanism for Antiretroviral Therapy Response Prediction in HIV Treatment
+T2  - 2025 6th International Conference on Data Intelligence and Cognitive Informatics (ICDICI)
+SP  - 820
+EP  - 825
+AU  - A. V
+AU  - A. Naik
+AU  - E. Nadiya
+AU  - E. P
+AU  - M. S. Bhargavi
+PY  - 2025
+KW  - Adaptation models
+KW  - Attention mechanisms
+KW  - Subspace constraints
+KW  - Neural networks
+KW  - Genomics
+KW  - Predictive models
+KW  - Data models
+KW  - Numerical models
+KW  - Bioinformatics
+KW  - Long short term memory
+KW  - Antiretroviral Therapy (ART)
+KW  - neural networks
+KW  - attention mechanism
+KW  - LIME interpretability
+DO  - 10.1109/ICDICI66477.2025.11135133
+JO  - 2025 6th International Conference on Data Intelligence and Cognitive Informatics (ICDICI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 6th International Conference on Data Intelligence and Cognitive Informatics (ICDICI)
+Y1  - 9-11 July 2025
+AB  - Successful HIV/AIDS control depends on maximizing Antiretroviral Therapy (ART) effectiveness, which enhances patient results and minimizes resistance to drugs. Understanding how each patient responds to ART is essential for developing personalized treatment plans for diverse populations with varying clinical and genetic characteristics. ARTPredict represents an innovative machine learning framework that classifies patients as ART responders or non-responders through the simultaneous analysis of clinical data and DNA sequence data. The framework uses a dual-branch neural network architecture, which processes numerical data through a Dense layer while sequence data is analyzed using an LSTM layer that includes an attention mechanism for better interpretability. Interpretability is a core feature of ARTPredict. LIME exposes the importance of numerical features and attention weights identify sequence data's role in classification decisions. Clinicians can use these insights to gain a deeper understanding of individual patient outcomes while making more informed decisions. The validated framework performance metrics, including accuracy and ROC-AUC, demonstrate that it has the potential to transform personalized ART through interpretable data-driven treatment efficacy insights. This research represents an important advancement in the field of precision medicine for HIV/AIDS treatment.
+ER  - 
+
+TY  - CONF
+TI  - A Hybrid ResNet50-Random Forest Model for Accurate Eye Disease Classification
+T2  - 2025 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)
+SP  - 1
+EP  - 6
+AU  - M. K. Goel
+AU  - G. Singh
+AU  - J. Lande
+AU  - A. H. Shnaeen
+AU  - G. Sharma
+PY  - 2025
+KW  - Glaucoma
+KW  - Cataracts
+KW  - Radio frequency
+KW  - Diabetic retinopathy
+KW  - Accuracy
+KW  - Retina
+KW  - Feature extraction
+KW  - Reliability
+KW  - Random forests
+KW  - Residual neural networks
+KW  - Eye disease classification
+KW  - ResNet50
+KW  - Random Forest
+KW  - Deep learning
+KW  - Medical image classification
+KW  - Retinal fundus images
+KW  - Automated diagnosis
+DO  - 10.1109/IATMSI64286.2025.10984524
+JO  - 2025 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)
+IS  - 
+SN  - 
+VO  - 3
+VL  - 3
+JA  - 2025 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)
+Y1  - 6-8 March 2025
+AB  - Early and accurate detection of eye diseases is essential for preventing vision loss. This paper proposes a hybrid model that combines ResNet50 for feature extraction and Random Forest (RF) for classification to improve the automated detection of retinal diseases, including Diabetic Retinopathy, Cataract, and Glaucoma. The dataset used includes 4217 retinal fundus images across four classes: Normal, Diabetic Retinopathy, Cataract, and Glaucoma. The model addresses challenges such as imbalanced datasets and complex decision boundaries. ResNet50 is utilized to extract deep features from the images, while Random Forest efficiently classifies these features with high accuracy. The proposed model achieved strong results, with Precision, Recall, Macro-F1, and Weighted-F1 scores all exceeding 92%, and a low Misclassification Rate of 7.96%. Additionally, explainable AI techniques like Grad-CAM were employed to enhance the model's interpretability, which is vital for its use in clinical settings. The hybrid ResNet50-RF model outperformed standalone models, demonstrating its effectiveness in eye disease classification. This approach offers a promising, reliable solution for automated retinal disease diagnosis and has significant potential for broader application in healthcare.
+ER  - 
+
+TY  - CONF
+TI  - Systematic Review of Chatbot Development in Health and Education: Technologies, Frameworks, and Evaluation Metrics
+T2  - 2025 Eleventh International Conference on eDemocracy & eGovernment (ICEDEG)
+SP  - 231
+EP  - 238
+AU  - V. Morocho
+AU  - C. Ordoñez-Crespo
+AU  - V. Viloria-Ramírez
+PY  - 2025
+KW  - Accuracy
+KW  - Translation
+KW  - Scalability
+KW  - User centered design
+KW  - Focusing
+KW  - Medical services
+KW  - Chatbots
+KW  - Market research
+KW  - Multilingual
+KW  - Systematic literature review
+KW  - chatbots
+KW  - natural language processing
+KW  - health applications
+KW  - educational technology
+KW  - systematic literature review
+KW  - evaluation metrics
+KW  - responsible AI
+DO  - 10.1109/ICEDEG65568.2025.11081666
+JO  - 2025 Eleventh International Conference on eDemocracy & eGovernment (ICEDEG)
+IS  - 
+SN  - 2573-1998
+VO  - 
+VL  - 
+JA  - 2025 Eleventh International Conference on eDemocracy & eGovernment (ICEDEG)
+Y1  - 18-20 June 2025
+AB  - Chatbots have emerged as valuable tools in public service domains such as healthcare and education, supporting information delivery, training, and user engagement. Despite growing adoption, development practices remain fragmented. This paper presents a Systematic Literature Review (SLR) of 27 studies to identify trends, challenges, and research gaps in chatbot development, focusing on technological approaches, frameworks, evaluation methodologies, and language distribution. Findings reveal a strong preference for open-source frameworks, particularly Rasa, valued for flexibility and scalability, while TensorFlow is often used for custom ML-based implementations. English dominates as the primary development language, with limited representation of Spanish, despite its global importance. Most studies apply quantitative (performance-based) metrics such as F1-score and accuracy; only one combines quantitative and qualitative evaluations, reflecting a lack of standardized assessment approaches. Additional gaps include the absence of hybrid evaluation frameworks, limited attention to Responsible AI principles, and scarce discussion on deployment requirements. Future research should prioritize multilingual chatbot models, integrate hybrid evaluation frameworks, and promote transparency to ensure scalability, ethical AI practices, and user-centered design.
+ER  - 
+
+TY  - CONF
+TI  - DSANA: Dual Sparse Attention Driven Neural Additive Framework for Comprehensive Stroke Prediction
+T2  - 2025 National Conference on Communications (NCC)
+SP  - 1
+EP  - 6
+AU  - I. P. Prapurna
+AU  - S. D. Reddy
+AU  - T. K. Reddy Bollu
+PY  - 2025
+KW  - Visualization
+KW  - Accuracy
+KW  - Additives
+KW  - Shape
+KW  - Predictive models
+KW  - Stroke (medical condition)
+KW  - Brain modeling
+KW  - Transformers
+KW  - Physiology
+KW  - Prognostics and health management
+KW  - Brain Stroke Prediction
+KW  - Inherent Inter- pretability
+KW  - Integrated Gradient
+KW  - Neural Additive Model
+DO  - 10.1109/NCC63735.2025.10983795
+JO  - 2025 National Conference on Communications (NCC)
+IS  - 
+SN  - 2993-2645
+VO  - 
+VL  - 
+JA  - 2025 National Conference on Communications (NCC)
+Y1  - 6-9 March 2025
+AB  - In today's advancing medical diagnostics, accurately predicting stroke risk is crucial, due to the lack of effective prediction stroke remains a leading cause of global mortality and disability. Existing methods work on the linear relations of the demographic records of the subjects for stroke severity assessment. Moreover, this paper implements a novel Dual Sparse Attention Driven Neural Additive Network (DSANA) model to effectively analyze non-linear relationships through a multi-output representation, ensuring accurate prediction and capturing variability and distribution parameters (Location, Scale, and Shape), while preserving the interpretability of stroke prediction. Further, enhancement is incorporated with the concatenation of the DSANA model with Integrated Gradient (IG) for accurate stroke risk prediction and severity assessment. DSANA model is validated on the publicly available stroke healthcare dataset with 5110 patient profiles. Prediction metrics of the model demonstrated its efficacy with an accuracy of 98.54 % and a mean improvement over previous works with low-performance variance.
+ER  - 
+
+TY  - JOUR
+TI  - BAHBench: A Unified Benchmark for Evaluating Bio-Acoustic Health With Acoustic Foundation Models
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 4897
+EP  - 4909
+AU  - W. Xu
+AU  - Z. Dong
+AU  - J. Peng
+AU  - R. Wang
+AU  - Z. Zhang
+PY  - 2025
+KW  - Acoustics
+KW  - Foundation models
+KW  - Feature extraction
+KW  - Benchmark testing
+KW  - Medical services
+KW  - Speech processing
+KW  - Training
+KW  - Transformers
+KW  - Data models
+KW  - Data mining
+KW  - Bio-acoustics
+KW  - digital health
+KW  - acoustic foundation model
+DO  - 10.1109/JBHI.2025.3543968
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 7
+SN  - 2168-2208
+VO  - 29
+VL  - 29
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - July 2025
+AB  - Acoustic foundation models, through self-supervised learning on large amounts of unlabeled speech data, can acquire rich acoustic representations. In recent years, these models have demonstrated substantial potential in audio-based health-related tasks, remarkably enhancing the efficiency and quality of healthcare services and contributing to the advancement of smart healthcare. However, there is currently a lack of systematic research and exploration on the performance of acoustic foundation models in health-related tasks. Furthermore, inconsistencies in evaluation methods and experimental setups hinder fair comparisons between different methods, severely impeding progress in this field. To address these challenges, we establish a unified Benchmark for evaluating Bio-Acoustic health via acoustic foundation models, namely BAHBench. BAHBench encompasses 6 distinct health-related tasks and evaluates 12 acoustic foundation models within a unified evaluation framework and parameter settings, enabling fair comparisons across different models. Our objective is to explore the effectiveness of current acoustic foundation models in health-related tasks. Thus, we discuss the impact of model size and data diversity on performance, and investigate feature selection and efficient fine-tuning strategy. Experimental results show that different health-related tasks benefit from features from different layers of the foundation model, while LoRA fine-tuning further enhances the model's performance on downstream tasks. Our goal is to provide clear and comprehensive guidance for future researchers. The code related to this study will be available to the research community to promote transparency and reproducibility.
+ER  - 
+
+TY  - CONF
+TI  - Graph Neural Network-Based Framework for Predicting Drug-To-Drug and Drug-To-Food Interactions in Pharmacovigilance
+T2  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+SP  - 1
+EP  - 8
+AU  - A. N. J
+AU  - G. J. W. Kathrine
+AU  - S. Silas
+AU  - T. R
+PY  - 2025
+KW  - Accuracy
+KW  - Federated learning
+KW  - Drug interactions
+KW  - Medical services
+KW  - Predictive models
+KW  - Real-time systems
+KW  - Graph neural networks
+KW  - Planning
+KW  - Electronic medical records
+KW  - Optimization
+KW  - Drug-Drug Interaction
+KW  - Drug-Food Interaction
+KW  - Graph Neural Networks
+KW  - Pharmacovigilance
+KW  - Machine Learning
+KW  - AI in Healthcare
+DO  - 10.1109/ICIRCA65293.2025.11089819
+JO  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+Y1  - 25-27 June 2025
+AB  - Drug interactions pose significant risks in pharmacovigilance, necessitating accurate predictive models. This study presents a Graph Neural Network (GNN)-based framework for predicting drug-to-drug (DDI) and drug-to-food (DFI) interactions by integrating DrugBank 5.1.13, FDA Adverse Event Reporting System (FAERS), and NLP-extracted dietary interactions. The model achieves 92.3 % accuracy, 89.1 % precision, and 91.4% recall, outperforming CNN-based and rule-based systems by 16 % and 24 %, respectively. Explainability is enhanced through SHAP and LIME, ensuring clinical interpretability. The system is deployed as a real-time web application, allowing users to assess interactions instantly. Future work includes federated learning, EHR integration, and computational optimizations for clinical adoption. The proposed framework offers a scalable, interpretable, and adaptable approach to drug interaction prediction. Comparative evaluations demonstrate a 30 % improvement in recall for high-risk interactions, reducing the chances of severe adverse effects. This research bridges the gap between AI-driven pharmacovigilance and real-world clinical decision support.
+ER  - 
+
+TY  - JOUR
+TI  - Solving the Inverse Problem of Electrocardiography for Cardiac Digital Twins: A Survey
+T2  - IEEE Reviews in Biomedical Engineering
+SP  - 316
+EP  - 336
+AU  - L. Li
+AU  - J. Camps
+AU  - B. Rodriguez
+AU  - V. Grau
+PY  - 2025
+KW  - Electrocardiography
+KW  - Inverse problems
+KW  - Computational modeling
+KW  - Digital twins
+KW  - Heart
+KW  - Surveys
+KW  - Electric potential
+KW  - Surface reconstruction
+KW  - Reviews
+KW  - Image reconstruction
+KW  - Cardiac digital twins
+KW  - ECG
+KW  - inverse problem
+KW  - ECGI
+KW  - parameter estimation
+KW  - model personalization
+KW  - survey
+DO  - 10.1109/RBME.2024.3486439
+JO  - IEEE Reviews in Biomedical Engineering
+IS  - 
+SN  - 1941-1189
+VO  - 18
+VL  - 18
+JA  - IEEE Reviews in Biomedical Engineering
+Y1  - 2025
+AB  - Cardiac digital twins (CDTs) are personalized virtual representations used to understand complex cardiac mechanisms. A critical component of CDT development is solving the ECG inverse problem, which enables the reconstruction of cardiac sources and the estimation of patient-specific electrophysiology (EP) parameters from surface ECG data. Despite challenges from complex cardiac anatomy, noisy ECG data, and the ill-posed nature of the inverse problem, recent advances in computational methods have greatly improved the accuracy and efficiency of ECG inverse inference, strengthening the fidelity of CDTs. This paper aims to provide a comprehensive review of the methods for solving ECG inverse problems, their validation strategies, their clinical applications, and their future perspectives. For the methodologies, we broadly classify state-of-the-art approaches into two categories: deterministic and probabilistic methods, including both conventional and deep learning-based techniques. Integrating physics laws with deep learning models holds promise, but challenges such as capturing dynamic electrophysiology accurately, accessing accurate domain knowledge, and quantifying prediction uncertainty persist. Integrating models into clinical workflows while ensuring interpretability and usability for healthcare professionals is essential. Overcoming these challenges will drive further research in CDTs.
+ER  - 
+
+TY  - JOUR
+TI  - BCFTL: Blockchain-Enabled Multimodal Federated Transfer Learning for Decentralized Alzheimer’s Diagnosis
+T2  - IEEE Internet of Things Journal
+SP  - 29656
+EP  - 29669
+AU  - R. Myrzashova
+AU  - S. H. Alsamhi
+AU  - A. V. Shvetsov
+AU  - A. Hawbani
+AU  - M. Guizani
+AU  - X. Wei
+PY  - 2025
+KW  - Data models
+KW  - Magnetic resonance imaging
+KW  - Data privacy
+KW  - Accuracy
+KW  - Training
+KW  - Transfer learning
+KW  - Medical services
+KW  - Medical diagnostic imaging
+KW  - Data integrity
+KW  - Privacy
+KW  - Alzheimer
+KW  - blockchain
+KW  - clinical records
+KW  - decentralized data sharing
+KW  - federated learning
+KW  - MRI
+KW  - multimodal
+KW  - remote healthcare
+KW  - transfer learning
+DO  - 10.1109/JIOT.2025.3569652
+JO  - IEEE Internet of Things Journal
+IS  - 15
+SN  - 2327-4662
+VO  - 12
+VL  - 12
+JA  - IEEE Internet of Things Journal
+Y1  - 1 Aug.1, 2025
+AB  - This article introduces the blockchain-enabled multimodal federated transfer learning (BCFTL) framework designed to improve Alzheimer’s disease (AD) diagnosis by effectively integrating federated learning (FL), transfer learning (TL), and blockchain (BC) technologies. The BCFTL framework facilitates collaborative training of diagnostic models across decentralized institutions, combining clinical and MRI data without compromising patient data privacy or security. TL enhances the generalizability of the model through pretrained VGG16 architectures for robust feature extraction. BC integration ensures data integrity, transparency, and accountability by providing an immutable and verifiable record of data exchanges and model updates across the network. Experimental evaluations demonstrate that BCFTL achieves an impressive diagnostic accuracy of 97% and a low error rate of 2.6%, with privacy safeguards implemented through encryption-based protection mechanisms for shared model features and cryptographically secure aggregation methods. The scalability and accessibility of the framework underscore its practicality for deployment in resource-constrained environments, highlighting its significant potential for broader applications in various medical domains, including the diagnosis and management of neurodegenerative diseases and other conditions that require secure multimodal data integration.
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Causal AI Techniques for Health Misinformation Detection
+T2  - 2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)
+SP  - 50
+EP  - 55
+AU  - O. Clark
+AU  - K. P. Joshi
+PY  - 2025
+KW  - Pervasive computing
+KW  - Social networking (online)
+KW  - Transformers
+KW  - Natural language processing
+KW  - Real-time systems
+KW  - Cognition
+KW  - Robustness
+KW  - Fake news
+KW  - Artificial intelligence
+KW  - Public healthcare
+KW  - Health Misinformation
+KW  - Misinformation Detection
+KW  - Natural Language Processing
+KW  - Social Media Analysis
+KW  - Topic Modeling
+KW  - Causal AI
+KW  - Digital Health
+DO  - 10.1109/PerComWorkshops65533.2025.00040
+JO  - 2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)
+IS  - 
+SN  - 2766-8576
+VO  - 
+VL  - 
+JA  - 2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)
+Y1  - 17-21 March 2025
+AB  - The proliferation of health misinformation on social media, particularly regarding chronic conditions such as diabetes, hypertension, and obesity, poses significant public health risks. This study evaluates the feasibility of leveraging Natural Language Processing (NLP) techniques for real-time misinformation detection and classification, focusing on Reddit discussions. Using logistic regression as a baseline model, supplemented by Latent Dirichlet Allocation (LDA) for topic modeling and K-Means clustering, we identify clusters prone to misinformation. While the model achieved a 73% accuracy rate, its recall for misinformation was limited to 12%, reflecting challenges such as class imbalance and linguistic nuances. The findings underscore the importance of advanced NLP models, such as transformer-based architectures like BERT, and propose the integration of causal reasoning to enhance the interpretability and robustness of AI systems for public health interventions.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Herbal Medicine-Drug Interaction Prediction Using Large Language Models
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 1
+EP  - 11
+AU  - S. Yuan
+AU  - Z. Zhou
+AU  - X. Jin
+AU  - L. Zhuo
+AU  - K. Li
+PY  - 2025
+KW  - Feature extraction
+KW  - Drugs
+KW  - Predictive models
+KW  - Biological system modeling
+KW  - Encoding
+KW  - Computational modeling
+KW  - Data mining
+KW  - Chatbots
+KW  - Large language models
+KW  - Databases
+KW  - herbal medicine-drug interaction (HDI)
+KW  - large language models (LLMs)
+KW  - variational graph autoencoders (VGAEs)
+KW  - uneven distribution
+DO  - 10.1109/JBHI.2025.3558667
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 
+SN  - 2168-2208
+VO  - 
+VL  - 
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - 
+AB  - Investigating potential interactions between drugs and herbal medicines helps optimize combined treatment strategies and supports personalized and precision medicine. Deep learning-based methods have been successful in predicting drug-related interactions. However, these methods face challenges such as low data quality and uneven distribution. Large language models (LLMs) effectively address these challenges through their extensive knowledge bases. Motivated by this, we integrate LLMs, one-hot encoding, and variational graph autoencoders (VGAEs) to propose a herbal medicine-drug interaction (HDI) prediction model. First, LLMs are employed to extract features from drug SMILES, generating high-quality molecular representations. Second, one-hot encoding is applied to herbal medicines with multiple natural products to construct feature vectors and improve model interpretability. Finally, VGAEs are utilized to reconstruct herbal medicine-drug graphs and predict unknown HDIs. Additionally, we differentiate between herbal medicine-drug similarity and the degree of individual drug or herbal medicine nodes to mitigate the dominance of high-degree nodes in VGAE message flow. Multiple experiments were conducted to validate the significance of the proposed model and its key components. This method shows great potential for applications in traditional Chinese medicine formulation optimization, new drug development, and precision medicine. Our code and data are accessible at: https://github.com/sisyyuan/HDI.
+ER  - 
+
+TY  - CONF
+TI  - Privacy-preserving federated learning for heart disease prediction using FedAvg and SHAP -based interpretability
+T2  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+SP  - 397
+EP  - 406
+AU  - A. Marada
+AU  - Y. A. Farooqui
+AU  - A. Chouhan
+PY  - 2025
+DO  - 10.1049/icp.2025.1322
+JO  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+IS  - 
+SN  - 
+VO  - 2025
+VL  - 2025
+JA  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+Y1  - 2-3 May 2025
+AB  - Federated Learning (FL), which allows medical institutions to collaborate on training without disclosing raw patient data, offers a framework for cardiac disease prediction that protects privacy. FL reduces security threats and guarantees adherence to privacy laws, in contrast to conventional machine learning methods that depend on centralised data storage. FL preserves efficiency and data privacy by using the FedAvg approach to aggregate updates after training models locally. The model’s performance, which included an AUC of 0.88, 85% accuracy, 82% precision, and 88% recall, was on par with centralised methods. Important characteristics including age, cholesterol, and ECG readings were found to significantly influence predictions, which improved the interpretability of the model by providing SHAP-based justifications. This study shows that FL provides a workable Artifical Intelligence(AI) solution for diagnosing heart disease while maintaining privacy and legal compliance. In order to increase the clinical value of the model and boost confidence in AI-driven healthcare applications, future research will examine the integration of multi-modal data, scalability, and real-time updates.
+ER  - 
+
+TY  - JOUR
+TI  - CoD-MIL: Chain-of-Diagnosis Prompting Multiple Instance Learning for Whole Slide Image Classification
+T2  - IEEE Transactions on Medical Imaging
+SP  - 1218
+EP  - 1229
+AU  - J. Shi
+AU  - C. Li
+AU  - T. Gong
+AU  - C. Wang
+AU  - H. Fu
+PY  - 2025
+KW  - Pathology
+KW  - Tumors
+KW  - Feature extraction
+KW  - Visualization
+KW  - Image classification
+KW  - Training
+KW  - Electronic mail
+KW  - Cognition
+KW  - Cancer
+KW  - Hospitals
+KW  - Histopathology
+KW  - whole slide image analysis
+KW  - multiple instance learning
+KW  - vision language model
+DO  - 10.1109/TMI.2024.3485120
+JO  - IEEE Transactions on Medical Imaging
+IS  - 3
+SN  - 1558-254X
+VO  - 44
+VL  - 44
+JA  - IEEE Transactions on Medical Imaging
+Y1  - March 2025
+AB  - Multiple instance learning (MIL) has emerged as a prominent paradigm for processing the whole slide image with pyramid structure and giga-pixel size in digital pathology. However, existing attention-based MIL methods are primarily trained on the image modality and a pre-defined label set, leading to limited generalization and interpretability. Recently, vision language models (VLM) have achieved promising performance and transferability, offering potential solutions to the limitations of MIL-based methods. Pathological diagnosis is an intricate process that requires pathologists to examine the WSI step-by-step. In the field of natural language process, the chain-of-thought (CoT) prompting method is widely utilized to imitate the human reasoning process. Inspired by the CoT prompt and pathologists’ clinic knowledge, we propose a chain-of-diagnosis prompting multiple instance learning (CoD-MIL) framework for whole slide image classification. Specifically, the chain-of-diagnosis text prompt decomposes the complex diagnostic process in WSI into progressive sub-processes from low to high magnification. Additionally, we propose a text-guided contrastive masking module to accurately localize the tumor region by masking the most discriminative instances and introducing the guidance of normal tissue texts in a contrastive way. Extensive experiments conducted on three real-world subtyping datasets demonstrate the effectiveness and superiority of CoD-MIL.
+ER  - 
+
+TY  - JOUR
+TI  - A Multi-Agent Approach to Modeling Task-Oriented Dialog Policy Learning
+T2  - IEEE Access
+SP  - 11754
+EP  - 11764
+AU  - S. Liang
+AU  - K. Xu
+AU  - Z. Dong
+PY  - 2025
+KW  - Natural language generation
+KW  - Reinforcement learning
+KW  - Decision making
+KW  - Collaboration
+KW  - Pipelines
+KW  - Medical diagnosis
+KW  - Human computer interaction
+KW  - Databases
+KW  - Convergence
+KW  - Multi-agent systems
+KW  - Human-computer interaction
+KW  - dialogue policy learning
+KW  - deep reinforcement learning
+KW  - multi-agent learning
+DO  - 10.1109/ACCESS.2025.3529469
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Dialogue policy is a critical research area in human-computer interaction, vital for guiding dialogue generation and improving controllability and interpretability. Multi-agent dialogue policy learning demonstrates superior learning speed and exploration capabilities, positioning it as a promising approach for developing more effective and adaptive dialogue agents. However, many studies neglect to holistically model collaboration between agents, which limits the effectiveness of policy learning. Therefore, this paper proposes a new multi-agent group collaboration mechanism for dialogue policy learning, named GMPL. Concretely, we employ an Actor-Critic network to implement the proposed model, alternately updating individual dialogue agents to optimize policy selection. In each update, we utilize the maximum action value function to determine the appropriate dialogue action, while the maximum state value function serves to guide the policy learning process. This integrated approach ensures that both decision-making and learning phases are effectively aligned, thereby enhancing the overall performance of the dialogue agents. Furthermore, we conduct a theoretical analysis of the convergence properties of the proposed model. Experiments were conducted on two distinct task-oriented dialogue datasets, revealing that the proposed multi-agent model exhibits a significantly faster learning speed and a higher dialogue success rate compared to baseline approaches.
+ER  - 
+
+TY  - CONF
+TI  - The Stability Dilemma: Addressing Uncertainty in Public Sector AI
+T2  - 2025 IEEE International Symposium on Ethics in Engineering, Science, and Technology (ETHICS)
+SP  - 1
+EP  - 6
+AU  - M. Elliott
+AU  - D. P.
+PY  - 2025
+KW  - Ethics
+KW  - Uncertainty
+KW  - Protocols
+KW  - Law
+KW  - Transportation
+KW  - Focusing
+KW  - Medical services
+KW  - Stability analysis
+KW  - Behavioral sciences
+KW  - Artificial intelligence
+KW  - AI
+KW  - Public Sector AI
+KW  - Uncertainty
+KW  - Adapt-to-AI
+DO  - 10.1109/ETHICS65148.2025.11098414
+JO  - 2025 IEEE International Symposium on Ethics in Engineering, Science, and Technology (ETHICS)
+IS  - 
+SN  - 2996-3648
+VO  - 
+VL  - 
+JA  - 2025 IEEE International Symposium on Ethics in Engineering, Science, and Technology (ETHICS)
+Y1  - 6-8 June 2025
+AB  - Increasing adoption of AI in public sector decision-making presents significant challenges due to the inherent uncertainties of human behavior and volatile environments. It has been suggested in prior literature that effectiveness of AI is predicted by the stability and predictability of the environment, viz., the Adapt-to-AI principle. Unlike domains such as transportation where stability can be enforced to optimize AI performance through establishing protocols, public sector domains like law, healthcare, and welfare require flexibility, interpretability, and procedural fairness. We examine how uncertainty affects AI effectiveness in the public sector, and consider whether human behaviors and environments should be adapted to improve AI utility. Using the Adapt-to-AI principle as a foundation, we propose a structured framework for analyzing AI uncertainty factors, including the intended AI user, AI subject, physical environment, and social environment. Focusing on judicial AI, we assess the feasibility and ethical implications of adapting public institutions to accommodate AI systems effectively. While some adaptations are highly feasible, adapting human behaviors and legal frameworks introduces significant ethical risks. We argue adaptations should be made to integrate AI systems from the ground up-but as a decision-support tool rather than a determinative system, ensuring human oversight remains central to public governance. Finally, we outline future research directions on adaptation strategies and governance frameworks, promoting ethical and effective AI deployment.
+ER  - 
+
+TY  - CONF
+TI  - An Advanced Voting Ensemble Model with GWO Feature Selection for Improved Breast Cancer Diagnosis
+T2  - 2025 Third International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)
+SP  - 526
+EP  - 531
+AU  - D. P. Rapaka
+AU  - S. Kommana
+PY  - 2025
+KW  - Accuracy
+KW  - Translation
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Breast cancer
+KW  - Data models
+KW  - Medical diagnosis
+KW  - Ensemble learning
+KW  - Optimization
+KW  - Context modeling
+KW  - Voting Ensemble Model
+KW  - Grey Wolf Optimization (GWO)
+KW  - Feature Selection
+KW  - Model Evaluation
+KW  - Breast Cancer Prediction (BCP)
+KW  - Ensemble Learning (EL)
+KW  - Feature Selection (FS)
+KW  - Classification Accuracy (CA)
+DO  - 10.1109/ICAISS61471.2025.11042159
+JO  - 2025 Third International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 Third International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)
+Y1  - 21-23 May 2025
+AB  - This work introduces a voting ensemble of AdaBoost, CatBoost, and XGBoost classifiers with feature selection using Grey Wolf Optimization (GWO) to improve breast cancer diagnosis. The model employs such modern concepts in artificial neural networks to outperform conventional and single-algorithm methods in breast cancer prediction. The model trained with the medical and demographic data identified by EHRs had even higher accuracy rate of 97.90% compared to earlier models which ranged from 74.14%, to 86.6%. Due to the involvement of GWO in feature selection, the most relevant features were found to construct the model, improving its performance and enhancing the interpretability of the model as well. Due to the high model accuracy and application speed, there is a prospect of its utilization in clinical work. The results of the research create a possibility to enhance an overall number of calculations with the help of several progressive algorithms and thus, to increase the efficiency of examination and possible treatments of breast cancer. As suggested in the present study, future research in developing and validating the translation process of the model will require independent, bigger, and less homogeneous samples to test its generalizability for clinical practice.
+ER  - 
+
+TY  - JOUR
+TI  - A Blockchain-Assisted Drug Management and Authentication Scheme in IoMT
+T2  - IEEE Internet of Things Journal
+SP  - 34283
+EP  - 34296
+AU  - S. Liu
+AU  - Z. Wang
+AU  - C. -M. Chen
+PY  - 2025
+KW  - Drugs
+KW  - Authentication
+KW  - Blockchains
+KW  - Security
+KW  - Drug delivery
+KW  - Medical services
+KW  - Servers
+KW  - Privacy
+KW  - Protection
+KW  - Elliptic curve cryptography
+KW  - Authentication and key agreement
+KW  - blockchain (BC)
+KW  - Internet of Medical Things (IoMT)
+KW  - smart drug management
+DO  - 10.1109/JIOT.2025.3577701
+JO  - IEEE Internet of Things Journal
+IS  - 16
+SN  - 2327-4662
+VO  - 12
+VL  - 12
+JA  - IEEE Internet of Things Journal
+Y1  - 15 Aug.15, 2025
+AB  - With the rapid development of the Internet of Things (IoT), the Internet of Medical Things (IoMT) has significantly improved the intelligence and efficiency of healthcare services. As a crucial component of IoMT, smart drug management facilitates efficient collaboration in drug storage, prescription management, and drug delivery. However, the drug distribution process involves multiple entities and sensitive medical data, posing serious security challenges, including patient privacy leakage, identity forgery, unauthorized access to medicines, and data tampering. To address these challenges, this article proposes a blockchain-assisted drug management and authentication scheme that integrates identity authentication mechanisms. Using the decentralization, immutability, and traceability features of the blockchain, the proposed scheme ensures the transparency and integrity of drug distribution records. In addition, the authentication and key agreement mechanism establishes a secure communication channel between patients, pharmacies, and delivery personnel, preventing unauthorized access and data leakage. The security of the proposed scheme is formally analyzed using the Real-Or-Random (ROR) model, demonstrating its robustness against common security threats. Performance evaluations indicate that the proposed scheme significantly reduces computational and communication overhead compared to existing schemes, making it a secure and efficient solution for smart drug management in smart healthcare.
+ER  - 
+
+TY  - JOUR
+TI  - OAS-XGB: An OptiFlect Adaptive Search Optimization Framework using XGBoost to predict Length of Stay for CAD Patients
+T2  - IEEE Access
+SP  - 1
+EP  - 1
+AU  - G. P. Miriyala
+AU  - A. K. Sinha
+PY  - 2025
+KW  - Optimization
+KW  - Solid modeling
+KW  - Predictive models
+KW  - Accuracy
+KW  - Feature extraction
+KW  - Diseases
+KW  - Bayes methods
+KW  - Adaptation models
+KW  - Medical services
+KW  - MIMICs
+KW  - Bayesian Optimization
+KW  - Coronary artery disease
+KW  - Decision making
+KW  - Hyper parameter
+KW  - Machine Learning
+KW  - Random search
+KW  - XGBoost
+DO  - 10.1109/ACCESS.2025.3613771
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 
+VL  - 
+JA  - IEEE Access
+Y1  - 
+AB  - Accurately predicting the length of hospital stay for patients with coronary artery disease is important for effective healthcare resource management and enhancing patient outcomes. However, to achieve a high predictive performance in machine learning, one of the key challenges is to balance exploration and exploitation during the hyperparameter tuning process. To address this challenge, this work proposes an OptiFlect Adaptive Search (OAS) optimization with XGBoost, an advanced framework designed to enhance the predictive performance of XGBoost models. Initially, data preparation and preprocessing are performed, followed by representation learning using Variational Autoencoders with t-SNE to capture complex data patterns through low-dimensional embeddings. With the transformed latent features, the proposed framework initiates a random search and then transitions to a Gaussian Process-based Bayesian optimization, employing an adaptive switching strategy to achieve an optimal balance between exploration and exploitation. The experiment is performed on three comprehensive datasets, i.e., MIMIC-III, MIMIC-IV, and eICU. Across these datasets, the OAS optimization algorithm achieved the best log-loss. Utilizing the optimal hyperparameters identified from OAS, the XGBoost model was retrained, resulting in superior performance with an accuracy of 97.92% on MIMIC-III, 98.99% on MIMIC-IV, and 96.58% on eICU. This model also outperformed other baseline models, achieving the highest overall and class-specific metrics, including precision, recall, F1-score, AUC-ROC, and AUPRC, while maintaining the lowest overall inference time as evaluated across nested five-fold cross-validation. The SHapley Additive exPlanations are also performed for the OAS-XGB model's interpretability by identifying crucial predictive features, helping healthcare professionals optimize resource allocation and enhance care quality.
+ER  - 
+
+TY  - CONF
+TI  - Multilingual Sign Language Dictionary Development for Clinical Use
+T2  - 2025 7th International Youth Conference on Radio Electronics, Electrical and Power Engineering (REEPE)
+SP  - 1
+EP  - 6
+AU  - A. Ashrafi
+AU  - V. S. Mokhnachev
+AU  - D. H. Chung
+AU  - A. Makhmud
+AU  - W. Bacha
+PY  - 2025
+KW  - Sign language
+KW  - Power engineering
+KW  - Dictionaries
+KW  - Tracking
+KW  - Scalability
+KW  - Medical services
+KW  - Auditory system
+KW  - Real-time systems
+KW  - Multilingual
+KW  - Mobile applications
+KW  - Motion tracking
+KW  - Bangla Sign Language
+KW  - Sign Language Recognition
+KW  - Multilingual Sign Language Dictionary
+KW  - Hearing impairment
+KW  - Russian Sign Language
+KW  - Video classification
+DO  - 10.1109/REEPE63962.2025.10970922
+JO  - 2025 7th International Youth Conference on Radio Electronics, Electrical and Power Engineering (REEPE)
+IS  - 
+SN  - 2831-7262
+VO  - 
+VL  - 
+JA  - 2025 7th International Youth Conference on Radio Electronics, Electrical and Power Engineering (REEPE)
+Y1  - 8-10 April 2025
+AB  - Getting the right medical care can be extremely difficult for patients with hearing impairment. Particularly clinics in underdeveloped countries where there are budgetary limitations, a shortage of qualified service providers, and a lack of access to modern healthcare technology. Developing a multilingual dictionary for clinical use can improve the communication between healthcare providers, and hearing impaired patients. The use of medical terminology in this dictionary can reduce the misunderstandings between patients and healthcare providers. The purpose is to enhance patient care, ensure accurate information exchange. The method of creating a multilingual sign language dictionary has been demonstrated in this article. Real-time motion tracking and machine learning have been applied in this approach. The research methodology outlines not just how to develop the dictionary as a mobile application and a web application but also ways to design it user-friendly alongside how to use it for reaching as many people as possible. Preliminary studies had taken place to use it as a test program. Four key hypotheses have been examined, and their implementations are described. This research mainly highlights the importance of combining technology and accessibility to address the unique needs of the hearing-impaired community. The focus is on offering a practical solution for clinical environments worldwide.
+ER  - 
+
+TY  - CONF
+TI  - Efficient Semantic Detection and Analysis of Misinformation in CBD-Related Tweets Using FAISS and Mistral NeMo Instruct
+T2  - 2025 19th International Conference on Semantic Computing (ICSC)
+SP  - 1
+EP  - 8
+AU  - J. Turner
+AU  - M. A. Gulum
+AU  - M. Kantardzic
+PY  - 2025
+KW  - Adaptation models
+KW  - Analytical models
+KW  - Social networking (online)
+KW  - Computational modeling
+KW  - Scalability
+KW  - Semantics
+KW  - Natural language processing
+KW  - Hardware
+KW  - Fake news
+KW  - Public healthcare
+KW  - Cannabidiol (CBD)
+KW  - misinformation detection
+KW  - FAISS (Facebook AI Similarity Search)
+KW  - zero-shot learning
+KW  - Mistral NeMo Instruct
+KW  - semantic similarity
+KW  - social media analysis
+KW  - FDA warning letters
+KW  - public health
+KW  - machine learning
+KW  - natural language processing (NLP)
+DO  - 10.1109/ICSC64641.2025.00031
+JO  - 2025 19th International Conference on Semantic Computing (ICSC)
+IS  - 
+SN  - 2472-9671
+VO  - 
+VL  - 
+JA  - 2025 19th International Conference on Semantic Computing (ICSC)
+Y1  - 3-5 Feb. 2025
+AB  - The growing popularity of cannabidiol (CBD) has led to a surge in misinformation, particularly on social media platforms like Twitter, posing risks to public health. This paper presents a scalable method for detecting CBD-related misinformation in a large corpus of tweets. Using approximately 3.7 million tweets collected from 2011 to 2021, we implement a two-step process: first, FAISS (Facebook AI Similarity Search) efficiently identifies tweets semantically similar to false claims extracted from FDA warning letters. Second, Mistral NeMo Instruct, a zero-shot model, classifies tweets as ‘Misinformation’ or ‘Non-Misinformation’, providing justifications for transparency. This approach minimizes computational costs while maintaining accuracy, making it a practical tool for large-scale misinformation detection. The framework is scalable and adaptable, evolving with new FDA data or emerging cannabis research.
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Kidney Stone Detection with Vision Transformers and CNNs: A Transfer Learning Strategy
+T2  - 2025 International Conference on Pervasive Computational Technologies (ICPCT)
+SP  - 829
+EP  - 833
+AU  - S. Kulkarni
+AU  - S. R. S
+AU  - T. K. Chopra
+AU  - Y. S P
+AU  - B. K J
+AU  - S. K R
+PY  - 2025
+KW  - Computer vision
+KW  - Visualization
+KW  - Accuracy
+KW  - Computed tomography
+KW  - Transfer learning
+KW  - Medical services
+KW  - Transformers
+KW  - Data models
+KW  - Reliability
+KW  - Convolutional neural networks
+KW  - CT - Computed Tomography Scan
+KW  - Kidney Stone
+KW  - Vision Transformers
+KW  - Convolutional Neural Network
+KW  - Transfer Learning
+KW  - GRAD - CAM
+DO  - 10.1109/ICPCT64145.2025.10940924
+JO  - 2025 International Conference on Pervasive Computational Technologies (ICPCT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Pervasive Computational Technologies (ICPCT)
+Y1  - 8-9 Feb. 2025
+AB  - Kidney stones are a common and impactful urological condition, with timely and accurate diagnosis being critical to prevent complications such as renal damage and avoid invasive treatments. This study explores the use of advanced deep learning models, including Vision Transformers (ViT), Swin Transformer and Convolutional Neural Networks (CNNs)—specifically XResNet-50, VGG-16, MobileNetV2 and AlexNet—to enhance kidney stone detection from CT scan images. Leveraging a robust dataset of annotated CT scans in JPG format, the approach employs transfer learning which leverages features learnt from the ImageNet dataset to optimize model performance, focusing on classifying cases as either "Kidney Stone Present" or "Kidney Stone Absent". To further improve diagnostic reliability, the Grad-CAM (Gradient-weighted Class Activation Mapping) identifies and localizes kidney stones within CT images, enhancing understanding of the model’s decision-making and supporting interpretability. Addressing challenges related to dataset imbalance, model interpretability, and generalizability across healthcare settings. By refining these models for kidney stone detection, the main objective of this work is to build a reliable diagnostic tool that aids in clinical judgement and treatment planning, ultimately enhancing patient outcomes and encouraging broader clinical adoption.
+ER  - 
+
+TY  - CONF
+TI  - Exploring Blockchain in the Metaverse: Review of State-of-the-Art Frameworks and Future Research Challenges
+T2  - 2025 International Conference on Computer, Information and Telecommunication Systems (CITS)
+SP  - 1
+EP  - 6
+AU  - A. Pandey
+AU  - M. S. Obaidat
+AU  - A. Kushwaha
+AU  - S. K. Dwivedi
+AU  - R. Amin
+PY  - 2025
+KW  - Quantum computing
+KW  - Metaverse
+KW  - Reviews
+KW  - Education
+KW  - Standardization
+KW  - Medical services
+KW  - Teleportation
+KW  - Blockchains
+KW  - Telecommunications
+KW  - Research and development
+KW  - Blockchain
+KW  - Metaverse
+KW  - Smart Applications
+KW  - Security
+KW  - Trust
+KW  - Quantum Teleportation
+KW  - decentralized authentication
+DO  - 10.1109/CITS65975.2025.11099077
+JO  - 2025 International Conference on Computer, Information and Telecommunication Systems (CITS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Computer, Information and Telecommunication Systems (CITS)
+Y1  - 16-18 July 2025
+AB  - The integration of blockchain technology within the metaverse is driving a paradigm shift in how digital interactions and ecosystems are built and maintained. This paper investigates the transformative role of blockchain in enhancing trust, transparency, and decentralization across virtual environments. By enabling secure ownership of digital assets, identity verification, and decentralized governance, blockchain strengthens the infrastructure of the metaverse. The study also examines practical implementations across sectors like virtual commerce, remote healthcare, and immersive education. Finally, it discusses existing limitations such as latency, standardization gaps, and resource constraints, while outlining potential paths for future research and development.
+ER  - 
+
+TY  - CONF
+TI  - Retracted: "SQLSynthGen: Generating Synthetic Data for Healthcare Databases"
+T2  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+SP  - 1
+EP  - 11
+AU  - R. S. Raja
+PY  - 2025
+DO  - 10.1109/ICAIC63015.2025.10849122
+JO  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+Y1  - 5-7 Feb. 2025
+AB  - Synthetic data generation is crucial for leveraging machine learning in healthcare without compromising patient privacy. SQLSynthGen (SSG) offers a solution by generating synthetic datasets from relational databases, preserving data structure and integrity. By extracting statistical properties via SQL queries and applying differential privacy, SSG ensures data utility while protecting individual privacy. Transparency is maintained through configurable YAML files, facilitating data auditing and stakeholder trust. Despite its advancements, SSG faces challenges in relational data handling and privacy explainability, necessitating future improvements in these areas to enhance adoption in healthcare and other sensitive domains.
+ER  - 
+
+TY  - CONF
+TI  - A Modified GP based Feature Selection Model for Solving Real World Classification Problems
+T2  - 2025 International Conference on Electronics, AI and Computing (EAIC)
+SP  - 1
+EP  - 7
+AU  - S. Nagar
+AU  - A. Bhardwaj
+PY  - 2025
+KW  - Adaptation models
+KW  - Accuracy
+KW  - High dimensional data
+KW  - Computational modeling
+KW  - Education
+KW  - Genetic programming
+KW  - Medical services
+KW  - Transforms
+KW  - Feature extraction
+KW  - Tuning
+KW  - Genetic Programming
+KW  - Feature Selection
+KW  - Evolutionary Algorithms
+KW  - Machine Learning
+KW  - Model Interpretability
+KW  - Dimensionality Reduction
+KW  - Classification Accuracy
+DO  - 10.1109/EAIC66483.2025.11101517
+JO  - 2025 International Conference on Electronics, AI and Computing (EAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Electronics, AI and Computing (EAIC)
+Y1  - 5-7 June 2025
+AB  - In this data-driven era, machine learning models face a critical hurdle: managing vast amounts of complex, high-dimensional data. These datasets, while rich in potential insights, often lead to slower computations, overfitted models, and opaque decision-making processes. To tackle these challenges, this study introduces a fresh approach using Genetic Programming (GP)—a technique inspired by natural evolution—to identify the most impactful features in datasets while boosting model performance.Breaking away from traditional feature selection methods, our framework combines dynamic feature weighting, diversity-driven population generation, and adaptive mutation strategies to iteratively refine feature subsets. Over 13 carefully designed steps, the method evolves classifiers across generations, prioritizing accuracy and simplicity. We tested this approach on eight different datasets from diverse fields like finance, healthcare, and education. The results shows that Taiwanese Bankruptcy Prediction dataset shows highest mean accuracy of 97.18% with selected features. It was also noted that both the dataset of educational field didn’t perform well, they scored the least ac-curacy score among all the datasets. Beyond numbers, this work bridges theory and practice, offering a scalable tool for researchers and practitioners to build faster, clearer, and more reliable AI systems.
+ER  - 
+
+TY  - CONF
+TI  - Comprehensive Study to Blockchain Frameworks and Performance Evaluation Tools
+T2  - 2025 3rd International Conference on Communication, Security, and Artificial Intelligence (ICCSAI)
+SP  - 1706
+EP  - 1710
+AU  - R. K. Kaushal
+AU  - N. Kumar
+AU  - R. Raushan
+PY  - 2025
+KW  - Distributed ledger
+KW  - Scalability
+KW  - Smart contracts
+KW  - Supply chains
+KW  - Government
+KW  - Performance metrics
+KW  - Blockchains
+KW  - Consensus protocol
+KW  - Security
+KW  - Internet of Things
+KW  - Blockchain
+KW  - Frameworks
+KW  - Performance metrics
+KW  - evaluation
+KW  - DLT
+KW  - IoT
+KW  - Operating Systems
+KW  - Network System
+KW  - Performance
+KW  - Metrics
+KW  - Memory
+KW  - Power Consumption
+KW  - Consensus mechanism
+KW  - Benchmarking tools
+KW  - Decentralization
+DO  - 10.1109/ICCSAI64074.2025.11063791
+JO  - 2025 3rd International Conference on Communication, Security, and Artificial Intelligence (ICCSAI)
+IS  - 
+SN  - 
+VO  - 3
+VL  - 3
+JA  - 2025 3rd International Conference on Communication, Security, and Artificial Intelligence (ICCSAI)
+Y1  - 4-6 April 2025
+AB  - Blockchain technology is a transformative solution which ensures decentralization, transparency and security across all industries. In the era of Industry 4.0, blockchain is the most widely accepted and trusted technology due to having its decentralization features. Having the ability to create more transparency and fairness, blockchain based applications are demanded in variety of sectors including private and government sectors. Now a days Blockchain applications go far beyond cryptocurrency and bitcoin. With the use of smart contracts, we can develop more applications for various sectors. Smart contracts in blockchain technology making businesses trustworthy. Whether it is money transfer, Smart contracts. Internet of Things (IoT) application, Personal Identity, Healthcare, Supply chain, Logistics, Media, Government etc. Due to having strong security and privacy features, blockchain applications are in demand. This study provides a comprehensive analysis of blockchain frameworks and its evaluation tools for all leading blockchain frameworks including Ethereum, Hyperledger Fabric, Corda, Binance Smart Chain and Plokadot, highlighting their architecture, consensus mechanism, scalability solutions and security considerations. A comprehensive analysis of Public and Private blockchain performance optimization at the cost of decentralization including Hybrid blockchain frameworks. To assess the performance, various tools such as Hyperledger Caliper, Block bench, Chain hammer and Ethereum tester are used to measure the metrics. This study concludes that no single blockchain framework is universally optimal and selection of right blockchain frameworks requires a trade-off between efficiency, security, decentralization and scalability. The insights of this study contribute to the ongoing development of next generation blockchain technology to foster the adoption and innovation of blockchain in decentralized digital ecosystem.
+ER  - 
+
+TY  - JOUR
+TI  - Polarity Prompting Vision Foundation Models for Pathology Image Analysis
+T2  - IEEE Transactions on Medical Imaging
+SP  - 1
+EP  - 1
+AU  - C. Yin
+AU  - S. Liu
+AU  - K. Zhou
+AU  - V. W. -S. Wong
+AU  - P. C. Yuen
+PY  - 2025
+KW  - Visualization
+KW  - Pathology
+KW  - Image analysis
+KW  - Tuning
+KW  - Accuracy
+KW  - Deep learning
+KW  - Training
+KW  - Computational modeling
+KW  - Adaptation models
+KW  - Generators
+KW  - Visual prompts
+KW  - polarity
+KW  - pathology foundation model
+DO  - 10.1109/TMI.2025.3578492
+JO  - IEEE Transactions on Medical Imaging
+IS  - 
+SN  - 1558-254X
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Medical Imaging
+Y1  - 
+AB  - The sharp rise in non-alcoholic fatty liver disease (NAFLD) cases has become a major health concern in recent years. Accurately identifying tissue alteration regions is crucial for NAFLD diagnosis but challenging with small-scale pathology datasets. Recently, prompt tuning has emerged as an effective strategy for adapting vision models to small-scale data analysis. However, current prompting techniques, designed primarily for general image classification, use generic cues that are inadequate when dealing with the intricacies of pathological tissue analysis. To solve this problem, we introduce Quantitative Attribute-based Polarity Visual Prompting (Q-PoVP), a new prompting method for pathology image analysis. Q-PoVP introduces two types of measurable attributes: K-function-based spatial attributes and histogram-based morphological attributes. Both help to measure tissue conditions quantitatively. We develop a quantitative attribute-based polarity visual prompt generator that converts quantitative visual attributes into positive and negative visual prompts, facilitating a more comprehensive and nuanced interpretation of pathological images. To enhance feature discrimination, we introduce a novel orthogonal-based polarity visual prompt tuning technique that disentangles and amplifies positive visual attributes while suppressing negative ones. We extensively tested our method on three different tasks. Our task-specific prompting demonstrates superior performance in both diagnostic accuracy and interpretability compared to existing methods. This dual advantage makes it particularly valuable for clinical settings, where healthcare providers require not only reliable results but also transparent reasoning to support informed patient care decisions. Code is available at https://github.com/7LFB/Q-PoVP.
+ER  - 
+
+TY  - CONF
+TI  - Integrating Federated Learning and Blockchain for Enhanced Financial Portfolio Management
+T2  - 2025 3rd International Conference on Integrated Circuits and Communication Systems (ICICACS)
+SP  - 1
+EP  - 6
+AU  - V. G. Murugan
+AU  - S. Sekhar Nanda
+AU  - S. V R
+AU  - G. Naidu Jatty
+AU  - N. R. Kumar
+AU  - V. Chamundeeswari
+PY  - 2025
+KW  - Training
+KW  - Federated learning
+KW  - Computational modeling
+KW  - Data models
+KW  - Blockchains
+KW  - Security
+KW  - Portfolios
+KW  - Optimization
+KW  - Investment
+KW  - Testing
+KW  - Federated Learning
+KW  - Return on Investment
+KW  - Transactions per Second
+KW  - Key Performance Indicator
+KW  - Natural Language Processing
+DO  - 10.1109/ICICACS65178.2025.10968394
+JO  - 2025 3rd International Conference on Integrated Circuits and Communication Systems (ICICACS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 3rd International Conference on Integrated Circuits and Communication Systems (ICICACS)
+Y1  - 21-22 Feb. 2025
+AB  - Financial portfolio management receives secure and efficient processing through the combination of Federated Learning (FL) with blockchain technology. FL protects data privacy through its distributed training capabilities that prevent financial data exposure. Blockchain secures operations and maintains transparency through the creation of unalterable model change logs on its ledger systems. A proposed approach reaches 91.3% model accuracy level and a 1.27 Sharpe Ratio and delivers a 14.3% return on investment which surpasses conventional approaches. The training duration reaches 4.8 hours while security enhancements and increased efficiency become available in the system. The designed framework supports 200 transactions per second at 250 ms response time while maintaining complete security with 0.10 USD transaction fees. It demonstrates the ability of FL and blockchain technology to boost security measures and risk-adjusted performance metrics and computational capability. Future Work will concentrate on blockchain performance optimization while testing practical applications of algorithms and revising algorithms to optimize financial applications.
+ER  - 
+
+TY  - CONF
+TI  - EMOTICON: Real-Time Video Feed Emotion Detection Enhanced by Particle Swarm Optimization and GRAD-CAM Analysis
+T2  - 2025 International Conference on Inventive Computation Technologies (ICICT)
+SP  - 937
+EP  - 944
+AU  - R. S J
+AU  - A. R
+AU  - J. I. S R
+AU  - A. K. T S
+AU  - K. I
+AU  - S. E. D
+PY  - 2025
+KW  - Emotion recognition
+KW  - Visualization
+KW  - Accuracy
+KW  - Streaming media
+KW  - Feature extraction
+KW  - Real-time systems
+KW  - Convolutional neural networks
+KW  - Feeds
+KW  - Particle swarm optimization
+KW  - Optimization
+KW  - Emotion Detection
+KW  - Real-Time Video Feed
+KW  - Convolutional Neural Networks (CNN)
+KW  - Particle Swarm Optimization (PSO)
+KW  - Grad-CAM
+KW  - Probabilistic Emotion Classification
+DO  - 10.1109/ICICT64420.2025.11004741
+JO  - 2025 International Conference on Inventive Computation Technologies (ICICT)
+IS  - 
+SN  - 2767-7788
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Inventive Computation Technologies (ICICT)
+Y1  - 23-25 April 2025
+AB  - In recent years, facial expression-based emotion recognition has attracted a lot of interest, especially for real-time applications in fields like healthcare, security, and human-computer interaction. Image processing plays a critical role in a wide range of applications, offering enhanced capabilities for data analysis and feature extraction across various domains. A significant aspect of this project is emotion detection, where image processing techniques are applied to recognize and classify human emotions from facial expressions. To enhance accuracy and interpretability, we introduce EMOTICON, a novel method for real-time emotion recognition from video feeds that combines Grad-CAM (Gradient-weighted Class Activation Mapping), Particle Swarm Optimization (PSO), and Convolutional Neural Networks (CNN). The objective is to enhance both the accuracy and interpretability of emotion recognition systems. To achieve this, we suggest comparing three distinct emotion detection configurations: (1) CNN-based emotion detection, (2) CNN and PSO for optimization, and (3) CNN integrated with Grad-CAM and PSO for enhanced performance and visual representation of the identified features. In order to improve the model's efficiency and capacity for generalization, PSO optimizes the model's parameters while CNN extracts feature maps from facial images during the training phase. By systematically exploring and applying these techniques, the project provides valuable insights into the multifaceted nature of image processing and its transformative potential in contemporary technological applications. Our tests demonstrate that CNN, PSO, and Grad-CAM collectively contribute to enhanced accuracy, which improves performance and provides interpretable insights about the model's decision-making process. The comparative analysis's findings show how effective it is to incorporate interpretability and optimization strategies into emotion detection systems.
+ER  - 
+
+TY  - CONF
+TI  - Blockchain-Based HSFO Framework for Privacy Preservation of Health Care Data Using Hybrid Algorithms
+T2  - 2025 2nd International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+SP  - 1
+EP  - 6
+AU  - L. M
+AU  - R. Sriramkumar
+AU  - J. Y
+AU  - H. K. P
+AU  - Mithaguru
+AU  - G. Ilamurugan
+PY  - 2025
+KW  - Access control
+KW  - Data privacy
+KW  - Privacy
+KW  - Adaptation models
+KW  - Heuristic algorithms
+KW  - Biological system modeling
+KW  - Smart contracts
+KW  - Medical services
+KW  - Entropy
+KW  - Blockchains
+KW  - Blockchain
+KW  - Privacy Preservation
+KW  - Sunflower Optimization Algorithm (SFO)
+KW  - Firefly Algorithm (FA)
+KW  - Sustainable Development Goals (SDG)
+KW  - SDG 3
+KW  - SDG 9
+DO  - 10.1109/RMKMATE64874.2025.11042708
+JO  - 2025 2nd International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 2nd International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)
+Y1  - 7-8 May 2025
+AB  - Digital transformation of healthcare has led to widespread adoption of Electronic Health Records (EHRs), significantly enhancing the accessibility and efficiency of clinical workflows, administrative processes and biomedical research. Given the highly sensitive nature of patient data, ensuring its confidentiality, integrity and controlled access is paramount. However, conventional EHR systems predominantly rely on centralized storage architectures, which are vulnerable to unauthorized access, data breaches and insider threats, posing severe privacy and security concerns. To address these challenges, blockchain technology offers a promising decentralized infrastructure characterized by immutability, transparency and distributed trust. By integrating smart contracts and secure transaction logging, blockchain strengthens data provenance and enforces auditable access control in healthcare systems. Complementing this, encryption techniques are essential for maintaining confidentiality; however, traditional key generation and management approaches often lack adaptability and entropy, limiting their robustness in dynamic threat landscapes. This paper proposes a novel hybrid optimization framework that combines the Sunflower Optimization Algorithm (SFO) and Firefly Algorithm (FA) within a blockchain-enabled architecture. SFO is employed to generate high-entropy cryptographic keys, ensuring resistance to brute-force attacks, while FA models user behavior to assign dynamic trust scores, facilitating behavior-aware access control policies. The novelty lies in the integration of adaptive key management with real-time behavioral analytics, enforced via smart contracts on a blockchain network, thereby enabling proactive and context-aware privacy protection. Experimental results validate the effectiveness of the proposed system. The hybrid algorithm achieves superior entropy in key generation compared to conventional methods, over 93% accuracy in access decision-making and responsive smart contract-based re-keying triggered by trust deviations. Furthermore, the blockchain layer maintains scalable throughput and acceptable latency under varying transaction loads. Collectively, the approach offers a robust, decentralized and intelligent framework for safeguarding EHR privacy in modern healthcare ecosystems.
+ER  - 
+
+TY  - JOUR
+TI  - Interpretable Parkinson’s Disease Detection Using Group-Wise Scaling
+T2  - IEEE Access
+SP  - 29147
+EP  - 29161
+AU  - N. Momeni
+AU  - S. Whitling
+AU  - A. Jakobsson
+PY  - 2025
+KW  - Feature extraction
+KW  - Diseases
+KW  - Recording
+KW  - Accuracy
+KW  - Data models
+KW  - Training
+KW  - Biological system modeling
+KW  - Reliability
+KW  - Standards
+KW  - Solid modeling
+KW  - Parkinson’s disease detection
+KW  - voice anomaly detection
+KW  - vocal features interpretability
+KW  - age and sex bias
+KW  - mPower database
+DO  - 10.1109/ACCESS.2025.3540600
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - This study is aimed at detecting Parkinson’s disease by analyzing voice measurements made using a mobile phone. The key objectives include creating a model that ensures accurate predictions while maintaining interpretability, consistent with the existing literature on Parkinson’s disease. We introduce a novel group-wise scaling method to address typical age and biological sex biases in the datasets, demonstrating 9.5% improvement over conventional scaling for three publicly available data sets. We also show the importance of evaluating the developed model on unseen individuals to achieve reliable classification results. The developed model is shown to offer an accuracy of 82% for unseen individuals, surpassing current state-of-the-art approaches. Furthermore, we offer insights into the decision-making of the model using Shapley additive explanation values. Our analysis reveals that shorter and less variable voiced segments and more variable unvoiced segments, suggesting a monotone voice pattern with frequent pauses, increase the likelihood of classifying the voice as a Parkinson’s disease voice. Additionally, greater variability and rate of voiced segments, low variability of unvoiced segments, higher pitch variation, and spectral flux, suggesting continuous phonation and dynamic modulation, correlate with healthy voices. These features align well with the relevant medical literature, confirming our results. The significance of our proposed model lies in its generalizability and reliability for Parkinson’s disease detection, potentially decelerating disease progression, reducing healthcare costs, and improving quality of life for patients.
+ER  - 
+
+TY  - CONF
+TI  - PCOS Diagnosis Through Time-Series Analysis Using RNN with Attention Mechanism
+T2  - 2025 International Conference on Machine Learning and Autonomous Systems (ICMLAS)
+SP  - 558
+EP  - 564
+AU  - J. Kaur
+AU  - R. Sinha
+PY  - 2025
+KW  - Heart
+KW  - Pediatrics
+KW  - Recurrent neural networks
+KW  - Attention mechanisms
+KW  - Time series analysis
+KW  - Medical services
+KW  - Data models
+KW  - Diabetes
+KW  - Reliability
+KW  - Diseases
+KW  - PCOS
+KW  - time-series analysis
+KW  - Recurrent Neural Networks (RNN)
+KW  - Attention Mechanism
+KW  - hormonal levels
+KW  - menstrual cycle
+KW  - metabolic indicators
+DO  - 10.1109/ICMLAS64557.2025.10968165
+JO  - 2025 International Conference on Machine Learning and Autonomous Systems (ICMLAS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Machine Learning and Autonomous Systems (ICMLAS)
+Y1  - 10-12 March 2025
+AB  - PCOS is an endocrine disorder commonly seen among women of childbearing age characterized by hormonal imbalance, irregularities in menstruation, and metabolic disorder. Early detection of PCOS helps prevent other complications such as infertility, diabetes, and heart disease. Therefore, the aim of this work is to use an attention mechanism-based RNNs for accurate and interpretable diagnosis. The sequential health data includes hormonal levels and metabolic indicators from which the model identifies patterns leading to PCOS. The mechanism of attention in the model amplifies the critical aspects of time steps, which ultimately enhances the model's performance along with providing more transparency through emphasis on the relevant diagnostic features. The model had a perfect precision, recall, and F1-score of 1.00 when tested with a PCOS dataset, indicating its reliability for transforming gynecological healthcare.
+ER  - 
+
+TY  - CONF
+TI  - Feature Selection Using Ensemble Lasso Regression, Random Forest and Recursive Feature Elimination Methods in Breast Cancer Classification
+T2  - 2025 International Conference on Computer Sciences, Engineering, and Technology Innovation (ICoCSETI)
+SP  - 629
+EP  - 634
+AU  - W. Royhan
+AU  - Sutarman
+AU  - A. Amalia
+PY  - 2025
+KW  - Measurement
+KW  - Accuracy
+KW  - Diversity reception
+KW  - Feature extraction
+KW  - Breast cancer
+KW  - Robustness
+KW  - Complexity theory
+KW  - Ensemble learning
+KW  - Random forests
+KW  - Medical diagnostic imaging
+KW  - Feature Selection
+KW  - Ensemble Method
+KW  - Lasso Regression
+KW  - Random Forest
+KW  - Recursive Feature Elimination
+DO  - 10.1109/ICoCSETI63724.2025.11020560
+JO  - 2025 International Conference on Computer Sciences, Engineering, and Technology Innovation (ICoCSETI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Computer Sciences, Engineering, and Technology Innovation (ICoCSETI)
+Y1  - 21-21 Jan. 2025
+AB  - Healthcare datasets, especially those used in cancer diagnosis, often present challenges such as high dimensionality, redundancy, and irrelevant features, which can reduce the performance and reliability of machine learning models. This research proposes a robust ensemble feature selection method to address these challenges, combining Lasso Regression, Random Forest, and Recursive Feature Elimination (RFE). By leveraging the complementary strengths of these algorithms, the ensemble approach aims to improve feature selection stability and enhance classification accuracy. Additionally, Shannon entropy is employed to assess data complexity and guide the feature selection process. The proposed method is applied to the Breast Cancer Wisconsin (Diagnostic) dataset, and its performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Experimental results demonstrate that the ensemble method outperforms individual feature selection techniques, achieving higher classification accuracy and robustness in handling complex and imbalanced datasets. This study advances machine learning-based diagnostic tools by offering a reliable framework for high-dimensional medical data analysis. The findings underscore the potential of ensemble feature selection in improving interpretability, reducing computational overhead, and enhancing predictive accuracy in breast cancer diagnosis, paving the way for more effective clinical decision support systems.
+ER  - 
+
+TY  - CHAP
+TI  - Blockchain for Securing Federated Learning Systems: Enhancing Privacy and Trust
+T2  - Model Optimization Methods for Efficient and Edge AI: Federated Learning Architectures, Frameworks and Applications
+SP  - 299
+EP  - 320
+AU  - Tarun Kumar Vashishth
+AU  - Vikas Sharma
+AU  - Bhupendra Kumar
+AU  - Kewal Krishan Sharma
+AU  - Sachin Chaudhary
+AU  - Rajneesh Panwar
+PY  - 2025
+KW  - Federated learning
+KW  - Blockchains
+KW  - Data models
+KW  - Training
+KW  - Smart contracts
+KW  - Consensus protocol
+KW  - Smart cities
+KW  - Servers
+KW  - Medical services
+KW  - General Data Protection Regulation
+DO  - 10.1002/9781394219230.ch15
+PB  - IEEE
+SN  - 9781394219209
+UR  - http://ieeexplore.ieee.org/document/10770807
+AB  - Summary <p>Federated learning has emerged as a promising paradigm for training machine learning models across distributed devices while preserving data privacy. However, the decentralized nature of federated learning systems poses significant challenges in terms of security, privacy, and trust. This paper presents a novel approach to address these challenges by integrating blockchain technology into federated learning systems. The proposed blockchain&#x2010;based framework enhances the security and privacy aspects of federated learning by introducing a distributed and tamper&#x2010;resistant ledger to record model updates, data contributions, and consensus mechanisms. Through the use of smart contracts, the framework facilitates trust less coordination among participants, eliminating the need for a central authority and minimizing the risk of data manipulation or unauthorized access. Furthermore, the incorporation of blockchain technology empowers participants to maintain control over their data, granting them the ability to provide selective access to specific model parameters while keeping other sensitive information private. The immutability of blockchain ensures transparency and auditability, enhancing the accountability and verifiability of the federated learning process. In addition to strengthening security and privacy, the proposed blockchain&#x2010;based federated learning system achieves greater scalability and robustness by mitigating issues related to data distribution and device heterogeneity. The distributed nature of the blockchain network allows for efficient communication and coordination between nodes, reducing the computational burden on individual devices and optimizing the overall training process. To evaluate the effectiveness of the blockchain&#x2010;enhanced federated learning system, extensive experiments are conducted on diverse datasets and network configurations. The results demonstrate significant improvements in model convergence, accuracy, and resistance against adversarial attacks compared to conventional federated learning setups. In conclusion, this paper introduces a pioneering approach that leverages blockchain technology to enhance security, privacy, and trust in federated learning systems. By combining the strengths of federated learning and blockchain, the proposed framework paves the way for the widespread adoption of privacy&#x2010;preserving machine learning solutions in various industries, including healthcare, finance, and Internet of Things (IoT) applications.</p>
+ER  - 
+
+TY  - JOUR
+TI  - A Novel Kernel-Based Hilbert Space Framework for Predictive Modeling of lncRNA-miRNA-Disease Interaction Networks
+T2  - IEEE Transactions on Computational Biology and Bioinformatics
+SP  - 1
+EP  - 14
+AU  - S. Saxena
+AU  - A. Z. Rizvi
+PY  - 2025
+KW  - Diseases
+KW  - Biological system modeling
+KW  - Computational modeling
+KW  - Hilbert space
+KW  - Biological information theory
+KW  - RNA
+KW  - Data models
+KW  - Biology
+KW  - Kernel
+KW  - Gene expression
+KW  - Long non-coding RNAs
+KW  - micro RNAs
+KW  - diseases
+KW  - lncRNA-miRNA-disease association
+KW  - Graph Neural Network
+KW  - Graph Attention Network
+DO  - 10.1109/TCBBIO.2025.3598013
+JO  - IEEE Transactions on Computational Biology and Bioinformatics
+IS  - 
+SN  - 2998-4165
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Computational Biology and Bioinformatics
+Y1  - 
+AB  - Long non-coding RNAs (lncRNAs) and microRNAs (miRNAs) are vital regulators of gene expression. They are closely linked to the development and progression of various diseases, including cancer and neurodegenerative disorders. Their interactions form complex lncRNA-miRNA-disease networks (LMDNets), which modulate key disease-associated biological pathways. Although recent computational approaches have attempted to integrate diverse biological data such as gene expression profiles, sequence information, and disease associations. They often face significant challenges, including limited interpretability, reliance on manually curated datasets, poor scalability, and high sensitivity to noise and missing data. To overcome these limitations, we propose KHSF-LMDNet, a kernel-based Hilbert space framework for modeling lncRNA-miRNA-disease networks. This model integrates graph-based biological networks, similarity features, and deep learning with an attention mechanism to map complex interactions into a Hilbert subspace, enabling more robust and interpretable learning. Evaluated on benchmark datasets, KHSF-LMDNet consistently outperforms existing methods in terms of accuracy, precision, and area under the ROC curve (AUC). Additionally, it effectively ranks disease-associated lncRNAs and miRNAs, identifying top candidates related to cancer and Alzheimer's disease, thereby supporting functional genomics research and facilitating the discovery of novel biomarkers for precision medicine.
+ER  - 
+
+TY  - CONF
+TI  - Medical Image Segmentation Based on Different U-Net Variants
+T2  - 2025 IEEE 3rd International Conference on Image Processing and Computer Applications (ICIPCA)
+SP  - 667
+EP  - 672
+AU  - X. Zhao
+PY  - 2025
+KW  - Image segmentation
+KW  - Technological innovation
+KW  - Computational modeling
+KW  - Surgery
+KW  - Computer architecture
+KW  - Transformers
+KW  - Feature extraction
+KW  - Planning
+KW  - Lesions
+KW  - Medical diagnostic imaging
+KW  - Medical image segmentation
+KW  - U-Net
+KW  - Deep learning
+KW  - Convolutional Neural Network
+KW  - Medical image analysis
+DO  - 10.1109/ICIPCA65645.2025.11138736
+JO  - 2025 IEEE 3rd International Conference on Image Processing and Computer Applications (ICIPCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE 3rd International Conference on Image Processing and Computer Applications (ICIPCA)
+Y1  - 28-30 June 2025
+AB  - Medical image segmentation is essential for computer-assisted diagnosis since it allows exact extraction of anatomical structures from CT/MRI data. Traditional approaches struggle to handle medical imaging complexity due to manual feature engineering limits. U-Net's symmetric encoder-decoder architecture and cross-layer skip connections set the standard for combining local facts with global context. Subsequent developments increased its clinical utility. ResU-Net improves multi-organ segmentation with residual connections; VGG U-Net uses pretrained networks for multimodal analysis; U-Net++ uses dense nested structures for vascular segmentation; and Attention U-Net enhances lung nodule detection through attention mechanisms. These developments are driving progress in COVID-19 lesion measurement and prostate cancer grading, as indicated by BraTS Challenge benchmarks. Current problems include high annotation costs, restricted algorithmic interpretability, and computational inefficiency that impede real-time surgical applications. Future research focuses on lightweight architectures (e.g., Mobile U-Net) for intraoperative speed, Transformer integration to improve boundary precision, and self-supervised learning to reduce labeling requirements. These enhancements attempt to elevate U-Net from a segmentation tool to an intelligent decision-support system. The U-Net family speeds precision medicine adoption by eliminating computational and interpretability constraints while reducing reliance on annotated data. This includes automated lesion tracking, treatment response prediction, and individualized surgical planning. Continued innovation in hybrid architectures and efficient training paradigms will strengthen its position in next-generation diagnostic procedures, closing the gap between AI capabilities and clinical application requirements.
+ER  - 
+
+TY  - JOUR
+TI  - Ethical Foundations of AI-Driven Avatars in the Metaverse for Innovation and User Privacy
+T2  - IEEE Access
+SP  - 130610
+EP  - 130628
+AU  - A. Almomani
+AU  - A. Al-Qerem
+AU  - M. Alauthman
+AU  - A. Aldweesh
+AU  - S. Aoudi
+AU  - S. A. Salloum
+PY  - 2025
+KW  - Metaverse
+KW  - Avatars
+KW  - Ethics
+KW  - Artificial intelligence
+KW  - Privacy
+KW  - Law
+KW  - Technological innovation
+KW  - Real-time systems
+KW  - Protection
+KW  - Blockchains
+KW  - Metaverse
+KW  - AI-driven avatars
+KW  - data privacy
+KW  - ethical frameworks
+KW  - user autonomy
+KW  - blockchain
+KW  - regulatory compliance
+DO  - 10.1109/ACCESS.2025.3589714
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - The rapid proliferation of AI-powered avatars in the Metaverse is fundamentally transforming user interactions through unprecedented levels of realism and personalization. However, these advances also introduce critical ethical and legal dilemmas surrounding privacy, identity theft, algorithmic bias, and data governance. This study employs a comprehensive multimethodological approach combining systematic literature review, regulatory gap analysis, and ethical framework synthesis. Our methodology integrates qualitative analysis of primary sources, comparative assessment of international legal frameworks (GDPR, CCPA, EU,AI Act), and development of a five pillar ethical framework validated through real-world case studies across educational, commercial, and healthcare Metaverse applications. Building on these insights, we propose an ethical framework emphasizing transparency, fairness, accountability, privacy by design, and user autonomy. We then examine practical solutions such as blockchain-based identity management, privacy tools, regulatory sandboxes, and global standards harmonization. Through computational simulation of representative Metaverse environments, we explore how stakeholders can apply these guidelines to balance innovation with user protection. Finally, we explore future directions, including integrating brain computer interfaces (BCIs), emotion detection, quantum-resistant cryptography, and international governance models. Validation through case study analysis demonstrates significant improvements in privacy protection metrics, substantial reduction in identity theft vulnerabilities, and marked enhancement in user autonomy controls compared to existing frameworks. Our proposed blockchain-based identity management shows effective prevention of deepfake avatar creation while maintaining high user experience satisfactio. By proactively embracing ethical and legal safeguards, we envision a Metaverse where AI-driven avatars deliver transformative experiences while upholding individual rights and societal well-being.
+ER  - 
+
+TY  - JOUR
+TI  - Constrained Reinforcement Learning Using Distributional Representation for Trustworthy Quadrotor UAV Tracking Control
+T2  - IEEE Transactions on Automation Science and Engineering
+SP  - 5877
+EP  - 5894
+AU  - Y. Wang
+AU  - D. Boyle
+PY  - 2025
+KW  - Aerodynamics
+KW  - Convergence
+KW  - Quadrotors
+KW  - Training
+KW  - Estimation
+KW  - Optimization
+KW  - Trajectory
+KW  - Trustworthy machine learning
+KW  - interpretable reinforcement learning
+KW  - robot learning
+KW  - unmanned aerial vehicles
+DO  - 10.1109/TASE.2024.3432405
+JO  - IEEE Transactions on Automation Science and Engineering
+IS  - 
+SN  - 1558-3783
+VO  - 22
+VL  - 22
+JA  - IEEE Transactions on Automation Science and Engineering
+Y1  - 2025
+AB  - Simultaneously accurate and reliable tracking control for quadrotors in complex dynamic environments is challenging. The chaotic nature of aerodynamics, derived from drag forces and moment variations, makes precise identification difficult. Consequently, many existing quadrotor tracking systems treat these aerodynamic effects as simple ‘disturbances’ in conventional control approaches. We propose a novel and interpretable trajectory tracker integrating a distributional Reinforcement Learning (RL) disturbance estimator for unknown aerodynamic effects with a Stochastic Model Predictive Controller (SMPC). Specifically, the proposed estimator ‘Constrained Distributional REinforced-Disturbance-estimator’ (ConsDRED) effectively identifies uncertainties between the true and estimated values of aerodynamic effects. Control parameterization employs simplified affine disturbance feedback to ensure convexity, which is seamlessly integrated with the SMPC. We theoretically guarantee that ConsDRED achieves an optimal global convergence rate, and sublinear rates if constraints are violated with certain error decreases as neural network dimensions increase. To demonstrate practicality, we show convergent training, in simulation and real-world experiments, and empirically verify that ConsDRED is less sensitive to hyperparameter settings compared with canonical constrained RL. Our system substantially improves accumulative tracking errors by at least 70%, compared with the recent art. Importantly, the proposed ConsDRED-SMPC framework balances the trade-off between pursuing high performance and obeying conservative constraints for practical implementations. Note to Practitioners—This work is motivated by challenges in training Reinforcement Learning (RL) for autonomous navigation in unmanned aerial vehicles, but its implications extend to other high-criticality applications in, for example, healthcare and financial services. The implementation of RL algorithm policies may exhibit various deficiencies, including (i) opaque or unstable training due to the blackbox nature of deep neural networks, (ii) difficulty in reproducing RL outcomes, and (iii) heightened costs associated with robustness investigation, e.g., hyperparameter tuning and generalization. We present a novel ‘Constrained Distributional REinforced-Disturbance-estimator’ (ConsDRED) to identify uncertainties arising from aerodynamic disturbances in agile flight. The proposed algorithm demonstrates at least an optimal convergence rate for both global optimization and constraint violations. Theoretical guarantees offered by this approach can make training convergence processes more transparent and provide a degree of confidence in the expected convergence outcomes in real-world applications, thereby addressing, to a considerable extent, the deficiencies related to (i) and (ii). Our robustness investigation, related to (iii), empirically demonstrates that ConsDRED is significantly less sensitive to hyperparameter settings compared to traditional constrained RL approaches. The experiments further showcase the generalization capability of ConsDRED by introducing new and previously unseen external forces in real-world scenarios. While ConsDRED strikes a reasonable balance between performance and interpretability, there remains a trade-off with conservative decision-making. Hence, we must strike a balance between the desired degree of interpretability and the acceptable level of scalability in RL algorithms. Our proposed flight control framework evidences such a balance between high performance and safety constraints. A fundamental limitation is the computational complexity, where we sample at 16 Hz for disturbance estimation owing to limited onboard computational resources. This may be improved in the future by implementing dedicated hardware.
+ER  - 
+
+TY  - CONF
+TI  - Privacy-Preserving Insurance Framework using Zero-Knowledge Proofs and Secure Multi-Party Computation
+T2  - 2025 3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+SP  - 1044
+EP  - 1050
+AU  - L. R
+AU  - A. D. S
+AU  - K. Anitha
+PY  - 2025
+KW  - Industries
+KW  - Privacy
+KW  - Accuracy
+KW  - Protocols
+KW  - Reviews
+KW  - Insurance
+KW  - Computer architecture
+KW  - Multi-party computation
+KW  - Real-time systems
+KW  - Blockchains
+KW  - Zero-Knowledge Proofs
+KW  - Secure Multi-Party Computation
+KW  - Data Privacy
+KW  - Claim Validation
+KW  - Premium Calculation
+KW  - Cryptographic Insurance Framework
+KW  - Privacy-Preserving Protocols
+KW  - SMPC
+KW  - ZKP
+DO  - 10.1109/ICSSAS66150.2025.11081034
+JO  - 2025 3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+Y1  - 11-13 June 2025
+AB  - The insurance sector has been moving towards a more digital footing on the backdrop of growing demand for transparency, efficiency and privacy of data. The common way it is built exposes it to subtle policy checks and human intervention for claim reviews and exposes consumer data. Although blockchain technology has been explored as a possible solution, the public log nature of blockchain introduces grave concerns in privacy preservation, especially, in industries with strict regulatory requirements, including healthcare and life insurance. We propose a privacy-preserving insurance system in our paper based on ZKPs and SMPC to handle these issues. Zero-Knowledge Proofs (ZKPs) enable policyholders to prove to third parties’ compliance to their policy conditions without revealing underlying information, while leveraging Secure Multi-Party Computation (SMPC) provides insurance companies, business partners, and third-party auditors to jointly compute premium prices, validate claims, and compute refunds on privatized data inputs. End to End the Privacy of Data is secured, even at point of payment, Claim or Refund settlement. We present experimental results demonstrating real-time (300-950ms) latency, perfect replication on all nodes, and no leakage across transaction types. This work addresses inefficiencies that have plagued the insurance industry for years by presenting an extensible, cryptographically secure technology that can be used in the next era of digital insurance. It proposes a verifiable secret sharing based transaction model to bring in a new trustful and privacy-preserving insurance transaction paradigm.
+ER  - 
+
+TY  - JOUR
+TI  - Physiology-Informed Gaussian Process Meta-Learning for Postprandial Glucose Trajectory Prediction
+T2  - IEEE Sensors Journal
+SP  - 34980
+EP  - 34991
+AU  - J. Chen
+AU  - D. Cai
+AU  - D. Shi
+AU  - L. Shi
+AU  - W. Liu
+AU  - L. Ji
+PY  - 2025
+KW  - Glucose
+KW  - Predictive models
+KW  - Adaptation models
+KW  - Insulin
+KW  - Data models
+KW  - Training
+KW  - Sensors
+KW  - Metalearning
+KW  - Intelligent sensors
+KW  - Gaussian processes
+KW  - Gaussian processes (GPs)
+KW  - long-term postprandial glucose prediction
+KW  - meta-learning
+KW  - neural mean function
+KW  - physiology-informed optimization
+DO  - 10.1109/JSEN.2025.3594498
+JO  - IEEE Sensors Journal
+IS  - 18
+SN  - 1558-1748
+VO  - 25
+VL  - 25
+JA  - IEEE Sensors Journal
+Y1  - 15 Sept.15, 2025
+AB  - Advanced wearable sensors have enabled the continuous monitoring of physiological data under the Internet of Medical Things framework, which promotes the development of intelligent prediction technology for healthcare applications. This work concerns the problem of interpretable personalized blood glucose (BG) prediction that is crucial for diabetes management. Although encouraging results of machine-learning (ML) methods have been shown in short-term prediction, the lack of interpretability in models trained on limited data reduces the acceptance for practice use, especially for long-term postprandial BG prediction. To address this problem, a physiology-informed Gaussian process (GP) model with a neural mean function is proposed, in which the prior knowledge of glycometabolism is incorporated into the model optimization process to guarantee interpretable model learning and strengthen the ability of capturing key glucose dynamics. Besides, a model-agnostic meta-learning (MAML) is utilized to enhance the model adaptability for personalized prediction. The effectiveness of the proposed method is evaluated through the comparative results obtained by using the FDA-accepted UVA/Padova T1DM simulator and the clinical datasets. Among all the considered approaches, the proposed approach achieved the lowest RMSE on the in silico dataset, as well as in 3 and 4 h prediction on the clinical dataset. These results indicate that the proposed method has superior performance in predicting long-term postprandial BG trajectories.
+ER  - 
+
+TY  - JOUR
+TI  - A Knowledge-Driven Approach to Threat Validation and Security Reasoning in Modular Systems
+T2  - IEEE Access
+SP  - 149817
+EP  - 149833
+AU  - L. Pandolfo
+AU  - G. Corona
+AU  - D. Guidotti
+AU  - L. Pulina
+PY  - 2025
+KW  - Cognition
+KW  - Threat modeling
+KW  - Ontologies
+KW  - Prevention and mitigation
+KW  - Semantics
+KW  - Computer security
+KW  - OWL
+KW  - Graphical user interfaces
+KW  - Visualization
+KW  - Scalability
+KW  - Cybersecurity
+KW  - modular systems
+KW  - threat modeling
+KW  - ontology-based reasoning
+KW  - explainable AI
+DO  - 10.1109/ACCESS.2025.3602292
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Modular systems are increasingly employed in critical application domains such as healthcare, smart cities, and Industry 4.0 platforms, where dynamic integration of components poses substantial challenges in ensuring consistent and secure operation. Validating system configurations against known vulnerabilities and threats requires formal, scalable, and explainable approaches. This paper presents a knowledge-driven framework designed to support the validation of modular systems with respect to cybersecurity threats and consistency constraints. Our approach leverages domain-specific ontologies built from well-established threat and vulnerability taxonomies and encodes inference rules to automatically detect potential threats and recommend mitigation strategies. The framework, which includes a reasoning engine and a user-friendly graphical interface providing transparent and traceable explanations for each identified threat, is applied to a modular platform for privacy-preserving, decentralized processing of health data across European institutions. While this composable architecture enables multiple stakeholders to develop, deploy, and maintain specialised components fostering scalability and flexibility, it also introduces critical risks related to architectural coherence and security enforcement. In this context, our framework ensures a human-interpretable assessment of the system’s security posture, even in the presence of heterogeneous technologies and policies.
+ER  - 
+
+TY  - JOUR
+TI  - A Graph-based Multi-dimensional Interaction Network for Drug-Drug Interaction Prediction
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 1
+EP  - 14
+AU  - L. Gong
+AU  - X. Wei
+AU  - H. Ji
+AU  - H. Huang
+AU  - Y. Ji
+PY  - 2025
+KW  - Drugs
+KW  - Feature extraction
+KW  - Predictive models
+KW  - Graph neural networks
+KW  - Chemicals
+KW  - Attention mechanisms
+KW  - Training
+KW  - Data mining
+KW  - Three-dimensional displays
+KW  - Deep learning
+KW  - Drug-drug Interactions
+KW  - Substructure Interactions
+KW  - Multi-dimensional Interactions
+KW  - Triplet Attent
+DO  - 10.1109/JBHI.2025.3575012
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 
+SN  - 2168-2208
+VO  - 
+VL  - 
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - 
+AB  - In the treatment of complex diseases, drug combination therapy is common, but drug-drug interactions (DDI) can cause severe side effects, threaten patient safety, and increase healthcare costs. Existing DDI prediction methods often focus on drug substructure features but overlook the complex interactions between them. To address this, this paper proposes the Multi-dimensional Interaction Graph Neural Network (MDI-DDI). The model combines four GraphSAGE convolution layers with a Tri-Co Attention Module. It first calculates interaction strength at the 2D level using a co- attention mechanism, then captures deeper interactions at the 3D level using a triplet structure. Experimental results show that MDI-DDI outperforms existing methods, achieving ACC, AUPRC, and AUROC of 0.9613, 0.9901, and 0.9871, respectively, on the DrugBank dataset. Additionally, the risk analysis of nitrate and nitrite drugs demonstrates the model's ability to accurately identify key functional groups, further validating its interpretability.
+ER  - 
+
+TY  - JOUR
+TI  - Fuzzy RNN Model-Based Classification of Alzheimer’s Disease and Dementia Using Brain EEG Signals
+T2  - IEEE Transactions on Consumer Electronics
+SP  - 5559
+EP  - 5568
+AU  - J. Sreedhar
+AU  - U. Pattapu
+AU  - M. B. Reddy
+AU  - S. Dara
+AU  - K. K. Agrawal
+AU  - P. Kumar
+AU  - J. Ali
+AU  - A. Alkhayyat
+PY  - 2025
+KW  - Alzheimer's disease
+KW  - Diseases
+KW  - Electroencephalography
+KW  - Brain modeling
+KW  - Recurrent neural networks
+KW  - Neuroimaging
+KW  - Accuracy
+KW  - Deep learning
+KW  - Fuzzy logic
+KW  - Feature extraction
+KW  - Fuzzy RNN modelling
+KW  - neurological disorders
+KW  - abnormality classification
+KW  - brain signal analysis
+KW  - brain electroencephalogram
+DO  - 10.1109/TCE.2025.3570375
+JO  - IEEE Transactions on Consumer Electronics
+IS  - 2
+SN  - 1558-4127
+VO  - 71
+VL  - 71
+JA  - IEEE Transactions on Consumer Electronics
+Y1  - May 2025
+AB  - Alzheimer’s Disease (AD) and Dementia represent critical healthcare challenges worldwide, underscoring the need for reliable and early diagnostic tools. This study presents an innovative classification framework that combines the strengths of fuzzy logic and Recurrent Neural Networks (RNNs) to enhance the detection of AD and dementia. Leveraging Electroencephalogram (EEG) signals, a non-invasive and informative modality reflecting cognitive function, we propose a Fuzzy RNN model that integrates the sequential learning capabilities of RNNs with the interpretability and uncertainty handling of fuzzy logic. The model is trained on a comprehensive dataset comprising EEG recordings from individuals with Alzheimer’s Disease, various types of dementia, and healthy controls. Evaluation metrics, including sensitivity (96.49%–97.19%), specificity (96.72%–97.85%), and accuracy (97.82%–98.82%), highlight the model’s robustness in differentiating between diagnostic categories. Comparative analyses against traditional classifiers demonstrate the Fuzzy RNN’s superior ability to capture intricate temporal patterns in EEG signals, establishing its potential as a reliable tool for early and accurate dementia diagnosis.
+ER  - 
+
+TY  - JOUR
+TI  - Confidence-aware adaptive fusion leaning of imbalance multi-modal data for cancer diagnosis and prognosis
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 1
+EP  - 8
+AU  - Z. Zhang
+AU  - S. Wang
+AU  - Y. Huang
+AU  - X. Zheng
+AU  - S. Dong
+PY  - 2025
+KW  - Cancer
+KW  - Pathology
+KW  - Representation learning
+KW  - Feature extraction
+KW  - Vectors
+KW  - Training
+KW  - Bioinformatics
+KW  - Adaptive systems
+KW  - Graph convolutional networks
+KW  - Data mining
+KW  - Molecular omics
+KW  - pathological images
+KW  - multi-modal fusion
+KW  - deep learning
+KW  - multi-instance learning
+KW  - graph convolutional network
+DO  - 10.1109/JBHI.2025.3582626
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 
+SN  - 2168-2208
+VO  - 
+VL  - 
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - 
+AB  - The effective fusion of pathological images and molecular omics holds significant potential for precision medicine. However, pathological and molecular data are highly heterogeneous, and large-scale multi-modal cancer data often suffer from incomplete information. Predicting clinical tasks from such imbalanced multi-modal data presents a major challenge. Therefore, we propose a confidence-aware adaptive fusion framework CAFusion. The framework adopts a modular design, providing independent and flexible modal feature learning modules to capture high-quality features. To address issues of modal imbalance caused by heterogeneous and incomplete modal, we design a confidence-aware method that evaluates the features of each modal and automatically adjusts their weights. To effectively fuse pathological and molecular modals, we propose an adaptive deep network, which features a flexible, non-fixed layer structure that effectively extracts hidden joint information from multi-modal features, ensuring high generalizability. Experiment results demonstrate that the performance of the CAFusion framework outperforms other state-of-the-art methods, both on complete and incomplete datasets. Moreover, the CAFusion framework offers reasonable medical interpretability. The source code is available at GitHub: https://github.com/SCUT-CCNL/CAFusion.
+ER  - 
+
+TY  - CONF
+TI  - A Comprehensive Survey of Blockchain and Reinforcement Learning in IoMT
+T2  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+SP  - 516
+EP  - 521
+AU  - A. S. Jeena A
+AU  - G. J M
+PY  - 2025
+KW  - Surveys
+KW  - Technological innovation
+KW  - Quantum computing
+KW  - Reinforcement learning
+KW  - Internet of Medical Things
+KW  - Real-time systems
+KW  - Blockchains
+KW  - Resource management
+KW  - Reliability
+KW  - Interoperability
+KW  - Internet of Medical Things (IoMT)
+KW  - Blockchain
+KW  - Privacy Preservation
+KW  - Reinforcement Learning
+KW  - Fog Computing
+KW  - Quantum-Resistant Cryptography
+KW  - Zero-Knowledge Proofs
+DO  - 10.1109/ICSCDS65426.2025.11166899
+JO  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+Y1  - 6-8 Aug. 2025
+AB  - The Internet of Medical Things (IoMT) integrates interconnected medical devices and sensors to enable continuous patient monitoring and real-time healthcare delivery. Despite its transformative potential, IoMT systems face critical challenges related to data privacy, interoperability, latency, and security vulnerabilities inherent in centralized cloud architectures. Blockchain technology, with its decentralized ledger, cryptographic integrity, and smart contracts, has emerged as a promising solution to secure sensitive medical data while ensuring transparency and compliance with regulations such as HIPAA and GDPR. Concurrently, reinforcement learning (RL) techniques, especially advanced deep RL algorithms, facilitate intelligent, adaptive task offloading in fog-cloud computing environments to optimize latency, energy consumption, and resource allocation. This survey synthesizes twenty recent studies addressing blockchain-enabled privacy-preserving frameworks and RL-based task offloading mechanisms in IoMT. It critically evaluates architectural designs, cryptographic innovations including zero-knowledge proofs and quantum-resistant signatures, and RL methodologies for dynamic resource management. Key research challenges identified include the lack of standardized interoperability protocols across heterogeneous IoMT devices and blockchain platforms, the computational overhead of quantum-resistant cryptography on resource-constrained devices, and the opaque nature of RL models hindering clinical trust. Future research directions emphasize developing unified communication standards, lightweight post-quantum cryptographic schemes tailored for IoMT edge devices, and explainable RL frameworks to foster clinical adoption. Ultimately, this comprehensive analysis delineates a pathway toward robust, scalable, and secure IoMT ecosystems capable of delivering efficient, privacy-preserving healthcare services in complex digital infrastructures.
+ER  - 
+
+TY  - JOUR
+TI  - Exploratory and Interpretable Approach to Estimating Latent Health Risk Factors Without Using Domain Knowledge
+T2  - Big Data Mining and Analytics
+SP  - 447
+EP  - 457
+AU  - R. Cong
+AU  - S. Nishimura
+AU  - A. Ogihara
+AU  - Q. Jin
+PY  - 2025
+KW  - Data analysis
+KW  - Neural networks
+KW  - Estimation
+KW  - Closed box
+KW  - Medical services
+KW  - Feature extraction
+KW  - Prediction algorithms
+KW  - Data models
+KW  - Complexity theory
+KW  - Data mining
+KW  - health data analysis
+KW  - latent factor exploration
+KW  - interpretable approach
+KW  - health risk estimation
+DO  - 10.26599/BDMA.2024.9020081
+JO  - Big Data Mining and Analytics
+IS  - 2
+SN  - 2097-406X
+VO  - 8
+VL  - 8
+JA  - Big Data Mining and Analytics
+Y1  - April 2025
+AB  - The identification of latent risk factors that can induce to health risks or an abnormal status is an important task in healthcare data analyses. In recent years, health analyses based on neural network models have been applied widely. However, such analysis processes are blackbox and the results lack explainability. Some approaches by constructing a domain model may tackle these issues. However, domain knowledge from an expert is required. In this study, we propose an exploratory and interpretable approach to estimating latent health risk factors without relying on domain knowledge, in which feature selection and causal discovery are used to construct a domain model for uncovering complex relationships in health and medical data. An evaluation experiment conducted on two datasets by comparing the proposed approach with four baselines demonstrated that the proposed approach outperformed the baselines in terms of model fitness. Furthermore, the number of model parameters in our method was smaller than that in the baselines, which reduced model complexity. Moreover, the analysis process of the proposed approach was visible and explainable, which improved the interpretability of the analysis processes.
+ER  - 
+
+TY  - JOUR
+TI  - CAISeg: A Clustering-Aided Interactive Network for Lesion Segmentation in 3D Medical Imaging
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 371
+EP  - 382
+AU  - Y. Sun
+AU  - S. Zhang
+AU  - J. Li
+AU  - Q. Han
+AU  - Y. Qin
+PY  - 2025
+KW  - Image segmentation
+KW  - Biomedical imaging
+KW  - Lesions
+KW  - Tail
+KW  - Feature extraction
+KW  - Three-dimensional displays
+KW  - Head
+KW  - Deep learning
+KW  - Interactive segmentation
+KW  - Medical image analysis
+DO  - 10.1109/JBHI.2024.3467279
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 1
+SN  - 2168-2208
+VO  - 29
+VL  - 29
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - Jan. 2025
+AB  - Accurate lesion segmentation in medical imaging is critical for medical diagnosis and treatment. Lesions' diverse and heterogeneous characteristics often present a distinct long-tail distribution, posing difficulties for automatic methods. Currently, interactive segmentation approaches have shown promise in improving accuracy, but still struggle to deal with tail features. This triggers a demand of effective utilizing strategies of user interaction. To this end, we propose a novel point-based interactive segmentation model called Clustering-Aided Interactive Segmentation Network (CAISeg) in 3D medical imaging. A customized Interaction-Guided Module (IGM) adopts the concept of clustering to capture features that are semantically similar to interaction points. These clustered features are then mapped to the head regions of the prompted category to facilitate more precise classification. Meanwhile, we put forward a Focus Guided Loss function to grant the network an inductive bias towards user interaction through assigning higher weights to voxels closer to the prompted points, thereby improving the responsiveness efficiency to user guidance. Evaluation across brain tumor, colon cancer, lung cancer, and pancreas cancer segmentation tasks show CAISeg's superiority over the state-of-the-art methods. It outperforms the fully automated segmentation models in accuracy, and achieves results comparable to or better than those of the leading point-based interactive methods while requiring fewer prompt points. Furthermore, we discover that CAISeg possesses good interpretability at various stages, which endows CAISeg with potential clinical application value.
+ER  - 
+
+TY  - CONF
+TI  - Protecting Predictive Analytics With Multi-Factor Authentication, Distributed Ledger Technology, and Federated Learning for Improved Data Privacy
+T2  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+SP  - 1
+EP  - 7
+AU  - M. R. Sareddy
+AU  - M. Thanjaivadivel
+PY  - 2025
+KW  - Training
+KW  - Data privacy
+KW  - Multi-factor authentication
+KW  - Accuracy
+KW  - Distributed ledger
+KW  - Federated learning
+KW  - Optimization methods
+KW  - Medical services
+KW  - Predictive models
+KW  - Predictive analytics
+KW  - Federated Learning
+KW  - Distributed Ledger Technology
+KW  - Multi-Factor Authentication
+KW  - Predictive Analytics
+KW  - Data Privacy
+DO  - 10.1109/ICIRCA65293.2025.11089661
+JO  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 6th International Conference on Inventive Research in Computing Applications (ICIRCA)
+Y1  - 25-27 June 2025
+AB  - The research proposes a privacy-preserving predictive analytics paradigm that combines Federated Learning (FL), Distributed Ledger Technology (DLT), and Multi-Factor Authentication (MFA) to strengthen data privacy and security. FL supports decentralized model training, avoiding data centralization risks, and DLT protects the integrity of data through immutable and transparent blockchains. MFA strengthens access control through multi-layered authentication, reducing unauthorized access risks. The suggested model performs better than existing solutions such as Trusted Execution Environments (TEEs) and Attribute-Based Encryption (ABE) with accuracy of 93%, efficiency of 92%, and recall of 94%. The hybrid model ensures secure, scalable, and privacy-focused predictive analytics and can be applied in healthcare, finance, and IoT-based environments. This framework provides a strong solution to improve trust, transparency, and operational effectiveness in predictive modelling in sensitive domains by resolving confidentiality issues without compromising high predictive accuracy. Optimization methods and post-quantum cryptography will be investigated in future work for further security.
+ER  - 
+
+TY  - JOUR
+TI  - B5G Applications and Emerging Services in Smart IoT Environments
+T2  - International Journal of Crowd Science
+SP  - 79
+EP  - 95
+AU  - H. Attar
+AU  - M. Alghanim
+AU  - J. Ababneh
+AU  - K. Rezaee
+AU  - A. Alrosan
+AU  - M. A. Deif
+PY  - 2025
+KW  - Cloud computing
+KW  - Machine-to-machine communications
+KW  - 5G mobile communication
+KW  - Vehicular ad hoc networks
+KW  - Medical services
+KW  - Smart grids
+KW  - Device-to-device communication
+KW  - Security
+KW  - Internet of Things
+KW  - Communication system security
+KW  - Fifth Generation (5G)
+KW  - Beyond the Fifth Generation (B5G)
+KW  - Vehicle-to-Vehicle (V2V)
+KW  - Device-to-Device (D2D)
+KW  - Machine to Machine (M2M)
+KW  - cloud computing
+KW  - Internet of Things (IoT)
+KW  - smart grid
+DO  - 10.26599/IJCS.2024.9100007
+JO  - International Journal of Crowd Science
+IS  - 2
+SN  - 2398-7294
+VO  - 9
+VL  - 9
+JA  - International Journal of Crowd Science
+Y1  - May 2025
+AB  - So far, the communication standard development requires specific parameters to achieve the requests of the desired application, most frequently, the connection speed rate. On the other hand, the term Beyond the Fifth Generation (B5G) symbolizes certain specifications required to succeed the future-proof of the Fifth Generation (5G), i.e., the predicted high-level parameters, such as ultra-reliable low-latency communications, massive machine-type communications, and improved mobile broadband, which are essential for the expected high-level future applications; consequently, 5G wireless (cellular) networks must be reconsidered precisely and in-depth to cope with the applications' required high-level standard parameters in B5G. Therefore, it is crucial to develop novel wireless access configurations and technologies that utilize additional spectrum. However, this alone is not sufficient for now. Incorporating technologies such as software-defined networking, cloud computing, machine learning, 3D networking, and network function virtualization into B5G networks is imperative due to raised concerns regarding decentralization, transparency, interoperability, privacy, and security. This page provides a comprehensive overview of B5G's design, functionality, and security, as well as its relationship to cloud computing. Furthermore, the proposed study examines the techniques employed for data transmission in B5G applications, such as Vehicle-to-Vehicle (V2V), Device-to-Device (D2D), and Machine to Machine (M2M) transmissions. Lastly, the proposed study focuses on essential technology based software services, such as healthcare, smart grid, tourism, and agricultural services. These services use the advantages of B5G communication networks and cloud computing. So, the proposed work collects all the necessary information for researches and developers in one article, supported by the most up-to-date references.
+ER  - 
+
+TY  - CONF
+TI  - EmotionLens: Optimizing FER with a Lightweight Residual CNN Architecture
+T2  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+SP  - 1
+EP  - 6
+AU  - M. Singh
+AU  - K. Bhargava
+AU  - K. Natarajan
+PY  - 2025
+KW  - Adaptation models
+KW  - Emotion recognition
+KW  - Affective computing
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Face recognition
+KW  - Medical services
+KW  - Computer architecture
+KW  - Computational efficiency
+KW  - Convolutional neural networks
+KW  - Facial Expression Recognition
+KW  - Residual Convolutional Neural Networks
+KW  - Affective Computing
+KW  - Human-Computer Interaction
+KW  - Emotion Classification
+DO  - 10.1109/ICSCDS65426.2025.11167747
+JO  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)
+Y1  - 6-8 Aug. 2025
+AB  - Facial Expression Recognition is a fundamental technology for emotion analysis, mental health diagnosis, and human-computer interaction. Despite notable developments, obtaining accurate emotion classification has remained elusive owing to subtle expression changes and heterogeneous facial characteristics. In this research, a special Residual Convolutional Neural Network model called the EmotionLens, developed specifically for FER without any reliance on pre-trained models, is presented. The model is learned from scratch to categorize eight unique emotions—surprise, fear, neutral, sadness, disgust, contempt, happiness, and anger resulting in increased adaptability and feature specificity. Through extensive experimentation on the AffectNet dataset, a test accuracy of 73.96%, precision of 77.87%, and recall of 69.81% were obtained demonstrating the model's resilience for real-world implementation. These results demonstrate the efficacy of the suggested deep learning method in healthcare, affective computing, and human-centric AI systems. This research helps advance FER by providing a scalable, domain-specific design that achieves both efficiency and interpretability.
+ER  - 
+
+TY  - CONF
+TI  - Prediction of diabetes, heart disease and Parkinson's disease using ML
+T2  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+SP  - 1520
+EP  - 1527
+AU  - V. Teju
+AU  - G. Bhavana
+AU  - B. Rohit
+AU  - J. S. Punitha
+AU  - K. Prakash
+AU  - K. V. Sowmya
+AU  - L. N. Srinivasu
+PY  - 2025
+DO  - 10.1049/icp.2025.1662
+JO  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+IS  - 
+SN  - 
+VO  - 2025
+VL  - 2025
+JA  - Parul University International Conference on Engineering and Technology 2025 (PiCET 2025)
+Y1  - 2-3 May 2025
+AB  - Healthcare has witnessed significant evolution with the integration of machine learning (ML), enabling early disease detection and accurate predictions. This project presents a Multiple Disease Prediction System that utilizes RF, DT, and SVM to diagnose Diabetes, Heart Disease, and Parkinson’s Disease using Kaggle datasets. The system employs a data-driven approach, leveraging feature selection, preprocessing, and model optimization to enhance predictive performance. Among the algorithms evaluated, Random Forest achieved the highest accuracy across all three diseases, demonstrating its robustness in handling large datasets with complex patterns. The Decision Tree classifier was incorporated for its interpretability, providing insights into feature importance, while SVM was effective for high-dimensional medical data classification. The system follows a structured ML pipeline including data cleaning, normalization, hyperparameter tuning, and model evaluation to ensure optimal results.
+ER  - 
+
+TY  - JOUR
+TI  - Trusted Blockchain-Based Clinical Decision and Medication Management System for Movement Disorders
+T2  - IEEE Access
+SP  - 139404
+EP  - 139418
+AU  - B. Behara
+AU  - M. Delrobaei
+AU  - N. Afraz
+PY  - 2025
+KW  - Medical services
+KW  - Decision making
+KW  - Security
+KW  - Distributed ledger
+KW  - Real-time systems
+KW  - Fabrics
+KW  - Medical diagnostic imaging
+KW  - Biomedical monitoring
+KW  - Interoperability
+KW  - Consensus protocol
+KW  - Decentralized decision-making
+KW  - hyperledger fabric
+KW  - blockchain-based framework
+KW  - consensus mechanism
+KW  - wearable inertial measurement units (IMUs)
+KW  - patient management systems
+DO  - 10.1109/ACCESS.2025.3596693
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 13
+VL  - 13
+JA  - IEEE Access
+Y1  - 2025
+AB  - Centralized healthcare information systems face significant challenges related to security, interoperability, and real-time monitoring, particularly in the management of movement disorders. This paper proposes a novel blockchain-based framework that integrates wearable inertial measurement units (IMUs), AI-driven analytics, and the Hyperledger Fabric blockchain to enable secure, decentralized decision-making in the management of movement disorders. The system employs a voting-based consensus mechanism, where medication dosage recommendations proposed by an AI model are validated by clinicians, ensuring transparency and accountability in treatment decisions. Experimental evaluations demonstrate the framework’s scalability, achieving a throughput of 185 transactions per second (TPS) and reducing latency to 0.285 seconds under a 300 TPS load, using an 8-core CPU configuration. The proposed architecture guarantees 100% auditability and tamper-evident records, significantly improving the security and efficiency of clinical workflows. Notably, the system achieves a 96.3% reduction in latency and shows promising performance in both medication safety and treatment response times. The integration of blockchain and AI-based dosage recommendations offers a scalable and low-latency solution for remote patient monitoring and personalized healthcare management in patients with movement disorders. This work provides a practical solution to the challenges of decentralized decision-making and real-time data integration, offering a pathway to more resilient and secure healthcare systems.
+ER  - 
+
+TY  - JOUR
+TI  - Guest Editorial: Artificial Intelligence and Internet of Medical Things (AI IoMT)
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 2331
+EP  - 2334
+AU  - G. Jeon
+AU  - A. Chehri
+AU  - X. Cheng
+AU  - G. Fortino
+PY  - 2025
+KW  - Special issues and sections
+KW  - Internet of Medical Things
+KW  - Artificial intelligence
+DO  - 10.1109/JBHI.2025.3547248
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 4
+SN  - 2168-2208
+VO  - 29
+VL  - 29
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - April 2025
+AB  - 
+ER  - 
+
+TY  - JOUR
+TI  - The University as an AI Ombudsman—Part 1
+T2  - Computer
+SP  - 93
+EP  - 97
+AU  - Y. Wu
+PY  - 2025
+DO  - 10.1109/MC.2024.3503082
+JO  - Computer
+IS  - 2
+SN  - 1558-0814
+VO  - 58
+VL  - 58
+JA  - Computer
+Y1  - Feb. 2025
+AB  - Artificial intelligence (AI)’s pervasive impact across key sectors like healthcare and finance emphasizes the urgent need for balanced and effective governance. In this first of two articles, we discuss universities’ unique potential as AI ombudsmen.
+ER  - 
+
+TY  - CONF
+TI  - Retraction Notice: "SQLSynthGen: Generating Synthetic Data for Healthcare Databases"
+T2  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+SP  - 1
+EP  - 1
+AU  - R. S. Raja
+PY  - 2025
+DO  - 10.1109/ICAIC63015.2025.11071341
+JO  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)
+Y1  - 5-7 Feb. 2025
+AB  - Synthetic data generation is crucial for leveraging machine learning in healthcare without compromising patient privacy. SQLSynthGen (SSG) offers a solution by generating synthetic datasets from relational databases, preserving data structure and integrity. By extracting statistical properties via SQL queries and applying differential privacy, SSG ensures data utility while protecting individual privacy. Transparency is maintained through configurable YAML files, facilitating data auditing and stakeholder trust. Despite its advancements, SSG faces challenges in relational data handling and privacy explainability, necessitating future improvements in these areas to enhance adoption in healthcare and other sensitive domains.
+ER  - 
+
+
