@@ -2,7 +2,9 @@ import arxiv
 import bibtexparser
 import re
 import itertools
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union, Optional
+import pandas as pd
+import os
 
 
 class ArxivBatchSearch:
@@ -94,7 +96,7 @@ class ArxivBatchSearch:
         
         return subqueries
 
-    def search_combined_keywords(self, queries: List[str]) -> List[Dict[str, Any]]:
+    def search_combined_keywords(self, queries: str) -> List[Dict[str, Any]]:
         """
         Perform batch search using a list of combined keyword queries.
 
@@ -105,7 +107,8 @@ class ArxivBatchSearch:
             Combined list of BibTeX entries from all queries
         """
         all_entries = []
-        for query in queries:
+        subs = self._parse_boolean_query(queries)
+        for query in subs:
             print(f"\nProcessing query: {query}")
             entries = self._arxiv_to_bibtex(query)
             all_entries.extend(entries)
@@ -133,6 +136,75 @@ class ArxivBatchSearch:
             all_entries.extend(entries)
         
         return all_entries
+
+    def fetch_from_arxiv(self,
+        keyword_combinations: str,
+        output_file: str = "arxiv_data.csv"
+        ) -> Optional[pd.DataFrame]:
+        """
+        Batch fetch papers from arXiv for given keyword combinations and export results.
+
+        Args:
+            keyword_combinations str: search query strings.
+            output_file (str): Path for the output file. Supports '.csv' or '.bib' extensions.
+            max_results_per_query (int): Maximum results to fetch per query (arXiv API may limit this).
+            sort_by (str): Field to sort by ('relevance', 'submittedDate', 'lastUpdatedDate').
+            sort_order (str): 'ascending' or 'descending'.
+
+        Returns:
+            Optional[pd.DataFrame]: A DataFrame containing the fetched and deduplicated results,
+                                    or None if an error occurs.
+
+        Raises:
+            ValueError: If the output file extension is not supported.
+        """
+        # Validate output format
+        valid_extensions = {'.csv', '.bib'}
+        file_ext = os.path.splitext(output_file)[1].lower()
+        
+        if file_ext not in valid_extensions:
+            raise ValueError(f"Unsupported file extension: '{file_ext}'. Please use {valid_extensions}.")
+
+
+        # Execute searches
+
+        try:
+            results = self.search_combined_keywords(keyword_combinations)
+            print(f"       Retrieved {len(results)} record(s).")
+        except Exception as e:
+            print(f"       Query failed with error: {e}")
+
+
+        if not results:
+            print("No results retrieved from any query.")
+            return None
+
+        # Convert to DataFrame and deduplicate
+        df = pd.DataFrame(results)
+        initial_count = len(df)
+        df = df.drop_duplicates(subset=['ID'], keep='first')  # Deduplicate by arXiv ID
+        final_count = len(df)
+        
+        print(f"\nSearch complete. Retrieved {initial_count} total entries, "
+            f"{final_count} after deduplication.")
+
+        # Export based on file extension
+        try:
+            if file_ext == '.bib':
+                out_dict_list = df.to_dict(orient='records')
+                self.save_results(out_dict_list, output_file)
+            elif file_ext == '.csv':
+                df.to_csv(output_file, index=False, encoding='utf-8')
+            
+            print(f"Successfully exported {final_count} records to: {output_file}")
+            return df
+            
+        except IOError as e:
+            print(f"Error writing to file '{output_file}': {e}")
+            return None
+        except Exception as e:
+            print(f"An unexpected error occurred during export: {e}")
+            return None
 
     def save_results(self, entries: List[Dict[str, Any]], filename: str = "arxiv_results.bib"):
         """

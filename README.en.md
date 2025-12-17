@@ -10,63 +10,136 @@ This toolkit provides three core modules designed to streamline academic literat
 - **ArxivCrossrefImput**: Query and impute DOI information for arXiv papers using Crossref
 - **UnifiedMultiDatabase**: Manage literature from multiple databases (PubMed, Web of Science, Embase, IEEE Xplore, arXiv, etc.) and unify them to BibTeX format
 
+## Prerequisites
+
+*   **System & Environment**: It is recommended to use **Miniconda** or **Anaconda** for environment management.
+*   **Conda**: Ensure Conda is installed and available in your terminal. You can verify this by running:
+    ```bash
+    conda --version
+    ```
+
 ## Installation
 
-```bash
-pip install arxiv bibtexparser habanero rapidfuzz matplotlib seaborn biopython rispy numpy pandas
-```
+1.  Create and activate a new Conda environment (e.g., named `review_paper`):
+    ```bash
+    conda create -n review_paper python=3.10 -y
+    conda activate review_paper
+    ```
+2.  Install the required Python packages from PyPI:
+    ```bash
+    pip install arxiv bibtexparser habanero rapidfuzz matplotlib seaborn biopython rispy numpy pandas
+    ```
+3.  *(Optional)* For development or contribution, clone the repository and install in editable mode:
+    ```bash
+    git clone https://github.com/zhanghuiyong/pm_review.git
+    cd pm_review
+    pip install -e .
+    ```
 
-## Usage Examples
+## Quick Start / Usage Example
+
+Here is a basic workflow demonstrating the toolkit's capabilities:
 
 ### 1. ArxivBatchSearch Example
 
-Batch search arXiv papers using combined keywords and download metadata in BibTeX format:
+Like PubMed, Web of Science (WoS), and IEEE Xplore, this module accepts advanced Boolean query expressions for batch searching. The following example demonstrates batch querying and result export in BibTeX format.
+
+**Complete Workflow Example:**
 
 ```python
 from arxiv_batch_search import ArxivBatchSearch
+import pandas as pd
 
-# Initialize the searcher with 1000 results per query
-searcher = ArxivBatchSearch(max_results_per_query=1000)
+# Initialize the searcher (limits align with arXiv API's practical constraints)
+searcher = ArxivBatchSearch(max_results_per_query=500) # Note: arXiv API may cap single queries
 
-# Example 1: Using predefined list of keyword combinations
-keywords = [
-    '"precision medicine" AND "interpretable machine learning"', 
-    '"causal inference" AND "machine learning"', 
-    '"reinforcement learning" AND "healthcare"'
-]
+# Define keyword combinations for a systematic review
+keyword_combinations = '("explainable AI" OR "XAI") AND "Machine Learning"'
 
-results1 = searcher.search_combined_keywords(keywords)
-searcher.save_results(results1, "arxiv_predefined_results.bib")
-
-# Example 2: Using boolean query parsing
-boolean_query = '("precision medicine" OR "digital health") AND ("interpretable machine learning" OR "explainable artificial intelligence")'
-results2 = searcher.search_boolean_query(boolean_query)
-searcher.save_results(results2, "arxiv_boolean_results.bib")
+out_iterm = "output/arxiv_data.bib"  
+searcher.fetch_from_arxiv(keyword_combinations, out_iterm)
 ```
+
+This module provides the foundational batch retrieval layer. The subsequent `ArxivCrossrefImput` module can then enrich these records with missing DOI metadata, and the `UnifiedMultiDatabase` can merge them with results from other scholarly databases.
+
+---
 
 ### 2. ArxivCrossrefImput Example
 
 Query arXiv papers and attempt to find DOI information using Crossref:
 
 ```python
-from arxiv_crossref_imput import ArxivCrossrefImput
-
-# Initialize the imputer
-imputer = ArxivCrossrefImput(timeout=60)
-
-# Query arXiv and attempt to find DOI for each result using Crossref
-query = '("Artificial Intelligence" OR "Machine Learning") AND ("Healthcare" OR "Medical Diagnosis")'
-papers = imputer.impute_dois_for_arxiv(query, max_results=500)
-
-# Save raw papers to pickle
-imputer.save_papers_pickle(papers, "arxiv_raw.pkl")
-
-# Load and process papers
-loaded_papers = imputer.load_papers_pickle("arxiv_raw.pkl")
-enriched_papers = imputer.deduplicate_and_enrich(loaded_papers)
-
-# Save to BibTeX
-imputer.to_bibtex(enriched_papers, "arxiv_with_doi_imputed.bib")
+    # Example: Load arXiv search results from CSV file and impute DOIs
+    import ArxivCrossrefImput
+    # 1. Initialize DOI imputer
+    doi_finder = ArxivCrossrefImput(
+        timeout=30,
+        rate_limit_delay=1.5,  # Conservative rate limiting
+        similarity_threshold=0.82
+    )
+    
+    # 2. Load previously saved arXiv search results
+    # Assume we have a CSV file from ArxivBatchSearch output
+    try:
+        arxiv_df = pd.read_csv("arxiv_search_results.csv")
+        arxiv_entries = arxiv_df.to_dict('records')
+        print(f"Loaded {len(arxiv_entries)} arXiv entries from CSV")
+    except FileNotFoundError:
+        # If no CSV file exists, create sample dataset
+        print("Creating sample arXiv data...")
+        arxiv_entries = [
+            {
+                'author': 'Jiaming Qu and Jaime Arguello and Yue Wang',
+                'comment': '',
+                'doi': '',
+                'eprint': '2406.03594v1',
+                'journal': 'arXiv preprint',
+                'title': 'Why is "Problems" Predictive of Positive Sentiment? A Case Study of Explaining Unintuitive Features in Sentiment Classification',
+                'url': 'http://arxiv.org/abs/2406.03594v1',
+                'year': 2024
+            }
+        ]
+    
+    # 3. Define progress callback function
+    def print_progress(current, total):
+        percent = (current / total) * 100
+        print(f"\rProgress: {current}/{total} ({percent:.1f}%)", end='', flush=True)
+    
+    # 4. Batch DOI imputation
+    print("\nStarting DOI imputation process...")
+    enriched_records = doi_finder.impute_dois_batch(
+        arxiv_entries=arxiv_entries,
+        batch_size=20,
+        progress_callback=print_progress
+    )
+    
+    # 5. Export results
+    print("\n\nExporting results...")
+    
+    # Export to BibTeX
+    doi_finder.export_to_bibtex(enriched_records, "output/enriched_library.bib")
+    
+    # Export to DataFrame and save as CSV
+    result_df = doi_finder.export_to_dataframe(enriched_records)
+    result_df.to_csv("output/arxiv_with_dois.csv", index=False, encoding='utf-8')
+    
+    # Export statistics
+    stats = {
+        'total_papers': len(result_df),
+        'papers_with_doi': result_df['has_doi'].sum(),
+        'doi_recovery_rate': f"{result_df['has_doi'].mean()*100:.1f}%",
+        'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
+    
+    print("\n" + "="*50)
+    print("DOI IMPUTATION SUMMARY")
+    print("="*50)
+    for key, value in stats.items():
+        print(f"{key.replace('_', ' ').title()}: {value}")
+    
+    # Display first few records
+    print("\nFirst 5 records:")
+    print(result_df[['title', 'doi', 'has_doi']].head().to_string(index=False))
 ```
 
 ### 3. UnifiedMultiDatabase Example
@@ -95,8 +168,8 @@ merged_df = manager.merge_all_sources([
 # Save results
 manager.save_results(
     merged_df,
-    excel_filename="consolidated_literature.xlsx",
-    json_filename="consolidated_literature.json"
+    excel_filename="output/consolidated_literature.xlsx",
+    json_filename="output/consolidated_literature.json"
 )
 ```
 
