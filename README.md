@@ -122,7 +122,7 @@ manager.save_results(
 ├── arxiv_crossref_imput.py     # DOI imputation for arXiv papers
 ├── unified_multi_database.py   # Multi-database literature management
 ├── data/                       # Sample data files
-└── LICENSE                     # Apache License Version 2.0 License
+└── LICENSE                     # MIT License
 ```
 
 ## Requirements
