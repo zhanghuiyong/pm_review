@@ -1,0 +1,10 @@
+arxiv==2.3.1
+bibtexparser==1.4.3
+habanero==2.3.0
+rapidfuzz==3.14.3
+matplotlib==3.10.8
+seaborn==0.13.2
+biopython==1.86
+rispy==0.10.0
+numpy==2.2.6
+pandas==2.3.3

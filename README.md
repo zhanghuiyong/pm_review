@@ -14,13 +14,39 @@ This toolkit provides three core modules designed to streamline academic literat
 - **ArxivCrossrefImput**: Query and impute DOI information for arXiv papers using Crossref
 - **UnifiedMultiDatabase**: Manage literature from multiple databases (PubMed, Web of Science, Embase, IEEE Xplore, arXiv, etc.) and unify them to BibTeX format
 
+## Prerequisites
+
+*   **System & Environment**: It is recommended to use **Miniconda** or **Anaconda** for environment management.
+*   **Conda**: Ensure Conda is installed and available in your terminal. You can verify this by running:
+    ```bash
+    conda --version
+    ```
+
 ## Installation
 
-```bash
-pip install arxiv bibtexparser habanero rapidfuzz matplotlib seaborn biopython rispy numpy pandas
-```
+1.  Clone the repository and navigate into it:
+    ```bash
+    git clone https://github.com/zhanghuiyong/pm_review.git
+    cd pm_review
+    ```
+2.  Create and activate a new Conda environment (e.g., named `review_paper`):
+    ```bash
+    conda create -n review_paper python=3.10 -y
+    conda activate review_paper
+    ```
+3.  Install the required Python packages from PyPI:
+    ```bash
+    pip install arxiv bibtexparser habanero rapidfuzz matplotlib seaborn biopython rispy numpy pandas
+    ```
+4.  *(Optional)* For development or contribution, clone the repository and install in editable mode:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Usage Examples
+
+## Quick Start / Usage Example
+
+Here is a basic workflow demonstrating the toolkit's capabilities:
 
 ### 1. ArxivBatchSearch Example
 
@@ -122,7 +148,7 @@ manager.save_results(
 ├── arxiv_crossref_imput.py     # DOI imputation for arXiv papers
 ├── unified_multi_database.py   # Multi-database literature management
 ├── data/                       # Sample data files
-└── LICENSE                     # MIT License
+└── LICENSE                     # Apache License Version 2.0
 ```
 
 ## Requirements

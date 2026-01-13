@@ -22,3 +22,30 @@ manager.save_results(
     excel_filename="consolidated_literature.xlsx",
     json_filename="consolidated_literature.json"
 )
+
+
+
+
+
+import importlib.metadata
+
+packages = [
+    "arxiv",
+    "bibtexparser",
+    "habanero",
+    "rapidfuzz",
+    "matplotlib",
+    "seaborn",
+    "biopython",
+    "rispy",
+    "numpy",
+    "pandas"
+]
+
+for pkg in packages:
+    try:
+        version = importlib.metadata.version(pkg)
+        print(f"{pkg}=={version}")
+    except importlib.metadata.PackageNotFoundError:
+        print(f"{pkg} is not installed")
+        
