@@ -11,34 +11,34 @@ import time
 import itertools
 import pickle
 
-# ========== 工具函数：布尔解析 ==========
+# ========== Utility function: Boolean query parsing ==========
 def parse_boolean_query(query):
     """
-    解析布尔查询，返回所有子查询组合
-    输入示例：
+    Parse boolean queries and return all sub-query combinations
+    Input example:
       ("precision medicine" OR "digital health") AND ("interpretable machine learning" OR "explainable artificial intelligence")
-    输出：
+    Output:
       ['"precision medicine" "interpretable machine learning"',
        '"precision medicine" "explainable artificial intelligence"',
        '"digital health" "interpretable machine learning"',
        '"digital health" "explainable artificial intelligence"']
     """
-    # 按 AND 拆分块
+    # Split by AND blocks
     blocks = [b.strip(" ()") for b in query.split("AND")]
     option_lists = []
     for b in blocks:
         parts = [p.strip(" ()\"") for p in b.split("OR")]
         option_lists.append(parts)
 
-    # 笛卡尔积组合 + 保留双引号
+    # Cartesian product combination + preserve double quotes
     combos = list(itertools.product(*option_lists))
     return [" ".join([f"\"{term}\"" for term in c]) for c in combos]
 
 
-# ========== 数据源函数 ==========
+# ========== Data source functions ==========
 def fetch_arxiv(keyword, max_results=20):
     """
-    从 arXiv 搜索文章并将结果保存为 BibTeX 文件。
+    Search articles from arXiv and save results as BibTeX file.
     """
     client = arxiv.Client()
     search = arxiv.Search(
@@ -66,14 +66,14 @@ def fetch_arxiv(keyword, max_results=20):
             }
             bib_entries.append(bib_entry)
     except arxiv.UnexpectedEmptyPageError:
-        print(f"关键词【{query}】结果不足，已跳过空页。")
-    print(f"关键词【{query}】：")
-    print(f"共 {len(bib_entries)} 条记录。")
+        print(f"Keyword [{query}] has insufficient results, skipping empty pages.")
+    print(f"Keyword [{query}]:")
+    print(f"Total {len(bib_entries)} records.")
     return bib_entries
 
 def fetch_crossref(keyword, max_results=20):
-    """从 Crossref 抓取文献"""
-    cr = Crossref(timeout=60)  # 在初始化时设置超时时间
+    """Fetch literature from Crossref"""
+    cr = Crossref(timeout=60)  # Set timeout during initialization
 
     try:
         results = cr.works(query=keyword, limit=10)
@@ -89,15 +89,15 @@ def fetch_crossref(keyword, max_results=20):
                 "source": "Crossref"
             })
     except requests.exceptions.Timeout:
-        print("请求超时，请稍后重试或检查网络。")
+        print("Request timed out, please retry later or check network connection.")
         papers = []
     except Exception as e:
-        print(f"发生错误：{e}")
+        print(f"An error occurred: {e}")
         papers = []
     return papers
 
 def fetch_semantic(doi=None, title=None):
-    """从 Semantic Scholar 获取引用数"""
+    """Get citation count from Semantic Scholar"""
     base = "https://api.semanticscholar.org/graph/v1/paper/"
     if doi:
         url = base + f"DOI:{doi}?fields=citationCount"
@@ -118,28 +118,28 @@ def fetch_semantic(doi=None, title=None):
         return None
     return None
 
-# ========== 去重与补全 ==========
+# ========== Deduplication & Enrichment ==========
 def deduplicate_and_enrich(papers):
-    """去重：优先保留 Crossref/DOI"""
+    """Deduplication: Prioritize Crossref/DOI"""
     seen = {}
     for p in papers:
         key = p["doi"].lower() if p["doi"] else p["title"].lower()
         if key in seen:
-            if p["source"] != "arXiv":  # 保留正式出版
+            if p["source"] != "arXiv":  # Keep officially published
                 seen[key] = p
         else:
             seen[key] = p
 
-    # 补全引用数
+    # Fill in citation counts
     for k, p in seen.items():
         if p["citations"] is None:
             p["citations"] = fetch_semantic(p["doi"], p["title"])
             time.sleep(0.2)
     return list(seen.values())
 
-# ========== BibTeX & 分析 ==========
+# ========== BibTeX & Analysis ==========
 def to_bibtex(papers, filename="output.bib"):
-    """保存为 BibTeX"""
+    """Save as BibTeX"""
     db = []
     for i, p in enumerate(papers):
         # entry = {
@@ -160,13 +160,13 @@ def to_bibtex(papers, filename="output.bib"):
     with open(filename, "w", encoding="utf-8") as bibfile:
         bibtexparser.dump(bib_db, bibfile)
         
-    print(f"✅ 已生成 {filename}，共 {len(db)} 条文献")
+    print(f"✅ Generated {filename}, total {len(db)} references")
 
 def keyword_analysis(papers):
     text = " ".join(p["title"] for p in papers)
     words = re.findall(r"\w+", text.lower())
     counter = Counter(words)
-    print("\n📊 Top 15 高频词：")
+    print("\n📊 Top 15 Frequent Words:")
     for word, freq in counter.most_common(15):
         print(f"{word}: {freq}")
 
@@ -175,21 +175,21 @@ def author_analysis(papers):
     for p in papers:
         authors.extend(p["author"])
     counter = Counter(authors)
-    print("\n👥 Top 10 高频作者：")
+    print("\n👥 Top 10 Frequent Authors:")
     for author, freq in counter.most_common(10):
         print(f"{author}: {freq}")
 
-# ========== 新增函数 ==========
+# ========== New functions ==========
 def find_doi_by_title(title, authors=None, topn=5):
     """
-    用 Crossref 查找某个标题的 DOI，按标题相似度 + 作者验证
+    Find DOI for a title using Crossref, verified by title similarity + author matching
     """
     cr = Crossref(timeout=60)
     try:
         results = cr.works(query=title, limit=topn)
         time.sleep(1)
     except Exception as e:
-        print(f"Crossref 查询失败：{e}")
+        print(f"Crossref query failed: {e}")
         return None
 
     best_match = None
@@ -199,10 +199,10 @@ def find_doi_by_title(title, authors=None, topn=5):
         candidate_authors = [a.get("family", "").lower() for a in item.get("author", []) if "family" in a]
         candidate_doi = item.get("DOI", None)
 
-        # 标题相似度
+        # Title similarity
         score = SequenceMatcher(None, title.lower(), candidate_title.lower()).ratio()
 
-        # 作者验证（有交集加分）
+        # Author verification (bonus points for overlap)
         if authors:
             overlap = len(set(a.lower() for a in authors) & set(candidate_authors))
             if overlap > 0:
@@ -215,38 +215,38 @@ def find_doi_by_title(title, authors=None, topn=5):
     return best_match if best_score > 0.75 else None
 
 
-# ========== 主程序修改 ==========
+# ========== Main program modification ==========
 if __name__ == "__main__":
     query = '("Artificial Intelligence" OR "Machine Learning" OR "Deep Learning") AND ("Explainable AI" OR "XAI" OR "Interpretability" OR "Transparency") AND ("Precision Medicine" OR "Personalized Medicine" OR "Healthcare" OR "Medical Diagnosis")'
     sub_queries = parse_boolean_query(query)
-    print(f"🔎 已拆解为 {len(sub_queries)} 个子查询：")
+    print(f"🔎 Decomposed into {len(sub_queries)} sub-queries:")
     for sq in sub_queries:
         print("   ", sq)
 
     papers = []
-    for sq in sub_queries:  # 仅测试第一个子查询
-        # 先抓取 arXiv
-        print(f"=== 处理子查询：{sq} ===")
+    for sq in sub_queries:  # Only test first sub-query
+        # First fetch arXiv
+        print(f"=== Processing sub-query: {sq} ===")
         arxiv_entries = fetch_arxiv(sq, 1000)
 
-        # 对每一条 arXiv 结果，尝试查找 DOI
+        # For each arXiv result, try to find DOI
         entrys = []
         for entry in arxiv_entries:
-            print(f"🔍 查找 DOI: {entry['title'][:60]}...")
+            print(f"🔍 Finding DOI: {entry['title'][:60]}...")
             authors = entry["author"].split(" and ")
             doi_guess = find_doi_by_title(entry["title"], authors)
             if doi_guess:
                 entry["doi"] = doi_guess
-                print(f"✅ 匹配到 DOI: {doi_guess} | {entry['title'][:60]}...")
+                print(f"✅ Matched DOI: {doi_guess} | {entry['title'][:60]}...")
 
             entrys.append(entry)
         papers += entrys
-    # 持久化 papers 为 pickle 格式
+    # Persist papers in pickle format
     with open("arxiv_raw.pkl", "wb") as f:
         pickle.dump(papers, f)
-    print(f"\n📥 共抓取 {len(papers)} 条 arXiv，并已保存为 arxiv_raw.pkl")
+    print(f"\n📥 Total {len(papers)} arXiv entries fetched and saved as arxiv_raw.pkl")
 
-    # 读取 pickle 文件示例
+    # Example of reading pickle file
     with open("arxiv_raw.pkl", "rb") as f:
         papers = pickle.load(f)
     
